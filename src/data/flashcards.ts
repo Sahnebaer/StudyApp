@@ -1,31 +1,230 @@
 import type { Flashcard } from '../types';
 
 export const FLASHCARDS: Flashcard[] = [
-  // ── Biopsychologie (Platzhalter – wird noch ersetzt) ──────────────────────
+  // ── Biopsychologie & Allg. Psychologie I (SS 2026 · Prof. Dr. Jessica Sänger) ──
+
+  // Einführung
   {
-    id: 'bp-1', moduleId: 'biopsych', category: 'Neuronen',
-    question: 'Was ist ein Neuron?',
-    answer: 'Eine Nervenzelle, die elektrische und chemische Signale weiterleitet. Besteht aus Zellkörper (Soma), Dendriten und Axon.',
+    id: 'bp-1', moduleId: 'biopsych', category: 'Einführung',
+    question: 'Was ist die Kerndefinition von Lernen in der Psychologie?',
+    answer: 'Lernen ist die relativ überdauernde Veränderung im Verhaltenspotenzial eines Organismus als Folge von Erfahrungen. Entscheidend: die Veränderung muss durch Erfahrung ausgelöst sein – nicht durch Reifung oder körperliche Zustände.',
   },
   {
-    id: 'bp-2', moduleId: 'biopsych', category: 'Neuronen',
-    question: 'Was ist ein Aktionspotenzial?',
-    answer: 'Eine kurzfristige Umkehrung des Membranpotenzials (~-70 mV → +40 mV), die das elektrische Signal entlang des Axons weiterleitet.',
+    id: 'bp-2', moduleId: 'biopsych', category: 'Einführung',
+    question: 'Welche drei Lernarten unterscheidet die Biopsychologie und Allgemeine Psychologie?',
+    answer: '1) Klassisches Konditionieren (Verknüpfung zweier Reize → neues Verhalten)\n2) Operantes Konditionieren (Verhalten durch Konsequenzen)\n3) Lernen durch Beobachtung / Modelllernen (Imitation von Verhaltensmodellen)',
   },
   {
-    id: 'bp-3', moduleId: 'biopsych', category: 'Gehirn',
-    question: 'Welche Funktion hat der präfrontale Kortex?',
-    answer: 'Planung, Entscheidungsfindung, Impulskontrolle und Arbeitsgedächtnis – Teil der Exekutivfunktionen.',
+    id: 'bp-3', moduleId: 'biopsych', category: 'Einführung',
+    question: 'Was ist das Ziel der Allgemeinen Psychologie und Biopsychologie?',
+    answer: 'Universelle Mechanismen und biologische Grundlagen des Erlebens und Verhaltens erklären – von der Reizaufnahme über Wahrnehmung und Kognition bis hin zu Reaktion und Verhalten.',
   },
   {
-    id: 'bp-4', moduleId: 'biopsych', category: 'Gedächtnis',
-    question: 'Was ist Neuroplastizität?',
-    answer: 'Die Fähigkeit des Gehirns, sich durch Erfahrung strukturell und funktionell zu verändern – Grundlage von Lernen und Gedächtnis.',
+    id: 'bp-4', moduleId: 'biopsych', category: 'Einführung',
+    question: 'Was versteht man in der Psychologie unter dem Begriff „Habituierung"?',
+    answer: 'Habituierung ist die einfachste Form nicht-assoziativen Lernens: die Reaktion auf einen wiederholt dargebotenen, bedeutungslosen Reiz nimmt ab. Das Nervensystem „gewöhnt" sich daran und verarbeitet den Reiz nicht mehr aufwendig.',
   },
   {
-    id: 'bp-5', moduleId: 'biopsych', category: 'Neuronen',
-    question: 'Was sind Neurotransmitter?',
-    answer: 'Chemische Botenstoffe, die an Synapsen von einem Neuron zum nächsten übertragen werden (z.B. Dopamin, Serotonin, GABA).',
+    id: 'bp-5', moduleId: 'biopsych', category: 'Einführung',
+    question: 'Nenne zwei historische Pioniere der Psychologie und ihre Beiträge.',
+    answer: 'Wilhelm Wundt (1879): Gründete das erste psychologische Labor in Leipzig – Beginn der experimentellen Psychologie.\nWilliam James: Begründer des Funktionalismus – Psychologie untersucht die Funktion mentaler Prozesse im Alltag.',
+  },
+  {
+    id: 'bp-6', moduleId: 'biopsych', category: 'Einführung',
+    question: 'Was unterscheidet Biopsychologie von der Allgemeinen Psychologie?',
+    answer: 'Die Biopsychologie untersucht die biologischen Grundlagen (Gehirn, Nervensystem, Hormone) des Verhaltens. Die Allgemeine Psychologie erforscht universelle mentale Prozesse (Wahrnehmung, Denken, Lernen) unabhängig von biologischen Details.',
+  },
+
+  // Lernen
+  {
+    id: 'bp-7', moduleId: 'biopsych', category: 'Lernen',
+    question: 'Was ist das Grundprinzip des klassischen Konditionierens nach Pawlow?',
+    answer: 'Ein neutraler Stimulus (NS) wird wiederholt mit einem unkonditionierten Stimulus (UCS, z. B. Futter) gekoppelt. Nach mehrfacher Paarung löst der NS allein die konditionierte Reaktion (CR) aus – z. B. Speichelfluss beim Glockenton.',
+  },
+  {
+    id: 'bp-8', moduleId: 'biopsych', category: 'Lernen',
+    question: 'Was bedeutet Generalisierung beim klassischen Konditionieren?',
+    answer: 'Die konditionierte Reaktion (CR) wird nicht nur auf den ursprünglichen konditionierten Stimulus (CS) gezeigt, sondern auch auf ähnliche Reize. Je ähnlicher der Reiz dem CS, desto stärker die Reaktion.',
+  },
+  {
+    id: 'bp-9', moduleId: 'biopsych', category: 'Lernen',
+    question: 'Erkläre den Unterschied zwischen positiver und negativer Verstärkung im operanten Konditionieren.',
+    answer: 'Positive Verstärkung: Ein angenehmer Reiz wird hinzugefügt (→ Verhalten nimmt zu).\nNegative Verstärkung: Ein unangenehmer Reiz wird entfernt (→ Verhalten nimmt ebenfalls zu).\nBeide erhöhen die Auftretenswahrscheinlichkeit des Verhaltens.',
+  },
+  {
+    id: 'bp-10', moduleId: 'biopsych', category: 'Lernen',
+    question: 'Was ist Shaping und wann wird es eingesetzt?',
+    answer: 'Shaping (Verhaltensformung) ist eine Technik des operanten Konditionierens, bei der komplexes Verhalten stufenweise durch Verstärkung aufeinanderfolgender Annäherungen an das Zielverhalten aufgebaut wird.',
+  },
+  {
+    id: 'bp-11', moduleId: 'biopsych', category: 'Lernen',
+    question: 'Warum ist ein variabler Quotenplan besonders löschungsresistent?',
+    answer: 'Bei variablen Quotenplänen ist die Verstärkung unvorhersehbar (manchmal nach 2, manchmal nach 10 Reaktionen). Das Verhalten wird dauerhaft gezeigt, weil immer Hoffnung auf Verstärkung besteht – ähnlich dem Prinzip des Glücksspiels.',
+  },
+  {
+    id: 'bp-12', moduleId: 'biopsych', category: 'Lernen',
+    question: 'Welche Bedingungen sind laut Bandura notwendig für erfolgreiches Beobachtungslernen?',
+    answer: '1) Aufmerksamkeit auf das Modell\n2) Behaltensleistung (Gedächtnis)\n3) Motorische Reproduktion (Ausführung)\n4) Motivation (Verstärkung erwartet)\nErst wenn alle vier vorhanden sind, wird beobachtetes Verhalten imitiert.',
+  },
+
+  // Gedächtnis
+  {
+    id: 'bp-13', moduleId: 'biopsych', category: 'Gedächtnis',
+    question: 'Erkläre das Mehrspeichermodell von Atkinson & Shiffrin (1968).',
+    answer: '3 Gedächtnisspeicher:\n1) Sensorisches Gedächtnis (Bruchteile von Sek., alle Sinneseindrücke)\n2) Kurzzeitgedächtnis/Arbeitsgedächtnis (ca. 20 Sek., 7±2 Elemente)\n3) Langzeitgedächtnis (unlimitiert, sehr lange)',
+  },
+  {
+    id: 'bp-14', moduleId: 'biopsych', category: 'Gedächtnis',
+    question: 'Was zeigte Ebbinghaus mit seiner Vergessenskurve?',
+    answer: 'Der größte Gedächtnisverlust (ca. 70 % des Gelernten) tritt in den ersten 10 Stunden nach dem Lernen auf. Danach flacht die Kurve ab (asymptotisch). Frühe Wiederholungen sind daher besonders wirksam.',
+  },
+  {
+    id: 'bp-15', moduleId: 'biopsych', category: 'Gedächtnis',
+    question: 'Was ist der Unterschied zwischen episodischem und semantischem Gedächtnis?',
+    answer: 'Episodisches Gedächtnis: Autobiografische Ereignisse mit zeitlichem und räumlichem Kontext („Was habe ich gestern gegessen?").\nSemantisches Gedächtnis: Allgemeines Weltwissen, Fakten ohne persönlichen Kontext („Die Erde ist rund").',
+  },
+  {
+    id: 'bp-16', moduleId: 'biopsych', category: 'Gedächtnis',
+    question: 'Was versteht man unter Elaboration als Enkodierstrategie?',
+    answer: 'Elaboration bedeutet, neues Lernmaterial aktiv mit bestehendem Wissen zu verknüpfen und selbst zu formulieren. Was man selbst erarbeitet, bleibt besser im Gedächtnis (Generierungseffekt). Tiefere Verarbeitung verbessert die Gedächtnisleistung.',
+  },
+  {
+    id: 'bp-17', moduleId: 'biopsych', category: 'Gedächtnis',
+    question: 'Was belegt die Studie von Woollett & Maguire (2011) über Londoner Taxifahrer?',
+    answer: 'Taxifahrer, die die Prüfung „The Knowledge" (25.000 Londoner Straßen) bestanden, zeigten nach ~3 Jahren Training eine messbare Vergrößerung des Hippocampus. Dies belegt die strukturelle Plastizität des Gehirns durch intensives Lernen.',
+  },
+  {
+    id: 'bp-18', moduleId: 'biopsych', category: 'Gedächtnis',
+    question: 'Was ist der Primacy- und Recency-Effekt beim Lernen?',
+    answer: 'Primacy-Effekt: Zuerst gelernte Informationen werden besser behalten (tiefere Verarbeitung).\nRecency-Effekt: Zuletzt gelernte Informationen sind noch im Arbeitsgedächtnis.\nMittlere Inhalte werden am schlechtesten erinnert.',
+  },
+
+  // Gehirn & Neuron
+  {
+    id: 'bp-19', moduleId: 'biopsych', category: 'Gehirn & Neuron',
+    question: 'Beschreibe den Aufbau eines Neurons und die Richtung der Signalweiterleitung.',
+    answer: 'Dendriten empfangen Signale → Zellkörper (Soma) verarbeitet sie → Axonhügel entscheidet über Auslösung → Axon leitet Aktionspotenzial weiter → Synaptische Endknöpfchen schütten Neurotransmitter aus.',
+  },
+  {
+    id: 'bp-20', moduleId: 'biopsych', category: 'Gehirn & Neuron',
+    question: 'Was passiert an der Synapse bei der Signalübertragung?',
+    answer: 'Das elektrische Aktionspotenzial erreicht die Synapse. Vesikel setzen Neurotransmitter in den synaptischen Spalt frei. Diese docken an Rezeptoren an (Schlüssel-Schloss-Prinzip) und erregen oder hemmen die nächste Zelle. Überschuss wird durch Re-Uptake wiederaufgenommen.',
+  },
+  {
+    id: 'bp-21', moduleId: 'biopsych', category: 'Gehirn & Neuron',
+    question: 'Welche Funktion haben Glutamat und GABA als Neurotransmitter?',
+    answer: 'Glutamat: Der wichtigste erregende Neurotransmitter („Gaspedal") – 50 % der Gehirnneurone nutzen ihn. Überaktivierung → Epilepsie.\nGABA: Der wichtigste hemmende Neurotransmitter („Bremse") – 33–50 % der Neuronen. Benzodiazepine wirken über GABA-Rezeptoren.',
+  },
+  {
+    id: 'bp-22', moduleId: 'biopsych', category: 'Gehirn & Neuron',
+    question: 'Welche Rolle spielt Dopamin im Gehirn?',
+    answer: 'Dopamin ist an Lernprozessen, Belohnungsverarbeitung, Suchtentwicklung und Willkürmotorik beteiligt. Es ist in weit verzweigten Netzwerken aktiv. Dopaminmangel → Parkinson; übermäßige Dopaminaktivität → Schizophrenie.',
+  },
+  {
+    id: 'bp-23', moduleId: 'biopsych', category: 'Gehirn & Neuron',
+    question: 'Was sind die Funktionen des präfrontalen Kortex (PFC)?',
+    answer: 'Der PFC ist für höhere kognitive Funktionen zuständig: Kontrolle von Handlungsimpulsen und Emotionen, Motivation, Planen, Zielsetzen, Entscheiden und Humor. Er bildet die neuronale Grundlage von Selbstkontrolle und kognitiver Kontrolle.',
+  },
+  {
+    id: 'bp-24', moduleId: 'biopsych', category: 'Gehirn & Neuron',
+    question: 'Was ist der Hippocampus und wofür ist er entscheidend?',
+    answer: 'Der Hippocampus liegt im limbischen System. Er ist kein Langzeitspeicher selbst, sondern überführt Informationen vom Kurzzeit- ins Langzeitgedächtnis (Konsolidierung) und ist für den Abruf verantwortlich.',
+  },
+
+  // Nervensystem & Hormone
+  {
+    id: 'bp-25', moduleId: 'biopsych', category: 'Nervensystem & Hormone',
+    question: 'Wie unterscheiden sich Nervensystem und endokrines System in ihrer Wirkweise?',
+    answer: 'Nervensystem (wie E-Mail): schnell (Millisekunden), elektrochemisch, lokal, kurzzeitig.\nEndokrines System (wie Brief): langsam (Sek. bis Min.), chemisch über Blutbahn, systemisch, überdauernd.',
+  },
+  {
+    id: 'bp-26', moduleId: 'biopsych', category: 'Nervensystem & Hormone',
+    question: 'Was ist der Unterschied zwischen sympathischem und parasympathischem Nervensystem?',
+    answer: 'Sympathikus: aktiviert den Körper in Stress- und Gefahrensituationen (fight or flight) – erhöhte Herzrate, Pupillenerweiterung, Adrenalinausschüttung.\nParasympathikus: beruhigt und regeneriert (rest and digest) – senkt Herzrate, fördert Verdauung.',
+  },
+  {
+    id: 'bp-27', moduleId: 'biopsych', category: 'Nervensystem & Hormone',
+    question: 'Welche Funktion hat der Hypothalamus?',
+    answer: 'Der Hypothalamus ist das wichtigste Steuerorgan des vegetativen Nervensystems und des endokrinen Systems. Er reguliert Schlaf-Wach-Rhythmus, Wasserhaushalt, Schweißsekretion, Körpertemperatur und steuert die Hypophyse.',
+  },
+  {
+    id: 'bp-28', moduleId: 'biopsych', category: 'Nervensystem & Hormone',
+    question: 'Welche Wirkung hat Serotonin?',
+    answer: 'Serotonin wird im Hirnstamm (Raphe-Kerne) produziert und reguliert Schlaf-Wach-Rhythmus, Hunger, Durst, emotionale Befindlichkeit und Schmerzwahrnehmung. Serotoninmangel → Depression und Essstörungen. SSRIs hemmen die Wiederaufnahme.',
+  },
+  {
+    id: 'bp-29', moduleId: 'biopsych', category: 'Nervensystem & Hormone',
+    question: 'Was ist Neuroplastizität und was belegt sie?',
+    answer: 'Neuroplastizität ist die Fähigkeit des Gehirns, sich strukturell und funktionell durch Erfahrungen zu verändern (z. B. Taxifahrer-Studie: Hippocampus vergrößert sich). Neuronale Verbindungen werden gestärkt (fire together, wire together) oder abgebaut.',
+  },
+  {
+    id: 'bp-30', moduleId: 'biopsych', category: 'Nervensystem & Hormone',
+    question: 'Was ist Cortisol und welche Auswirkungen hat chronischer Stress?',
+    answer: 'Cortisol ist das wichtigste Stresshormon der Nebenniere. Kurzfristig mobilisiert es Energie. Chronisch erhöhte Cortisol-Spiegel schädigen Hippocampus-Neuronen (Gedächtnisprobleme), schwächen das Immunsystem und erhöhen das Herzerkrankungsrisiko.',
+  },
+
+  // Wahrnehmung
+  {
+    id: 'bp-31', moduleId: 'biopsych', category: 'Wahrnehmung',
+    question: 'Was ist der Unterschied zwischen Empfindung und Wahrnehmung?',
+    answer: 'Empfindung: Die sensorische Aufnahme von Reizen durch Sinnesorgane (physikalischer Prozess).\nWahrnehmung: Die aktive Interpretation und Bedeutungskonstruktion dieser Empfindungen durch das Gehirn (psychologischer Prozess). Wahrnehmung ist immer selektiv und konstruktiv.',
+  },
+  {
+    id: 'bp-32', moduleId: 'biopsych', category: 'Wahrnehmung',
+    question: 'Was versteht man unter top-down und bottom-up Wahrnehmungsverarbeitung?',
+    answer: 'Bottom-up: Verarbeitung wird von den Sinnesdaten selbst angetrieben (datengesteuert).\nTop-down: Vorwissen, Erwartungen und Kontextwissen beeinflussen die Wahrnehmung (konzeptgesteuert).\nIm Alltag wirken beide Prozesse zusammen.',
+  },
+  {
+    id: 'bp-33', moduleId: 'biopsych', category: 'Wahrnehmung',
+    question: 'Was ist Change Blindness (Veränderungsblindheit)?',
+    answer: 'Menschen bemerken gravierende Veränderungen in einer Szene nicht, wenn diese außerhalb des aktuellen Aufmerksamkeitsfokus auftreten. Es zeigt: Bewusstsein setzt Aufmerksamkeit voraus.',
+  },
+  {
+    id: 'bp-34', moduleId: 'biopsych', category: 'Wahrnehmung',
+    question: 'Warum ist das Gehör evolutionär besonders für Warnreize geeignet?',
+    answer: 'Das Hörsystem kann Schall aus allen Richtungen (360°) wahrnehmen, auch im Schlaf und in Dunkelheit. Hörschwellen liegen im Bereich von 1000–4000 Hz (menschliche Sprache und Gefahrensignale). Schall kann nicht „abgeschaltet" werden wie Augen.',
+  },
+  {
+    id: 'bp-35', moduleId: 'biopsych', category: 'Wahrnehmung',
+    question: 'Was zeigt die Forschung über Lärm und kognitive Leistung?',
+    answer: 'Umgebungslärm (70–80 dB) reduziert kognitive Effizienz messbar: höhere Fehlerrate bei Entscheidungen, schlechtere Konzentration, längere Erholungszeiten. Lärmpegelsenkung um 6–10 dB führt zu ca. 20–50 % Fehlerreduktion bei Bürotätigkeiten.',
+  },
+  {
+    id: 'bp-36', moduleId: 'biopsych', category: 'Wahrnehmung',
+    question: 'Was bedeutet Signalentdeckungstheorie und was sagt sie über die Wahrnehmung aus?',
+    answer: 'Wahrnehmungsentscheidungen hängen nicht nur von der Signalstärke ab, sondern auch vom Kriterium (Bias) der Person. Hohe Motivation oder Angst verschieben das Kriterium – man nimmt eher „wahr", auch wenn kein Signal vorhanden ist.',
+  },
+
+  // Aufmerksamkeit & Kontrolle
+  {
+    id: 'bp-37', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Wie definiert die Psychologie Bewusstsein?',
+    answer: 'Bewusstsein ist die Gesamtheit der unmittelbaren Erfahrung aus der Wahrnehmung von uns selbst und unserer Umgebung, unseren Kognitionen, Vorstellungen und Gefühlen (Myers, 2014). 4 Perspektiven: Wachheitszustände, phänomenales Bewusstsein, Monitoring, Selbst-Bewusstsein.',
+  },
+  {
+    id: 'bp-38', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Was ist selektive Aufmerksamkeit und welches bekannte Experiment demonstriert sie?',
+    answer: 'Selektive Aufmerksamkeit ist die Fähigkeit, einen Stimulus aus vielen wahrzunehmen und andere zu ignorieren. Das Cocktail-Party-Phänomen (Cherry, 1953): Man kann einem Gespräch in lauter Umgebung folgen, weil das Gehirn auf die relevante Stimme selektiv filtert.',
+  },
+  {
+    id: 'bp-39', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Was ist Selbstkontrolle und was zeigt das Marshmallow-Experiment?',
+    answer: 'Selbstkontrolle ist die willentliche Steuerung von Impulsen zugunsten langfristiger Ziele (Belohnungsaufschub). Marshmallow-Experiment (Mischel, 1989): Kinder, die eine Belohnung aufschieben konnten, hatten später bessere Lebenserfolge (Bildung, Gesundheit).',
+  },
+  {
+    id: 'bp-40', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Was versteht man unter kognitiver Kontrolle?',
+    answer: 'Kognitive Kontrolle umfasst Mechanismen, die sensorische, kognitive und motorische Systeme im Sinne übergeordneter Ziele koordinieren. Sie ermöglicht, schwächere (aber aufgabenrelevante) Reaktionen gegenüber starken (aber irrelevanten) Impulsen durchzusetzen.',
+  },
+  {
+    id: 'bp-41', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Welche Hirnregion ist die neuronale Grundlage der Kontrolle und warum?',
+    answer: 'Der präfrontale Kortex (PFC) ist die zentrale Struktur für kognitive Kontrolle und Selbstkontrolle. Er ist bis ins frühe Erwachsenenalter (ca. 25 Jahre) nicht vollständig ausgereift, was impulsives Verhalten bei Jugendlichen erklärt.',
+  },
+  {
+    id: 'bp-42', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Was ist die Amygdala und welche Emotionen verarbeitet sie besonders?',
+    answer: 'Die Amygdala (Mandelkern) ist Teil des limbischen Systems und zentral für die Emotionsverarbeitung – besonders Wut und Angst. Bei Gefahr leitet der Thalamus Signale direkt an die Amygdala (Low Road) für schnelle Reaktion.',
   },
 
   // ── Sozialpsychologie (SS 2026 · Prof. Dr. Dindas) ────────────────────────

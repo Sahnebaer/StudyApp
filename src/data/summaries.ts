@@ -3,27 +3,32 @@ import type { Summary } from '../types';
 export const SUMMARIES: Summary[] = [
   {
     moduleId: 'biopsych',
-    title: 'Biopsychologie – Übersicht',
+    title: 'Biopsychologie & Allg. Psychologie I (SS 2026 · Prof. Dr. Jessica Sänger)',
     sections: [
       {
-        heading: 'Das Nervensystem',
+        heading: 'Lernen: 3 Lernarten',
         content:
-          'Das menschliche Nervensystem besteht aus dem Zentralnervensystem (Gehirn + Rückenmark) und dem peripheren Nervensystem. Das Gehirn ist in Regionen gegliedert: Großhirnrinde (Kortex), limbisches System, Kleinhirn und Hirnstamm.',
+          'Lernen = dauerhafte Verhaltensänderung durch Erfahrung (nicht durch Reifung oder Krankheit). (1) Klassisches Konditionieren (Pawlow): Neutraler Stimulus wird mit UCS gekoppelt → CR entsteht. Wichtig: Timing, Generalisierung, Diskriminierung, Löschung. Anwendung in Werbung. (2) Operantes Konditionieren (Skinner): Positive Verstärkung (angenehmes +), negative Verstärkung (unangenehmes −), Bestrafung Typ I (+unangenehmes), Typ II (−angenehmes). Variabler Quotenplan = löschungsresistentester Plan (Glücksspiel!). Shaping = schrittweise Verhaltensformung. (3) Beobachtungslernen (Bandura): Aufmerksamkeit → Behalten → Reproduktion → Motivation. Spiegelneurone als mögliche biologische Basis.',
       },
       {
-        heading: 'Neuronen und Signalübertragung',
+        heading: 'Gedächtnis',
         content:
-          'Neuronen kommunizieren elektrisch (Aktionspotenziale) und chemisch (Neurotransmitter an Synapsen). Das Ruhemembranpotenzial liegt bei ca. -70 mV. Beim Aktionspotenzial depolarisiert die Membran auf +40 mV und repolarisiert danach.',
+          'Mehrspeichermodell (Atkinson & Shiffrin, 1968): Sensorisches Gedächtnis (<1 Sek.) → Kurzzeitgedächtnis (7±2 Einheiten, ~20 Sek.) → Langzeitgedächtnis (unbegrenzt). Arbeitsgedächtnis (Baddeley): Zentrale Exekutive, Phonologische Schleife, Visuell-räumlicher Notizblock, Episodischer Puffer. Langzeitgedächtnis: Deklarativ (episodisch = Erlebnisse; semantisch = Fakten) und Nicht-deklarativ (prozedural = Motorik). Vergessen: Ebbinghaus-Kurve (70 % in ersten 10 h). Strategien: Elaboration, verteiltes Lernen, freier Abruf (Bücher zuklappen!). Primacy- & Recency-Effekt. Taxifahrer-Studie (Woollett & Maguire, 2011): Hippocampus wächst durch Lernen.',
       },
       {
-        heading: 'Wichtige Hirnstrukturen',
+        heading: 'Gehirn & Nervenzelle',
         content:
-          'Hippocampus: Gedächtniskonsolidierung. Amygdala: Emotionsverarbeitung, Angst. Präfrontaler Kortex: Planung, Entscheidungen. Broca-/Wernicke-Areal: Sprachproduktion/-verstehen. Cerebellum: Motorkoordination.',
+          'Neuron: Dendriten → Soma → Axonhügel → Axon (ggf. myelinisiert) → Synapse. Alles-oder-Nichts-Prinzip: Aktionspotenzial feuert entweder ganz oder gar nicht. Synapse: Vesikel → Neurotransmitter in Spalt → Rezeptoren → Re-Uptake. Wichtige Neurotransmitter: Glutamat (erregend, 50 %), GABA (hemmend, 33–50 %), Dopamin (Belohnung, Sucht, Motorik), Serotonin (Stimmung, Schlaf; Mangel → Depression), Acetylcholin (Muskeln, Gedächtnis), Adrenalin/Noradrenalin (Stress, Aufmerksamkeit). Gehirnlappen: Frontal (Planung, Kontrolle), Parietal (Tastsinn), Temporal (Hören, Sprache), Okzipital (Sehen). Limbisches System: Hippocampus (Gedächtnis), Amygdala (Angst, Emotionen), Hypothalamus (Homöostase).',
       },
       {
-        heading: 'Neuroplastizität',
+        heading: 'Nervensystem & Endokrines System',
         content:
-          'Das Gehirn verändert sich durch Erfahrung: synaptische Verstärkung (LTP), Pruning ungenutzter Verbindungen, Neurogenese im Hippocampus. Basis für Lernen, Rehabilitation nach Hirnverletzungen.',
+          'ZNS (Gehirn + Rückenmark) + PNS (somatisch = willkürlich; autonom = vegetativ). Sympathikus: fight or flight (Herzrate ↑, Verdauung ↓). Parasympathikus: rest and digest (Erholung). Nervensystem = schnell (ms), lokal. Endokrines System = langsam (Sek.–Min.), systemisch über Blutbahn. Hypothalamus-Hypophysen-Achse: Bindeglied zwischen beiden. Wichtige Hormone: Adrenalin (schnelle Stressreaktion), Cortisol (langfristiger Stress; chronisch schädlich für Hippocampus und Immunsystem), Insulin/Glucagon (Blutzucker), Östrogen/Testosteron (Sexualentwicklung). Neuroplastizität: fire together, wire together (Hebb); Taxifahrer-Studie als Beleg.',
+      },
+      {
+        heading: 'Wahrnehmung, Aufmerksamkeit & Kontrolle',
+        content:
+          'Wahrnehmung = aktiver, konstruktiver Prozess (immer subjektiv). Bottom-up (datengesteuert) vs. Top-down (erwartungsgesteuert). Sehen: Stäbchen (Helligkeit, peripher) vs. Zapfen (Farbe, Fovea). Hören: Schall → Trommelfell → Cochlea → Hörnerv. Ab 85 dB(A) Gehörschutzpflicht. Aufmerksamkeit: Selektion, Planung, Überwachung. Cocktailparty-Phänomen (Cherry, 1953). Change Blindness & Inattentional Blindness (Gorilla-Experiment). Bewusstsein: 4 Perspektiven (Wachheit, phänomenal, Monitoring, Selbst). Selbstkontrolle (Marshmallow-Test, Mischel 1989): Belohnungsaufschub → späterer Lebenserfolg. Kognitive Kontrolle: PFC koordiniert Ziele. PFC reift erst mit ca. 25 Jahren aus. Metakognition = Denken über das eigene Denken. Heuristiken (auch in Allg. Psychologie): Verfügbarkeit, Repräsentativität, Anker, Bestätigungsfehler.',
       },
     ],
   },

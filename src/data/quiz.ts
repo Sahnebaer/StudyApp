@@ -1,32 +1,97 @@
 import type { QuizQuestion } from '../types';
 
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
-  // ── Biopsychologie ────────────────────────────────────────────────────────
+  // ── Biopsychologie & Allg. Psychologie I (SS 2026 · Prof. Dr. Jessica Sänger) ──
   {
     id: 'bp-q1', moduleId: 'biopsych',
-    question: 'Welcher Neurotransmitter ist hauptsächlich mit dem Belohnungssystem verbunden?',
-    options: ['Serotonin', 'Dopamin', 'GABA', 'Glutamat'],
+    question: 'Was ist die korrekte Definition von Lernen in der Psychologie?',
+    options: [
+      'Eine vorübergehende Verhaltensänderung durch äußere Reize',
+      'Eine relativ überdauernde Verhaltensänderung durch Erfahrungen',
+      'Die Reifung des Nervensystems im Laufe des Lebens',
+      'Die Anpassung des Körpers an neue Umgebungsbedingungen',
+    ],
     correctIndex: 1,
-    explanation: 'Dopamin spielt eine zentrale Rolle im mesolimbischen Belohnungssystem und ist eng mit Motivation und Belohnung verknüpft.',
+    explanation: 'Lernen muss durch Erfahrung entstehen und überdauernd sein – Veränderungen durch Reifung, Müdigkeit oder Krankheit gelten nicht als Lernen.',
   },
   {
     id: 'bp-q2', moduleId: 'biopsych',
+    question: 'Welcher Verstärkerplan macht ein Verhalten am löschungsresistentesten?',
+    options: [
+      'Kontinuierlicher Verstärkerplan',
+      'Fix-Intervall-Plan',
+      'Variabler Quoten-Plan',
+      'Fix-Quoten-Plan',
+    ],
+    correctIndex: 2,
+    explanation: 'Der variable Quoten-Plan (unvorhersehbare Anzahl bis zur Verstärkung) erzeugt die stärkste Löschungsresistenz – genau wie Spielautomaten: Man hört schwer auf, weil die nächste Verstärkung jederzeit kommen könnte.',
+  },
+  {
+    id: 'bp-q3', moduleId: 'biopsych',
+    question: 'Welche Gehirnregion ist entscheidend für die Überführung von Kurzzeit- ins Langzeitgedächtnis?',
+    options: ['Amygdala', 'Hippocampus', 'Cerebellum', 'Präfrontaler Kortex'],
+    correctIndex: 1,
+    explanation: 'Der Hippocampus ist kein Langzeitspeicher selbst, sondern überführt (konsolidiert) Informationen ins Langzeitgedächtnis – wie ein Bibliothekar, der Bücher einsortiert.',
+  },
+  {
+    id: 'bp-q4', moduleId: 'biopsych',
     question: 'Was beschreibt das Alles-oder-Nichts-Prinzip bei Neuronen?',
     options: [
       'Ein Neuron feuert proportional zur Reizstärke',
       'Ein Neuron feuert entweder vollständig oder gar nicht',
       'Alle Neuronen eines Netzwerks feuern gleichzeitig',
-      'Neuronen können nicht mehrfach hintereinander feuern',
+      'Neuronen können im Ruhezustand keine Signale empfangen',
     ],
     correctIndex: 1,
-    explanation: 'Das Alles-oder-Nichts-Prinzip besagt, dass ein Aktionspotenzial entweder ausgelöst wird (wenn der Schwellenwert erreicht ist) oder nicht – die Stärke ist immer gleich.',
+    explanation: 'Ist der Schwellenwert erreicht, feuert das Neuron mit voller Stärke. Ist er nicht erreicht, feuert es gar nicht. Die Intensität eines Reizes zeigt sich darin, wie oft – nicht wie stark – ein Neuron feuert.',
   },
   {
-    id: 'bp-q3', moduleId: 'biopsych',
-    question: 'Welche Gehirnregion ist primär für die Konsolidierung von Langzeitgedächtnis verantwortlich?',
-    options: ['Amygdala', 'Hippocampus', 'Cerebellum', 'Thalamus'],
+    id: 'bp-q5', moduleId: 'biopsych',
+    question: 'Welcher Neurotransmitter ist hauptsächlich hemmend und an welchem Medikament lässt sich das ablesen?',
+    options: [
+      'Dopamin – Ritalin erhöht Dopaminspiegel',
+      'Glutamat – Koffein blockiert Glutamatrezeptoren',
+      'GABA – Benzodiazepine (Valium) wirken über GABA-Rezeptoren',
+      'Serotonin – SSRIs hemmen Serotoninabbau',
+    ],
+    correctIndex: 2,
+    explanation: 'GABA ist der wichtigste hemmende Neurotransmitter (33–50 % der Neuronen). Benzodiazepine verstärken die GABA-Wirkung und wirken so beruhigend/angstlösend.',
+  },
+  {
+    id: 'bp-q6', moduleId: 'biopsych',
+    question: 'Was zeigte die Taxifahrer-Studie von Woollett & Maguire (2011)?',
+    options: [
+      'Taxifahrer haben generell ein besseres Raumgedächtnis als andere Berufsgruppen',
+      'Der Hippocampus wächst messbar durch intensives Ortslernen – Beleg für Neuroplastizität',
+      'Berufsbedingte Belastung verkleinert den präfrontalen Kortex',
+      'Navigation aktiviert primär den visuellen Kortex, nicht den Hippocampus',
+    ],
     correctIndex: 1,
-    explanation: 'Der Hippocampus ist entscheidend für die Überführung von Kurzzeit- ins Langzeitgedächtnis (Konsolidierung).',
+    explanation: 'Londoner Taxifahrer, die 25.000 Straßen auswendig lernten, zeigten nach ~3 Jahren einen messbar vergrößerten Hippocampus – direkter Nachweis struktureller Neuroplastizität.',
+  },
+  {
+    id: 'bp-q7', moduleId: 'biopsych',
+    question: 'Was ist der Unterschied zwischen Sympathikus und Parasympathikus?',
+    options: [
+      'Sympathikus = unbewusst, Parasympathikus = bewusst steuerbar',
+      'Sympathikus = fight or flight (aktiviert), Parasympathikus = rest and digest (beruhigt)',
+      'Sympathikus steuert die Verdauung, Parasympathikus die Herzrate',
+      'Beide haben dieselbe Funktion in verschiedenen Körperregionen',
+    ],
+    correctIndex: 1,
+    explanation: 'Sympathikus aktiviert den Körper bei Stress (Herzrate ↑, Adrenalin ↑, Verdauung ↓). Parasympathikus sorgt nach dem Stress für Erholung und Regeneration (rest and digest).',
+  },
+  {
+    id: 'bp-q8', moduleId: 'biopsych',
+    question: 'Was versteht man unter dem Primacy-Effekt beim Lernen?',
+    options: [
+      'Zuletzt gelernte Informationen werden am besten erinnert',
+      'Zuerst gelernte Informationen werden besser behalten',
+      'Besonders emotionale Inhalte werden besser gespeichert',
+      'Kurze Wörter werden schneller gelernt als lange',
+    ],
+    correctIndex: 1,
+    explanation: 'Primacy-Effekt: Zu Beginn einer Liste präsentierte Informationen werden tiefer verarbeitet und besser behalten. Recency-Effekt: Am Ende präsentierte sind noch im Arbeitsgedächtnis. Mittlere Inhalte werden am schlechtesten erinnert.',
   },
 
   // ── Sozialpsychologie (SS 2026 · Prof. Dr. Dindas) ────────────────────────
