@@ -1,7 +1,9 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import type { ModuleId, Progress } from '../types';
 import { FLASHCARDS } from '../data/flashcards';
 import { QUIZ_QUESTIONS } from '../data/quiz';
+
+const STORAGE_KEY = 'studyapp_progress';
 
 function initialProgress(moduleId: ModuleId): Progress {
   return {
@@ -14,14 +16,69 @@ function initialProgress(moduleId: ModuleId): Progress {
   };
 }
 
+function loadFromStorage(): Record<ModuleId, Progress> {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) throw new Error('empty');
+    const parsed = JSON.parse(raw);
+    return {
+      biopsych: {
+        ...initialProgress('biopsych'),
+        flashcardsLearned: new Set(parsed.biopsych?.flashcardsLearned ?? []),
+        quizCorrect: parsed.biopsych?.quizCorrect ?? 0,
+        quizAttempted: new Set(parsed.biopsych?.quizAttempted ?? []),
+      },
+      socialpsych: {
+        ...initialProgress('socialpsych'),
+        flashcardsLearned: new Set(parsed.socialpsych?.flashcardsLearned ?? []),
+        quizCorrect: parsed.socialpsych?.quizCorrect ?? 0,
+        quizAttempted: new Set(parsed.socialpsych?.quizAttempted ?? []),
+      },
+      ai: {
+        ...initialProgress('ai'),
+        flashcardsLearned: new Set(parsed.ai?.flashcardsLearned ?? []),
+        quizCorrect: parsed.ai?.quizCorrect ?? 0,
+        quizAttempted: new Set(parsed.ai?.quizAttempted ?? []),
+      },
+    };
+  } catch {
+    return {
+      biopsych: initialProgress('biopsych'),
+      socialpsych: initialProgress('socialpsych'),
+      ai: initialProgress('ai'),
+    };
+  }
+}
+
+function saveToStorage(progress: Record<ModuleId, Progress>) {
+  const serializable = {
+    biopsych: {
+      flashcardsLearned: [...progress.biopsych.flashcardsLearned],
+      quizCorrect: progress.biopsych.quizCorrect,
+      quizAttempted: [...progress.biopsych.quizAttempted],
+    },
+    socialpsych: {
+      flashcardsLearned: [...progress.socialpsych.flashcardsLearned],
+      quizCorrect: progress.socialpsych.quizCorrect,
+      quizAttempted: [...progress.socialpsych.quizAttempted],
+    },
+    ai: {
+      flashcardsLearned: [...progress.ai.flashcardsLearned],
+      quizCorrect: progress.ai.quizCorrect,
+      quizAttempted: [...progress.ai.quizAttempted],
+    },
+  };
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(serializable));
+}
+
 const MODULE_IDS: ModuleId[] = ['biopsych', 'socialpsych', 'ai'];
 
 export function useProgress() {
-  const [progress, setProgress] = useState<Record<ModuleId, Progress>>(() => ({
-    biopsych: initialProgress('biopsych'),
-    socialpsych: initialProgress('socialpsych'),
-    ai: initialProgress('ai'),
-  }));
+  const [progress, setProgress] = useState<Record<ModuleId, Progress>>(loadFromStorage);
+
+  useEffect(() => {
+    saveToStorage(progress);
+  }, [progress]);
 
   const markFlashcardLearned = useCallback((moduleId: ModuleId, cardId: string) => {
     setProgress((prev) => {
