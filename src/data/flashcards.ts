@@ -653,4 +653,116 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'Nenne 3 Branchen mit KI-Einsatz und konkrete Anwendungsfälle.',
     answer: 'Industrie 4.0: Predictive Maintenance (Maschinenausfälle vorhersagen), Qualitätskontrolle.\nMedizin: Diagnoseunterstützung, Röntgenbildanalyse.\nFinanzwirtschaft: Betrugserkennung, Kreditscoring.\nEinzelhandel: Empfehlungssysteme (Netflix, Amazon), Dynamic Pricing.',
   },
+
+  // Einführung & Geschichte (Ergänzungen)
+  {
+    id: 'ai-43', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Was ist das Halteproblem und wer hat es bewiesen?',
+    answer: 'Alan Turing bewies, dass es kein Programm geben kann, das für beliebige Programme entscheiden kann, ob diese in eine Endlosschleife laufen. Es ist ein fundamentales Ergebnis der Berechenbarkeitstheorie.',
+  },
+  {
+    id: 'ai-44', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Was ist das Perceptron und wer hat es entwickelt?',
+    answer: 'Frank Rosenblatt entwickelte 1958 das Perceptron – ein lernfähiges künstliches Neuron, das die Grundlagen für maschinelles Lernen schuf. Es ist der Vorläufer moderner neuronaler Netze.',
+  },
+  {
+    id: 'ai-45', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Welche drei Hauptphasen prägen die Geschichte der KI?',
+    answer: '1) Symbolische KI / Logik (1950er–80er): Expertensysteme, regelbasiert.\n2) Maschinelles Lernen (1980er–2010er): Lernen aus Daten.\n3) Deep Learning / neuronale Netze (ab 2012): Durchbrüche bei Bild- und Sprachverarbeitung.',
+  },
+  {
+    id: 'ai-46', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Was leistete AlphaGo 2016 und welche Methoden nutzte es?',
+    answer: 'AlphaGo von Google DeepMind besiegte den menschlichen Go-Weltmeister. Es nutzte Deep Learning, Reinforcement Learning und Monte Carlo Tree Search – ein Meilenstein, weil Go als zu komplex für Maschinen galt.',
+  },
+
+  // Infrastruktur & Big Data (Ergänzungen)
+  {
+    id: 'ai-47', moduleId: 'ai', category: 'Big Data',
+    question: 'Was ist die Lambda-Architektur?',
+    answer: 'Die Lambda-Architektur kombiniert Batch- und Stream-Verarbeitung parallel: Der Batch-Layer liefert genaue Ergebnisse (zeitverzögert), der Speed-Layer liefert zeitnahe Ergebnisse in Echtzeit. Beide werden im Serving-Layer zusammengeführt.',
+  },
+  {
+    id: 'ai-48', moduleId: 'ai', category: 'Datenmanagement & ETL',
+    question: 'Was sind Qualitätsdimensionen von Daten?',
+    answer: 'Wichtige Dimensionen: Vollständigkeit, Konsistenz, Aktualität, Genauigkeit/Korrektheit, Eindeutigkeit. Schlechte Datenqualität ist einer der häufigsten Fehler in KI-Projekten – „Garbage in, garbage out".',
+  },
+  {
+    id: 'ai-49', moduleId: 'ai', category: 'Datenmanagement & ETL',
+    question: 'Was ist Model Drift?',
+    answer: 'Model Drift beschreibt den Qualitätsverlust eines ML-Modells im Laufe der Zeit, weil sich die Abhängigkeiten zwischen Eingabe- und Zielvariablen verändern. Modelle müssen regelmäßig auf neuen Daten nachtrainiert werden.',
+  },
+
+  // Agenten & Logik (Ergänzungen)
+  {
+    id: 'ai-50', moduleId: 'ai', category: 'KI-Agenten',
+    question: 'Was ist Knowledge Engineering?',
+    answer: 'Knowledge Engineering beschreibt den Prozess des Wissenserwerbs für eine Wissensbasis – basierend auf menschlichen Experten, Wissensingenieuren und Datenbanken. Ziel: das Wissen von Experten in ein KI-System zu überführen.',
+  },
+  {
+    id: 'ai-51', moduleId: 'ai', category: 'KI-Agenten',
+    question: 'Was ist eine Wissensbasis (KB) und was ist ein Inferenzmechanismus?',
+    answer: 'Wissensbasis: Speichert deklaratives Wissen (Fakten, Regeln).\nInferenzmechanismus: Das Verfahren, das dieses Wissen nutzt, um Schlüsse zu ziehen, Anfragen zu beantworten oder Pläne zu erstellen.\nVorteil der Trennung: Wissen kann ausgetauscht werden, ohne das System neu zu programmieren.',
+  },
+
+  // Maschinelles Lernen (Ergänzungen)
+  {
+    id: 'ai-52', moduleId: 'ai', category: 'Maschinelles Lernen',
+    question: 'Was ist k-Means-Clustering?',
+    answer: 'k-Means ist ein unüberwachtes Lernverfahren, das Datenpunkte in k Cluster aufteilt. Jeder Punkt wird dem nächstgelegenen Clustermittelpunkt (Zentroid) zugeordnet, der iterativ angepasst wird. Anwendung: Kundensegmentierung, Anomalieerkennung.',
+  },
+  {
+    id: 'ai-53', moduleId: 'ai', category: 'Maschinelles Lernen',
+    question: 'Was ist ein Entscheidungsbaum im maschinellen Lernen?',
+    answer: 'Ein Entscheidungsbaum klassifiziert Daten durch hierarchische Verzweigungen nach Merkmalen. Vorteil: gut interpretierbar – das gelernte Wissen kann als logische Formel dargestellt werden. Anwendung: Kreditantrag bewilligen oder ablehnen.',
+  },
+  {
+    id: 'ai-54', moduleId: 'ai', category: 'Maschinelles Lernen',
+    question: 'Was ist Generalisierung im maschinellen Lernen?',
+    answer: 'Generalisierung bedeutet, das an endlich vielen Trainingsbeispielen Gelernte erfolgreich auf neue, unbekannte Beispiele anwenden zu können – ohne Auswendiglernen. Gegenteil: Overfitting (Überanpassung an Trainingsdaten).',
+  },
+
+  // Neuronale Netze & Deep Learning (neue Kategorie)
+  {
+    id: 'ai-55', moduleId: 'ai', category: 'Neuronale Netze & Deep Learning',
+    question: 'Was ist ein künstliches neuronales Netz und woher stammt die Idee?',
+    answer: 'Ein KNN ist ein mathematisches Modell, inspiriert von biologischen Gehirnen. Neuronen sind durch gewichtete Verbindungen vernetzt; Wissen wird verteilt in den Gewichten gespeichert. Lernen = Anpassen der Gewichte.',
+  },
+  {
+    id: 'ai-56', moduleId: 'ai', category: 'Neuronale Netze & Deep Learning',
+    question: 'Wie funktioniert der Backpropagation-Algorithmus?',
+    answer: '1) Vorwärtspropagierung: Netzausgabe berechnen.\n2) Fehler bestimmen (Differenz zwischen Ausgabe und Zielwert).\n3) Fehler rückwärts durch das Netz propagieren.\n4) Gewichte schrittweise per Gradientenabstieg verbessern.',
+  },
+  {
+    id: 'ai-57', moduleId: 'ai', category: 'Neuronale Netze & Deep Learning',
+    question: 'Was sind CNNs (Convolutional Neural Networks) und wofür werden sie eingesetzt?',
+    answer: 'CNNs sind spezialisierte neuronale Netze für Bilddaten. Faltungsschichten (Convolution) extrahieren Merkmale automatisch. Sie sind der Standard für Bildklassifikation, Objekterkennung und Computer Vision.',
+  },
+  {
+    id: 'ai-58', moduleId: 'ai', category: 'Neuronale Netze & Deep Learning',
+    question: 'Was ist Dropout in neuronalen Netzen und wozu dient es?',
+    answer: 'Dropout ist eine Regularisierungstechnik gegen Overfitting: Beim Training werden zufällig Neuronen (z. B. 50 %) ignoriert. Das erzwingt Robustheit, weil das Netz nicht auf einzelne Neuronen angewiesen sein kann.',
+  },
+  {
+    id: 'ai-59', moduleId: 'ai', category: 'Neuronale Netze & Deep Learning',
+    question: 'Was sind GANs (Generative Adversarial Networks)?',
+    answer: 'GANs bestehen aus zwei konkurrierenden Netzen:\nGenerator: erzeugt neue (gefälschte) Daten.\nDiskriminator: unterscheidet echte von gefälschten Daten.\nSie trainieren sich gegenseitig, bis der Generator täuschend echte Bilder/Daten erzeugt. Grundlage von Deepfakes.',
+  },
+  {
+    id: 'ai-60', moduleId: 'ai', category: 'Neuronale Netze & Deep Learning',
+    question: 'Was ist ein Transformer-Modell?',
+    answer: 'Transformer sind eine Architektur für sequentielle Daten (v.a. Text), die auf Aufmerksamkeitsmechanismen (Attention) basiert. Jedes Element einer Sequenz kann direkt auf alle anderen zugreifen. Grundlage moderner Sprachmodelle: GPT, BERT, Claude.',
+  },
+
+  // Datenmanagement & Anwendungen (neue Kategorie)
+  {
+    id: 'ai-61', moduleId: 'ai', category: 'Datenmanagement & Anwendungen',
+    question: 'Was ist Natural Language Processing (NLP)?',
+    answer: 'NLP ist das Teilgebiet der KI für maschinelle Verarbeitung menschlicher Sprache. Aufgaben: Textverstehen, Sentiment-Analyse, maschinelle Übersetzung, Chatbots, Sprachmodelle. Grundlage: Transformer-Architekturen.',
+  },
+  {
+    id: 'ai-62', moduleId: 'ai', category: 'Datenmanagement & Anwendungen',
+    question: 'Was ist Computer Vision?',
+    answer: 'Computer Vision befähigt Maschinen, Bilder und Videos zu verstehen. Aufgaben: Objekterkennung, Bildklassifikation, Segmentierung, Gesichtserkennung. Technische Grundlage: Convolutional Neural Networks (CNNs).',
+  },
 ];
