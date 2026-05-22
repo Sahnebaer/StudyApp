@@ -1,0 +1,25 @@
+import type { Module } from '../types';
+
+export const MODULES: Module[] = [
+  {
+    id: 'biopsych',
+    title: 'Biopsychologie',
+    description: 'Neurobiologische Grundlagen des Verhaltens und Erlebens',
+    color: 'from-emerald-500 to-teal-600',
+    icon: '🧠',
+  },
+  {
+    id: 'socialpsych',
+    title: 'Sozialpsychologie',
+    description: 'Einfluss sozialer Faktoren auf Denken, Fühlen und Handeln',
+    color: 'from-violet-500 to-purple-600',
+    icon: '👥',
+  },
+  {
+    id: 'ai',
+    title: 'Grundlagen KI',
+    description: 'Konzepte und Methoden der Künstlichen Intelligenz',
+    color: 'from-blue-500 to-cyan-600',
+    icon: '🤖',
+  },
+];
