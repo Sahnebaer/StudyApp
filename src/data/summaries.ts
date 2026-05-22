@@ -29,27 +29,32 @@ export const SUMMARIES: Summary[] = [
   },
   {
     moduleId: 'socialpsych',
-    title: 'Sozialpsychologie – Übersicht',
+    title: 'Sozialpsychologie – Übersicht (SS 2026 · Prof. Dr. Dindas)',
     sections: [
       {
-        heading: 'Soziale Kognition',
+        heading: 'Einführung & Methoden',
         content:
-          'Wie wir über andere denken: Schemata, Stereotype, Heuristiken. Wichtige Verzerrungen: Fundamentaler Attributionsfehler, Halo-Effekt, Bestätigungsfehler. Attributionstheorien (Heider, Kelley) erklären, wie wir Ursachen für Verhalten suchen.',
+          'Sozialpsychologie untersucht, wie Gedanken, Gefühle und Verhalten durch Anwesenheit anderer beeinflusst werden (Allport, 1954). Analyseebenen: intrapsychisch, interindividuell, Intragruppe, Intergruppe. Methoden: Experiment (Kausalaussagen), Korrelationsstudie (Zusammenhänge), Beobachtung (Phänomenbeschreibung). Wichtig: Replikationskrise der 2010er Jahre hat Forschungsstandards verändert.',
       },
       {
-        heading: 'Einstellungen und Einstellungsänderung',
+        heading: 'Attribution',
         content:
-          'Einstellungen haben kognitive, affektive und behaviorale Komponenten. Kognitive Dissonanz (Festinger) motiviert zur Einstellungsänderung bei Widersprüchen. Persuasion: zentraler vs. peripherer Weg (Elaboration Likelihood Model).',
+          'Attribution = Ursachenzuschreibung für Verhalten. Internal: Ursache in der Person. External: Ursache in der Situation. Fundamentaler Attributionsfehler: Dispositionale Faktoren werden über-, situative unterschätzt. Ultimativer Attributionsfehler: Selbstwertdienliche Attribution auf Gruppenebene. Automatisches Denken ist schnell, aber fehleranfällig; kontrolliertes Denken kann Verzerrungen reduzieren.',
       },
       {
-        heading: 'Konformität und Gehorsam',
+        heading: 'Heuristiken & kognitive Verzerrungen',
         content:
-          'Asch-Experiment: Menschen passen ihre Urteile an Gruppen an. Milgram-Experiment: Gehorsamkeit gegenüber Autoritäten, auch bei moralischen Konflikten. Informationaler vs. normativer sozialer Einfluss.',
+          'Heuristiken sind mentale Abkürzungen, die schnell, aber fehleranfällig sind. Verfügbarkeitsheuristik: Leicht erinnerbare Ereignisse wirken wahrscheinlicher. Repräsentativitätsheuristik: Ähnlichkeit mit Prototypen ersetzt Basisraten. Ankerheuristik: Ausgangswert beeinflusst Urteil (Tversky & Kahneman, 1972). Rückschaufehler: „Das war doch klar." Wahrheitseffekt: Wiederholung erhöht wahrgenommene Glaubwürdigkeit. Konjunktionstäuschung: A ∧ B wird wahrscheinlicher als A allein eingeschätzt.',
       },
       {
-        heading: 'Gruppenverhalten',
+        heading: 'Selbstkonzept & Einstellungen',
         content:
-          'Soziale Erleichterung (einfache Aufgaben) vs. soziales Faulenzen (komplexe/wenig motivierende Aufgaben). Groupthink: Konformitätsdruck führt zu schlechten Gruppenentscheidungen. Deindividuation: Verlust der Selbstwahrnehmung in Gruppen.',
+          'Selbstkonzept entsteht durch soziale Interaktionen. Self-Enhancement steigert Selbstwert. Selbstdarstellung (Jones & Pittman, 1982) steuert Fremdwahrnehmung. Unrealistischer Optimismus: Gutes widerfährt mir häufiger. Einstellungen (ABC-Modell): affektiv, behavioral, kognitiv. Theory of Reasoned Action (Einstellungen + Normen) → Theory of Planned Behavior (+ wahrgenommene Verhaltenskontrolle). Balance-Theorie: Menschen streben nach konsistenten Einstellungstriaden.',
+      },
+      {
+        heading: 'Gruppen & sozialer Einfluss',
+        content:
+          'Soziale Erleichterung (Triplett, 1898): Anwesenheit anderer verbessert Leistung bei einfachen Aufgaben. Soziales Faulenzen (Ringelmann, 1913): Individuelle Leistung sinkt mit Gruppengröße. Konformität: Angleichung an Mehrheitsmeinung. Gehorsam (Milgram): Erschreckend hohe Bereitschaft, Autoritäten zu folgen. Intragruppen-Prozesse: Konformität, Normen, Leistung. Intergruppen-Prozesse: Diskriminierung, Vorurteile, soziale Identität.',
       },
     ],
   },

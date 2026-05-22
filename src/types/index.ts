@@ -11,6 +11,7 @@ export interface Module {
 export interface Flashcard {
   id: string;
   moduleId: ModuleId;
+  category?: string;
   question: string;
   answer: string;
 }
