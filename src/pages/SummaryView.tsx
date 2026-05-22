@@ -5,6 +5,20 @@ interface Props {
   onBack: () => void;
 }
 
+function renderContent(content: string) {
+  const parts = content.split(/\. (?=[A-ZÄÖÜ(])/)
+  if (parts.length <= 1) return <p className="text-slate-300 leading-relaxed">{content}</p>
+  return (
+    <div className="space-y-2">
+      {parts.map((part, i) => (
+        <p key={i} className="text-slate-300 leading-relaxed">
+          {part.endsWith('.') || i === parts.length - 1 ? part : part + '.'}
+        </p>
+      ))}
+    </div>
+  )
+}
+
 export function SummaryView({ summary, onBack }: Props) {
   if (!summary) {
     return (
@@ -30,7 +44,7 @@ export function SummaryView({ summary, onBack }: Props) {
           {summary.sections.map((section, i) => (
             <div key={i} className="bg-slate-800 border border-slate-700 rounded-xl p-6">
               <h2 className="text-lg font-semibold text-blue-300 mb-3">{section.heading}</h2>
-              <p className="text-slate-300 leading-relaxed">{section.content}</p>
+              {renderContent(section.content)}
             </div>
           ))}
         </div>
