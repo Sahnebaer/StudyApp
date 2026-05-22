@@ -426,30 +426,231 @@ export const FLASHCARDS: Flashcard[] = [
     answer: 'Intragruppe: Prozesse innerhalb einer Gruppe (Normen, Konformität, Leistung).\nIntergruppe: Prozesse zwischen Gruppen (Diskriminierung, Konflikte, Vorurteile).',
   },
 
-  // ── Grundlagen KI (Platzhalter – wird noch ersetzt) ───────────────────────
+  // ── Grundlagen KI & Agentensysteme (SS 2026 · FOM · Olga Koch) ──────────────
+
+  // Einführung & Geschichte
   {
-    id: 'ai-1', moduleId: 'ai', category: 'Grundlagen',
-    question: 'Was ist der Unterschied zwischen überwachtem und unüberwachtem Lernen?',
-    answer: 'Überwachtes Lernen nutzt gelabelte Trainingsdaten (Input-Output-Paare). Unüberwachtes Lernen findet Muster in ungelabelten Daten ohne Vorgaben.',
+    id: 'ai-1', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Wie definierte John McCarthy KI (1955)?',
+    answer: 'Maschinen sollen entwickelt werden, die sich verhalten, als hätten sie Intelligenz. KI = Oberbegriff für alle Methoden, die Maschinen intelligent machen.',
   },
   {
-    id: 'ai-2', moduleId: 'ai', category: 'Grundlagen',
-    question: 'Was ist Overfitting?',
-    answer: 'Ein Modell passt sich zu stark den Trainingsdaten an und generalisiert schlecht auf neue, unbekannte Daten.',
+    id: 'ai-2', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Was ist der Turing-Test (1950)?',
+    answer: 'Alan Turing fragte: „Kann eine Maschine wie ein Mensch klingen?" Ein Mensch kommuniziert blind mit einer Maschine und einem Menschen – kann er nicht unterscheiden, welcher der Mensch ist, hat die Maschine bestanden.',
   },
   {
-    id: 'ai-3', moduleId: 'ai', category: 'Neuronale Netze',
-    question: 'Was ist ein neuronales Netz?',
-    answer: 'Ein Machine-Learning-Modell aus verbundenen Schichten (Layer) von künstlichen Neuronen, das Muster in Daten erlernt.',
+    id: 'ai-3', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Was war die Dartmouth-Konferenz (1956)?',
+    answer: 'Die offizielle Gründung der KI als eigenständiges Forschungsfeld. Klausur-Tipp: Dartmouth 1956 = Geburtsstunde der KI.',
   },
   {
-    id: 'ai-4', moduleId: 'ai', category: 'Optimierung',
-    question: 'Was bedeutet der Begriff "Gradient Descent"?',
-    answer: 'Ein Optimierungsalgorithmus, der iterativ die Parameter eines Modells in Richtung des stärksten Gefälles der Verlustfunktion anpasst, um den Fehler zu minimieren.',
+    id: 'ai-4', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Was ist der Unterschied zwischen schwacher und starker KI?',
+    answer: 'Schwache KI (Narrow AI): löst eine klar begrenzte Aufgabe sehr gut, kein Wissenstransfer (z.B. Siri, AlphaGo, ChatGPT).\nStarke KI (AGI): kann wie ein Mensch vielseitig denken und handeln – existiert heute noch NICHT (nur theoretisches Konzept).',
   },
   {
-    id: 'ai-5', moduleId: 'ai', category: 'LLMs',
-    question: 'Was ist ein Large Language Model (LLM)?',
-    answer: 'Ein auf riesigen Textmengen trainiertes neuronales Netz, das Sprache versteht und generiert (z.B. GPT, Claude).',
+    id: 'ai-5', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Welche 5 Eigenschaften sollte ein intelligentes KI-System haben?',
+    answer: '1. Wahrnehmen (Umwelt erfassen)\n2. Schlussfolgern (aus Infos Schlüsse ziehen)\n3. Lernen (aus Erfahrungen verbessern)\n4. Planen (Schritte zum Ziel wählen)\n5. Kommunizieren (Infos verstehen und weitergeben)',
+  },
+  {
+    id: 'ai-6', moduleId: 'ai', category: 'Einführung & Geschichte',
+    question: 'Nenne drei KI-Meilensteine und ihr Jahr.',
+    answer: '1950: Turing-Test\n1956: Dartmouth-Konferenz (Geburtsstunde der KI)\n1997: Deep Blue besiegt Schachweltmeister Kasparov\n2016: AlphaGo schlägt Go-Weltmeister\n2024: EU AI Act tritt in Kraft',
+  },
+
+  // Big Data
+  {
+    id: 'ai-7', moduleId: 'ai', category: 'Big Data',
+    question: 'Was ist Big Data?',
+    answer: 'Riesige Datenmengen, die so groß, schnell oder vielfältig sind, dass normale Computerprogramme damit nicht umgehen können.',
+  },
+  {
+    id: 'ai-8', moduleId: 'ai', category: 'Big Data',
+    question: 'Was sind die 4 Vs (+ 1) von Big Data?',
+    answer: 'Volume (Menge: TB/PB-Bereich)\nVelocity (Geschwindigkeit: Echtzeit-Verarbeitung)\nVariety (Vielfalt: Texte, Bilder, Videos, Sensordaten)\nVeracity (Wahrhaftigkeit/Qualität: Fake News, fehlerhafte Daten)\n+ Value (Wert: aus Daten neue Geschäftsmodelle entwickeln)',
+  },
+  {
+    id: 'ai-9', moduleId: 'ai', category: 'Big Data',
+    question: 'Warum ist Veracity besonders kritisch für KI-Projekte?',
+    answer: 'Schlechte Datenqualität = schlechte KI-Entscheidungen. Stichwort: „Garbage in, garbage out." KI-Modelle lernen nur so gut wie die Daten, auf denen sie trainiert werden.',
+  },
+  {
+    id: 'ai-10', moduleId: 'ai', category: 'Big Data',
+    question: 'Was sind strukturierte, semi-strukturierte und unstrukturierte Daten?',
+    answer: 'Strukturiert: klare Tabellenform (z.B. Kundendatenbank).\nSemi-strukturiert: teils geordnet, teils frei (z.B. E-Mail: Header + Nachrichtentext).\nUnstrukturiert: kein Schema (z.B. Bilder, Videos, Sprachnachrichten).',
+  },
+  {
+    id: 'ai-11', moduleId: 'ai', category: 'Big Data',
+    question: 'Was ist der Unterschied zwischen Batch- und Stream-Verarbeitung?',
+    answer: 'Batch-Verarbeitung: Daten werden gesammelt und in großen Mengen verarbeitet (z.B. nachts, wenn Systeme gesperrt sind).\nStream-Verarbeitung: Daten werden sofort in Echtzeit verarbeitet (z.B. Sensordaten einer Maschine).',
+  },
+
+  // Data Warehouse & Data Lake
+  {
+    id: 'ai-12', moduleId: 'ai', category: 'Data Warehouse & Data Lake',
+    question: 'Was ist ein Data Warehouse?',
+    answer: 'Zentrale Datenbank für strukturierte Daten, optimiert für Analysen. Daten werden VOR dem Speichern in ein einheitliches Format gebracht (Schema-on-Write). Nutzung: Umsatzberichte, Finanzanalysen, Controlling.',
+  },
+  {
+    id: 'ai-13', moduleId: 'ai', category: 'Data Warehouse & Data Lake',
+    question: 'Was ist ein Data Lake?',
+    answer: 'Riesiger Datenspeicher für alle Arten von Daten (strukturiert, unstrukturiert, alles). Daten werden BEIM LESEN sortiert (Schema-on-Read). Nutzung: KI-Training, Forschung, unvorhergesehene Analysen.',
+  },
+  {
+    id: 'ai-14', moduleId: 'ai', category: 'Data Warehouse & Data Lake',
+    question: 'Wann nutze ich Data Warehouse, wann Data Lake?',
+    answer: 'Data Warehouse: Wenn ich weiß, was ich analysieren will (Controller, Vertrieb).\nData Lake: Wenn ich noch nicht weiß, was ich brauche (Data Scientists, KI-Entwickler).\nBeide ergänzen sich: Data Lake sammelt alles, Data Warehouse strukturiert das Wichtige.',
+  },
+  {
+    id: 'ai-15', moduleId: 'ai', category: 'Data Warehouse & Data Lake',
+    question: 'Was ist OLAP und welche Operationen gibt es?',
+    answer: 'OLAP (Online Analytical Processing): Multidimensionale Datenanalyse im Data Warehouse mit dem „OLAP-Würfel" (Dimensionen: Zeit, Region, Produkt).\nDrill-Down: in die Tiefe (Jahr → Monat)\nRoll-Up: zusammenfassen (Monat → Jahr)\nSlice: eine Scheibe (nur 2023)\nDice: mehrere Scheiben (Region Ost, Produkt A, 2023)',
+  },
+
+  // Datenmanagement & ETL
+  {
+    id: 'ai-16', moduleId: 'ai', category: 'Datenmanagement & ETL',
+    question: 'Was ist der ETL-Prozess?',
+    answer: 'Extract → Transform → Load.\nExtract: Daten aus Quellen herauslesen (DBs, Websites, CSV).\nTransform: Daten bereinigen und vereinheitlichen.\nLoad: Fertige Daten ins Data Warehouse laden.\nTipp: Systeme werden nachts gesperrt, weil dann ETL läuft.',
+  },
+  {
+    id: 'ai-17', moduleId: 'ai', category: 'Datenmanagement & ETL',
+    question: 'Was sind Stammdaten und Transaktionsdaten?',
+    answer: 'Stammdaten: Grundlegende, selten ändernde Infos über Geschäftsobjekte (z.B. Kundendaten, Produktdaten).\nTransaktionsdaten: Daten zu Geschäftsvorfällen (z.B. Bestellungen, Zahlungen, Bewegungsdaten).',
+  },
+  {
+    id: 'ai-18', moduleId: 'ai', category: 'Datenmanagement & ETL',
+    question: 'Was ist eine Data Pipeline?',
+    answer: 'Automatisierter Datenfluss wie ein Fließband:\nRohdaten → Erhebung → Bereinigung → Exploration → Modell → Visualisierung → Datenprojekt.',
+  },
+  {
+    id: 'ai-19', moduleId: 'ai', category: 'Datenmanagement & ETL',
+    question: 'Was ist CRISP-DM?',
+    answer: 'Cross Industry Standard Process for Data Mining – strukturierter 6-Phasen-Prozess für Data-Mining-Projekte:\nBusiness Understanding → Data Understanding → Data Preparation → Modeling → Evaluation → Deployment.',
+  },
+
+  // KI-Agenten
+  {
+    id: 'ai-20', moduleId: 'ai', category: 'KI-Agenten',
+    question: 'Was ist ein Agent in der KI?',
+    answer: 'Ein System, das:\n1. Wahrnehmungen aus der Umgebung empfängt (über Sensoren)\n2. Entscheidungen trifft\n3. Aktionen ausführt (über Aktoren/Aktuatoren)\nZwei Typen: Software-Agent (nur Programme) und Hardware-Agent/Roboter (physische Sensoren + Aktoren).',
+  },
+  {
+    id: 'ai-21', moduleId: 'ai', category: 'KI-Agenten',
+    question: 'Was ist ein rationaler Agent?',
+    answer: 'Ein Agent, der für jede Situation die Aktion wählt, die seine Leistungsbewertung maximiert – basierend auf Vorwissen, möglichen Aktionen und bisherigen Wahrnehmungen. Er tut das „Richtige".',
+  },
+  {
+    id: 'ai-22', moduleId: 'ai', category: 'KI-Agenten',
+    question: 'Was beschreibt das PEAS-Modell?',
+    answer: 'Rahmen zur vollständigen Beschreibung eines Agenten:\nP = Performance (Was ist Erfolg?)\nE = Environment (Wo arbeitet der Agent?)\nA = Actuators (Wie kann er handeln?)\nS = Sensors (Was kann er wahrnehmen?)\nBeispiel selbstfahrendes Taxi – P: sicher ankommen, E: Straßen/Autos, A: Lenkung/Gas/Bremse, S: Kameras/GPS.',
+  },
+  {
+    id: 'ai-23', moduleId: 'ai', category: 'KI-Agenten',
+    question: 'Was bedeutet deterministisch vs. stochastisch bei Umgebungen?',
+    answer: 'Deterministisch: Das Ergebnis einer Aktion ist vorhersagbar (z.B. Schach – ein Zug hat immer dieselbe Wirkung).\nStochastisch: Das Ergebnis ist unvorhersehbar (z.B. Taxifahren – andere Fahrer verhalten sich zufällig).',
+  },
+  {
+    id: 'ai-24', moduleId: 'ai', category: 'KI-Agenten',
+    question: 'Was bedeutet episodisch vs. sequenziell bei Umgebungen?',
+    answer: 'Episodisch: Jede Entscheidung ist unabhängig von vorherigen (z.B. Spam-Filter – jede E-Mail wird einzeln beurteilt).\nSequenziell: Frühere Entscheidungen beeinflussen spätere (z.B. Schach – jeder Zug verändert die Spielsituation).',
+  },
+  {
+    id: 'ai-25', moduleId: 'ai', category: 'KI-Agenten',
+    question: 'Was bedeutet statisch vs. dynamisch bei Umgebungen?',
+    answer: 'Statisch: Die Umgebung ändert sich NICHT während der Agent denkt (z.B. Kreuzworträtsel).\nDynamisch: Die Umgebung ändert sich auch ohne Aktion des Agenten (z.B. Taxifahren – andere Autos bewegen sich weiter).',
+  },
+
+  // Logik & Wissensbasierte Systeme
+  {
+    id: 'ai-26', moduleId: 'ai', category: 'Logik & Wissensbasierte Systeme',
+    question: 'Was ist Aussagenlogik?',
+    answer: 'Logik, die Aussagen als wahr (W) oder falsch (F) bewertet und mit Operatoren verknüpft:\nUND (∧): Beide Aussagen müssen wahr sein.\nODER (∨): Mindestens eine muss wahr sein.\nNICHT (¬): Negiert eine Aussage.',
+  },
+  {
+    id: 'ai-27', moduleId: 'ai', category: 'Logik & Wissensbasierte Systeme',
+    question: 'Was ist Prädikatenlogik und wie unterscheidet sie sich von Aussagenlogik?',
+    answer: 'Prädikatenlogik geht über Wahr/Falsch hinaus und betrachtet die Beziehungen zwischen Objekten (z.B. „Max liebt Anna").\nKlausur-Merker: Aussagenlogik = Was ist wahr/falsch? Prädikatenlogik = Welche Beziehung haben Objekte zueinander?',
+  },
+  {
+    id: 'ai-28', moduleId: 'ai', category: 'Logik & Wissensbasierte Systeme',
+    question: 'Aus welchen 3 Teilen besteht ein wissensbasiertes System?',
+    answer: '1. Wissensbasis: Gespeicherte Fakten und Regeln.\n2. Inferenzmaschine: Zieht Schlussfolgerungen aus dem Wissen.\n3. Benutzerschnittstelle: Kommuniziert mit dem Nutzer.\nVorteil: Wissen und Verarbeitung sind getrennt → Wissen lässt sich leicht ändern!',
+  },
+  {
+    id: 'ai-29', moduleId: 'ai', category: 'Logik & Wissensbasierte Systeme',
+    question: 'Was ist ein Expertensystem und welche Anforderungen hat es?',
+    answer: 'Wissensbasiertes System, das Expertenwissen nachbildet. Anforderungen:\n- Wendet Expertenwissen zur Problemlösung an\n- Stellt Wissen lesbar dar\n- Kann Unsicherheiten verarbeiten\n- Begründet und erklärt seine Ergebnisse\n- Wissen ist leicht wartbar\nEinsatz: Diagnose, Medizin, Analysetechnik.',
+  },
+  {
+    id: 'ai-30', moduleId: 'ai', category: 'Logik & Wissensbasierte Systeme',
+    question: 'Was ist Inferenz in der KI?',
+    answer: 'Automatisches Schlussfolgern aus gespeichertem Wissen. Beispiel: „Alle Hunde bellen. Bello ist ein Hund. → Bello bellt." Wird überall eingesetzt, wo logisches Denken gefragt ist.',
+  },
+
+  // Maschinelles Lernen
+  {
+    id: 'ai-31', moduleId: 'ai', category: 'Maschinelles Lernen',
+    question: 'Erkläre die Hierarchie: KI → Machine Learning → Deep Learning.',
+    answer: 'KI: Oberbegriff für alle Methoden, die Maschinen intelligent machen.\nMachine Learning: Teilbereich der KI – Maschinen lernen aus Daten, ohne explizit programmiert zu werden.\nDeep Learning: Teilbereich von ML – nutzt tiefe neuronale Netze mit vielen Schichten (besonders gut für Bilder/Sprache).',
+  },
+  {
+    id: 'ai-32', moduleId: 'ai', category: 'Maschinelles Lernen',
+    question: 'Was ist überwachtes Lernen (Supervised Learning)?',
+    answer: 'KI lernt mit Trainingsdaten, die bekannte Antworten (Labels) enthalten. Die KI lernt, Eingaben auf Ausgaben abzubilden.\nAnwendung: E-Mail-Spam-Erkennung, Bildklassifizierung, Kreditscoring.',
+  },
+  {
+    id: 'ai-33', moduleId: 'ai', category: 'Maschinelles Lernen',
+    question: 'Was ist unüberwachtes Lernen (Unsupervised Learning)?',
+    answer: 'Keine Labels/Antworten in den Trainingsdaten. Die KI entdeckt selbst Muster und Strukturen.\nAnwendung: Kundensegmentierung, Clustering, Anomalieerkennung.',
+  },
+  {
+    id: 'ai-34', moduleId: 'ai', category: 'Maschinelles Lernen',
+    question: 'Was ist bestärkendes Lernen (Reinforcement Learning)?',
+    answer: 'Kein Lehrer, keine Labels. Ein Agent bekommt Belohnungen oder Bestrafungen für Aktionen und lernt durch Versuch und Irrtum.\nAnwendung: Spielende KI (AlphaGo, Schach), Robotersteuerung.',
+  },
+  {
+    id: 'ai-35', moduleId: 'ai', category: 'Maschinelles Lernen',
+    question: 'Was ist der Unterschied zwischen Klassifikation und Clustering?',
+    answer: 'Klassifikation (überwacht): Ordnet Daten in BEKANNTE Kategorien ein (z.B. E-Mail = Spam oder kein Spam).\nClustering (unüberwacht): Gruppiert ähnliche Daten OHNE vorgegebene Kategorien (z.B. Kunden in Gruppen einteilen).',
+  },
+  {
+    id: 'ai-36', moduleId: 'ai', category: 'Maschinelles Lernen',
+    question: 'Was ist ein künstliches neuronales Netz (KNN)?',
+    answer: 'Computermodell, das dem menschlichen Gehirn nachempfunden ist. Besteht aus Neuronen (Knoten) und Verbindungen (Gewichte). Lernt durch Anpassen der Gewichte. Deep Learning = viele Schichten. CNN (Convolutional Neural Network) = besonders gut für Bilder.',
+  },
+
+  // Ethik & Recht
+  {
+    id: 'ai-37', moduleId: 'ai', category: 'Ethik & Recht',
+    question: 'Was ist der EU AI Act (März 2024)?',
+    answer: 'Weltweit erstes umfassendes KI-Gesetz. Nutzt risikobasierten Ansatz:\n🔴 Unannehmbares Risiko (soziale Bewertungssysteme) → Verboten!\n🟠 Hohes Risiko (kritische Infrastruktur, Bildung) → Strenge Regulierung\n🟡 Begrenztes Risiko (Emotionserkennung) → Transparenzpflicht\n🟢 Geringes Risiko (Videospiele, Spamfilter) → Kaum Einschränkungen',
+  },
+  {
+    id: 'ai-38', moduleId: 'ai', category: 'Ethik & Recht',
+    question: 'Was ist Bias in KI-Systemen?',
+    answer: 'Verzerrung durch einseitige Trainingsdaten. KI lernt aus historischen Daten → wenn die Daten voreingenommen sind, ist die KI es auch.\nBeispiel: Bewerbungs-KI lehnte Frauen ab, weil historisch mehr Männer eingestellt wurden.',
+  },
+  {
+    id: 'ai-39', moduleId: 'ai', category: 'Ethik & Recht',
+    question: 'Was ist ein Deepfake?',
+    answer: 'KI-generiertes Fake-Video oder -Audio, das kaum von echten Aufnahmen zu unterscheiden ist. Problem: Wirklichkeitsverzerrung, Manipulation, Desinformation.',
+  },
+  {
+    id: 'ai-40', moduleId: 'ai', category: 'Ethik & Recht',
+    question: 'Was sind die 4 Anforderungen an vertrauenswürdige KI?',
+    answer: 'Fairness: KI darf keine Gruppen benachteiligen.\nTransparenz: Es muss klar sein, wie die KI entscheidet.\nErklärbarkeit: KI-Entscheidungen müssen nachvollziehbar sein.\nDatenschutz: DSGVO gilt auch für KI-Systeme.',
+  },
+  {
+    id: 'ai-41', moduleId: 'ai', category: 'Ethik & Recht',
+    question: 'Was ist ein Social Bot?',
+    answer: 'Computergesteuerter Akteur in sozialen Netzwerken, der automatisch postet, kommentiert oder Inhalte verbreitet. Problem: Desinformation, Meinungsmanipulation, Wirklichkeitsverzerrung.',
+  },
+  {
+    id: 'ai-42', moduleId: 'ai', category: 'Ethik & Recht',
+    question: 'Nenne 3 Branchen mit KI-Einsatz und konkrete Anwendungsfälle.',
+    answer: 'Industrie 4.0: Predictive Maintenance (Maschinenausfälle vorhersagen), Qualitätskontrolle.\nMedizin: Diagnoseunterstützung, Röntgenbildanalyse.\nFinanzwirtschaft: Betrugserkennung, Kreditscoring.\nEinzelhandel: Empfehlungssysteme (Netflix, Amazon), Dynamic Pricing.',
   },
 ];

@@ -65,27 +65,32 @@ export const SUMMARIES: Summary[] = [
   },
   {
     moduleId: 'ai',
-    title: 'Grundlagen KI – Übersicht',
+    title: 'Grundlagen KI & Agentensysteme (SS 2026 · FOM · Olga Koch)',
     sections: [
       {
-        heading: 'Was ist KI?',
+        heading: 'Einführung & Geschichte',
         content:
-          'Künstliche Intelligenz bezeichnet Systeme, die Aufgaben ausführen, die normalerweise menschliche Intelligenz erfordern: Verstehen, Schlussfolgern, Lernen, Wahrnehmen. Teilbereiche: Machine Learning, Natural Language Processing, Computer Vision, Robotik.',
+          'KI (McCarthy, 1955): Maschinen sollen sich verhalten, als hätten sie Intelligenz. Schwache KI (Narrow AI): eine Aufgabe sehr gut, kein Wissenstransfer (Siri, ChatGPT, AlphaGo). Starke KI (AGI): vielseitig wie ein Mensch – existiert heute NICHT. Meilensteine: 1950 Turing-Test, 1956 Dartmouth (Geburtsstunde der KI), 1966 ELIZA (erster Chatbot), 1997 Deep Blue vs. Kasparov, 2016 AlphaGo, 2024 EU AI Act. 5 Eigenschaften intelligenter Systeme: Wahrnehmen, Schlussfolgern, Lernen, Planen, Kommunizieren.',
       },
       {
-        heading: 'Machine Learning',
+        heading: 'Big Data, Data Warehouse & Data Lake',
         content:
-          'Modelle lernen aus Daten statt durch explizite Programmierung. Typen: Überwachtes Lernen (labeled data), Unüberwachtes Lernen (Clustering, Dimensionsreduktion), Bestärkendes Lernen (Reward-Signal). Wichtige Konzepte: Training/Test-Split, Bias-Variance-Tradeoff, Overfitting/Underfitting.',
+          'Big Data: Daten, die klassische Systeme überfordern. 4 Vs: Volume (TB/PB), Velocity (Echtzeit), Variety (Texte, Bilder, Videos), Veracity (Qualität – „Garbage in, garbage out") + Value. Datentypen: strukturiert (Tabellen), semi-strukturiert (E-Mail), unstrukturiert (Bilder/Videos). Data Warehouse: strukturierte Daten, Schema-on-Write, für Controlling/Berichte. Data Lake: alle Datentypen, Schema-on-Read, für KI-Training/Forschung. OLAP-Würfel: multidimensionale Analyse mit Drill-Down, Roll-Up, Slice, Dice. ETL-Prozess: Extract → Transform → Load. Batch (nachts) vs. Stream (Echtzeit). CRISP-DM: 6-Phasen-Standard für Data Mining. Stammdaten vs. Transaktionsdaten.',
       },
       {
-        heading: 'Neuronale Netze & Deep Learning',
+        heading: 'KI-Agenten & Logik',
         content:
-          'Mehrschichtige Netze (MLP, CNN, RNN, Transformer) lernen hierarchische Repräsentationen. Backpropagation + Gradient Descent optimiert Gewichte. Aktivierungsfunktionen (ReLU, Sigmoid) fügen Nicht-Linearität hinzu. Regularisierung (Dropout, L2) bekämpft Overfitting.',
+          'Agent: nimmt Umwelt wahr (Sensoren), entscheidet, handelt (Aktoren). Rationaler Agent: maximiert Leistungsbewertung basierend auf Wissen und Wahrnehmungen. PEAS: Performance, Environment, Actuators, Sensors (z.B. selbstfahrendes Taxi). Umgebungseigenschaften: vollständig/teilweise beobachtbar, deterministisch/stochastisch (Schach vs. Taxi), episodisch/sequenziell (Spam-Filter vs. Schach), statisch/dynamisch. Aussagenlogik: wahr/falsch mit UND, ODER, NICHT. Prädikatenlogik: Beziehungen zwischen Objekten. Wissensbasiertes System: Wissensbasis + Inferenzmaschine + Schnittstelle. Expertensystem: bildet Expertenwissen nach; muss erklären können und Unsicherheiten verarbeiten.',
       },
       {
-        heading: 'Large Language Models',
+        heading: 'Maschinelles Lernen',
         content:
-          'Transformer-Architektur (Attention-Mechanismus) ermöglicht Modelle wie GPT, Claude, Gemini. Pretraining auf riesigen Textmengen, Fine-tuning für spezifische Aufgaben. Prompting-Techniken: Zero-Shot, Few-Shot, Chain-of-Thought.',
+          'Hierarchie: KI ⊃ Machine Learning ⊃ Deep Learning. 3 Lernarten: Überwachtes Lernen (gelabelte Daten → Klassifikation, z.B. Spam-Filter); Unüberwachtes Lernen (keine Labels → Clustering/Muster, z.B. Kundensegmentierung); Bestärkendes Lernen (Belohnungen/Bestrafungen durch Versuch und Irrtum, z.B. AlphaGo). Klassifikation vs. Clustering. Entscheidungsbaum: Entscheidungen durch Fragen. KNN: Neuronen + Gewichte, lernt durch Anpassung. CNN: besonders gut für Bilder. CRISP-DM: Business/Data Understanding, Data Preparation, Modeling, Evaluation, Deployment.',
+      },
+      {
+        heading: 'Ethik, Gesellschaft & Recht',
+        content:
+          'EU AI Act (März 2024): weltweit erstes KI-Gesetz, risikobasierter Ansatz. 🔴 Unannehmbares Risiko (soziales Scoring) → verboten. 🟠 Hohes Risiko (kritische Infrastruktur, Bildung) → strenge Regulierung. 🟡 Begrenztes Risiko (Emotionserkennung) → Transparenzpflicht. 🟢 Geringes Risiko (Videospiele) → kaum Einschränkungen. Bias: einseitige Trainingsdaten → diskriminierende KI-Entscheidungen. Deepfakes: KI-generierte Fake-Videos/-Audios. Social Bots: automatisierte Akteure in sozialen Netzwerken. Vertrauenswürdige KI: Fairness, Transparenz, Erklärbarkeit, Datenschutz (DSGVO). Klausurfokus: Begriffe erklären, Vor-/Nachteile nennen, Praxistransfer – Mathematik wird NICHT abgefragt!',
       },
     ],
   },
