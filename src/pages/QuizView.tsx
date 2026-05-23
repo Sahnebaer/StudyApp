@@ -22,9 +22,11 @@ export function QuizView({ questions, attemptedIds, correctIds, onAnswer, onBack
       selected: null as number | null,
     };
   });
+  const [confirmReset, setConfirmReset] = useState(false);
 
   const handleReset = () => {
     setState({ currentQId: questions[0]?.id ?? '', selected: null });
+    setConfirmReset(false);
     onReset();
   };
 
@@ -75,6 +77,7 @@ export function QuizView({ questions, attemptedIds, correctIds, onAnswer, onBack
 
   const handleSelect = (i: number) => {
     if (selected !== null) return;
+    setConfirmReset(false);
     setState(prev => ({ ...prev, selected: i }));
     onAnswer(q.id, i === q.correctIndex);
   };
@@ -166,12 +169,32 @@ export function QuizView({ questions, attemptedIds, correctIds, onAnswer, onBack
           >
             {isLastRemaining ? 'Quiz abgeschlossen! 🎉' : 'Nächste Frage →'}
           </button>
-          <button
-            onClick={handleReset}
-            className="w-full text-slate-600 hover:text-slate-400 text-sm py-2 transition-colors"
-          >
-            Quiz zurücksetzen
-          </button>
+          {confirmReset ? (
+            <div className="bg-slate-800 border border-slate-600 rounded-xl p-4 text-center">
+              <p className="text-slate-300 text-sm mb-3">Fortschritt wirklich zurücksetzen?</p>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => setConfirmReset(false)}
+                  className="flex-1 bg-slate-700 hover:bg-slate-600 text-slate-300 text-sm font-medium rounded-lg py-2 transition-colors"
+                >
+                  Abbrechen
+                </button>
+                <button
+                  onClick={handleReset}
+                  className="flex-1 bg-red-700 hover:bg-red-600 text-white text-sm font-medium rounded-lg py-2 transition-colors"
+                >
+                  Ja, zurücksetzen
+                </button>
+              </div>
+            </div>
+          ) : (
+            <button
+              onClick={() => setConfirmReset(true)}
+              className="w-full text-slate-600 hover:text-slate-400 text-sm py-2 transition-colors"
+            >
+              Quiz zurücksetzen
+            </button>
+          )}
         </div>
       </div>
     </div>
