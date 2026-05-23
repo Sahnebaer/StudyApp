@@ -45,7 +45,7 @@ export function Dashboard({ modules, progress, totalProgress, onSelectModule }: 
           {modules.map((mod) => {
             const p = progress[mod.id];
             const fcPct = p.flashcardsTotal === 0 ? 0 : Math.round((p.flashcardsLearned.size / p.flashcardsTotal) * 100);
-            const qPct = p.quizTotal === 0 ? 0 : Math.round((p.quizCorrect / p.quizTotal) * 100);
+            const qPct = p.quizTotal === 0 ? 0 : Math.round((p.quizCorrectIds.size / p.quizTotal) * 100);
             return (
               <button
                 key={mod.id}
@@ -67,9 +67,9 @@ export function Dashboard({ modules, progress, totalProgress, onSelectModule }: 
                   <ProgressBar value={p.flashcardsLearned.size} max={p.flashcardsTotal} colorClass="bg-emerald-500" />
                   <div className="flex justify-between text-xs text-slate-500 mb-1 mt-2">
                     <span>Quiz</span>
-                    <span>{p.quizCorrect}/{p.quizTotal}</span>
+                    <span>{p.quizCorrectIds.size}/{p.quizTotal}</span>
                   </div>
-                  <ProgressBar value={p.quizCorrect} max={p.quizTotal} colorClass="bg-violet-500" />
+                  <ProgressBar value={p.quizCorrectIds.size} max={p.quizTotal} colorClass="bg-violet-500" />
                 </div>
                 <div className="mt-4 text-xs text-slate-500">
                   {fcPct === 100 && qPct === 100 ? '✅ Abgeschlossen' : `Ø ${Math.round((fcPct + qPct) / 2)}% erledigt`}

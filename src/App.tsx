@@ -68,7 +68,7 @@ function App() {
         moduleId={activeModule}
         questions={questions}
         attemptedIds={progress[activeModule].quizAttempted}
-        correctCount={progress[activeModule].quizCorrect}
+        correctCount={progress[activeModule].quizCorrectIds.size}
         onAnswer={(id, correct) => recordQuizAnswer(activeModule, id, correct)}
         onBack={() => setView('module')}
       />

@@ -11,7 +11,7 @@ function initialProgress(moduleId: ModuleId): Progress {
     flashcardsTotal: FLASHCARDS.filter((f) => f.moduleId === moduleId).length,
     flashcardsLearned: new Set(),
     quizTotal: QUIZ_QUESTIONS.filter((q) => q.moduleId === moduleId).length,
-    quizCorrect: 0,
+    quizCorrectIds: new Set(),
     quizAttempted: new Set(),
   };
 }
@@ -25,19 +25,19 @@ function loadFromStorage(): Record<ModuleId, Progress> {
       biopsych: {
         ...initialProgress('biopsych'),
         flashcardsLearned: new Set(parsed.biopsych?.flashcardsLearned ?? []),
-        quizCorrect: parsed.biopsych?.quizCorrect ?? 0,
+        quizCorrectIds: new Set(parsed.biopsych?.quizCorrectIds ?? []),
         quizAttempted: new Set(parsed.biopsych?.quizAttempted ?? []),
       },
       socialpsych: {
         ...initialProgress('socialpsych'),
         flashcardsLearned: new Set(parsed.socialpsych?.flashcardsLearned ?? []),
-        quizCorrect: parsed.socialpsych?.quizCorrect ?? 0,
+        quizCorrectIds: new Set(parsed.socialpsych?.quizCorrectIds ?? []),
         quizAttempted: new Set(parsed.socialpsych?.quizAttempted ?? []),
       },
       ai: {
         ...initialProgress('ai'),
         flashcardsLearned: new Set(parsed.ai?.flashcardsLearned ?? []),
-        quizCorrect: parsed.ai?.quizCorrect ?? 0,
+        quizCorrectIds: new Set(parsed.ai?.quizCorrectIds ?? []),
         quizAttempted: new Set(parsed.ai?.quizAttempted ?? []),
       },
     };
@@ -54,17 +54,17 @@ function saveToStorage(progress: Record<ModuleId, Progress>) {
   const serializable = {
     biopsych: {
       flashcardsLearned: [...progress.biopsych.flashcardsLearned],
-      quizCorrect: progress.biopsych.quizCorrect,
+      quizCorrectIds: [...progress.biopsych.quizCorrectIds],
       quizAttempted: [...progress.biopsych.quizAttempted],
     },
     socialpsych: {
       flashcardsLearned: [...progress.socialpsych.flashcardsLearned],
-      quizCorrect: progress.socialpsych.quizCorrect,
+      quizCorrectIds: [...progress.socialpsych.quizCorrectIds],
       quizAttempted: [...progress.socialpsych.quizAttempted],
     },
     ai: {
       flashcardsLearned: [...progress.ai.flashcardsLearned],
-      quizCorrect: progress.ai.quizCorrect,
+      quizCorrectIds: [...progress.ai.quizCorrectIds],
       quizAttempted: [...progress.ai.quizAttempted],
     },
   };
@@ -91,17 +91,12 @@ export function useProgress() {
   const recordQuizAnswer = useCallback((moduleId: ModuleId, questionId: string, correct: boolean) => {
     setProgress((prev) => {
       const attempted = new Set(prev[moduleId].quizAttempted);
-      const alreadyAttempted = attempted.has(questionId);
       attempted.add(questionId);
+      const correctIds = new Set(prev[moduleId].quizCorrectIds);
+      if (correct) correctIds.add(questionId);
       return {
         ...prev,
-        [moduleId]: {
-          ...prev[moduleId],
-          quizAttempted: attempted,
-          quizCorrect: correct && !alreadyAttempted
-            ? prev[moduleId].quizCorrect + 1
-            : prev[moduleId].quizCorrect,
-        },
+        [moduleId]: { ...prev[moduleId], quizAttempted: attempted, quizCorrectIds: correctIds },
       };
     });
   }, []);
@@ -115,7 +110,7 @@ export function useProgress() {
       acc.flashcardsTotal += progress[id].flashcardsTotal;
       acc.flashcardsLearned += progress[id].flashcardsLearned.size;
       acc.quizTotal += progress[id].quizTotal;
-      acc.quizCorrect += progress[id].quizCorrect;
+      acc.quizCorrect += progress[id].quizCorrectIds.size;
       return acc;
     },
     { flashcardsTotal: 0, flashcardsLearned: 0, quizTotal: 0, quizCorrect: 0 }

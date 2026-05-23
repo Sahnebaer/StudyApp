@@ -36,6 +36,6 @@ export interface Progress {
   flashcardsTotal: number;
   flashcardsLearned: Set<string>;
   quizTotal: number;
-  quizCorrect: number;
+  quizCorrectIds: Set<string>;
   quizAttempted: Set<string>;
 }

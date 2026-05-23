@@ -44,9 +44,9 @@ export function ModuleHome({ module, progress, onSelectView, onBack }: Props) {
             <div>
               <div className="flex justify-between text-sm mb-1">
                 <span className="text-slate-400">Quiz</span>
-                <span className="text-slate-300">{progress.quizCorrect}/{progress.quizTotal}</span>
+                <span className="text-slate-300">{progress.quizCorrectIds.size}/{progress.quizTotal}</span>
               </div>
-              <ProgressBar value={progress.quizCorrect} max={progress.quizTotal} colorClass="bg-violet-500" />
+              <ProgressBar value={progress.quizCorrectIds.size} max={progress.quizTotal} colorClass="bg-violet-500" />
             </div>
           </div>
         </div>
