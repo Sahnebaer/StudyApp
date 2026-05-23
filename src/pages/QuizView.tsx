@@ -12,8 +12,10 @@ interface Props {
 }
 
 export function QuizView({ questions, attemptedIds, correctCount, onAnswer, onBack }: Props) {
-  const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
+  const [{ index, selected }, setState] = useState<{ index: number; selected: number | null }>({
+    index: 0,
+    selected: null,
+  });
 
   if (questions.length === 0) {
     return (
@@ -32,13 +34,12 @@ export function QuizView({ questions, attemptedIds, correctCount, onAnswer, onBa
 
   const handleSelect = (i: number) => {
     if (selected !== null) return;
-    setSelected(i);
+    setState(prev => ({ ...prev, selected: i }));
     onAnswer(q.id, i === q.correctIndex);
   };
 
   const next = () => {
-    setSelected(null);
-    setIndex((prev) => (prev + 1) % questions.length);
+    setState({ index: (index + 1) % questions.length, selected: null });
   };
 
   return (
