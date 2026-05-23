@@ -17,7 +17,7 @@ type View = 'dashboard' | 'module' | 'flashcards' | 'quiz' | 'summary';
 function App() {
   const [view, setView] = useState<View>('dashboard');
   const [activeModule, setActiveModule] = useState<ModuleId | null>(null);
-  const { progress, markFlashcardLearned, recordQuizAnswer, totalProgress } = useProgress();
+  const { progress, markFlashcardLearned, recordQuizAnswer, resetProgress, totalProgress } = useProgress();
 
   const module = activeModule ? MODULES.find((m) => m.id === activeModule) : null;
 
@@ -68,9 +68,10 @@ function App() {
         moduleId={activeModule}
         questions={questions}
         attemptedIds={progress[activeModule].quizAttempted}
-        correctCount={progress[activeModule].quizCorrectIds.size}
+        correctIds={progress[activeModule].quizCorrectIds}
         onAnswer={(id, correct) => recordQuizAnswer(activeModule, id, correct)}
         onBack={() => setView('module')}
+        onReset={() => resetProgress(activeModule)}
       />
     );
   }
