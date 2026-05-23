@@ -83,6 +83,7 @@ export function QuizView({ questions, attemptedIds, correctIds, onAnswer, onBack
   };
 
   const next = () => {
+    setConfirmReset(false);
     // If this was the last remaining question answered correctly, show completion
     if (remaining.length === 0) {
       setState(prev => ({ ...prev, selected: null }));
@@ -136,10 +137,10 @@ export function QuizView({ questions, attemptedIds, correctIds, onAnswer, onBack
             }
             return (
               <button
-                key={i}
+                key={`${q.id}-${i}`}
                 onClick={() => handleSelect(i)}
                 disabled={selected !== null}
-                className={`w-full border rounded-xl px-5 py-4 text-left transition-all ${style}`}
+                className={`w-full border rounded-xl px-5 py-4 text-left transition-colors ${style}`}
               >
                 <span className="font-medium mr-3 text-slate-400">{String.fromCharCode(65 + i)}.</span>
                 {opt}
