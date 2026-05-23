@@ -191,7 +191,7 @@ export function QuizView({ questions, attemptedIds, correctIds, onAnswer, onBack
           ) : (
             <button
               onClick={() => setConfirmReset(true)}
-              className="w-full text-slate-600 hover:text-slate-400 text-sm py-2 transition-colors"
+              className="w-full text-slate-600 hover:text-slate-400 text-sm py-3 min-h-[2.75rem] transition-colors"
             >
               Quiz zurücksetzen
             </button>
