@@ -14,6 +14,7 @@ const VIEWS: { id: View; label: string; icon: string; desc: string }[] = [
   { id: 'flashcards', label: 'Karteikarten', icon: '🗂️', desc: 'Lerne die wichtigsten Begriffe' },
   { id: 'quiz', label: 'Quiz', icon: '✏️', desc: 'Teste dein Wissen' },
   { id: 'summary', label: 'Zusammenfassung', icon: '📖', desc: 'Lese die Übersicht' },
+  { id: 'podcast', label: 'Podcast anhören', icon: '🎙️', desc: 'KI-generierte Audio-Zusammenfassung' },
 ];
 
 export function ModuleHome({ module, progress, onSelectView, onBack }: Props) {
