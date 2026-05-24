@@ -1,7 +1,7 @@
 import type { Module, Progress } from '../types';
 import { ProgressBar } from '../components/ProgressBar';
 
-type View = 'flashcards' | 'quiz' | 'summary';
+type View = 'flashcards' | 'quiz' | 'summary' | 'podcast';
 
 interface Props {
   module: Module;

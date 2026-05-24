@@ -10,9 +10,10 @@ import { ModuleHome } from './pages/ModuleHome';
 import { FlashcardsView } from './pages/FlashcardsView';
 import { QuizView } from './pages/QuizView';
 import { SummaryView } from './pages/SummaryView';
+import { PodcastView } from './pages/PodcastView';
 import './index.css';
 
-type View = 'dashboard' | 'module' | 'flashcards' | 'quiz' | 'summary';
+type View = 'dashboard' | 'module' | 'flashcards' | 'quiz' | 'summary' | 'podcast';
 
 function App() {
   const [view, setView] = useState<View>('dashboard');
@@ -79,6 +80,10 @@ function App() {
   if (view === 'summary' && activeModule) {
     const summary = SUMMARIES.find((s) => s.moduleId === activeModule);
     return <SummaryView summary={summary} onBack={() => setView('module')} />;
+  }
+
+  if (view === 'podcast' && activeModule) {
+    return <PodcastView moduleId={activeModule} onBack={() => setView('module')} />;
   }
 
   return null;
