@@ -607,316 +607,495 @@ Schallwellen → Ohrmuschel → Gehörgang → Trommelfell → Gehörknöchelche
     title: 'Sozialpsychologie (SS 2026 · Prof. Dr. Henrik Dindas · Klausur: 08.07.2026)',
     sections: [
       {
-        heading: 'Was ist Sozialpsychologie?',
-        content: `Stell dir vor, du bist normalerweise ziemlich mutig. Aber wenn dich deine ganze Klasse anschaut, traust du dich auf einmal nicht mehr, die Frage zu beantworten – obwohl du die Antwort weißt. Warum ist das so?
+        heading: '⚠️ Prüfungsinfos & Transferaufgabe',
+        content: `**Klausur: 08.07.2026 · 90 Min. · 90 Punkte · Online**
 
-Genau das untersucht die **Sozialpsychologie**: Wie beeinflussen andere Menschen unser Denken, Fühlen und Verhalten?
+Format: Wahr/Falsch, Multiple-Choice mit Case-Fragen, offene Transferaufgabe (~9 Punkte). Anmeldung spätestens 7 Tage vorher im Online-Campus!
 
-**Kurz gesagt:** Die Sozialpsychologie fragt, wie andere uns – manchmal ohne dass wir's merken – verändern.
+---
 
-### Was wird zum Beispiel erforscht?
+### Transferaufgabe (kommt garantiert!)
 
-- Warum werden Menschen aggressiv?
-- Warum hilft man jemandem (oder auch nicht)?
-- Warum glauben wir Vorurteile über andere Gruppen?
-- Wie entsteht unser Bild von uns selbst?
+**Teil 1 (6 Punkte):** Erkläre den **Illusion of Explanatory Depth-Effekt** und beschreibe eine wissenschaftliche Studie mit:
+- Fragestellung · Versuchsaufbau · Ergebnisse · Schlussfolgerung · Limitationen
 
-### Was ist der Unterschied zu anderen Fächern?
+**Teil 2 (3 Punkte):** Übertrage den Effekt auf ein Beispiel aus dem Arbeitsleben – mit positiven UND negativen Auswirkungen.
 
-- Die *allgemeine Psychologie* schaut, wie das Gehirn generell funktioniert – egal ob andere dabei sind oder nicht.
-- Die *Persönlichkeitspsychologie* fragt: Was macht dich als Person einzigartig?
-- Die *Soziologie* schaut auf ganze Gesellschaften – die Sozialpsychologie interessiert sich für das einzelne Individuum mittendrin.`,
+### Was ist der Illusion of Explanatory Depth-Effekt?
+
+Menschen überschätzen systematisch, wie gut sie Dinge wirklich verstehen und erklären können. Man glaubt, ein Fahrrad oder eine Toilettenspülung erklären zu können – bis man es wirklich versucht. Dann merkt man, dass das eigene Verständnis viel oberflächlicher war als gedacht.
+
+**Relevanz im Berufsleben:** Manager glauben, Prozesse zu verstehen, die sie in Wahrheit gar nicht durchdringen. Das führt zu schlechten Entscheidungen.
+
+**Studie (Rozenblit & Keil, 2002):** VP sollten zunächst ihr Verständnis von Alltagsgeräten (z.B. Toilettenspülung) auf einer Skala einschätzen, dann eine detaillierte Erklärung aufschreiben, und schließlich ihr Verständnis neu bewerten. Ergebnis: Die Selbsteinschätzung sank nach dem Erklärversuch drastisch – die Lücke zwischen gefühltem und tatsächlichem Wissen wurde sichtbar.`,
       },
       {
-        heading: 'Methoden der Sozialpsychologie',
-        content: `### Korrelation – „Zwei Dinge passieren gleichzeitig"
+        heading: 'Was ist Sozialpsychologie?',
+        content: `Stell dir vor, du bist normalerweise ziemlich mutig. Aber wenn dich deine ganze Klasse anschaut, traust du dich auf einmal nicht mehr, die Frage zu beantworten – obwohl du die Antwort weißt. Genau das untersucht die Sozialpsychologie.
 
-Wenn im Sommer mehr Eis gegessen wird UND gleichzeitig mehr Menschen ertrinken, heißt das **nicht**, dass Eis gefährlich ist. Es liegt am **heißen Wetter** – das ist die eigentliche Ursache für beides.
+**Allport (1954):** Sozialpsychologie ist der Versuch zu verstehen und zu erklären, wie Gedanken, Gefühle und Verhalten durch die tatsächliche, vorgestellte oder implizite Anwesenheit anderer beeinflusst werden.
 
-Merke: **Zusammenhang ≠ Ursache!**
+**Kurz:** Die Sozialpsychologie fragt, wie andere uns – manchmal ohne dass wir's merken – verändern.
 
-### Experiment – „Wir testen gezielt"
+### Typische Forschungsthemen
+- Aggression, Konflikt, Hilfeverhalten, Zivilcourage
+- Urteilen und Entscheiden (Heuristiken, Biases)
+- Selbstkonzept und Selbstwerterhöhung
+- Stereotype, Vorurteile und Rassismus
+- Einstellungen und wie man sie ändern kann
 
-Beim Experiment teilt man Menschen zufällig in zwei Gruppen auf:
+### Unterschied zu anderen Fächern
 
-- **Experimentalgruppe:** Bekommt etwas Besonderes (z.B. schaut einen Gewaltfilm)
-- **Kontrollgruppe:** Bekommt das nicht (schaut einen normalen Film)
+|Disziplin|Fokus|
+|---|---|
+|**Allgemeine Psychologie**|Universelle psychische Prozesse – wenig soziale Einflüsse|
+|**Persönlichkeitspsychologie**|Stabile, individuelle Unterschiede|
+|**Soziologie**|Gesellschaft als Ganzes, soziale Strukturen|
+|**Sozialpsychologie**|Das Individuum im sozialen Kontext|
 
-Danach schaut man, ob sich die Gruppen unterscheiden. So kann man wirklich sagen: *Das hat diesen Effekt verursacht.*
+### Vier Analyseebenen
 
-### Replikationskrise – „Stimmt das überhaupt?"
+|Ebene|Was wird untersucht?|Beispiel|
+|---|---|---|
+|**Intrapsychisch**|Individuelle Prozesse|Einstellungen, Attribution|
+|**Interindividuell**|Zwei-Personen-Interaktionen|Hilfeverhalten, Aggression|
+|**Intragrupal**|Innerhalb einer Gruppe|Konformität, Gruppenleistung|
+|**Intergrupal**|Zwischen Gruppen|Vorurteile, Diskriminierung|
 
-Viele berühmte Studien wurden später nochmal durchgeführt – und das Ergebnis war plötzlich anders! Das nennt man **Replikationskrise**. Seitdem prüft die Wissenschaft ihre Befunde viel strenger.`,
+### Kurze Geschichte
+
+- **1898 (Triplett):** Erstes Experiment – Schüler rollten Angelschnüre schneller auf, wenn andere zusahen → **Soziale Erleichterung**
+- **1913 (Ringelmann):** Tauzieh-Experiment – in der Gruppe strengt man sich weniger an → **Soziales Faulenzen**
+- **1930er–40er:** Nationalsozialismus und Holocaust prägen die Forschungsagenda; viele jüdische Sozialpsychologen gehen in die USA
+- **Hovland:** Forscht zu Propaganda und Einstellungsänderungen → Yale Communication and Attitude Change Program
+- **Heute:** Social Media, Fake News, politische Polarisierung
+
+### Alltagspsychologie vs. Wissenschaft
+
+Unser „gesunder Menschenverstand" ist oft trügerisch: Alltagsweisheiten widersprechen sich, sind nicht falsifizierbar, und Experten scheitern oft an einfachen Algorithmen. **Wissenschaftliche Methoden sind besser als der Bauch.**`,
+      },
+      {
+        heading: 'Forschungsmethoden',
+        content: `### Gütekriterien
+
+|Kriterium|Bedeutung|
+|---|---|
+|**Validität**|Misst man wirklich das, was man messen will?|
+|**Reliabilität**|Kommt man bei Wiederholung zum selben Ergebnis?|
+|**Objektivität**|Ist das Ergebnis unabhängig vom Forscher?|
+
+**Wichtig:** Reliabilität ist notwendig, aber nicht hinreichend für Validität – man kann zuverlässig die falsche Sache messen.
+
+### Korrelation vs. Kausalität
+
+Eiscremeverkäufe steigen im Sommer – und gleichzeitig ertrinken mehr Menschen. Heißt das, Eis ist gefährlich? **Nein!** Beide werden von der Hitze verursacht → **Drittvariablen-Problem**.
+
+**Merke: Korrelation ≠ Kausalität!**
+
+Für Kausalität braucht man: (1) zeitliche Abfolge, (2) Kovariation, (3) Ausschluss alternativer Erklärungen.
+
+### Experiment – Der „Königsweg"
+
+Das Experiment ist die einzige Methode für echte Ursache-Wirkungs-Aussagen.
+
+- **Unabhängige Variable (UV):** Was manipuliert wird (z.B. gewalthaltiger vs. harmloser Film)
+- **Abhängige Variable (AV):** Was gemessen wird (z.B. Aggressionsverhalten)
+- **Randomisierung:** Zufällige Zuteilung eliminiert systematische Verzerrungen
+
+**Kritik:**
+- Laborexperimente sind künstlich (externe Validität?)
+- **Rosenthal-Effekt:** Forscher können unbewusst Ergebnisse in Richtung ihrer Erwartung beeinflussen → Lösung: Doppelblinddesign
+- Coverstorys (Täuschung) ethisch umstritten, aber in der Sozialpsychologie oft nötig
+
+### Statistische Absicherung
+
+- **Signifikanz (p < .05):** Ergebnis mit <5% Wahrscheinlichkeit nur durch Zufall entstanden
+- **Effektgröße (Cohen's d, η²):** Wie *groß* ist der Effekt? Wichtig, weil bei großen Stichproben fast alles signifikant wird
+- Ein signifikantes Ergebnis kann trotzdem praktisch irrelevant sein!
+
+### Replikationskrise
+
+Viele berühmte Befunde konnten nicht repliziert werden. Konsequenzen: Open Science, Präregistrierung, größere Stichproben.`,
       },
       {
         heading: 'Soziale Wahrnehmung & Attribution',
-        content: `### Wie bilden wir uns einen ersten Eindruck?
+        content: `### Eindrucksbildung – Experiment von Asch (1946)
 
-Stell dir vor, du triffst jemanden das erste Mal. Innerhalb von Sekunden hast du schon ein Gefühl: „Der ist nett" oder „Die ist arrogant". Woher kommt das?
+Zwei Gruppen bekamen dieselbe Liste von Adjektiven – nur ein Wort war unterschiedlich:
 
-**Experiment von Asch (1946):**
-Zwei Gruppen bekamen eine Liste von Adjektiven für dieselbe Person:
+- Gruppe 1: intelligent, fleißig, **warm**, vorsichtig, kritisch, eigensinnig
+- Gruppe 2: intelligent, fleißig, **kalt**, vorsichtig, kritisch, eigensinnig
 
-- Gruppe 1: intelligent, fleißig, **warm**, vorsichtig
-- Gruppe 2: intelligent, fleißig, **kalt**, vorsichtig
+Gruppe 1 beschrieb die Person viel sympathischer und großzügiger. **Fazit:** Es gibt **zentrale Merkmale** (warm/kalt), die den Gesamteindruck viel stärker prägen als periphere Merkmale.
 
-Nur ein Wort war anders – aber Gruppe 1 beschrieb die Person viel positiver! Das Wort „warm" ist ein **zentrales Merkmal**, das alles andere färbt.
+**Implizite Persönlichkeitstheorien:** Wir haben feste Vorstellungen, welche Eigenschaften zusammengehören – wer „warm" ist, wird automatisch auch als großzügiger eingeschätzt.
 
-**Halo-Effekt:** Wenn jemand attraktiv ist, gehen wir automatisch davon aus, dass er auch klug, nett und erfolgreich ist – obwohl wir das gar nicht wissen. Ein positives Merkmal „strahlt ab" wie ein Heiligenschein (englisch: *halo*).
+### Wichtige Effekte bei der Eindrucksbildung
 
-**Primacy-Effekt:** Was wir als **erstes** über jemanden hören, bleibt am stärksten hängen.
-**Recency-Effekt:** Was wir als **letztes** hören, ist noch frisch im Gedächtnis.
+**Halo-Effekt:** Eine positive Eigenschaft strahlt auf den Gesamteindruck aus. Attraktive Menschen werden als intelligenter und erfolgreicher eingeschätzt – ohne Beleg.
+
+**Horn-Effekt:** Negativer Halo – eine schlechte Eigenschaft überstrahlt alles.
+
+**Primacy-Effekt:** Frühere Infos prägen den Eindruck stärker – sie werden im LZG verankert und filtern spätere Informationen.
+
+**Recency-Effekt:** Späte Infos sind noch im KZG – ebenfalls stark, aber nur kurz nach Darbietung. **Infos in der Mitte werden am schlechtesten erinnert.**
+
+**Sich selbst erfüllende Prophezeiung:** Unsere Erwartungen verändern unser Verhalten – das bringt die andere Person dazu, sich so zu verhalten, wie erwartet. (Pygmalion-Effekt im Bildungsbereich)
+
+**Tendenz zur Beharrung:** Selbst widerlegte erste Eindrücke wirken nach → konfirmatorische Informationssuche.
+
+**Verbales Framing:** Wie etwas formuliert ist, beeinflusst die Wahrnehmung enorm – auch bei gleichen Fakten.
 
 ### Attribution – Warum macht jemand das?
 
-Wenn dein Freund dich anbrüllt, fragst du dich sofort: *Liegt das an ihm (er ist halt so), oder hatte er gerade einen schlechten Tag (die Situation)?*
+**Attribution** = Das Zuschreiben von Ursachen für Verhalten.
 
-Dieses Suchen nach Ursachen heißt **Attribution**.
+|Attributionsart|Erklärung|Beispiel|
+|---|---|---|
+|**Internal (dispositional)**|Ursache liegt in der Person|„Er ist faul"|
+|**External (situational)**|Ursache liegt in der Situation|„Er hatte einen schlechten Tag"|
 
-**Internal** = Die Ursache liegt in der Person selbst (Charakter, Absicht)
-**External** = Die Ursache liegt außen (Situation, Pech, andere Menschen)
+### Theorie der korrespondierenden Schlussfolgerungen (Jones & Davis, 1965)
 
-### Theorie von Kelley (1967) – Die drei Fragen
+Wir schließen auf stabile Persönlichkeitseigenschaften besonders dann, wenn das Verhalten **absichtlich**, **sozial unerwünscht** und bei geringer sozialer Erwünschtheit war.
 
-Stell dir vor, dein Kollege beschwert sich im Restaurant. Wie erklärst du sein Verhalten?
+### Kovariationstheorie (Kelley, 1967)
 
-|Frage|Bedeutung|
+Drei Informationsquellen bei der Ursachensuche:
+
+|Kriterium|Frage|
 |---|---|
-|**Konsistenz:** Beschwert er sich *immer* hier?|Ja → liegt eher an ihm|
-|**Distinktheit:** Beschwert er sich *überall*?|Ja → liegt eher an ihm|
-|**Konsensus:** Beschweren sich *alle anderen* auch?|Ja → liegt am Restaurant|
+|**Konsistenz**|Verhält sich die Person IMMER so hier?|
+|**Distinktheit**|Verhält sich die Person NUR hier so?|
+|**Konsensus**|Verhalten sich ANDERE auch so?|
 
-→ Alle anderen beschweren sich auch, nur er macht es immer hier: Das Restaurant ist wohl wirklich schlecht! (**externale Attribution**)
-→ Nur er beschwert sich, überall, immer: Der Typ ist ein ewiger Nörgler! (**internale Attribution**)
+**Beispiel Kollege beschwert sich im Restaurant:**
+- Konsensus hoch + Distinktheit hoch + Konsistenz hoch → **Externale Attribution** (Restaurant ist schuld)
+- Konsensus niedrig + Distinktheit niedrig + Konsistenz hoch → **Internale Attribution** (Er ist ein Nörgler)
 
-### Die typischen Fehler
+### Attributionsfehler
 
-🔴 **Fundamentaler Attributionsfehler:** Wenn ein Fremder stolpert, denken wir „Der ist tollpatschig!" (internal). Wir übersehen, dass der Boden vielleicht rutschig war (external). Bei uns selbst wäre es sofort: „Der Boden war schuld!"
+**Fundamentaler Attributionsfehler (Ross, 1977):** Wir überschätzen bei anderen internale Ursachen, unterschätzen die Situation. Die handelnde Person ist salient, die Situation ist schwerer zu sehen.
 
-🔴 **Akteur-Beobachter-Effekt:**
+**Akteur-Beobachter-Effekt:** Eigenes Verhalten → „lag an der Situation". Verhalten anderer → „liegt an der Person".
 
-- Eigenes Verhalten → „lag an der Situation"
-- Verhalten anderer → „liegt an der Person"
-
-🔴 **Selbstwertdienliche Attribution:**
-
-- Erfolg → „Ich bin einfach gut!" (internal)
-- Misserfolg → „Das war ungerecht / hatte Pech" (external)`,
+**Selbstwertdienliche Attribution (Self-Serving Bias):** Eigene Erfolge → internal. Eigene Misserfolge → external. Schützt das Selbstwertgefühl.`,
       },
       {
         heading: 'Soziale Kognition & Heuristiken',
-        content: `### Unser Gehirn ist faul – und das ist gut so!
+        content: `### Wissensstrukturen im Gedächtnis
 
-Unser Gehirn bekommt jeden Tag Milliarden von Informationen. Es kann nicht alles gründlich durchdenken. Deshalb benutzt es **Abkürzungen** – die nennt man **Heuristiken** (= Faustregeln).
+**Schemata:** Mentale Wissensstrukturen, die Erwartungen organisieren. Ein „Professor-Schema" enthält Vorstellungen wie: trägt Brille, spricht kompliziert. Schemata helfen schnell zu urteilen – können aber zu Stereotypen führen.
 
-**System 1 vs. System 2:**
+**Priming:** Voraktivierung eines Konzepts erhöht dessen Zugänglichkeit und beeinflusst spätere Urteile, ohne dass wir es merken.
 
-- 🚀 **System 1** (Autopilot): Schnell, automatisch, läuft im Hintergrund. „Das sieht gefährlich aus – wegrennen!" Macht viele Fehler.
-- 🧠 **System 2** (Nachdenken): Langsam, anstrengend, bewusst. „Lass mich das mal genau überlegen…" Genauer, aber kostet Energie.
+### System 1 vs. System 2
 
-Die meiste Zeit nutzen wir System 1 – das ist auch sinnvoll. Aber es führt uns manchmal in die Irre.
+|Merkmal|System 1|System 2|
+|---|---|---|
+|Geschwindigkeit|Schnell|Langsam|
+|Bewusstsein|Unbewusst, automatisch|Bewusst, kontrolliert|
+|Aufwand|Gering|Hoch|
+|Fehleranfälligkeit|Hoch|Niedrig|
+|Wann aktiv?|Fast immer|Bei schwierigen Aufgaben|
 
-### Die 3 wichtigsten Heuristiken
+Die meiste Zeit läuft System 1 – das ist effizient, führt aber zu systematischen Fehlern.
 
-**1. Repräsentativitätsheuristik – „Sieht so aus wie…"**
+### 1. Repräsentativitätsheuristik
 
-Linda ist 31, ledig, offen und hat Philosophie studiert. Was ist wahrscheinlicher?
+**Faustregel:** „Wie ähnlich ist X dem typischen Vertreter von Kategorie Y?"
 
+**Das Linda-Problem (Tversky & Kahneman):** Linda ist 31, Single, Philosophiestudentin und Umweltaktivistin. Was ist wahrscheinlicher?
 - A) Linda ist Bankangestellte.
 - B) Linda ist Bankangestellte UND Feministin.
 
-Die meisten sagen B – weil es besser zu Linda *passt*. Aber das ist mathematisch falsch! B kann nie wahrscheinlicher sein als A (B ist ja ein Teil von A). Wir urteilen nach *Ähnlichkeit*, nicht nach Wahrscheinlichkeit.
+85% wählen B – weil es besser zu Linda passt. Aber B ist eine Teilmenge von A → kann nie wahrscheinlicher sein! → **Konjunktionstäuschung**
 
-**2. Verfügbarkeitsheuristik – „Was fällt mir leicht ein?"**
+Weitere Fehler: Basisratenvernachlässigung, Vernachlässigung der Stichprobengröße, Regression zur Mitte wird übersehen.
 
-„Sind Haiangriffe oder Autounfälle gefährlicher?" – Die meisten überschätzen Haiangriffe, weil sie im Kino, in Büchern und Nachrichten vorkommen. Autounfälle passieren viel häufiger, aber wir hören weniger davon.
+### 2. Verfügbarkeitsheuristik
 
-Faustregel unseres Gehirns: *Was mir schnell einfällt, muss häufig vorkommen.* Das stimmt aber oft nicht!
+**Faustregel:** „Was mir leicht einfällt, muss häufig vorkommen."
 
-**3. Ankerheuristik – „Erster Wert klebt fest"**
+Haiangriffe oder Herzinfarkte? Die meisten nennen Haiangriffe – weil sie spektakulär und medial präsent sind. Was erhöht die Verfügbarkeit: Salienz, Lebhaftigkeit, Recency, persönliche Betroffenheit.
 
-Ein Händler sagt: „Das Fahrrad kostet normalerweise 1.000 €, aber ich gebe es dir für 600 €." Du denkst: Was ein Schnäppchen! Aber woher weißt du, ob 1.000 € nicht einfach erfunden war? Der erste Wert (der **Anker**) beeinflusst alles, was danach kommt – auch wenn er willkürlich ist.
+**Konsequenz:** Wer viele Nachrichten schaut, hält die Welt für gefährlicher, als sie ist.
 
-### Kognitive Verzerrungen (Denkfehler)
+### 3. Ankerheuristik (Tversky & Kahneman, 1972)
 
-**Wahrheitseffekt:** Je öfter man etwas hört, desto wahrer klingt es – egal ob es stimmt. (Deswegen wiederholen Werbung und Propaganda Sachen so oft!)`,
+**Faustregel:** Ein erster Zahlenwert (Anker) beeinflusst alle nachfolgenden Schätzungen – auch wenn er willkürlich ist.
+
+**Klassisches Experiment:** Glücksrad stoppt bei 10 → Schätzung afrikanischer UN-Länder: 25%. Glücksrad bei 65 → Schätzung: 45%. Der Anker war zufällig – beeinflusste trotzdem!
+
+**Alltagsanwendungen:** Gehaltsverhandlungen, Preisnachlässe, Gerichtsurteile, Immobilien.
+
+Wirkt besonders stark bei: wenig Informationen, unbekanntem Thema, Zeitdruck.
+
+### Kognitive Verzerrungen
+
+**Wahrheitseffekt (Illusory Truth Effect):** Je öfter man etwas hört, desto wahrer klingt es – das Gehirn verwechselt Vertrautheit mit Wahrheit.
+
+**Overconfidence Bias:** Menschen überschätzen systematisch die Korrektheit ihrer Urteile. (→ Verbindung zur Transferaufgabe: Illusion of Explanatory Depth)
+
+**Confirmation Bias:** Wir suchen gezielt nach Informationen, die unsere Überzeugungen bestätigen.`,
       },
       {
         heading: 'Selbstkonzept & Soziale Identität',
-        content: `### Was ist der Unterschied zwischen Selbstkonzept und Selbstwert?
+        content: `### Selbstkonzept vs. Selbstwertgefühl
 
-**Selbstkonzept** = Alles, was du über dich weißt: „Ich bin sportlich, ich bin schüchtern, ich bin gut in Mathe." Das ist wie eine Liste deiner Eigenschaften.
-
-**Selbstwertgefühl** = Wie gut du dich dabei *fühlst*: „Ich bin okay" oder „Ich bin es nicht wert."
-
-Das Selbstkonzept ändert sich je nach Situation: Im Sportunterricht denkst du an „Ich bin sportlich", bei einer Prüfung an „Ich bin gut in Mathe". Es ist kontextabhängig.
-
-### Woher wissen wir, wer wir sind?
-
-**Durch uns selbst:**
-
-- **Introspektion:** Wir beobachten unsere Gedanken. Aber Achtung: Das ist oft unzuverlässig! Wir rationalisieren vieles im Nachhinein.
-- **Selbstwahrnehmungstheorie (Bem):** Manchmal wissen wir selbst nicht genau, was wir fühlen – und schließen es dann aus unserem eigenen Verhalten. „Ich habe freiwillig Sport gemacht, also muss ich Sport wohl mögen."
-
-**Durch andere:**
-
-- **Sozialer Vergleich (Festinger):** Wir bewerten uns immer im Vergleich zu anderen.
-  - **Aufwärtsvergleich** (mit jemandem Besserem): „Der läuft schneller als ich…" → kann anspornen, kann aber auch frustrieren
-  - **Abwärtsvergleich** (mit jemandem Schlechterem): „Wenigstens bin ich besser als der…" → hebt das Selbstwertgefühl kurz an
-
-### Selbstdiskrepanztheorie – Wenn das echte Ich nicht zum Wunsch-Ich passt
-
-|Welches Selbst?|Was bedeutet es?|Was passiert bei einer Lücke?|
+|Begriff|Was es ist|Frage|
 |---|---|---|
-|**Actual Self**|Wie du wirklich bist|–|
-|**Ideal Self**|Wie du gerne wärst|Du wirst traurig, lustlos|
-|**Ought Self**|Wie du sein *solltest* (laut anderen)|Du wirst ängstlich, schuldbeladen|
+|**Selbstkonzept**|Kognitive Repräsentation der eigenen Person – alle Eigenschaften, Überzeugungen, Rollen|„Wer bin ich?"|
+|**Selbstwertgefühl**|Affektive Bewertung des Selbst|„Wie gut bin ich?"|
 
-Beispiel: Du weißt, dass du zu wenig lernst (Actual Self), aber du willst eigentlich gut sein (Ideal Self) – das erzeugt ein unangenehmes Gefühl, das dich zum Handeln bringt.
+Das Selbst ist **kontextgebunden und dynamisch** – dieselbe Person kann sich als ehrlich erleben, wenn sie mit dem Partner spricht, und als berechnend bei der Steuererklärung.
 
-### Soziale Identität – Wir sind auch unsere Gruppen
+**Trait-Selbstwert:** Stabil, überdauernd · **State-Selbstwert:** Kurzfristig, situationsabhängig
 
-Ein Teil davon, wer wir sind, kommt von den Gruppen, denen wir angehören: FC Bayern Fan, Schüler der Klasse 10b, Deutsche, Gamer…
+### Quellen des Selbstwissens
 
-**Social Identity Theory (Tajfel & Turner):**
+**Persönliche Quellen:**
 
-1. Wir wollen uns gut fühlen → also wollen wir, dass unsere Gruppe gut dasteht
-2. Wir vergleichen unsere Gruppe mit anderen: „Wir sind besser als die!"
-3. Wenn unsere Gruppe schlecht dasteht, haben wir drei Optionen:
-  - Die Gruppe verlassen (**Individuelle Mobilität**)
-  - Die Vergleichsdimension ändern: „Okay, wir sind nicht die Besten in Sport, aber dafür die Klügsten!" (**Soziale Kreativität**)
-  - Die eigene Gruppe verbessern und die andere übertrumpfen (**Sozialer Wettbewerb**)`,
+**Introspektion:** Beobachtung eigener Gedanken und Gefühle – aber oft unzuverlässig! Wir rationalisieren vieles im Nachhinein.
+
+**Selbstwahrnehmungstheorie (Bem, 1972):** Wenn innere Zustände unklar sind, schließen wir sie aus unserem eigenen Verhalten. „Ich habe freiwillig weitergearbeitet → also muss ich es wohl mögen." Funktioniert wie Fremdwahrnehmung.
+
+**Soziale Quellen:**
+
+**Sozialer Vergleich (Festinger, 1954):** Wir bewerten uns durch Vergleich mit anderen – besonders wenn objektive Maßstäbe fehlen.
+
+|Vergleich|Mit wem?|Typische Wirkung|
+|---|---|---|
+|**Aufwärtsvergleich**|Mit jemandem Besserem|Kann motivieren ODER frustrieren|
+|**Lateraler Vergleich**|Mit Gleichgestellten|Selbstbild stabilisieren|
+|**Abwärtsvergleich**|Mit jemandem Schlechterem|Hebt Selbstwert kurzfristig|
+
+### Selbstdiskrepanztheorie (Higgins, 1987)
+
+|Selbst|Beschreibung|Diskrepanz führt zu...|
+|---|---|---|
+|**Actual Self**|Wie man wirklich ist|– (Referenzpunkt)|
+|**Ideal Self**|Wie man gerne wäre (eigene Wünsche)|Depressive Verstimmung, Traurigkeit|
+|**Ought Self**|Wie man sein sollte (Normen, Pflichten)|Angst, Schuld, Scham|
+
+**Praktisch:** Um Menschen zu motivieren, sollte man an der richtigen Diskrepanz ansetzen – bei Pflichten normative Botschaften, bei Wünschen inspirierende.
+
+### Soziale Identität (Tajfel & Turner, 1979/1986)
+
+Unser Selbstkonzept besteht nicht nur aus persönlichen Eigenschaften, sondern auch aus den **Gruppen, denen wir angehören** (soziale Identität).
+
+**Drei Kernaussagen der SIT:**
+1. Menschen streben nach positivem Selbstkonzept und Selbstwert
+2. Das Selbstkonzept basiert auch auf Gruppenmitgliedschaften
+3. Der Wert der Eigengruppe wird durch Vergleich mit Fremdgruppen bestimmt
+
+**Eigengruppenbevorzugung (Ingroup Bias):** Einer der robustesten Effekte der Sozialpsychologie. Schon minimale Gruppenunterschiede reichen aus (**Minimales Gruppenparadigma**, Tajfel, 1971).
+
+**Schwarzes-Schaf-Effekt:** Eigengruppenversager werden härter bestraft als Fremdgruppenmitglieder mit gleichem Verhalten.
+
+**Outgroup Homogeneity Effect:** Die Fremdgruppe erscheint homogener als die eigene – „die sind alle gleich."
+
+### Drei Strategien wenn die eigene Gruppe schlechter dasteht
+
+|Strategie|Was man tut|
+|---|---|
+|**Individuelle Mobilität**|Gruppe verlassen, in bessere wechseln|
+|**Soziale Kreativität**|Vergleichsdimension ändern oder Negatives umdeuten|
+|**Sozialer Wettbewerb**|Eigene Gruppe verbessern, andere übertrumpfen|`,
       },
       {
-        heading: 'Einstellungen',
+        heading: 'Einstellungen & Einstellungsänderungen',
         content: `### Was ist eine Einstellung?
 
-Eine Einstellung ist eine Bewertung – wie wir zu einer Person, einem Objekt oder einer Idee stehen. „Ich finde Spinat eklig." „Ich finde Hunde toll." „Ich bin gegen Rassismus."
+Eine bewertende Reaktion auf ein Einstellungsobjekt – eine Person, ein Objekt, eine Idee.
 
-**Einstellungen haben drei Teile (ABC):**
+**ABC-Modell:**
 
-- **A (Affekt):** Was fühlst du dabei? (Gefühl)
-- **B (Behavior):** Wie verhältst du dich? (Verhalten)
-- **C (Cognition):** Was denkst du darüber? (Meinung, Wissen)
-
-**Explizite Einstellungen** = Was du bewusst sagst, was du denkst.
-**Implizite Einstellungen** = Was du unbewusst fühlst – das kann anders sein als das, was du sagst!
-
-### Wie entstehen Einstellungen?
-
-- Durch eigene Erfahrungen
-- Durch Erziehung und Vorbilder
-- **Mere-Exposure-Effekt:** Je öfter du etwas siehst/hörst, desto sympathischer wird es dir – auch ohne besonderen Grund. (Deswegen läuft Werbung so oft!)
-
-### Wie werden Einstellungen verändert? (Überzeugung / Persuasion)
-
-**Yale-Ansatz – Wer sagt was zu wem?**
-Ob eine Botschaft überzeugend ist, hängt ab von:
-
-- Dem **Kommunikator**: Ist er glaubwürdig? Sympathisch?
-- Der **Botschaft**: Sind die Argumente gut? Wie sind sie aufgebaut?
-- Dem **Empfänger**: Wie aufmerksam ist er? Ist ihm das Thema wichtig?
-
-**ELM – Das Zwei-Wege-Modell der Überzeugung:**
-
-Stell dir vor, jemand will dich überzeugen, ein bestimmtes Handy zu kaufen.
-
-||Zentraler Weg 🧠|Peripherer Weg 😎|
+|Komponente|Bezeichnung|Beispiel|
 |---|---|---|
-|Wann?|Du interessierst dich wirklich dafür|Du bist abgelenkt oder es ist dir egal|
-|Worauf schaust du?|Technische Daten, echte Argumente|Ist das Handy stylisch? Empfiehlt ein Star es?|
-|Wie stabil ist die Einstellung?|Langfristig – du überzeugst dich wirklich|Kurzfristig – du vergisst es schnell wieder|
+|**A**|Affektiv – Gefühlsmäßige Reaktion|„Ich fühle mich unwohl bei Spinat"|
+|**B**|Behavioral – Verhaltenstendenz|„Ich bestelle Spinat nie"|
+|**C**|Kognitiv – Überzeugungen, Wissen|„Ich denke, Spinat schmeckt bitter"|
 
-**Sleeper-Effekt:** Am Anfang glaubst du einem unseriösen Typen nicht. Aber nach ein paar Wochen erinnerst du dich noch an seine Aussage – nur nicht mehr daran, dass er unseriös war. Dann kann sogar er dich noch beeinflussen.
+**Explizit:** Bewusst geäußert (Fragebögen, Likert-Skalen)
+**Implizit:** Unbewusst aktiviert (IAT, physiologische Maße)
 
-### Kognitive Dissonanz – Das schlechte Gewissen des Gehirns
+**Bogus-Pipeline:** VP glauben, eine Maschine erkenne ihre wahren Einstellungen → ehrlichere Antworten (Täuschung, aber zeigt: soziale Erwünschtheit verzerrt Antworten).
 
-Stell dir vor: Du weißt, dass Rauchen ungesund ist – aber du rauchst trotzdem. Das erzeugt ein unangenehmes Gefühl: **kognitive Dissonanz**. Dein Gehirn will, dass Meinungen und Verhalten zusammenpassen.
+### Entstehung von Einstellungen
 
-Lösungen:
+- **Klassische Konditionierung:** Logo + fröhliche Musik → Logo alleine löst gute Gefühle aus
+- **Mere-Exposure-Effekt (Zajonc):** Bloße Wiederholung erhöht Sympathie – auch bei unbewusster Darbietung!
+- **Operante Konditionierung:** Belohnte Einstellungen werden stärker
+- **Modelllernen (Bandura):** Influencer zeigen Produkte → Follower übernehmen Einstellung
+- **Genetische Einflüsse:** ~30–50% genetisch beeinflusst (Zwillingsstudien)
 
-- Du hörst auf zu rauchen (Verhalten ändern)
-- Du redest dir ein: „Mein Opa hat auch geraucht und wurde 90!" (Meinung ändern)
-- Du sagst: „Stress ist auch ungesund – also ist Rauchen quasi Entspannung." (Neue Begründung hinzufügen)
+### Einstellungsänderung – Yale-Ansatz (Hovland)
 
-### Reaktanz – „Sag mir nicht, was ich tun soll!"
+- **Kommunikator:** Glaubwürdigkeit (Expertise + Vertrauen), Attraktivität, Ähnlichkeit
+- **Botschaft:** Argumentqualität, ein- vs. zweiseitig, Reihenfolge, emotionale Appelle
+- **Rezipient:** Involvement, Ablenkung, Vorwissen, Alter
 
-Wenn man dir sagt: „Du darfst das NIEMALS machen!" – willst du es auf einmal viel mehr. Das ist **Reaktanz**: Wenn deine Freiheit eingeschränkt wird, lehnst du dich dagegen auf. Deswegen führen zu offensichtliche Verbote oft zum Gegenteil.`,
+### Elaboration Likelihood Model (ELM, Petty & Cacioppo, 1986)
+
+|Merkmal|Zentrale Route|Periphere Route|
+|---|---|---|
+|Verarbeitung|Systematisch, tiefgründig|Oberflächlich, heuristisch|
+|Voraussetzung|Hohe Motivation + hohe Fähigkeit|Niedrige Motivation ODER Fähigkeit|
+|Basis der Änderung|Qualität der Argumente|Hinweisreize (Attraktivität der Quelle)|
+|Resultat|Stabile, änderungsresistente Einstellung|Fragile, kurzfristige Änderung|
+
+**Heuristic Systematic Model (Chaiken):** Ähnlich ELM, aber beide Prozesse können gleichzeitig ablaufen.
+
+**Sleeper-Effekt (Kelman & Hovland):** Kurz nach einer unglaubwürdigen Quelle: kaum Wirkung. Wochen später: Quelle vergessen, Botschaft bleibt → wirkt doch!
+
+### Kognitive Dissonanz (Festinger, 1957)
+
+Unangenehmer Spannungszustand, wenn Kognitionen nicht zusammenpassen. „Ich weiß, Rauchen ist ungesund" + „Ich rauche" = Dissonanz.
+
+**Strategien zur Reduktion:**
+- Einstellung ändern: „Rauchen ist doch nicht so schlimm"
+- Verhalten ändern: Aufhören
+- Neue Kognitionen hinzufügen: „Entspannung ist auch gesundheitsförderlich"
+
+**Forced Compliance (Festinger & Carlsmith, 1959):** 1$ vs. 20$ für eine Lüge – die 1$-Gruppe fand die Aufgabe hinterher interessanter! Geringe Belohnung → mehr Dissonanz → stärkere Einstellungsänderung.
+
+### Einstellungsresistenz
+
+**Einstellungsimpfung (McGuire):** Schwache Gegenargumente + Widerlegung = Immunisierung gegen spätere Überzeugungsversuche. Anwendung: Fake-News-Prävention.
+
+**Reaktanz (Brehm):** Wenn Freiheit eingeschränkt wird → Widerstand, das Verbotene wird attraktiver. Zu offensichtliche Überzeugungsversuche erzielen das Gegenteil (Bumerangeffekt).`,
       },
       {
-        heading: 'Soziale Einflussnahme',
-        content: `### Cialdinis 6 Prinzipien (Wie wir manipuliert werden – ohne es zu merken)
+        heading: 'Strategien sozialer Einflussnahme',
+        content: `### Cialdinis 6 Prinzipien
 
-🤝 **Reziprozität:** Jemand gibt dir einen Kugelschreiber. Plötzlich fühlst du dich verpflichtet, ihm etwas zu kaufen. „Ich muss mich revanchieren!"
+**🤝 1. Reziprozität:** Wir fühlen uns verpflichtet, Gefälligkeiten zu erwidern.
+- **Foot-in-the-Door:** Erst kleine Bitte, dann größere – wer einmal ja gesagt hat, sagt leichter nochmal ja
+- **Door-in-the-Face:** Erst riesige Bitte (wird abgelehnt), dann eigentliche Bitte → wirkt als Kompromiss
 
-✅ **Commitment & Konsistenz:** Du hast einmal ja gesagt. Jetzt fällt es dir schwer, beim nächsten größeren Schritt nein zu sagen. (Fuß-in-der-Tür-Technik)
+**✅ 2. Commitment & Konsistenz:** Haben wir uns einmal verpflichtet, bleiben wir dabei.
+- **Low-Ball-Technik:** Gutes Angebot → Einwilligung → Bedingungen verschlechtern. Person bleibt oft trotzdem dabei.
 
-👥 **Soziale Bewährtheit:** „97% der Nutzer empfehlen dieses Produkt!" Wenn viele Menschen etwas tun, scheint es richtig zu sein.
+**👥 3. Soziale Bewährtheit:** Was viele tun, muss richtig sein. Besonders stark bei ähnlichen anderen und Unsicherheit.
 
-😊 **Sympathie:** Du kaufst lieber von jemandem, den du magst.
+**😊 4. Sympathie:** Faktoren: Attraktivität, Ähnlichkeit, Schmeichelei, Kontakt & Vertrautheit.
 
-🎓 **Autorität:** Ein Arzt sagt es – also muss es stimmen. Wir folgen Experten fast automatisch.
+**🎓 5. Autorität:** Wir folgen Experten fast automatisch. Symbole von Autorität (Uniform, Titel) reichen oft.
 
-⏰ **Knappheit:** „Nur noch 2 auf Lager!" Plötzlich willst du es unbedingt haben.
+**Milgram-Experiment (1963):** ~65% der VP verabreichten auf Befehl Elektroschocks bis 450V – erschreckende Demonstration von Autoritätsgehorsam.
 
-### Konformität – Warum passen wir uns an?
+**⏰ 6. Knappheit:** Was selten ist, wirkt wertvoller. „Nur noch 2 auf Lager!" aktiviert Angst vor Verlust.
 
-**Experiment von Asch (1951):**
-Versuchspersonen saßen in einer Gruppe und sollten sagen, welche Linie gleich lang ist – eine einfache Aufgabe. Aber alle anderen in der Gruppe (die Komplizen des Forschers) nannten absichtlich die falsche Antwort.
+### Konformität – Experiment von Asch (1951/1956)
 
-Ergebnis: Viele Versuchspersonen gaben ebenfalls die falsche Antwort – obwohl sie es besser wussten!
+VP sollten in einer Gruppe Linien vergleichen – eine einfache Aufgabe. Alle anderen (Komplizen) nannten absichtlich die falsche Antwort. **Ergebnis:** ~40% der VP schlossen sich der falschen Mehrheitsmeinung an.
 
-Warum?
+**Zwei Arten von sozialem Einfluss:**
 
-- **Informationeller Einfluss:** „Hmm, alle anderen sagen das – vielleicht liege ich ja falsch?"
-- **Normativer Einfluss:** „Ich will nicht der Einzige sein, der was anderes sagt – das ist peinlich."`,
+|Art|Beschreibung|Folge|
+|---|---|---|
+|**Informationeller Einfluss**|Man glaubt, die anderen wissen es besser|Innere Überzeugung ändert sich|
+|**Normativer Einfluss**|Man passt sich an, um nicht aufzufallen|Nur äußere Anpassung (Compliance)|
+
+**Was beeinflusst Konformität?**
+- Einstimmigkeit: Eine einzige Verbündete reicht, um Konformität drastisch zu senken
+- Gruppengröße: Ab 3–4 Personen steigt Konformität kaum noch
+- Attraktivität der Gruppe: Mehr Zugehörigkeitswunsch = mehr Anpassung
+
+**Minderheiteneinfluss:** Auch Minderheiten können Mehrheiten überzeugen – durch Konsistenz, Beharrlichkeit und Glaubwürdigkeit (Moscovici). Führt zu echter Einstellungsänderung, nicht nur Compliance.`,
       },
       {
         heading: 'Gruppenprozesse',
-        content: `Unser Leben spielt sich zu einem großen Teil in Gruppen ab: Schulklasse, Familie, Freundeskreis, Verein…
+        content: `Eine **Gruppe** im sozialpsychologischen Sinne: Zwei oder mehr Personen, die sich als zusammengehörig wahrnehmen, miteinander interagieren und gemeinsame Ziele haben.
 
-### Was passiert in Gruppen?
+### Gruppenleistung
 
-😴 **Soziales Faulenzen:** Im Gruppenreferat strengt sich jeder ein bisschen weniger an als alleine. „Die anderen machen das schon."
+**😴 Soziales Faulenzen (Social Loafing, Ringelmann, 1913):** In Gruppen strengt man sich weniger an als alleine.
 
-💪 **Soziale Erleichterung:** Bei einer einfachen Aufgabe läuft man schneller, wenn andere zuschauen. Bei einer schwierigen Aufgabe wird man schlechter – zu viel Druck.
+Warum? Verteilung der Verantwortung, Diffusion of Responsibility, Einzelleistung ist in der Gruppe unsichtbar.
 
-🙈 **Gruppendenken:** Alle wollen eine einige Gruppe sein und niemanden aufregen. Kritik wird unterdrückt – und die Gruppe trifft schlechte Entscheidungen, weil niemand widerspricht.
+Reduzierung durch: Identifizierbarkeit der Einzelleistung, Wichtigkeit der Aufgabe, Gruppenidentifikation.
 
-⚡ **Gruppenpolarisierung:** Wenn sich Leute mit ähnlichen Meinungen zusammentun, werden ihre Meinungen extremer. Eine Gruppe Risikofreudiger wird risikofreudiger; eine Gruppe Ängstlicher wird ängstlicher.`,
+**💪 Soziale Erleichterung (Social Facilitation, Triplett 1898; Zajonc, 1965):** Anwesenheit anderer verbessert die Leistung bei **einfachen** Aufgaben, verschlechtert sie bei **schwierigen** Aufgaben.
+
+Warum? Anwesenheit erhöht Arousal → fördert die dominante Reaktion → bei einfachen Aufgaben richtig, bei schwierigen falsch.
+
+### Gruppenentscheidungen
+
+**🙈 Gruppendenken (Groupthink, Janis, 1972):** In stark kohäsiven Gruppen wird kritisches Denken unterdrückt, um Harmonie zu wahren.
+
+Symptome: Illusion der Unverwundbarkeit · Kollektive Rationalisierung · Selbstzensur · Druck auf Abweichler · Illusion der Einstimmigkeit
+
+Bekannte Beispiele: Pearl Harbor · Challenger-Katastrophe · Bay of Pigs
+
+Lösung: Advocatus Diaboli einsetzen, externe Experten, Abstimmung ohne Gruppenleiter.
+
+**⚡ Gruppenpolarisierung:** Gruppenentscheidungen sind extremer als individuelle Einstellungen. Wenn die Mehrheit risikofreudig ist, wird die Gruppe nach der Diskussion noch risikofreudiger.
+
+Warum? In der Diskussion kommen mehr Argumente für die Mehrheitsposition + man will nicht weniger extrem als andere wirken.
+
+### Intergruppenprozesse
+
+**Eigengruppenbevorzugung (Ingroup Bias):** Einer der robustesten Effekte – automatisch und unbewusst.
+
+**Outgroup Homogeneity Effect:** Fremdgruppe erscheint homogener – „die sind alle gleich."
+
+**Minimales Gruppenparadigma (Tajfel, 1971):** Selbst bei sinnloser Einteilung (Münzwurf) beginnen Menschen sofort, die Eigengruppe zu bevorzugen.`,
       },
       {
-        heading: '🗒️ Spickzettel & Anwendungen',
-        content: `### Wo begegnet uns das im Alltag?
+        heading: '🗒️ Spickzettel & Anwendungsfelder',
+        content: `### Anwendungsfelder
 
-|Bereich|Wie Sozialpsychologie relevant ist|
-|---|---|
-|📺 **Werbung**|Mere-Exposure, Sympathie, Knappheit, peripherer Weg|
-|⚖️ **Gericht**|Konformität in Geschworenengruppen, Vorurteile|
-|🏥 **Gesundheit**|Wie man Menschen zu gesünderem Verhalten bringt|
-|🏢 **Arbeit & Führung**|Gruppen, Attribution, Soziale Identität|
-|🗳️ **Politik**|Persuasion, Stereotype, Ingroup vs. Outgroup|
+|Bereich|Konzepte|Beispiel|
+|---|---|---|
+|📺 **Werbung & Marketing**|Mere-Exposure, ELM, Knappheit, Sympathie|Influencer-Marketing nutzt Ähnlichkeit|
+|⚖️ **Rechtspsychologie**|Konformität in Geschworenengruppen, Vorurteile|Zeugenaussagen durch Suggestivfragen verzerrt|
+|🏥 **Gesundheitspsychologie**|Dissonanz, soziale Normen, Einstellungsänderung|Anti-Raucher-Kampagnen mit Dissonanz-Strategien|
+|🏢 **Führung & Management**|Attribution, Gruppendenken, soziale Identität|Groupthink vermeiden durch Advocatus Diaboli|
+|🗳️ **Politik**|Persuasion, Framing, Eigengruppenbevorzugung|Wahlkampf nutzt zentrale und periphere Wege|
+|🌍 **Umweltpsychologie**|Soziale Normen, Commitment|„97% Ihrer Nachbarn sparen Energie" als Nudge|
 
-### Alle wichtigen Begriffe kurz erklärt
+### Alle wichtigen Begriffe
 
-|Begriff|Einfach erklärt|
-|---|---|
-|**Attribution**|Wir suchen Erklärungen für das Verhalten anderer|
-|**Fundamentaler Attributionsfehler**|Wir denken, andere sind schuld an ihrem Verhalten – aber bei uns selbst war's die Situation|
-|**Kovariationstheorie**|Kelley: Konsistenz, Distinktheit, Konsensus bestimmen, ob wir internal oder external attribuieren|
-|**Repräsentativitätsheuristik**|Wir urteilen nach Ähnlichkeit, nicht nach Wahrscheinlichkeit|
-|**Verfügbarkeitsheuristik**|Was uns schnell einfällt, halten wir für häufig|
-|**Ankerheuristik**|Der erste genannte Wert beeinflusst alle weiteren Schätzungen|
-|**ELM**|Zwei Wege zur Überzeugung: Gründliches Nachdenken (zentral) vs. Oberflächlichkeit (peripher)|
-|**Kognitive Dissonanz**|Wenn Meinungen und Verhalten sich widersprechen, fühlt sich das unangenehm an|
-|**Social Identity Theory**|Unsere Gruppenidentität prägt unser Selbstwertgefühl|
-|**Selbstdiskrepanz**|Lücke zwischen echtem Selbst und Ideal-/Soll-Selbst erzeugt Gefühle|
-|**Mere-Exposure-Effekt**|Wiederholung macht Dinge sympathischer|
-|**Reaktanz**|Verbote und Druck machen das Verbotene attraktiver|
-|**Konformität**|Wir passen uns der Gruppe an – aus Überzeugung oder aus sozialem Druck|
-|**Sleeper-Effekt**|Mit der Zeit vergessen wir die Quelle – auch unseriöse Quellen können dann noch wirken|
-|**Halo-Effekt**|Ein gutes Merkmal strahlt auf alles andere ab|
-|**Primacy-Effekt**|Der erste Eindruck bleibt am stärksten|`,
+|Begriff|Kern in einem Satz|Autor(en)|
+|---|---|---|
+|**Sozialpsychologie**|Wie die Anwesenheit anderer unser Denken, Fühlen und Handeln beeinflusst|Allport (1954)|
+|**Halo-Effekt**|Ein auffälliges Merkmal überstrahlt den Gesamteindruck|–|
+|**Primacy-Effekt**|Erste Infos prägen den Eindruck am stärksten (LZG)|–|
+|**Recency-Effekt**|Letzte Infos sind noch im KZG – ebenfalls stark|–|
+|**Self-Fulfilling Prophecy**|Erwartungen verändern Verhalten der anderen Person|–|
+|**Attribution**|Wir suchen Ursachen für das Verhalten anderer (internal/external)|Heider (1958)|
+|**Kovariationstheorie**|Konsensus, Konsistenz, Distinktheit bestimmen Attribution|Kelley (1967)|
+|**Fundamentaler Attributionsfehler**|Bei anderen: innere Ursache überschätzt, Situation unterschätzt|Ross (1977)|
+|**Akteur-Beobachter-Effekt**|Eigenes Verhalten: Situation. Fremdes Verhalten: Charakter|Jones & Nisbett|
+|**Self-Serving Bias**|Erfolge: ich war's. Misserfolge: die Umstände|–|
+|**System 1 / System 2**|Automatisch-schnelles vs. kontrolliert-langsames Denken|Kahneman|
+|**Repräsentativitätsheuristik**|Wir urteilen nach Ähnlichkeit, nicht nach Wahrscheinlichkeit|Tversky & Kahneman|
+|**Konjunktionstäuschung**|A UND B wirkt wahrscheinlicher als A allein, wenn es passt|Tversky & Kahneman|
+|**Verfügbarkeitsheuristik**|Was leicht einfällt, halten wir für häufig|Tversky & Kahneman|
+|**Ankerheuristik**|Erster Zahlenwert beeinflusst alle weiteren Schätzungen|Tversky & Kahneman (1972)|
+|**Wahrheitseffekt**|Wiederholung erhöht wahrgenommenen Wahrheitsgehalt|–|
+|**Selbstkonzept**|Kognitive Repräsentation der eigenen Person (kontextabhängig)|–|
+|**Selbstwahrnehmungstheorie**|Wir schließen auf Einstellungen aus dem eigenen Verhalten|Bem (1972)|
+|**Sozialer Vergleich**|Wir bewerten uns durch Vergleich mit anderen|Festinger (1954)|
+|**Selbstdiskrepanztheorie**|Lücke zwischen Actual/Ideal/Ought Self erzeugt Emotionen|Higgins (1987)|
+|**Social Identity Theory**|Gruppenidentität prägt Selbstwert; Eigengruppenbevorzugung|Tajfel & Turner (1986)|
+|**Einstellung (ABC)**|Affektive, behaviorale, kognitive Bewertungsreaktion|–|
+|**Mere-Exposure-Effekt**|Wiederholung erhöht Sympathie – auch unbewusst|Zajonc|
+|**ELM**|Zentrale (tiefe) vs. periphere (oberflächliche) Überzeugungsroute|Petty & Cacioppo (1986)|
+|**Sleeper-Effekt**|Mit der Zeit wirken auch unglaubwürdige Quellen|Kelman & Hovland|
+|**Kognitive Dissonanz**|Widerspruch zwischen Kognitionen → Unbehagen und Änderungsdruck|Festinger (1957)|
+|**Forced Compliance**|Gegen Einstellung handeln (bei geringer Belohnung) → Einstellung ändert sich|Festinger & Carlsmith|
+|**Einstellungsimpfung**|Schwache Gegenargumente + Widerlegung = Immunisierung|McGuire|
+|**Reaktanz**|Einschränkung von Freiheit erzeugt Widerstand (Bumerangeffekt)|Brehm|
+|**Konformität**|Anpassung an Gruppenurteile aus normativem oder informationellem Druck|Asch (1951)|
+|**Soziales Faulenzen**|In Gruppen strengt man sich weniger an als alleine|Ringelmann (1913)|
+|**Soziale Erleichterung**|Anwesenheit verbessert einfache, verschlechtert schwierige Aufgaben|Triplett (1898) / Zajonc|
+|**Gruppendenken**|Harmoniestreben unterdrückt kritisches Denken|Janis (1972)|
+|**Gruppenpolarisierung**|Gruppenentscheidungen sind extremer als individuelle Einstellungen|–|
+|**Eigengruppenbevorzugung**|Wir bevorzugen automatisch die eigene Gruppe|Tajfel (1971)|
+|**Illusion of Explanatory Depth**|Menschen überschätzen ihr Verständnis von Dingen und Prozessen|Rozenblit & Keil (2002)|`,
       },
     ],
   },
