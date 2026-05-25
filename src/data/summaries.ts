@@ -3,602 +3,1359 @@ import type { Summary } from '../types';
 export const SUMMARIES: Summary[] = [
   {
     moduleId: 'biopsych',
-    title: 'Biopsychologie & Allg. Psychologie I (SS 2026 · Prof. Dr. Jessica Sänger)',
+    title: 'Biopsychologie & Allgemeine Psychologie (SS 2026 · FOM)',
     sections: [
       {
         heading: 'Einführung: Was ist Psychologie?',
         content: `> 💡 **Wie nutze ich diese Zusammenfassung am besten?**
 > Lies jeden Abschnitt laut vor. Erkläre die Konzepte jemandem. Mach nach jedem Kapitel eine kurze Pause. So landet es im Langzeitgedächtnis! 🎯
 
+---
+
 ### 🌍 Was ist eigentlich Psychologie?
 
-**Alltagsbeispiel:** Du siehst eine Spinne und schreist – warum? Du wirst nervös vor einer Prüfung – warum? Psychologie versucht, solche Fragen zu beantworten.
+**Alltagsbeispiel:** Du siehst eine Spinne und bekommst sofort Angst – obwohl die Spinne vielleicht gar nicht gefährlich ist. Oder du bist vor einer Prüfung so aufgeregt, dass du dich kaum konzentrieren kannst. Warum passiert so etwas? Psychologie versucht, solche Fragen wissenschaftlich zu beantworten.
 
-**Psychologie** = die Wissenschaft vom Erleben und Verhalten von Menschen.
+**Psychologie** = die Wissenschaft vom Erleben und Verhalten von Menschen und Tieren.
+
+- **Verhalten** = alles, was ein Mensch tut und von außen beobachtbar ist (z.B. rennen, sprechen, kaufen)
+- **Erleben** = innere Zustände, die nicht direkt sichtbar sind (z.B. Angst, Freude, Entscheidungsprozesse)
+
+**Die 4 Kernaufgaben der Psychologie:**
+
+| Aufgabe | Was sie bedeutet | Beispiel |
+|---|---|---|
+| **Beschreiben** | Verhalten genau dokumentieren | Wie viele Menschen haben Prüfungsangst? |
+| **Erklären** | Ursachen finden | Warum entsteht Prüfungsangst? |
+| **Vorhersagen** | Künftiges Verhalten prognostizieren | Wer wird bei Stress am schlechtesten abschneiden? |
+| **Verändern** | Eingreifen und Verhalten gezielt beeinflussen | Wie kann man Prüfungsangst reduzieren? |
+
+---
 
 ### 🔍 Die zwei Hauptbereiche dieses Moduls
 
-|Fach|Was es macht|Beispiel|
+| Fach | Was es macht | Beispiel |
 |---|---|---|
-|**Allgemeine Psychologie**|Untersucht, wie alle Menschen gleich denken, wahrnehmen, lernen|Warum fallen alle auf optische Täuschungen rein?|
-|**Biopsychologie**|Untersucht die biologischen Grundlagen von Verhalten|Wie funktioniert das Gehirn beim Lernen?|
+| **Allgemeine Psychologie** | Untersucht allgemeingültige Prozesse: Wahrnehmung, Denken, Lernen, Sprache, Gedächtnis | Warum fallen alle auf die gleichen optischen Täuschungen rein? |
+| **Biopsychologie** | Erklärt Verhalten und Erleben durch biologische Grundlagen: Gehirn, Nerven, Hormone | Wie verändert Lernen die Struktur des Gehirns? |
 
-### 🏗️ Teilgebiete der Psychologie
+> 💡 **Wichtig:** Beide Bereiche ergänzen sich – Psychologie erklärt das „Was", Biopsychologie das „Wie" auf der Körperebene.
 
-**Grundlagenfächer** (die Theorie bauen):
+---
 
-- Allgemeine Psychologie – Wahrnehmung, Denken, Lernen, Gedächtnis
-- Biopsychologie – Gehirn und Körper
-- Entwicklungspsychologie – Wie wir uns durchs Leben verändern
-- Differenzielle Psychologie – Warum Menschen unterschiedlich sind
-- Sozialpsychologie – Wie andere uns beeinflussen
-- Methodenlehre – Wie man Forschung macht
+### 🏗️ Teilgebiete der Psychologie im Überblick
 
-**Anwendungsfächer** (die Praxis):
+**Grundlagendisziplinen** (bauen theoretisches Wissen auf):
 
-- Arbeits- & Organisationspsychologie
-- Markt- & Werbepsychologie ← **besonders relevant für euch als WiPsy!**
-- Klinische Psychologie
-- Pädagogische Psychologie
-- Diagnostik
+| Disziplin | Schwerpunkt |
+|---|---|
+| **Allgemeine Psychologie** | Kognitive Prozesse: Wahrnehmung, Aufmerksamkeit, Denken, Sprache, Lernen, Gedächtnis, Motivation, Emotion |
+| **Biopsychologie** | Anatomische & physiologische Grundlagen menschlichen Verhaltens und Erlebens |
+| **Entwicklungspsychologie** | Veränderungsprozesse über die gesamte Lebensspanne (von der Geburt bis ins Alter) |
+| **Differentielle Psychologie** | Individuelle Besonderheiten und Unterschiede zwischen Menschen (z.B. Persönlichkeit) |
+| **Sozialpsychologie** | Einfluss sozialer Faktoren auf Verhalten und Erleben |
+| **Methodenlehre** | Forschungsmethoden, Datenerhebung, Statistik, Wissenschaftstheorie |
 
-### 🎯 Ziel des Moduls
+**Anwendungsdisziplinen** (setzen Wissen in die Praxis um):
 
-Das Modul erklärt, wie aus einem Reiz (z.B. ein lautes Geräusch) über Wahrnehmung und Denken eine Reaktion (z.B. Erschrecken) wird – und welche biologischen Prozesse dahinterstecken.`,
+| Disziplin | Schwerpunkt |
+|---|---|
+| **Arbeits- & Organisationspsychologie** | Mensch-Arbeit-Beziehung, Führung, Stress, Motivation im Beruf |
+| **Markt- & Werbepsychologie** | Konsumentenverhalten, Kaufentscheidungen, Werbewirkung |
+| **Klinische Psychologie** | Psychische Störungen: Diagnose, Therapie, Prävention |
+| **Pädagogische Psychologie** | Lernen und Lehren, Bildungsprozesse |
+| **Diagnostik** | Psychologische Tests und Beurteilung von Einzelpersonen |
+
+---
+
+### 🎯 Warum ist das für WiPsy relevant?
+
+Wirtschaftspsycholog:innen brauchen dieses Wissen ständig:
+- **Werbung** nutzt klassische Konditionierung (Musik + Produkt = positives Gefühl)
+- **Führung** setzt Verstärkungsprinzipien ein (Lob motiviert mehr als Strafe)
+- **Nutzerforschung** braucht Wissen über Wahrnehmung und Aufmerksamkeit
+- **Burnout-Prävention** hängt mit Stressphysiologie und Selbstkontrolle zusammen
+- **Neuromarketing** kombiniert Neurowissenschaften mit Konsumforschung
+
+---
+
+### 🏛️ Kurze Geschichte der Psychologie
+
+- **1879:** Wilhelm Wundt gründet das erste psychologische Institut in Leipzig → Geburtsstunde der Psychologie als eigenständige Wissenschaft
+- **William James** (USA, zeitgleich): begründet den Funktionalismus – Fokus auf den Zweck (die Funktion) psychischer Prozesse für das Überleben
+- **Biopsychologie** entstand aus der Physiologie (Untersuchung des Körpers) und der Philosophie (Untersuchung des Geistes)
+
+**Biopsychosozialer Ansatz** = heute vorherrschendes Rahmenkonzept: Verhalten entsteht aus dem Zusammenspiel von **biologischen** (Gehirn, Gene), **psychologischen** (Denken, Lernen) und **sozialen** Faktoren (Umwelt, Kultur). Kein Faktor allein erklärt alles.`,
       },
       {
         heading: 'Lernen',
-        content: `### 🐕 Was ist Lernen?
+        content: `### 📖 Was ist Lernen – die Definition
 
-**Alltagsbeispiel:** Du hast dich als Kind einmal an der heißen Herdplatte verbrannt. Seitdem greifst du nicht mehr drauf. Du hast gelernt!
+**Alltagsbeispiel:** Du hast dich als Kind einmal an der heißen Herdplatte verbrannt. Seitdem greifst du instinktiv nicht mehr auf heiße Herdplatten. Das nennt man Lernen.
 
-**Definition:** Lernen = eine **dauerhafte Veränderung im Verhalten**, die durch **Erfahrungen** entsteht.
+**Definition:** Lernen = die **relativ überdauernde Veränderung im Verhaltenspotenzial** eines Organismus als **Folge von Erfahrungen**.
 
-> ⚠️ **Wichtig:** Wenn Verhalten sich durch Krankheit, Müdigkeit oder Wachstum verändert – das ist **kein** Lernen!
+Drei Schlüsselwörter in dieser Definition:
+1. **„relativ überdauernd"** – die Veränderung muss länger anhalten (nicht nur für Sekunden)
+2. **„Verhaltenspotenzial"** – man muss es nicht sofort zeigen, aber man könnte es
+3. **„Erfahrung"** – es muss durch Erleben entstanden sein, nicht durch Wachstum oder Drogeneinfluss
 
-### 📌 Die 3 Lernarten im Überblick
+> ⚠️ **Wichtig:** Wenn sich Verhalten durch Krankheit, Müdigkeit, Alkohol oder biologische Reifung verändert – das ist **kein** Lernen im psychologischen Sinne!
+
+---
+
+### 📌 Die 3 Lernarten – Überblick
 
 \`\`\`
-Klassisches Konditionieren  →  Zwei Reize werden verknüpft
-Operantes Konditionieren    →  Verhalten + Konsequenz
-Lernen durch Beobachtung    →  Nachmachen (Bandura)
+┌─────────────────────────────────────────────────────────────┐
+│                    ASSOZIATIVES LERNEN                      │
+│                                                             │
+│  Klassisches           Operantes           Lernen durch     │
+│  Konditionieren        Konditionieren      Beobachtung      │
+│  (Pavlov)              (Skinner/Thorndike)  (Bandura)       │
+│                                                             │
+│  Zwei Reize werden     Verhalten wird       Neues Verhalten │
+│  verknüpft             durch Konsequenzen   durch Imitation │
+│                        geformt              von Modellen    │
+└─────────────────────────────────────────────────────────────┘
 \`\`\`
 
-### 🔔 Klassisches Konditionieren (Pavlov)
+---
 
-**Alltagsbeispiel:** Du hörst den Eiswagen-Song – schon läuft dir das Wasser im Mund zusammen, obwohl du noch kein Eis siehst!
+### 🔔 2.1 Klassisches Konditionieren (Pavlov)
 
-**Grundprinzip:** Zwei Reize werden so oft zusammen präsentiert, dass der eine irgendwann die gleiche Reaktion auslöst wie der andere.
+**Alltagsbeispiel:** Du hörst den Eiswagen-Song und schon läuft dir das Wasser im Mund zusammen – obwohl du noch kein Eis siehst oder riechst. Das ist klassisches Konditionieren: Ein neutraler Reiz (Musik) wird mit einem bedeutsamen Reiz (Eis) verknüpft.
 
-|Begriff|Erklärung|Beispiel|
+**Wer war Pavlov?** Iwan Pawlow (1849–1936) war ein russischer Physiologe, der beim Studium der Verdauung bei Hunden bemerkte: Die Hunde begannen schon zu speicheln, wenn der Assistent den Raum betrat – bevor es überhaupt Futter gab. Er nannte das den „konditionierten Reflex" und untersuchte ihn systematisch.
+
+#### Die Grundbegriffe im Überblick:
+
+| Begriff | Abkürzung | Erklärung | Pavlov-Beispiel |
+|---|---|---|---|
+| Unkonditionierter Stimulus | UCS | Reiz, der **automatisch** eine Reaktion auslöst – ohne Lernen | Futter |
+| Unkonditionierte Reaktion | UCR | **Automatische** Reaktion auf den UCS | Speichelfluss |
+| Konditionierter Stimulus | CS | **Gelernter** Reiz, der zuvor neutral war | Glockenton |
+| Konditionierte Reaktion | CR | **Gelernte** Reaktion auf den CS | Speichelfluss auf Glocke |
+
+**Ablauf der klassischen Konditionierung:**
+\`\`\`
+VOR dem Lernen:
+  Futter (UCS) → Speichelfluss (UCR)  [automatisch]
+  Glocke (CS)  → keine Reaktion        [neutral]
+
+WÄHREND des Lernens (viele Male):
+  Glocke (CS) + Futter (UCS) → Speichelfluss (UCR)
+
+NACH dem Lernen:
+  Glocke (CS) → Speichelfluss (CR)    [gelernt!]
+\`\`\`
+
+#### Die 3 wichtigen Aspekte des klassischen Konditionierens:
+
+**1. Timing (Zeitliche Kopplung)**
+
+Der CS muss kurz VOR dem UCS kommen, damit Konditionierung stattfindet. Verschiedene Varianten:
+
+| Variante | Beschreibung | Effekt |
 |---|---|---|
-|**UCS** (Unkonditionierter Stimulus)|Reiz, der automatisch eine Reaktion auslöst|Futter → Speichel|
-|**UCR** (Unkonditionierte Reaktion)|Die automatische Reaktion|Speichelfluss|
-|**CS** (Konditionierter Stimulus)|Neuer Reiz, der gelernt wird|Glockenton|
-|**CR** (Konditionierte Reaktion)|Die gelernte Reaktion|Speichelfluss auf Glockenton|
+| Simultankonditionierung | CS und UCS gleichzeitig | Kaum Lernen |
+| Verzögerte Konditionierung | CS kommt zuerst, UCS folgt kurz danach | ✅ Bestes Lernen |
+| Spurenkonditionierung | CS hört auf, dann kommt UCS | ✅ Gut für Lernen |
+| Rückwärtskonditionierung | UCS kommt vor CS | Kaum Lernen |
 
-**Wichtige Prinzipien:**
+> 💡 **Merkhilfe:** Das Signal muss **vor** der Bedeutung kommen – so wie ein Blitz vor dem Donner. Das CS ist das Warnsignal: "Gleich kommt etwas Wichtiges!"
 
-- **Timing:** CS muss kurz VOR dem UCS kommen (idealerweise 0,5 Sek.)
-- **Generalisierung:** Ähnliche Reize lösen die gleiche Reaktion aus (Hund bellt auch bei ähnlichen Tönen)
-- **Löschung:** Wenn CS allein präsentiert wird, ohne UCS – die Reaktion verschwindet langsam
+**2. Generalisierung**
 
-**Praxisbeispiel Werbung:** Musik + Produkt = Produkt weckt gutes Gefühl (klassische Konditionierung!)
+Die konditionierte Reaktion erfolgt nicht nur beim exakt gleichen Reiz, sondern auch bei **ähnlichen Reizen**. Je ähnlicher, desto stärker die Reaktion.
 
-### ⚙️ Operantes Konditionieren (Skinner)
+Berühmtes Beispiel: **„Little Albert" (Watson & Rayner, 1920)** – Ein Baby wurde konditioniert, Angst vor einer weißen Ratte zu haben. Danach zeigte es auch Angst vor anderen weißen, flauschigen Dingen (weißer Hase, Wattebäusche, Weihnachtsmannbart). Das ist Generalisierung.
 
-**Alltagsbeispiel:** Du räumst dein Zimmer auf → Mama lobt dich → du räumst öfter auf. Oder: Du haust deinen Bruder → du bekommst Stubenarrest → du haust seltener.
+**3. Löschung (Extinktion)**
 
-**Grundprinzip:** Ob wir ein Verhalten wiederholen, hängt von der **Konsequenz** ab.
+Wenn der CS immer wieder allein präsentiert wird – also ohne den UCS – nimmt die konditionierte Reaktion schrittweise ab und verschwindet schließlich.
 
-|Begriff|Was passiert|Beispiel|
+Wichtig: Löschung bedeutet **nicht**, dass das Gelernte komplett gelöscht wird! Es kann nach einer Pause spontan wieder auftreten (**Spontanerholung**).
+
+#### Anwendungen des klassischen Konditionierens:
+
+| Bereich | Wie es genutzt wird |
+|---|---|
+| **Marketing & Werbung** | Angenehme Musik + Produkt = positives Gefühl beim Produkt |
+| **Phobien** | Entstehung von Angstreaktionen durch Konditionierung (z.B. Zahnarztphobie) |
+| **Verhaltenstherapie** | Systematische Desensibilisierung: Schrittweise Löschung von Phobien |
+| **Geschmacksaversionen** | Übelkeit nach einem Essen → Aversion gegen dieses Essen |
+
+---
+
+### ⚙️ 2.2 Operantes Konditionieren (Thorndike & Skinner)
+
+**Alltagsbeispiel:** Du räumst dein Zimmer auf → deine Eltern loben dich → du räumst öfter auf. Oder: Du lügst und wirst erwischt → du bekommst Ärger → du lügst seltener. Hier lernt man nicht durch Reizverknüpfung, sondern durch **Konsequenzen des eigenen Handelns**.
+
+**Wer waren die Forscher?**
+- **Edward Lee Thorndike (1874–1949):** Puzzlebox-Experiment mit Katzen. Katzen lernten durch Versuch und Irrtum, einen Hebel zu drücken, um aus einer Box zu entkommen → **Effektgesetz:** Verhalten mit angenehmen Konsequenzen wird wiederholt.
+- **B.F. Skinner (1904–1990):** Systematisierte und erweiterte Thorndikes Arbeit. Entwickelte die Skinner-Box und das Konzept der Verstärkerpläne.
+
+**Grundprinzip:** Die Wahrscheinlichkeit, ein Verhalten zu wiederholen, hängt von der **Konsequenz** ab, die auf das Verhalten folgt.
+
+#### Die 4 Grundtypen der Konsequenzen:
+
+| Typ | Was passiert | Effekt auf Verhalten | Beispiel |
+|---|---|---|---|
+| **Positive Verstärkung** | Angenehmes wird hinzugefügt (+) | Verhalten nimmt zu ✅ | Lob nach guter Arbeit |
+| **Negative Verstärkung** | Unangenehmes wird entfernt (-) | Verhalten nimmt zu ✅ | Kopfschmerztablette nimmt Schmerz weg → man nimmt sie wieder |
+| **Positive Bestrafung** | Unangenehmes wird hinzugefügt (+) | Verhalten nimmt ab ❌ | Strafaufgaben nach schlechtem Verhalten |
+| **Negative Bestrafung** | Angenehmes wird weggenommen (-) | Verhalten nimmt ab ❌ | Taschengeld streichen |
+
+> ⚠️ **Häufige Verwechslung:** "Negativ" bedeutet hier NICHT "schlimm", sondern "wegnehmen". Negative Verstärkung ist z.B. Schmerzmittel nehmen – man entfernt etwas Unangenehmes, und das Verhalten (Schmerzmittel nehmen) wird dadurch verstärkt.
+
+> 💡 **Merkhilfe:** Verstärkung → Verhalten wird **mehr**. Bestrafung → Verhalten wird **weniger**. Positiv → etwas wird **hinzugefügt**. Negativ → etwas wird **weggenommen**.
+
+#### Shaping (Verhaltensformung)
+
+**Alltagsbeispiel:** Ein Hund soll "tot stellen" lernen. Zuerst wird das Hinlegen belohnt, dann nur noch das Hinlegen mit Pfoten oben, dann nur die fertige Position.
+
+Shaping = Komplexes Verhalten wird durch **schrittweise Annäherung** aufgebaut. Jede Zwischenstufe wird verstärkt, bis das Zielverhalten erreicht ist.
+
+#### Verstärkerpläne – wann wird verstärkt?
+
+Das WANN der Verstärkung ist entscheidend dafür, wie schnell ein Verhalten gelernt wird und wie löschungsresistent es ist.
+
+| Verstärkerplan | Beschreibung | Lerngeschwindigkeit | Löschungsresistenz |
+|---|---|---|---|
+| **Kontinuierlich** | Jede Reaktion wird verstärkt | Sehr schnell | Sehr gering (hört schnell auf) |
+| **Fix-Quote (FQ)** | Alle N Reaktionen → Verstärkung | Mittel | Mittel |
+| **Variabel-Quote (VQ)** | Durchschnittlich alle N Reaktionen, aber zufällig | Mittel | **Sehr hoch!** |
+| **Fix-Intervall (FI)** | Nach fester Zeitspanne → Verstärkung | Langsam | Mittel |
+| **Variabel-Intervall (VI)** | Nach zufälliger Zeitspanne → Verstärkung | Langsam | **Sehr hoch!** |
+
+> 🎰 **Beispiel Spielautomat:** Nutzt den variablen Quotenplan → man weiß nie, wann der Jackpot kommt → deshalb hören Menschen so schwer auf zu spielen! Das ist der Grund, warum Glücksspiel so suchterzeugende Mechanismen hat.
+
+> 💡 **Praxis-Tipp für Werbung:** Treueprogramme, die nicht jedes Mal belohnen, sondern zufällig, sind effektiver als vorhersehbare Rabatte.
+
+**Löschung:** Wenn Verstärkung dauerhaft ausbleibt, wird das Verhalten seltener und verschwindet schließlich. Aber: Intermittierend verstärkte Verhaltensweisen brauchen viel länger zum Löschen!
+
+---
+
+### 👀 2.3 Lernen durch Beobachtung / Modellernen (Bandura)
+
+**Alltagsbeispiel:** Du siehst, wie dein älteres Geschwisterkind Skateboard fährt. Nach einer Weile versuchst du es selbst – ohne je ein offizielles Training gehabt zu haben. Du hast durch Beobachtung gelernt.
+
+**Wer war Bandura?** Albert Bandura (1925–2021) war ein kanadisch-amerikanischer Psychologe, der zeigte, dass Lernen auch ohne eigene Konsequenzen möglich ist – allein durch Beobachten.
+
+**Grundprinzip:** Neues Verhalten entsteht durch **Imitation von Verhaltensmodellen** (Vorbildern). Das Modell kann eine reale Person, aber auch ein Charakter im Film oder in einem Buch sein.
+
+#### Bobo-Doll-Experiment (Bandura, 1961)
+
+Kinder sahen in einem Film, wie Erwachsene eine aufblasbare Puppe (Bobo Doll) aggressiv schlugen, traten und beschimpften. Danach durften die Kinder mit der Puppe spielen. Ergebnis: Kinder, die das aggressive Modell gesehen hatten, verhielten sich deutlich aggressiver als die Kontrollgruppe. → **Gewalt kann durch Beobachtung gelernt werden.**
+
+**Wichtig:** Ob man gelerntes Verhalten auch zeigt, hängt davon ab, ob das Modell für sein Verhalten belohnt oder bestraft wurde (**stellvertretende Verstärkung/Bestrafung**).
+
+#### 4 Bedingungen für erfolgreiches Lernen durch Beobachtung:
+
+| Bedingung | Was ist gemeint | Alltags-Beispiel |
 |---|---|---|
-|**Positive Verstärkung**|Angenehmes kommt dazu|Lob nach gutem Zeugnis|
-|**Negative Verstärkung**|Unangenehmes verschwindet|Kopfschmerztablette nimmt Schmerz weg|
-|**Bestrafung Typ I**|Unangenehmes kommt dazu|Stubenarrest|
-|**Bestrafung Typ II**|Angenehmes wird weggenommen|Taschengeld gekürzt|
+| **1. Aufmerksamkeit** | Man muss das Modell wirklich beobachten | Du schaust zu, wenn jemand kocht |
+| **2. Behalten** | Man muss es sich merken (im Gedächtnis speichern) | Du erinnerst dich an das Rezept |
+| **3. Reproduktion** | Man muss es körperlich umsetzen können | Deine motorischen Fähigkeiten reichen aus |
+| **4. Motivation** | Man muss es auch wollen (Erwartung einer Belohnung) | Du willst das Gericht auch kochen |
 
-> 💡 **Merkhilfe:** Verstärkung = Verhalten wird **mehr**. Bestrafung = Verhalten wird **weniger**.
+#### Spiegelneurone – biologische Basis des Beobachtungslernens?
 
-**Verstärkerpläne** (wichtig für die Klausur!):
+**Spiegelneurone** sind Nervenzellen, die sowohl dann aktiv werden, wenn man eine Handlung selbst ausführt, ALS AUCH wenn man beobachtet, wie jemand anderes dieselbe Handlung ausführt. Sie wurden zuerst bei Makaken entdeckt und existieren auch beim Menschen.
 
-|Plan|Beschreibung|Widerstand gegen Löschung|
-|---|---|---|
-|Kontinuierlich|Jedes Mal Verstärkung|Gering (verschwindet schnell)|
-|Intermittierend – Fix-Quote|Alle X Durchgänge|Mittel|
-|Intermittierend – Variabel-Quote|Zufällige Anzahl|**Sehr hoch!**|
+Sie könnten die neurobiologische Basis für Empathie, Imitation und soziales Lernen sein – aber die Forschung ist hier noch nicht abgeschlossen.
 
-> 🎰 **Beispiel:** Spielautomaten nutzen den variablen Verstärkerplan → deshalb hören Menschen so schwer auf zu spielen!
+#### Anwendungen des Beobachtungslernens:
 
-**Shaping:** Komplexes Verhalten wird Schritt für Schritt aufgebaut. Erst annäherndes Verhalten verstärken, dann präziseres.
-
-### 👀 Lernen durch Beobachtung (Bandura)
-
-**Alltagsbeispiel:** Du siehst, wie dein älterer Bruder Rad fährt. Dann machst du es nach – ohne selbst vorher gefahren zu sein.
-
-**Grundprinzip:** Neues Verhalten entsteht durch **Imitation** von Vorbildern (Modellen).
-
-**Bedingungen für erfolgreiches Lernen durch Beobachtung:**
-
-1. **Aufmerksamkeit** – du musst das Modell beobachten
-2. **Behalten** – du musst es dir merken
-3. **Reproduktion** – du musst es körperlich können
-4. **Motivation** – du musst es wollen
-
-**Bobo-Doll-Experiment (Bandura):** Kinder, die Erwachsene beim Schlagen einer Puppe sahen, schlugen selbst häufiger. → Gewalt kann durch Beobachtung gelernt werden.
-
-**Spiegelneurone:** Nervenzellen, die feuern, wenn wir etwas tun ODER jemanden beim Tun beobachten – mögliche biologische Basis des Beobachtungslernens.`,
+| Bereich | Anwendung |
+|---|---|
+| **Werbung** | Testimonials und Influencer als Verhaltensmodelle |
+| **Unternehmenskultur** | Neue Mitarbeiter lernen durch Beobachten der Kollegen |
+| **Kindererziehung** | Eltern als Modelle für prosoziales Verhalten |
+| **Sport** | Videoanalyse erfolgreicher Sportler als Lernmaterial |`,
       },
       {
         heading: 'Gedächtnis',
-        content: `### 📦 Was ist das Gedächtnis?
+        content: `### 📖 Was ist das Gedächtnis – Grundlagen
 
-**Alltagsbeispiel:** Du kannst deinen Schulweg nach Jahren noch beschreiben. Aber den Namen deines neuen Nachbarn vergisst du nach 2 Minuten wieder. Warum?
+**Alltagsbeispiel:** Stell dir vor, du lernst für eine Klausur. Abends kannst du noch alles. Am nächsten Morgen ist schon vieles weg. Eine Woche später noch mehr. Aber dein Schulweg von damals – den weißt du noch Jahre später. Warum?
 
-Das Gedächtnis ist kein einheitliches System – es gibt **verschiedene Speicher**.
+Das Gedächtnis ist kein einheitliches System, sondern ein Zusammenspiel mehrerer Speicher und Prozesse.
 
-### 🏗️ Das Mehrspeicher-Modell (Atkinson & Shiffrin, 1968)
+**3 Grundprozesse des Gedächtnisses:**
 
 \`\`\`
-Sinnesreiz → Sensorisches Gedächtnis → Kurzzeitgedächtnis → Langzeitgedächtnis
-              (Millisekunden)           (Sekunden bis Min.)   (Jahre bis lebenslang)
+ENKODIERUNG → SPEICHERUNG → ABRUF
+(Input)        (Verarbeitung)  (Output)
+
+Bei jedem dieser Schritte können Fehler auftreten!
 \`\`\`
 
-**Die 3 Speicher:**
+- **Enkodierung:** Information aufnehmen und in eine Form bringen, die gespeichert werden kann
+- **Speicherung:** Information festhalten (für Millisekunden oder Jahrzehnte)
+- **Abruf:** Gespeicherte Information wieder hervorholen
 
-|Speicher|Dauer|Kapazität|Beispiel|
-|---|---|---|---|
-|**Sensorisches Gedächtnis**|< 1 Sek.|Fast unbegrenzt|Kurzer Nachglüh-Effekt nach Blitz|
-|**Kurzzeitgedächtnis/Arbeitsgedächtnis**|15–30 Sek.|7 ± 2 Einheiten (Miller)|Telefonnummer kurz im Kopf behalten|
-|**Langzeitgedächtnis**|Jahrzehnte|Fast unbegrenzt|Fahrradfahren, Kindheitserinnerungen|
+---
 
-### 🧮 Das Arbeitsgedächtnis (Baddeley)
+### 📚 3.1 Der Start der Gedächtnisforschung: Ebbinghaus
 
-**Alltagsbeispiel:** Du rechnest im Kopf: 3 × 17 + 8. Du musst Zwischenergebnisse festhalten UND weiterrechnen. Das ist dein Arbeitsgedächtnis!
+**Hermann Ebbinghaus (1850–1909)** war der erste, der Gedächtnis systematisch wissenschaftlich untersuchte – und das an sich selbst (Versuchsperson war er selbst). Er verwendete sinnlose Silben wie "DAX", "BUP", "LOF" – absichtlich ohne Bedeutung, damit kein Vorwissen das Ergebnis beeinflusst.
 
-Das Arbeitsgedächtnis ist mehr als ein simpler Speicher – es **verarbeitet** Informationen aktiv.
+**3 zentrale Erkenntnisse von Ebbinghaus:**
 
-**4 Komponenten nach Baddeley:**
+**1. Gesamtzeithypothese (Lernkurve)**
+"You get what you pay for!" – Je mehr Wiederholungen man macht, desto besser die Gedächtnisleistung danach. Es gibt einen **linearen Zusammenhang** zwischen Lernaufwand und Gedächtnisleistung.
 
-- **Zentrale Exekutive** – der Chef, koordiniert alles
-- **Phonologische Schleife** – für Sprache und Zahlen (innere Stimme)
-- **Visuell-räumlicher Notizblock** – für Bilder und Orte
-- **Episodischer Puffer** – verbindet alles mit dem Langzeitgedächtnis
+**2. Ersparnismethode**
+Bereits einmal Gelerntes wird beim Wiederlernen schneller gelernt. Ebbinghaus brauchte für eine Liste ursprünglich 30 Durchgänge – beim Wiederlernen am nächsten Tag nur noch 20. Das nennt man **Lernersparnis** (~33%).
+→ Selbst wenn man etwas "vergessen" hat, ist ein Rest noch gespeichert!
 
-### 🗃️ Das Langzeitgedächtnis
+**3. Vergessenskurve** ⭐
+**Der wichtigste Befund:** Der größte Gedächtnisverlust (ca. **70 % des Gelernten**) tritt in den **ersten 10 Stunden** nach dem Lernen auf. Danach wird das Vergessen immer langsamer (der Verlauf ist asymptotisch – also wird nie ganz 0).
+
+\`\`\`
+Gedächtnisleistung (%)
+100 |*
+ 80 |  *
+ 60 |    *
+ 40 |      *  *
+ 20 |             *  *  *
+  0 |________________________________
+      0    1    2    6   24   48  Stunden nach dem Lernen
+\`\`\`
+
+> 💡 **Konsequenz fürs Lernen:** Wiederhole kurz nach dem Lernen! Der erste Abruf nach 10 Minuten, dann nach 1 Stunde, dann nach 1 Tag. So bekämpfst du die Vergessenskurve aktiv.
+
+---
+
+### 🔁 3.2 Der Einfluss von Lernen und Abfragen auf das Behalten
+
+**Testing Effect (Testefekt):** Sich selbst abzufragen ist effektiver als dasselbe Lernmaterial nur erneut zu lesen.
+
+**Spacing Effect (Verteiltes Üben):** Mehrere kurze Lernsitzungen über mehrere Tage verteilt sind besser als eine lange Lernsitzung ("massed practice").
+
+> 💡 **Fazit fürs Studium:** Nicht alles auf einmal am Abend vor der Klausur lernen! Besser jeden Tag 30 Minuten wiederholen und sich selbst abfragen.
+
+---
+
+### 🏗️ 3.3 Das Mehrspeicher-Modell (Atkinson & Shiffrin, 1968)
+
+Das bekannteste Gedächtnismodell – auch wenn es in Details überholt ist, ist es das Grundmodell für die Klausur.
+
+\`\`\`
+Sinnesreiz
+    ↓
+[Sensorisches Gedächtnis]  ← nicht beachtet → VERGESSEN
+  < 1 Sekunde | fast unbegrenzt
+    ↓ (Aufmerksamkeit!)
+[Kurzzeitgedächtnis / Arbeitsgedächtnis]  ← nicht wiederholt → VERGESSEN
+  15–30 Sek. | 7 ± 2 Einheiten
+    ↓ (Elaboration, Rehearsal, Chunking!)
+[Langzeitgedächtnis]  ← Interferenz, fehlende Hinweise → VERGESSEN
+  Jahrzehnte | nahezu unbegrenzt
+\`\`\`
+
+**Das Modell nimmt an:** Es gibt drei qualitativ unterschiedliche Speicher, die sich in Kapazität, Dauer und Art der Verarbeitung unterscheiden.
+
+---
+
+### 👁️ 3.4 Der Sensorische Speicher (Sensorisches Gedächtnis)
+
+**Alltagsbeispiel:** Du siehst eine Wunderkerze im Dunkeln kreisen und siehst einen Leuchtstreifen – obwohl es nur Punkte sind. Der kurze Nachglüh-Effekt kommt aus dem sensorischen Speicher.
+
+- Hält Eindrücke aller Sinne für einen **Bruchteil einer Sekunde** aufrecht
+- **Ikonisches Gedächtnis** = visueller sensorischer Speicher (für Bilder)
+- **Echoisches Gedächtnis** = auditiver sensorischer Speicher (für Töne, ca. 3–4 Sek.)
+- Nicht beachtete Information verfällt sofort → **Selektion durch Aufmerksamkeit** entscheidet, was weiterverarbeitet wird
+
+---
+
+### 🧮 3.5 Das Kurzzeit- und Arbeitsgedächtnis
+
+**Alltagsbeispiel:** Jemand sagt dir eine Telefonnummer. Du kannst sie kurz behalten – aber wenn du dich ablenkst, ist sie weg. Genau: Das ist das Kurzzeitgedächtnis.
+
+**Kurzzeitgedächtnis (Atkinson & Shiffrin):**
+- Kapazität: **7 ± 2 Einheiten** (Chunks) – Miller's Magic Number
+- Dauer: ca. **15–30 Sekunden** ohne Wiederholung
+- **Rehearsal (Wiederholen)** verlängert die Verweildauer
+- **Chunking** erhöht die effektive Kapazität: Statt 12 einzelne Zahlen (010345678901) merkt man sich 3 Gruppen (0103 / 4567 / 8901)
+
+**Arbeitsgedächtnis (Baddeley & Hitch, 1974):**
+Das Kurzzeitgedächtnis ist mehr als nur ein passiver Zwischenspeicher – es verarbeitet Information **aktiv**.
+
+**Die 4 Komponenten des Arbeitsgedächtnismodells:**
+
+| Komponente | Funktion | Beispiel |
+|---|---|---|
+| **Zentrale Exekutive** | "Chef" – koordiniert alle anderen Komponenten, lenkt Aufmerksamkeit, steuert Prozesse | Aufgabe planen, Strategie wählen |
+| **Phonologische Schleife** | Speichert und wiederholt sprachliches Material (innere Stimme) | Telefonnummer im Kopf behalten |
+| **Visuell-räumlicher Notizblock** | Speichert visuelle Bilder und räumliche Informationen | Weg durch die Stadt vorstellen |
+| **Episodischer Puffer** | Verbindet Infos aus allen Quellen und aus dem Langzeitgedächtnis | Komplexe Szene verstehen |
+
+> 💡 **Warum "Arbeitsgedächtnis"?** Weil man dort nicht nur Information kurz hält, sondern aktiv damit arbeitet: vergleichen, modifizieren, aktualisieren.
+
+---
+
+### 🗃️ 3.6 Das Langzeitgedächtnis
+
+**Das Langzeitgedächtnis** (LZG) ist der dauerhafte Speicher. Seine Kapazität gilt als praktisch unbegrenzt.
 
 \`\`\`
 Langzeitgedächtnis
-├── Deklarativ (bewusst abrufbar)
-│   ├── Episodisch → Persönliche Erlebnisse ("Als ich 10 war...")
-│   └── Semantisch → Faktenwissen ("Paris ist die Hauptstadt...")
-└── Nicht-deklarativ (unbewusst)
-    └── Prozedural → Motorische Fähigkeiten (Radfahren, Tippen)
+│
+├── DEKLARATIV (bewusst abrufbar, explizit)
+│   ├── Episodisch → Persönliche Ereignisse mit Zeit und Ort
+│   │   Beispiel: "Mein erster Schultag war am 14. September..."
+│   │
+│   └── Semantisch → Allgemeines Faktenwissen, ohne Kontext
+│       Beispiel: "Paris ist die Hauptstadt von Frankreich."
+│
+└── NICHT-DEKLARATIV (unbewusst, implizit)
+    ├── Prozedural → Motorische Fertigkeiten und Gewohnheiten
+    │   Beispiel: Fahrradfahren, Tippen, Autofahren
+    │
+    └── Priming → Vorherige Erfahrung beeinflusst spätere Verarbeitung
+        Beispiel: Das Wort "Arzt" macht "Krankenschwester" leichter erkennbar
 \`\`\`
 
-### 🔄 Gedächtnisprozesse
+> 💡 **Anwendung:** Prozedurale Gedächtnisinhalte (wie Fahrradfahren) vergisst man kaum – "use it or lose it" gilt hier weniger. Semantisches Wissen braucht Wiederholung.
 
-**Enkodierung** = Information aufnehmen
+---
 
-- Oberflächlich (nur Form) → schlechtes Behalten
-- Tief (Bedeutung, Verknüpfungen) → **gutes Behalten!**
+### 🔄 3.7 Enkodierprozesse und Verarbeitungstiefe
 
-**Abruf** = Information wiederfinden (3 Arten, von leicht bis schwer):
+**Experiment von Craik & Tulving (1975):**
+Probanden beurteilten Wörter auf verschiedenen Ebenen:
+- **Strukturell (sehr oberflächlich):** "Ist das Wort in Großbuchstaben?" → 20 % später wiedererkannt
+- **Phonetisch:** "Reimt sich das Wort auf ___?" → 35 % wiedererkannt
+- **Semantisch (tief):** "Passt das Wort in diesen Satz?" → **65 % wiedererkannt**
 
-1. **Wiedererkennen** – Multiple-Choice-Test (am leichtesten)
-2. **Gestützter Abruf** – Hinweis hilft ("Es fängt mit G an…")
-3. **Freier Abruf** – Ohne Hilfe erinnern (am schwersten)
+**Fazit: Tiefere Verarbeitung = besseres Gedächtnis!**
 
-> 💡 **Lerntipp:** Übe freien Abruf! Bücher zuklappen und alles aufschreiben, was du weißt.
+**Strategien für tiefe Verarbeitung:**
+- **Elaboration:** Neue Information mit Vorwissen verknüpfen ("Das erinnert mich an...")
+- **Organisation:** Material strukturieren (Mindmaps, Gliederungen)
+- **Selbstbezug:** Bezug zum eigenen Leben herstellen ("Das bedeutet für mich persönlich...")
 
-### 📉 Vergessen (Ebbinghaus)
+---
 
-**Vergessenskurve:** Wir vergessen am schnellsten direkt nach dem Lernen. Später wird das Vergessen langsamer.
+### 🔄 3.8 Abrufarten (von leicht bis schwer)
 
-**Warum vergessen wir?**
+| Abrufart | Beschreibung | Schwierigkeit | Prüfungsbeispiel |
+|---|---|---|---|
+| **Wiedererkennen** | Aus Optionen das Richtige auswählen | Leicht | Multiple-Choice-Fragen |
+| **Gestützter Abruf** | Mit einem Hinweis erinnern | Mittel | "Es fängt mit K an..." |
+| **Freier Abruf** | Ohne jede Hilfe erinnern | Schwer | Offene Klausurfragen |
 
-- **Interferenz:** Anderes Wissen "überschreibt" Erinnerungen
-  - Proaktiv: Altes stört Neues
-  - Retroaktiv: Neues stört Altes
-- **Fehlende Abrufhinweise:** Der "Schlüssel" zur Erinnerung fehlt
-- **Inhibition:** Aktives Unterdrücken von Erinnerungen
+> 💡 **Lerntipp:** Übe immer den **freien Abruf**! Buch zuklappen und alles aufschreiben, was du weißt. Das ist anstrengend, aber am effektivsten.
 
-> 💡 **Lerntipp:** Verteile das Lernen auf mehrere Tage (Distributed Practice). Einmal 6 Stunden lernen ist schlechter als 6x 1 Stunde!
+---
 
-### 🔬 Neuronale Grundlagen des Gedächtnisses
+### 📉 3.9 Vergessen und Fehlleistungen des Gedächtnisses
 
-**Hebb'sche Lernregel:** "What fires together, wires together." Nervenzellen, die gleichzeitig aktiv sind, verknüpfen sich stärker.
+**Vergessen ist nicht nur ein Defizit** – es hat auch eine Funktion! Es hilft, Wichtiges von Unwichtigem zu trennen und das Gedächtnis zu organisieren.
 
-**Hippocampus** = entscheidend für die Übertragung von Kurzzeitgedächtnis ins Langzeitgedächtnis (wie ein Bibliothekar, der Bücher einsortiert).
+**Ursachen des Vergessens:**
 
-**Plastizität:** Das Gehirn verändert sich durch Erfahrungen – lebenslanges Lernen ist biologisch möglich! (Studie mit Londoner Taxifahrern: größerer Hippocampus)`,
+| Ursache | Beschreibung | Beispiel |
+|---|---|---|
+| **Zerfall** | Information zerfällt mit der Zeit | Alte Telefonnummer vergessen |
+| **Interferenz** | Anderes Wissen "stört" die Erinnerung | Ähnliche Passwörter verwechseln |
+| **Proaktive Interferenz** | Altes Wissen stört neues Lernen | Alte Adresse blockiert neue Adresse |
+| **Retroaktive Interferenz** | Neues Wissen stört Erinnern an Altes | Neue Sprache verdrängt alte |
+| **Fehlende Abrufhinweise** | Man kann nicht auf die Erinnerung zugreifen | Tip-of-the-tongue Phänomen |
+
+**"Seven Sins of Memory" (Schacter, 2003)** – 7 Fehlerarten des Gedächtnisses:
+
+| Fehler | Beschreibung | Beispiel |
+|---|---|---|
+| Zerfall | Zugriff nimmt mit der Zeit ab | Vergessen alter Inhalte |
+| Geistesabwesenheit | Unaufmerksamkeit bei Enkodierung | Schlüssel verlegen |
+| Blockierung | Erinnerung ist vorhanden, aber nicht abrufbar | Tip-of-the-tongue |
+| Fehlattribution | Falscher Quelle zugeordnet | Traum für Erinnerung halten |
+| Beeinflussbarkeit | Externe Suggestionen verfälschen Erinnerung | Suggestivfragen bei Zeugenaussagen |
+| Verzerrung | Aktuelles Wissen verzerrt die Vergangenheit | Frühere Ansichten anders erinnern |
+| Persistenz | Ungewollte Wiederkehrer (man WILL vergessen) | Traumatische Erinnerungen |
+
+---
+
+### 🔬 3.10 Neuronale Grundlagen des Gedächtnisses
+
+**Hebb'sche Lernregel:** "What fires together, wires together." – Nervenzellen, die gleichzeitig aktiv sind, bauen ihre Verbindung aus. Umgekehrt: "Use it or lose it" – nicht genutzte Verbindungen werden zurückgebaut.
+
+**Wichtige Hirnstrukturen für das Gedächtnis:**
+
+| Struktur | Funktion |
+|---|---|
+| **Hippocampus** | Konsolidierung: Überführt Information vom KZG ins LZG. Für räumliches Lernen und episodische Erinnerungen zentral. |
+| **Amygdala** | Emotionale Färbung von Erinnerungen. Emotional starke Erlebnisse werden besser behalten. |
+| **Cerebellum** | Prozedurale Gedächtnisinhalte (motorische Fertigkeiten) |
+| **Präfrontaler Cortex** | Arbeitsgedächtnis, strategisches Abrufen |
+
+**Studie: Londoner Taxifahrer (Woollett & Maguire, 2011)**
+
+Londoner Taxifahrer müssen für die Prüfung ("The Knowledge") ca. 25.000 Straßen, 20.000 Orte und 320 Kernrouten lernen. Das dauert mehrere Jahre.
+
+Ergebnis: In der Gruppe der Taxifahrer, die die Prüfung bestanden hatten (Qualified Trainees), vergrößerte sich der **hintere Hippocampus** messbar – es wurde mehr graue Substanz festgestellt. In der Gruppe der Nichtbestandenen und der Kontrollgruppe gab es diese Veränderung nicht.
+
+→ **Neuroplastizität:** Das Gehirn verändert seine Struktur durch Lernen und Erfahrung – auch im Erwachsenenalter.`,
       },
       {
         heading: 'Gehirn & Nervenzelle',
         content: `### 🔋 Was ist ein Neuron?
 
-**Alltagsbeispiel:** Stell dir das Gehirn wie ein riesiges Telefonkabelnetz vor. Jedes Kabel ist eine Nervenzelle. Zusammen verbinden sie alles miteinander.
+**Alltagsbeispiel:** Stell dir das Gehirn wie ein riesiges Computernetzwerk vor. Jede Nervenzelle ist wie ein kleiner Computer, der Signale empfängt, verarbeitet und weitersendet. Mit 100 Milliarden Neuronen und bis zu 1 Billiarde Verbindungen ist das Gehirn das komplexeste System, das wir kennen.
 
-Das Gehirn hat ca. **100 Milliarden Neuronen** mit bis zu **1 Billiarde Verbindungen**.
+**Definition:** Ein **Neuron** (Nervenzelle) ist eine Zelle, deren spezielle Aufgabe es ist, Informationen (elektro-chemische Signale) zu empfangen, zu verarbeiten und an andere Zellen weiterzuleiten.
 
-### 🏗️ Aufbau einer Nervenzelle
+Neuronen unterscheiden sich in Gestalt, Größe, chemischer Zusammensetzung und Funktion.
+
+---
+
+### 🏗️ 4.1 Aufbau einer Nervenzelle
 
 \`\`\`
-Dendriten → Zellkörper → Axon → Synapse
-(Eingänge)  (Verarbeitung) (Leitung) (Ausgang)
+          Dendriten
+         /   |   \\
+        /    |    \\
+       [  Zellkörper  ]
+              |
+           Axonhügel (Integrationspunkt)
+              |
+         ~~~Axon~~~  (evt. mit Myelinscheide)
+              |
+         Synapsenendknöpfchen
+              |
+          → Synapse → nächste Zelle
 \`\`\`
 
-|Teil|Funktion|
-|---|---|
-|**Dendriten**|Empfangen Signale von anderen Nervenzellen|
-|**Zellkörper (Soma)**|Verarbeitet eingehende Signale|
-|**Axon**|Leitet das Signal weiter (oft von Myelin ummantelt)|
-|**Synapse**|Verbindungsstelle zur nächsten Nervenzelle|
-|**Myelin**|Isolierschicht ums Axon – macht die Weiterleitung schneller|
-
-### ⚡ Wie läuft ein Signal durch eine Nervenzelle?
-
-**Alltagsbeispiel:** Stell dir eine Reihe Dominosteine vor. Wenn der erste fällt, fallen alle. Das Neuron "feuert" nach dem Alles-oder-Nichts-Prinzip.
-
-1. Dendrit empfängt Signal
-2. Signale summieren sich am Axonhügel
-3. Wenn Schwellenwert überschritten → **Aktionspotenzial** (elektrischer Impuls feuert)
-4. Signal läuft das Axon entlang bis zur Synapse
-
-**Alles-oder-Nichts-Prinzip:** Ein Neuron feuert entweder ganz oder gar nicht. Die Stärke des Reizes beeinflusst, wie oft es feuert – nicht wie stark.
-
-### 💬 Signalübertragung zwischen Nervenzellen (Synapse)
-
-**Alltagsbeispiel:** An der Synapse ist ein Spalt – wie ein kleiner Graben zwischen zwei Grundstücken. Damit die Nachricht rüberkommt, werden Boten losgeschickt: die **Neurotransmitter**.
-
-**Ablauf:**
-
-1. Aktionspotenzial kommt an der Synapse an
-2. Vesikel (kleine Bläschen) geben **Neurotransmitter** in den synaptischen Spalt ab
-3. Neurotransmitter docken ans nächste Neuron (Schlüssel-Schloss-Prinzip)
-4. Das nächste Neuron wird erregt oder gehemmt
-5. Überschüssige Neurotransmitter werden wiederaufgenommen (Reuptake)
-
-### 🧪 Wichtige Neurotransmitter
-
-|Neurotransmitter|Wirkung|Bekannte Funktion|
+| Teil | Funktion | Detail |
 |---|---|---|
-|**Glutamat**|Erregend|Am häufigsten; Grundlage von Lernen und Gedächtnis|
-|**GABA**|Hemmend|Beruhigung; Valium wirkt an GABA-Rezeptoren|
-|**Dopamin**|Erregend/hemmend|Belohnung, Motivation, Sucht, Bewegung|
-|**Serotonin**|Regulierend|Stimmung, Schlaf, Hunger; Mangel → Depression|
-|**Acetylcholin**|Erregend/hemmend|Muskelsteuerung, Gedächtnis|
-|**Adrenalin**|Erregend|Kampf-oder-Flucht-Reaktion|
-|**Noradrenalin**|Aktivierend|Wachheit, Konzentration im Gehirn|
+| **Dendriten** | Empfangen Signale von anderen Neuronen | Viele Verzweigungen = viele Eingänge |
+| **Zellkörper (Soma)** | Enthält Zellkern; verarbeitet eingehende Signale | Metabolismus der Zelle |
+| **Axonhügel** | Entscheidet, ob ein Aktionspotenzial ausgelöst wird | Wie ein "Türsteher" |
+| **Axon** | Leitet das Signal weiter (elektrisch) | Kann bis zu 1 Meter lang sein |
+| **Myelinscheide** | Isoliert das Axon → schnellere Signalleitung | Wie Isolierung um ein Kabel |
+| **Ranvier'sche Schnürringe** | Lücken in der Myelinscheide → Signal "springt" (saltatorische Erregungsleitung) | Beschleunigt die Leitung |
+| **Synapsenendknöpfchen** | Ausgang: Hier werden Neurotransmitter ausgeschüttet | Verbindung zur nächsten Zelle |
 
-### 🗺️ Aufbau des Gehirns
+---
 
-**Großhirnrinde (Kortex)** – der "denkende" Teil, in Lappen unterteilt:
+### ⚡ 4.2 Wie funktioniert ein Aktionspotenzial?
 
-|Lappen|Funktion|
+**Alltagsbeispiel:** Stell dir eine Reihe Dominosteine vor. Wenn der erste fällt, fallen alle nacheinander. Genauso "feuert" ein Neuron: Das Signal läuft wie eine Welle das Axon entlang.
+
+**Das Ruhepotenzial:** In Ruhe ist das Innere des Neurons negativ geladen (ca. -70 mV) gegenüber dem Außen. Das Neuron ist bereit, aber sendet kein Signal.
+
+**Das Aktionspotenzial (AP):**
+1. Genug Signale kommen an den Dendriten an
+2. Am Axonhügel summieren sich erregende (+) und hemmende (-) Signale
+3. Wenn der **Schwellenwert** (ca. -55 mV) überschritten wird → **Aktionspotenzial feuert!**
+4. Das AP läuft als Welle das Axon hinunter
+5. Am Ende angekommen: Neurotransmitter werden ausgeschüttet
+
+**Alles-oder-Nichts-Prinzip:** Das Neuron feuert entweder ganz oder gar nicht. Es gibt kein "halbherziges" Feuern. Die Intensität eines Reizes wird nicht durch die Stärke des APs codiert, sondern durch die **Frequenz** (wie oft feuert das Neuron pro Sekunde).
+
+---
+
+### 💬 4.3 Signalübertragung an der Synapse
+
+**Alltagsbeispiel:** An der Synapse klafft ein kleiner Spalt zwischen zwei Nervenzellen – wie ein Graben zwischen zwei Grundstücken. Die Lösung: Das Neuron schickt kleine chemische Boten (Neurotransmitter) hinüber!
+
+**Ablauf der synaptischen Übertragung:**
+
+\`\`\`
+1. Aktionspotenzial erreicht das Synapsenendknöpfchen
+2. Vesikel (Bläschen mit Neurotransmittern) wandern zur Membran
+3. Neurotransmitter werden in den SYNAPTISCHEN SPALT ausgeschüttet
+4. Neurotransmitter docken an Rezeptoren des postsynaptischen Neurons
+   (Schlüssel-Schloss-Prinzip: nur passende Neurotransmitter passen)
+5. Das postsynaptische Neuron wird erregt ODER gehemmt
+6. Neurotransmitter werden abgebaut oder wiederaufgenommen (Reuptake)
+\`\`\`
+
+**Wichtig:** Neurotransmitter können nur an passende Rezeptoren binden! Das macht das System spezifisch und flexibel zugleich.
+
+---
+
+### 🧪 4.4 Die wichtigsten Neurotransmitter
+
+| Neurotransmitter | Wirkung | Funktion | Klinische Relevanz |
+|---|---|---|---|
+| **Glutamat** | Erregend | Häufigster NT im Gehirn (50 % der Neurone); Lernprozesse, Gedächtnis | Zu viel → neurotoxisch |
+| **GABA** | Hemmend | Wichtigster hemmender NT (33–50 % aller Synapsen); Angstregulation | Benzodiazepine (z.B. Valium) wirken an GABA-Rezeptoren |
+| **Dopamin** | Erregend/hemmend | Belohnung, Motivation, Lernen, Sucht, Willkürmotorik | Zu wenig → Parkinson; Zusammenhang mit Schizophrenie |
+| **Serotonin** | Modulierend | Stimmung, Schlaf-Wach-Rhythmus, Hunger, Schmerzwahrnehmung | Mangel → Depression; SSRIs erhöhen Serotonin |
+| **Acetylcholin (ACh)** | Erregend/hemmend | Muskelsteuerung, Gedächtnis, Aufmerksamkeit | Mangel → Alzheimer |
+| **Adrenalin** | Erregend | Stressreaktion, Kampf-oder-Flucht | Wird bei Gefahr ausgeschüttet |
+| **Noradrenalin** | Aktivierend | Aktivierung, Wachheit, Konzentration | Betablocker hemmen Noradrenalin |
+| **Endorphine** | Hemmend | Natürliche Schmerzhemmung, Euphorie | "Runner's High" |
+
+> 💡 **Merkhilfe:** "Glutamat gibt Gas, GABA bremst." Glutamat = erregt, GABA = hemmt.
+
+---
+
+### 🗺️ 4.5 Aufbau des Gehirns
+
+**Das Gehirn von außen nach innen (evolutionär):**
+
+\`\`\`
+Großhirnrinde (Neokortex)   ← jüngster, typisch menschlich
+     ↕
+Limbisches System            ← Emotionen, Gedächtnis
+     ↕
+Hirnstamm + Kleinhirn        ← älteste Strukturen, Grundfunktionen
+\`\`\`
+
+**Die 4 Lappen des Großhirns (Kortex):**
+
+| Lappen | Lage | Hauptfunktion | Wichtige Areale |
+|---|---|---|---|
+| **Frontallappen** | Vorne | Planung, Entscheidung, Kontrolle, Motorik, Sprache (Broca-Areal), höhere kognitive Funktionen | Präfrontaler Kortex (PFC), Motorischer Kortex |
+| **Parietallappen** | Oben/Mitte | Tastsinn, Raumorientierung, Körperbewusstsein | Somatosensorischer Kortex |
+| **Temporallappen** | Seitlich | Hören, Sprachverständnis (Wernicke-Areal), Gedächtnis | Wernicke-Areal, Hippocampus |
+| **Okzipitallappen** | Hinten | Sehen, Visuelle Verarbeitung | Visueller Kortex |
+
+**Das limbische System** – das emotionale Gehirn:
+
+| Struktur | Funktion |
 |---|---|
-|**Frontallappen**|Planung, Entscheidungen, Kontrolle (der "Chef")|
-|**Parietallappen**|Tastsinn, Raumorientierung|
-|**Temporallappen**|Hören, Sprache, Gedächtnis|
-|**Okzipitallappen**|Sehen|
+| **Hippocampus** (Seepferdchen) | Gedächtnis (Konsolidierung neuer Inhalte), räumliche Navigation, Lernprozesse |
+| **Amygdala** (Mandelkern) | Emotionsverarbeitung (besonders Angst und Wut), emotionale Gedächtnisinhalte |
+| **Gyrus cinguli** (Gürtelwindung) | Aufmerksamkeitssteuerung, Warnsystem, Fehlermonitoring |
+| **Hypothalamus** | Hunger, Durst, Körpertemperatur, Schlaf-Wach-Rhythmus, Schnittstelle zum Hormonsystem |
+| **Thalamus** | "Türsteher des Bewusstseins" – filtert alle Sinnesimpulse, die ins Bewusstsein gelangen |
 
-**Wichtige Strukturen:**
+**Hirnstamm und Kleinhirn:**
 
-- **Hippocampus** → Gedächtnis, Navigation
-- **Amygdala** → Emotionen, Angst
-- **Hypothalamus** → Hunger, Durst, Schlaf, Hormonsteuerzentrale
-- **Kleinhirn** → Bewegungskoordination, Gleichgewicht
-- **Hirnstamm** → Grundfunktionen (Atmen, Herzschlag)`,
+| Struktur | Funktion |
+|---|---|
+| **Hirnstamm** | Grundlegende Lebensfunktionen: Atmen, Herzschlag, Schlafen, Reflexe |
+| **Kleinhirn** | Bewegungskoordination, Gleichgewicht, motorisches Gedächtnis |
+
+---
+
+### 🔬 4.6 Neuronale Plastizität und das lernende Gehirn
+
+**Hebb'sche Lernregel (1949):** "What fires together, wires together" – Neuronen, die gleichzeitig und wiederholt aktiv sind, verstärken ihre synaptischen Verbindungen.
+
+Umgekehrt: "Use it or lose it" – nicht genutzte Verbindungen werden zurückgebaut (Degeneration).
+
+**Morphologische Plastizität:** Nicht nur die Verbindungsstärke, sondern auch die physische Struktur des Gehirns kann sich durch Lernen verändern (Größe von Arealen, Dichte grauer Substanz).
+
+**Beleg: Taxifahrer-Studie (Woollett & Maguire, 2011)** – Nur bei Taxifahrern, die die Prüfung bestanden hatten (und damit wirklich gelernt hatten), vergrößerte sich der Hippocampus. Der Lernprozess selbst – nicht die Zeit – war entscheidend.`,
       },
       {
         heading: 'Nervensystem & Endokrines System',
-        content: `### 🌐 Das Nervensystem – ein Überblick
+        content: `### 🌐 Das Nervensystem – Überblick
 
-**Alltagsbeispiel:** Dein Körper braucht ein Kommunikationsnetz – für schnelle Nachrichten (wie SMS) und für langsame, aber nachhaltige Botschaften (wie Briefe).
+**Alltagsbeispiel:** Dein Körper braucht zwei Kommunikationssysteme: eines für schnelle Notfallnachrichten (wie WhatsApp) und eines für langsame, aber tiefgreifende Veränderungen (wie ein Brief, der Wochen braucht, aber Monate Wirkung hat).
 
 \`\`\`
-Nervensystem
+NERVENSYSTEM
+│
 ├── Zentrales Nervensystem (ZNS)
 │   ├── Gehirn
 │   └── Rückenmark
+│
 └── Peripheres Nervensystem (PNS)
-    ├── Somatisches NS → willkürliche Bewegungen
-    └── Autonomes/vegetatives NS
-        ├── Sympathikus → "Gaspedal" (aktiviert)
-        └── Parasympathikus → "Bremse" (beruhigt)
+    ├── Somatisches NS → Willkürliche Bewegungen, Sinneswahrnehmung
+    └── Autonomes/vegetatives NS → Unwillkürliche Organsteuerung
+        ├── Sympathikus → AKTIVIERUNG ("Gaspedal")
+        └── Parasympathikus → BERUHIGUNG ("Bremse")
 \`\`\`
 
-### ⚡ vs. 🐌 Nervensystem vs. Endokrines System
+**ZNS vs. PNS:**
+- **ZNS** = Schaltzentrale: Gehirn und Rückenmark verarbeiten Informationen und koordinieren Reaktionen
+- **PNS** = Verbindungsnetz: Leitet Infos vom Körper zum ZNS und zurück
 
-||**Nervensystem**|**Endokrines System**|
+**Topographische vs. funktionelle Gliederung:**
+- **Topographisch** (nach Ort): ZNS / PNS
+- **Funktionell** (nach Aufgabe): somatisch (willkürlich) / autonom (unwillkürlich)
+
+---
+
+### ⚡ 5.1 Das Autonome Nervensystem: Sympathikus & Parasympathikus
+
+**Alltagsbeispiel:** Du gehst nachts durch einen dunklen Park und plötzlich springt jemand hinter einem Busch hervor. Dein Herz rast, du schwitzt, die Muskeln spannen sich an, deine Pupillen weiten sich. Das ist der **Sympathikus** in Aktion. Wenn sich die Situation als harmlos herausstellt, beruhigst du dich langsam – das ist der **Parasympathikus**.
+
+| Wirkung | Sympathikus | Parasympathikus |
 |---|---|---|
-|Botenstoff|Neurotransmitter|Hormone|
-|Übertragungsweg|Synaptischer Spalt|Blutbahn|
-|Geschwindigkeit|Millisekunden (wie E-Mail)|Sekunden bis Minuten (wie Brief)|
-|Wirkung|Lokal, kurzfristig|Weit, langfristig|
-|Beispiel|Hand wegziehen bei Hitze|Stressreaktion mit Cortisol|
+| **Metapher** | Gaspedal / "Fight or Flight" | Bremse / "Rest and Digest" |
+| **Herzrate** | ↑ erhöht | ↓ verlangsamt |
+| **Atmung** | ↑ vertieft | ↓ verlangsamt |
+| **Blutdruck** | ↑ steigt | ↓ sinkt |
+| **Pupillen** | Weiten sich | Verengen sich |
+| **Verdauung** | ↓ gehemmt | ↑ aktiv |
+| **Schweißdrüsen** | Aktiv | Inaktiv |
+| **Energiebereitstellung** | Glykogen → Glukose | Energiespeicherung |
 
-### 😰 Stress – eine Anwendung
+**Wichtig:** Sympathikus und Parasympathikus wirken meist **antagonistisch** (gegensätzlich) – sie regulieren sich gegenseitig, um das Gleichgewicht (Homöostase) aufrechtzuerhalten.
 
-**Alltagsbeispiel:** Du wirst von einem Hund angebellt. Dein Herz schlägt schneller, du schwitzt, die Muskeln spannen sich an. Das ist die Stressreaktion!
+---
 
-**Sympathikus** aktiviert sich bei Stress → **Kampf-oder-Flucht-Reaktion:**
+### 😰 5.2 Stress – eine wichtige Anwendung
 
-- Herzschlag ↑
-- Atmung ↑
-- Blut in die Muskeln
-- Verdauung ↓
+**Alltagsbeispiel:** Du hast eine wichtige Präsentation vor der Klasse. Kurz davor: Herzklopfen, feuchte Hände, Magen dreht sich – das ist die Stressreaktion deines Körpers.
 
-Nach dem Stress: **Parasympathikus** beruhigt alles wieder → "Rest and Digest"
+**Die Stressreaktion läuft in zwei Phasen ab:**
 
-**Stress-Hormone:** Adrenalin (schnell) und Cortisol (langsam, aber langanhaltend)
+**Phase 1 – Sofortreaktion (Nervensystem):**
+- Sympathikus aktiviert sich
+- Nebennierenmark schüttet **Adrenalin** und **Noradrenalin** aus
+- Reaktion: Sekundenbruchteile – Kampf-oder-Flucht vorbereiten
 
-### 🏭 Das Endokrine System – Hormone
+**Phase 2 – Langzeitreaktion (Hormonsystem):**
+- Hypothalamus → Hypophyse → Nebennierenrinde → **Cortisol**
+- Reaktion: Minuten bis Stunden – Energiemobilisierung, Immunsuppression
 
-**Wichtige hormonproduzierende Organe:**
+**Chronischer Stress:** Wenn Cortisol dauerhaft erhöht ist:
+- Schlafstörungen
+- Immunsystem geschwächt
+- Gedächtnisbeeinträchtigungen (Hippocampus-Schäden!)
+- Erschöpfung bis hin zu Burnout
 
-|Organ|Hormon|Funktion|
+---
+
+### 🔬 5.3 Nervensystem vs. Endokrines System – Der Vergleich
+
+| Merkmal | Nervensystem | Endokrines System |
 |---|---|---|
-|**Hypothalamus**|Freisetzungshormone|Steuerzentrale – kontrolliert Hypophyse|
-|**Hypophyse**|Viele (z.B. Wachstumshormon)|"Dirigent" der Drüsen|
-|**Nebenniere**|Adrenalin, Cortisol|Stress|
-|**Schilddrüse**|Thyroxin|Stoffwechsel|
-|**Bauchspeicheldrüse**|Insulin, Glucagon|Blutzucker|
-|**Keimdrüsen**|Östrogen, Testosteron|Sexualentwicklung|
+| **Metapher** | E-Mail (schnell, gezielt) | Postkarte (langsam, weitreichend) |
+| **Botenstoffe** | Neurotransmitter | Hormone |
+| **Übertragungsweg** | Synaptischer Spalt | Blutbahn |
+| **Geschwindigkeit** | Millisekunden | Sekunden bis Minuten |
+| **Wirkdauer** | Kurzfristig | Langfristig (Stunden, Tage) |
+| **Wirkort** | Lokal (benachbarte Zelle) | Weitreichend (ganzer Körper) |
+| **Ursprung der Botenstoffe** | Nur im Körper hergestellt | Können auch synthetisiert werden |
 
-**Hypothalamus-Hypophysen-Achse** = DAS Bindeglied zwischen Nervensystem und endokrinem System. Der Hypothalamus gibt Signale an die Hypophyse, die dann andere Drüsen steuert.`,
+> ⚠️ **Wichtig:** Manche Substanzen können sowohl Neurotransmitter als auch Hormon sein – z.B. Adrenalin. Der Unterschied liegt im **Ursprungsort und Übertragungsweg**.
+
+---
+
+### 🏭 5.4 Das Endokrine System – Hormonproduzierende Organe
+
+**Alltagsbeispiel:** Du wirst morgens von deinem Wecker geweckt. Aber eigentlich bist du schon kurz vorher aufgewacht – weil Cortisol vor dem Aufwachen ansteigt. Hormone steuern viele Rhythmen deines Körpers, ohne dass du es merkst.
+
+**Das Hypothalamus-Hypophysen-System – die Steuerungskette:**
+
+\`\`\`
+Hypothalamus (Steuerzentrale)
+      ↓ gibt Freisetzungshormone ab
+Hypophyse (Dirigent)
+      ↓ gibt stimulierende Hormone ab
+Periphere Drüsen (z.B. Schilddrüse, Nebenniere, Keimdrüsen)
+      ↓ geben Hormonen ins Blut ab
+Zielorgane (z.B. Muskeln, Gehirn, Leber)
+      ↓ Rückkopplungsschleife (Feedback)
+Hypothalamus (Regulierung)
+\`\`\`
+
+**Wichtige hormonproduzierende Organe und ihre Hormone:**
+
+| Organ | Hormon(e) | Funktion |
+|---|---|---|
+| **Hypothalamus** | Freisetzungshormone (CRH, TRH, GnRH, ...) | Steuert Hypophyse; Bindeglied zwischen NS und endokrinem System |
+| **Hypophyse** | Wachstumshormon, TSH, ACTH, FSH, LH | "Dirigent" der Drüsen; steuert andere Hormonsysteme |
+| **Schilddrüse** | Thyroxin (T4), Trijodthyronin (T3) | Stoffwechselrate, Körpertemperatur, Wachstum |
+| **Nebenniere (Mark)** | Adrenalin, Noradrenalin | Sofortreaktion auf Stress (Kampf oder Flucht) |
+| **Nebenniere (Rinde)** | Cortisol, Aldosteron | Langfristige Stressreaktion, Mineralhaushalt |
+| **Bauchspeicheldrüse** | Insulin, Glucagon | Blutzuckerregulation |
+| **Keimdrüsen** | Östrogen, Testosteron, Progesteron | Sexualentwicklung, Fruchtbarkeit, Stimmung |
+| **Zirbeldrüse** | Melatonin | Schlaf-Wach-Rhythmus, tageszeitliche Regulation |`,
       },
       {
         heading: 'Wahrnehmung',
         content: `### 👁️ Was ist Wahrnehmung?
 
-**Alltagsbeispiel:** Du siehst ein Bild und erkennst sofort einen Hund – obwohl nur bunte Punkte auf einem Bildschirm sind. Das Gehirn hat aus dem Reiz eine Bedeutung gemacht!
+**Alltagsbeispiel:** Wenn du in einem fremden Land bist, riechst du die Gerüche intensiver und siehst die Farben bunter. Warum? Weil Wahrnehmung nicht einfach ein Foto der Realität ist – sie ist ein aktiver, subjektiver Prozess.
 
-**Wahrnehmung** = aktiver Prozess, bei dem Sinnesreize aufgenommen, verarbeitet und mit Wissen verknüpft werden → Wahrnehmung ist **immer subjektiv**!
+**Wahrnehmung** = aktiver Prozess, bei dem Sinnesreize aufgenommen, mit Vorwissen und Erwartungen verknüpft und zu einem bedeutsamen Gesamtbild verarbeitet werden.
 
-### 👅 Die Sinne des Menschen
+**Wahrnehmung ist immer subjektiv!** Einflussfaktoren:
+- Beschaffenheit der Sinnesorgane
+- Erwartungen und Vorwissen
+- Aufmerksamkeit
+- Emotionale Zustände
+- Individuelle und kulturelle Erfahrungen
 
-|Sinn|Stimulus|
-|---|---|
-|**Sehen**|Elektromagnetische Wellen (Licht)|
-|**Hören**|Schallwellen|
-|**Schmecken**|Moleküle auf der Zunge|
-|**Riechen**|Moleküle in der Luft|
-|**Fühlen**|Berührung, Druck, Temperatur, Schmerz|
+---
 
-> 💡 **Tipp:** Je mehr Sinne beim Lernen beteiligt sind, desto besser bleibt es im Gedächtnis!
+### 👅 6.1 Die Sinne des Menschen
 
-### 👁️ Visuelles System
+| Sinn | Physikalischer Stimulus | Sinnesorgan | Wichtigkeit |
+|---|---|---|---|
+| **Sehen** | Elektromagnetische Wellen (Licht) | Auge | Dominanter Sinn beim Menschen |
+| **Hören** | Schallwellen (Luftdruckschwankungen) | Ohr | Zweitwichtigster Sinn |
+| **Riechen** | Chemische Moleküle in der Luft | Nase | Stark mit Emotionen und Gedächtnis verbunden |
+| **Schmecken** | Chemische Moleküle in Flüssigkeit | Zunge | 5 Grundgeschmäcker |
+| **Fühlen** | Druck, Temperatur, Schmerz, Vibration | Haut, Muskeln | Wichtig für Sicherheit |
 
-**Weg des Lichts durchs Auge:**
+> 💡 **Lerntipp:** Je mehr Sinne beim Lernen beteiligt sind, desto besser bleibt das Wissen im Gedächtnis – weil es vielfältiger verknüpft gespeichert wird!
 
+---
+
+### 👁️ 6.2 Das visuelle System – Wie wir sehen
+
+**Weg des Lichts durch das Auge:**
 \`\`\`
-Licht → Hornhaut → Linse → Netzhaut → Stäbchen/Zapfen → Sehnerv → Gehirn
+Licht → Kornea (Hornhaut) → Pupille → Linse → Glaskörper → Netzhaut (Retina)
+→ Fotorezeptoren (Stäbchen & Zapfen) → Sehnerv → visueller Kortex (Hinterhauptlappen)
 \`\`\`
 
-- **Stäbchen** → Helligkeit, Schwarz-Weiß, Peripherie (viele, aber grob)
-- **Zapfen** → Farbe, Details, Fovea (weniger, aber präzise)
-- **Blinder Fleck** = Stelle ohne Fotorezeptoren (wo der Sehnerv austritt)
+**Fotorezeptoren – zwei Typen:**
 
-### 👂 Auditives System (Hören)
+| Rezeptortyp | Anzahl | Ort | Funktion | Bedingung |
+|---|---|---|---|---|
+| **Stäbchen** | ~120 Mio. | Peripherie der Netzhaut | Helligkeit, Bewegung, Schwarz-Weiß | Funktionieren bei Dunkelheit |
+| **Zapfen** | ~6 Mio. | Fovea (Sehgrube, Mitte) | Farbe, Details, Schärfe | Benötigen viel Licht |
+
+**Blinder Fleck:** Wo der Sehnerv die Netzhaut verlässt, gibt es keine Fotorezeptoren → kein Sehen. Das Gehirn ergänzt diese Lücke automatisch (du merkst es normalerweise nicht).
+
+**Visuelle Verarbeitung:**
+- **Bottom-up** (datengesteuert): Die Rohdaten der Retina werden schrittweise zu komplexeren Formen verarbeitet (Linien → Formen → Objekte → Bedeutung)
+- **Top-down** (konzeptgesteuert): Erwartungen und Vorwissen beeinflussen, was man sieht. Beispiel: Man liest leicht, auch wenn Buchstaben im Wort vertauscht sind.
+
+**Gestaltgesetze** (wie das Gehirn Formen erkennt):
+
+| Gesetz | Prinzip | Beispiel |
+|---|---|---|
+| **Nähe** | Nahe Elemente werden zusammengefasst | Punkte in Gruppen |
+| **Ähnlichkeit** | Ähnliche Elemente werden zusammengefasst | Alle roten Elemente bilden eine Gruppe |
+| **Fortsetzung** | Linien werden in ihrer Richtung weitergeführt | Kurve scheint fortzuführen |
+| **Geschlossenheit** | Lücken werden mental geschlossen | Unvollständiger Kreis wirkt vollständig |
+| **Figur-Grund** | Vordergrund wird vom Hintergrund getrennt | Vasen-Gesicht-Illusion |
+
+---
+
+### 👂 6.3 Das auditive System – Wie wir hören
 
 **Weg des Schalls:**
-
 \`\`\`
-Schallwellen → Ohrmuschel → Gehörgang → Trommelfell → Gehörknöchelchen → Innenohr (Cochlea) → Hörnerv → Gehirn
+Schallwellen → Ohrmuschel → Gehörgang → Trommelfell →
+Hammer, Amboss, Steigbügel (Gehörknöchelchen) →
+Cochlea (Innenohr mit Haarzellen) → Hörnerv →
+Auditiver Kortex (Temporallappen)
 \`\`\`
 
-**Lärm und Gesundheit:**
+**Was bestimmt, was wir hören?**
+- **Frequenz** (Hz) → bestimmt die **Tonhöhe** (hoch vs. tief)
+- **Amplitude** (dB) → bestimmt die **Lautstärke** (laut vs. leise)
+- Menschen hören ca. 20–20.000 Hz (im Alter sinkt die obere Grenze)
 
-- Ab **85 dB(A)** → Gehörschutz Pflicht am Arbeitsplatz
-- Zu hohe Lärmexposition → Lärmschwerhörigkeit
-- **Aurale Wirkungen** = Hörschäden direkt
-- **Extraaurale Wirkungen** = indirekte Folgen (Stress, Schlafstörungen, Herzprobleme)
+**Lärm und Gesundheit – wichtig für WiPsy!**
 
-### 🎨 Merkmale der Wahrnehmung
+| dB-Wert | Beispiel | Gesundheitliche Wirkung |
+|---|---|---|
+| 30 dB | Flüstern | Harmlos |
+| 60 dB | Normales Gespräch | Harmlos |
+| 85 dB | Straßenlärm | **Ab hier: Gehörschutz am Arbeitsplatz Pflicht (8h)** |
+| 100 dB | Konzert | Gefährlich bei längerem Exposure |
+| 130 dB | Düsentriebwerk | Sofortige Schmerzgrenze |
 
-**Wahrnehmung ist subjektiv** – Einflussfaktoren:
+**Aurale Lärmwirkungen** = direkte Hörschäden (Lärmschwerhörigkeit)
 
-- Beschaffenheit der Sinnesorgane
-- Erwartungen
-- Aufmerksamkeit
-- Frühere Erfahrungen
-- Soziale und kulturelle Faktoren
+**Extraaurale Lärmwirkungen** = indirekte Schäden ohne Hörbeeinträchtigung:
+- Psychologisch: Stress, schlechte Stimmung, verminderte Konzentration
+- Physiologisch: Herzerkrankungen, erhöhter Blutdruck
+- Sozioökonomisch: Produktivitätsverlust, Fehlerhäufigkeit
 
-**Bottom-up vs. Top-down:**
+> 💡 **Studie:** Schon bei 50–60 dB steigt die Fehlerrate bei Büroarbeit messbar an. Bei 70–80 dB sinkt die Effizienz deutlich.
 
-- **Bottom-up** = von den Reizen ausgehend (erst Daten, dann Bedeutung)
-- **Top-down** = von Wissen und Erwartungen gesteuert (Kontext beeinflusst Wahrnehmung)`,
+---
+
+### 🎨 6.4 Eigenschaften der Wahrnehmung
+
+**Wahrnehmung ist subjektiv** – verschiedene Menschen nehmen dieselbe Situation unterschiedlich wahr.
+
+**Wahrnehmungstäuschungen** zeigen, wie das Gehirn konstruktiv arbeitet:
+- **Müller-Lyer-Illusion:** Zwei gleich lange Linien sehen unterschiedlich lang aus
+- **Simultaner Farbkontrast:** Dieselbe Farbe wirkt unterschiedlich auf verschiedenem Hintergrund
+- **Optische Täuschungen:** Fehler im System verraten uns, wie das System normalerweise arbeitet
+
+**Präattentive vs. attentive Verarbeitung:**
+- **Präattentiv (parallel):** Auffällige Einzelmerkmale (z.B. Farbe, Bewegung) werden sofort und ohne Aufwand aus der Umgebung herausgefiltert → **Pop-Out-Effekt**
+- **Attentiv (seriell):** Komplexe Kombinationsmerkmale erfordern bewusste, schrittweise Suche`,
       },
       {
         heading: 'Aufmerksamkeit, Bewusstsein & Kontrolle',
-        content: `### 🔦 Was ist Aufmerksamkeit?
+        content: `### 🔦 7.1 Was ist Aufmerksamkeit?
 
-**Alltagsbeispiel:** Du sitzt in der Cafeteria, um dich herum lärmt es. Aber wenn jemand deinen Namen ruft – du hörst es sofort! Das ist selektive Aufmerksamkeit.
+**Alltagsbeispiel:** Du sitzt in der Mensa, ringsum ist Lärm und Gespräche. Plötzlich hörst du deinen Namen – obwohl du gar nicht bewusst auf das Gespräch geachtet hast. Das ist selektive Aufmerksamkeit.
 
-**Aufmerksamkeit** = die Fähigkeit, relevante Informationen herauszufiltern und irrelevante zu ignorieren.
+**Aufmerksamkeit** = die Fähigkeit, aus der Flut von Reizen diejenigen auszuwählen, die für aktuelle Ziele relevant sind, und andere zu ignorieren.
 
-**3 Funktionen der Aufmerksamkeit:**
+**Warum brauchen wir Aufmerksamkeit?** Unser Nervensystem kann nicht alle Reize gleichzeitig vollständig verarbeiten – Selektion ist notwendig.
 
-|Funktion|Was sie tut|
+**3 Hauptfunktionen der Aufmerksamkeit:**
+
+| Funktion | Was sie tut |
 |---|---|
-|**Selektion**|Relevantes herausfiltern, Ablenkung ignorieren|
-|**Planung & Kontrolle**|Neue Handlungen vorbereiten und überwachen|
-|**Überwachung**|Wach bleiben, Veränderungen in der Umwelt entdecken|
+| **Selektion** | Relevante Information herausfiltern; Ablenkung ignorieren |
+| **Planung & Kontrolle** | Nicht automatisierte Handlungen vorbereiten und überwachen |
+| **Überwachung** | Wach bleiben; Veränderungen in der Umwelt entdecken |
 
-### 🎧 Selektive Aufmerksamkeit – Phänomene
+> ⚠️ **Wichtig:** Alle drei Funktionen können gleichzeitig aktiv sein – aber sie stören sich gegenseitig! Multitasking ist daher oft weniger effizient als sequenzielles Arbeiten.
 
-**Cocktailparty-Phänomen:** Inmitten von Lärm hörst du trotzdem, wenn jemand deinen Namen sagt. → Das Gehirn verarbeitet mehr als es ins Bewusstsein lässt.
+---
 
-**Change Blindness:** Wir bemerken Veränderungen im Sichtfeld oft nicht, wenn wir nicht darauf achten.
+### 🎧 7.2 Selektive Aufmerksamkeit – wichtige Phänomene
 
-**Inattentional Blindness / Unaufmerksamkeitsblindheit:** Wenn wir fokussiert sind, übersehen wir offensichtliche Dinge (Gorilla-Experiment!).
+**Cocktailparty-Phänomen:** Inmitten von Lärm und vielen Gesprächen hört man sofort, wenn der eigene Name fällt. Auch nicht bewusst beachtete Informationen werden also bis zu einem gewissen Grad verarbeitet.
 
-**Aufmerksamkeit kann gelenkt werden durch:**
+**Attentional Blink:** Nach einem bewusst wahrgenommenen Reiz gibt es ein kurzes Zeitfenster (200–500 ms), in dem ein zweiter Reiz kaum wahrgenommen wird. Das Bewusstsein "blinzelt" kurz.
 
-- **Endogene Ausrichtung** = von innen (Ziele, Intention) → willentlich
-- **Exogene Ausrichtung** = von außen (plötzlicher Reiz) → automatisch
+**Change Blindness:** Menschen bemerken oft keine Veränderungen im Sichtfeld, selbst wenn sie massiv sind – wenn die Aufmerksamkeit gerade woanders liegt.
 
-### 🧠 Bewusstsein
+**Inattentional Blindness (Unaufmerksamkeitsblindheit):** Das Gehirn filtert aktiv unerwartete Reize heraus, wenn man fokussiert auf etwas anderes ist.
+- **Gorilla-Experiment (Simons & Chabris, 1999):** Probanden sollten Ballpässe zählen. Dabei übersahen sie eine Person im Gorilla-Kostüm, die durch das Bild spazierte. ~50 % sahen den Gorilla nicht!
 
-**Bewusstsein** = das subjektive Erleben der eigenen mentalen Zustände und der Umwelt.
+**Ausrichtungsmechanismen der Aufmerksamkeit:**
+
+| Mechanismus | Beschreibung | Beispiel |
+|---|---|---|
+| **Endogene Ausrichtung** | Von innen gesteuert, willkürlich, zielgeleitet | Ich entscheide, das Buch zu lesen |
+| **Exogene Ausrichtung** | Von außen ausgelöst, unwillkürlich, reflexartig | Lautes Geräusch zieht Blick auf sich |
+
+---
+
+### 🧠 7.3 Bewusstsein – was ist das?
+
+**Alltagsbeispiel:** Wenn du träumst, erlebst du eine andere Welt – und sie fühlt sich real an. Beim Aufwachen fragst du dich: Welcher Zustand ist "echter"? Das ist eine uralte Frage über das Bewusstsein.
+
+**Bewusstsein** = das subjektive Erleben der eigenen mentalen Zustände, Wahrnehmungen und der Umwelt.
 
 **4 Perspektiven auf Bewusstsein:**
 
-1. Als Wahrnehmung der Welt (Bewusstsein der Umgebung)
-2. Als Selbstwahrnehmung (Wissen über sich selbst)
-3. Als bewusste Informationsverarbeitung (was wir aktiv verarbeiten)
-4. Als Schlaf-Wach-Zustand (Bewusstseinslevel)
+| Perspektive | Beschreibung |
+|---|---|
+| **Bewusstsein als Wahrnehmung** | Bewusstsein der äußeren Welt durch die Sinne |
+| **Selbstwahrnehmung** | Sich selbst als eigenständiges Wesen begreifen |
+| **Bewusste Verarbeitung** | Was man gerade aktiv denkt und bemerkt |
+| **Wachheitsgrad** | Kontinuum von tief schlafend bis hochalert |
 
-### 🕹️ Kontrolle
+**Phänomenales Bewusstsein** = die Qualität des subjektiven Erlebens (das berühmte "Wie es sich anfühlt"). Warum fühlt sich Rot so an wie Rot? Diese Frage ist philosophisch nicht vollständig gelöst.
 
-**Selbstkontrolle** = die Fähigkeit, Impulse zu unterdrücken und langfristige Ziele zu verfolgen (auch bekannt als "Willenskraft").
+**Nicht alles, was wir verarbeiten, wird bewusst!** Viele Prozesse (Atmung, Gleichgewicht, Reizfilterung) laufen vollständig unbewusst ab.
 
-**Alltagsbeispiel:** Du willst abnehmen, aber der Kuchen steht vor dir. Ob du ihn isst oder nicht – das ist eine Frage der Selbstkontrolle.
+---
 
-**Marshmallow-Test (Mischel):** Kinder, die als 4-Jährige warten konnten (1 Marshmallow JETZT vs. 2 später), hatten im Leben später mehr Erfolg in Schule, Beruf und Gesundheit.
+### 🕹️ 7.4 Selbstkontrolle
 
-**Kognitive Kontrolle** = die mentale Fähigkeit, Verhalten an Zielen auszurichten – besonders bei:
+**Alltagsbeispiel:** Du sitzt beim Lernen und dein Handy liegt neben dir. Es vibriert. Du willst es ignorieren – aber der Impuls, es anzusehen, ist stark. Ob du nachgibst oder nicht: das ist Selbstkontrolle.
 
-- Neuen, ungeübten Handlungen
-- Widersprüchlichen Reizen
-- Unterdrückung von Ablenkungen
+**Definition (Muraven & Baumeister, 2000):** Selbstkontrolle = das Bestreben, spontane und habituelle Gedanken, Emotionen und Verhaltensmuster zu hemmen, zu kontrollieren oder zu modifizieren, um geplante und zielgerichtete Handlungsabläufe zu ermöglichen.
 
-**Neuronale Grundlage:** Präfrontaler Kortex (Frontallappen) ist das "Kontrollzentrum".
+**Marshmallow-Experiment (Mischel, 1960er):**
+Kinder (ca. 4 Jahre alt) bekamen ein Marshmallow und wurden vor die Wahl gestellt: Sofort 1 Marshmallow essen ODER warten und 2 bekommen.
 
-**Ego-Depletion:** Selbstkontrolle kann erschöpft werden – wie ein Muskel. Nach vielen Entscheidungen leidet die Kontrolle.`,
+Langzeitfolge: Kinder, die warten konnten, hatten als Jugendliche und Erwachsene:
+- Bessere Schulnoten und Schulabschlüsse
+- Höhere SAT-Scores
+- Bessere soziale Kompetenz
+- Gesündere Ernährungsgewohnheiten
+- Besseren Umgang mit Stress
+
+→ **Belohnungsaufschub** (delayed gratification) ist ein wichtiger Prädiktor für Erfolg im Leben.
+
+**Folgen hoher Selbstkontrollanforderungen im Beruf:**
+- Emotionale Erschöpfung
+- Burnout
+- Schlafstörungen
+- Muskel-Skelett-Beschwerden
+- Depressive Symptome
+
+**Selbstkontrollanforderungen am Arbeitsplatz (Schmidt & Neubach):**
+- Versuchungen widerstehen
+- Ablenkungen ausblenden
+- Impulskontrolle (keine spontanen, unpassenden Reaktionen)
+- Innere Widerstände überwinden (unattraktive Aufgaben erledigen)
+- Emotionskontrolle (Gefühle regulieren, z.B. im Kundenkontakt)
+
+---
+
+### 🧩 7.5 Kognitive Kontrolle
+
+**Kognitive Kontrolle** = die Fähigkeit, das eigene Denken und Verhalten flexibel an Zielen und Instruktionen auszurichten – besonders dann, wenn keine automatischen Routinen helfen.
+
+**Wann wird kognitive Kontrolle benötigt?**
+1. **Neue, ungeübte Handlungen** – alles, was man noch nicht automatisiert hat
+2. **Reizunabhängiges Verhalten** – wenn die richtige Reaktion nicht durch den Reiz selbst vorgegeben ist
+3. **Abschirmung und Inhibition** – störende Reize blockieren; inadäquate Reaktionen unterdrücken
+
+**Ego Depletion (Baumeister):**
+Selbstkontrolle funktioniert wie ein Muskel: Sie kann erschöpfen. Wenn man viele Kontrollleistungen hintereinander erbringt, sinkt die Qualität nachfolgender Kontrolle.
+- Abnahme des Blutzuckerspiegels bei hoher Kontrollleistung
+- Erhöhte Aktivität im präfrontalen Kortex
+- Vermindertes subjektives Wohlbefinden
+
+**Neuronale Grundlage:**
+Der **präfrontale Kortex (PFC)** ist das wichtigste Areal für kognitive Kontrolle und Selbstkontrolle. Er hemmt impulsive Reaktionen aus dem limbischen System (besonders der Amygdala).`,
       },
       {
         heading: 'Sprache & Denken',
-        content: `### 💬 Was ist Sprache?
+        content: `### 💬 8.1 Was ist Sprache?
 
-**Alltagsbeispiel:** "Bank" – meinst du die Holzbank im Park oder die Bank, wo du dein Geld lagerst? Das Gehirn entscheidet in Millisekunden anhand des Kontexts.
+**Alltagsbeispiel:** Das Wort "Bank" kann eine Sitzgelegenheit oder ein Geldinstitut sein. Das Gehirn entscheidet in Millisekunden anhand des Kontexts, welche Bedeutung gemeint ist. Das zeigt, wie komplex Sprachverarbeitung wirklich ist.
 
-**Sprache** = ein regelgeleitetes System von Symbolen, das Kommunikation ermöglicht.
+**Sprache** = ein regelgeleitetes, symbolisches System, das Kommunikation ermöglicht und für Menschen artspezifisch ist.
+
+**Kennzeichen von Sprache:**
+- **Kreativität:** Aus endlichen Elementen können unendlich viele neue Sätze gebildet werden
+- **Produktivität:** Man kann Aussagen machen, die noch nie jemand zuvor gemacht hat
+- **Arbitrarität:** Die Verbindung zwischen Lautform und Bedeutung ist beliebig ("Hund" ≠ "dog", aber beides meint dasselbe)
 
 **Bausteine der Sprache:**
 
-|Begriff|Erklärung|
-|---|---|
-|**Phonem**|Kleinste Lauteinheit (z.B. /b/, /a/)|
-|**Morphem**|Kleinste bedeutungstragende Einheit ("un-", "-lich")|
-|**Syntax**|Grammatikregeln, wie Wörter zu Sätzen werden|
-|**Semantik**|Bedeutung von Wörtern und Sätzen|
-|**Pragmatik**|Sprache im sozialen Kontext (Wie sagt man was, wann?)|
-
-### 🗣️ Wie verstehen wir Sprache?
-
-**3-Ebenen-Modell:**
-
-1. **Akustische Ebene** – Laute wahrnehmen
-2. **Lexikalische Ebene** – Wörter im mentalen Lexikon suchen
-3. **Semantisch-syntaktische Ebene** – Bedeutung des Satzes verstehen
-
-**McGurk-Effekt:** Was wir sehen beeinflusst, was wir hören. Wenn Lippen "ga" formen, aber "ba" gesagt wird, hören wir "da". → Sprache ist multimodal!
-
-**Segmentierungsproblem:** Gesprochene Sprache hat keine klaren Leerzeichen. Das Gehirn muss selbst trennen ("Eis creme" vs "I scream").
-
-### 🤔 Denken & Problemlösen
-
-**Alltagsbeispiel:** Du stehst vor einem Rubik's Cube. Du kennst den Anfangszustand (Chaos) und den Zielzustand (alle Seiten einfarbig). Dazwischen liegt das Problem.
-
-**Problem = Ist-Zustand ≠ Soll-Zustand** (und der Weg ist nicht sofort klar)
-
-**Problemlösestrategien:**
-
-- **Algorithmen** – systematisch alle Möglichkeiten durchprobieren (langsam aber sicher)
-- **Heuristiken** – Daumenregeln, die meist funktionieren (schnell aber fehleranfällig)
-- **Lösung durch Einsicht (Aha-Erlebnis)** – plötzliches Erkennen der Lösung
-
-### ⚡ Heuristiken und Denkfehler (Tversky & Kahneman)
-
-**Heuristiken** = mentale Abkürzungen, die das Denken erleichtern – aber auch zu systematischen Fehlern führen.
-
-|Heuristik|Wie sie funktioniert|Denkfehler|
+| Baustein | Beschreibung | Beispiel |
 |---|---|---|
-|**Verfügbarkeitsheuristik**|Wie leicht fällt mir ein Beispiel ein? → Desto wahrscheinlicher erscheint es|Flugzeugabstürze werden überschätzt, weil sie medial präsent sind|
-|**Repräsentativitätsheuristik**|Wie ähnlich ist X dem typischen Beispiel?|Basisraten werden ignoriert|
-|**Ankerheuristik**|Erste Zahl beeinflusst alle weiteren Urteile|Preisverhandlungen: wer zuerst nennt, gewinnt|
+| **Phonem** | Kleinste lautliche Einheit; unterscheidet Bedeutung | /b/ vs. /p/ → "Ball" vs. "Pall" |
+| **Morphem** | Kleinste bedeutungstragende Einheit | "un-", "-lich", "Hund" |
+| **Syntax** | Regeln für die Satzstruktur (Grammatik) | Subjekt-Verb-Objekt |
+| **Semantik** | Bedeutung von Wörtern und Sätzen | Was bedeutet "Freiheit"? |
+| **Pragmatik** | Sprachgebrauch im sozialen Kontext | "Kannst du das Fenster aufmachen?" (Bitte, keine Frage) |
 
-**Bestätigungsfehler (Confirmation Bias):** Wir suchen unbewusst nach Informationen, die unsere Meinung bestätigen – und ignorieren Gegenbeweise.
+---
 
-**Gigerenzer's Ökologische Rationalität:** Heuristiken sind nicht dumm – in der richtigen Umgebung sind sie oft besser als komplexe Analysen!`,
+### 🗣️ 8.2 Wie verstehen wir Sprache?
+
+**3-Ebenen-Modell des Sprachverstehens:**
+
+\`\`\`
+Akustische Ebene (Laute hören)
+         ↓
+Lexikalische Ebene (Wörter im mentalen Lexikon finden)
+         ↓
+Semantisch-syntaktische Ebene (Satzbedeutung verstehen)
+\`\`\`
+
+**Herausforderungen beim Sprachverstehen:**
+
+**Segmentierungsproblem:** Gesprochene Sprache hat keine klaren Wortgrenzen (anders als Schrift). Das Gehirn muss selbst trennen. Beispiel: "Eis creme" vs. "I scream" klingen ähnlich.
+
+**Variabilitätsproblem:** Dieselbe Äußerung klingt bei verschiedenen Sprechern, in verschiedenen Dialekten und in verschiedenen Kontexten unterschiedlich. Das Gehirn muss abstrahieren.
+
+**Kapazität:** Menschen können ca. 2–4 Wörter pro Sekunde produzieren; das Arbeitsgedächtnis kann etwa 7 ± 2 Wörter gleichzeitig behalten.
+
+**McGurk-Effekt (McGurk & MacDonald, 1976):**
+Was wir sehen, beeinflusst, was wir hören. Wenn Mundbewegungen "ga" zeigen, aber der Ton "ba" ist, hören wir "da". → Sprachwahrnehmung ist **multimodal** – sie integriert auditive und visuelle Informationen.
+
+**Mentales Lexikon:** Wörter sind im Gedächtnis nicht alphabetisch gespeichert, sondern in Bedeutungsnetzwerken. Wenn wir ein Wort hören, werden automatisch assoziierte Wörter aktiviert (Priming-Effekt).
+
+---
+
+### ✍️ 8.3 Wie produzieren wir Sprache?
+
+**Sprechen ist keine umgekehrte Wahrnehmung** – es ist ein eigenständiger Prozess:
+1. Kommunikative Absicht (was will ich sagen?)
+2. Konzeptualisierung (wie stelle ich es dar?)
+3. Formulierung (Grammatik, Wortauswahl)
+4. Artikulation (motorische Ausführung)
+
+**Versprecher** entstehen, wenn Wörter oder Laute beim Abrufen oder Artikulieren verwechselt werden. Sie sind keine Zufälle, sondern folgen Regeln – man vertauscht z.B. nur Laute gleichen Typs (Anlaut mit Anlaut).
+
+**Sprachareale im Gehirn:**
+- **Broca-Areal** (Frontallappen): Sprachproduktion; Ausfall → Broca-Aphasie (Sprechen fällt schwer, aber Verstehen ist okay)
+- **Wernicke-Areal** (Temporallappen): Sprachverständnis; Ausfall → Wernicke-Aphasie (Flüssiges, aber unverständliches Sprechen)
+
+---
+
+### 🤔 8.4 Denken und Problemlösen
+
+**Alltagsbeispiel:** Du willst ein neues Rezept kochen, hast aber nicht alle Zutaten. Du überlegst: Was kann ich ersetzen? Was habe ich da? Wie gehe ich vor? Das ist Problemlösen.
+
+**Was ist ein Problem? (Klix, 1971):**
+1. Es gibt einen **Ist-Zustand** (wie es ist)
+2. Es gibt einen **Soll-Zustand** (wie es sein soll)
+3. Der Weg von 1 zu 2 ist nicht sofort klar
+
+**Problemlösendes Denken** = mentale Überbrückung von Ist- zu Soll-Zustand gegen Widerstände, durch bewusste Denkprozesse.
+
+**Strategien zum Problemlösen:**
+
+| Strategie | Beschreibung | Vorteil | Nachteil |
+|---|---|---|---|
+| **Algorithmus** | Systematisches Durchprobieren aller Möglichkeiten | Findet immer die Lösung | Sehr langsam bei komplexen Problemen |
+| **Heuristik** | Daumenregel, mentale Abkürzung | Schnell und oft richtig | Kann in die Irre führen |
+| **Einsicht (Aha-Erlebnis)** | Plötzliches Verstehen der Lösung | Schnell und elegant | Nicht steuerbar |
+
+**Problemdarstellung verbessert Problemlösen:** Wer ein Problem anders repräsentiert (sprachlich, visuell, mathematisch), findet oft leichter die Lösung.
+
+---
+
+### ⚡ 8.5 Urteilen und Entscheiden – Heuristiken
+
+**Alltagsbeispiel:** Du kaufst ein Produkt, das 50 % günstiger ist – aber günstiger als was? Als einem künstlich hohen Startpreis? Das Gefühl "Schnäppchen" entsteht durch die Ankerheuristik, nicht durch echten Vergleich.
+
+**Viele Alltagsentscheidungen** lassen sich nicht rein logisch lösen – oft fehlen Informationen. Dann nutzen wir **Heuristiken** = mentale Daumenregeln, die schnelle Urteile ermöglichen.
+
+**Die 3 klassischen Heuristiken (Tversky & Kahnemann, 1974):**
+
+**1. Verfügbarkeitsheuristik**
+Wenn mir ein Beispiel leicht einfällt, schätze ich das Ereignis als häufiger/wahrscheinlicher ein.
+
+| Anwendung | Denkfehler |
+|---|---|
+| Flugzeugabstürze werden als wahrscheinlicher eingeschätzt als Autounfälle (obwohl umgekehrt) | Weil Flugzeugabstürze in den Medien dramatischer dargestellt werden |
+| "Wodurch sterben mehr Menschen: Haie oder Selfies?" | Selfie-Tode klingen ungewöhnlich → unterschätzt; Haie klingen dramatisch → überschätzt |
+
+**2. Repräsentativitätsheuristik**
+Je ähnlicher X einem typischen Vertreter ist, desto wahrscheinlicher halten wir es für ein Mitglied dieser Kategorie.
+
+**Linda-Problem (Tversky & Kahnemann):**
+Linda ist 31, intelligent, redet offen über soziale Ungleichheit. Was ist wahrscheinlicher?
+A) Linda ist Bankangestellte
+B) Linda ist Bankangestellte UND in der Frauenbewegung aktiv
+
+Die meisten wählen B – aber das ist logisch falsch! Die Wahrscheinlichkeit zweier Ereignisse (Konjunktion) muss immer kleiner sein als ein Einzelereignis. → **Konjunktionsfehler**
+
+**Basisraten-Missachtung:** Wir ignorieren Grundwahrscheinlichkeiten (wie viele gibt es überhaupt?) und urteilen nur nach Repräsentativität.
+
+**3. Ankerheuristik**
+Der erste genannte Wert (Anker) beeinflusst alle folgenden Urteile, selbst wenn er willkürlich ist.
+
+| Beispiel | Wirkung |
+|---|---|
+| Preisverhandlung: Wer zuerst nennt, gewinnt | Der Anker bestimmt den Verhandlungsrahmen |
+| Produkt war 100 €, jetzt 70 € → Schnäppchen? | Nur im Vergleich zum Anker (100 €) |
+
+**Weitere Biases (Denkfehler):**
+- **Überschätzte Sicherheit (Overconfidence):** Wir sind uns unserer Urteile sicherer, als gerechtfertigt wäre
+- **Bestätigungsfehler (Confirmation Bias):** Wir suchen unbewusst nach Informationen, die unsere Meinung bestätigen
+- **Verfügbarkeits-Kaskade:** Medial präsente Risiken werden systematisch überschätzt
+
+---
+
+### 🧭 8.6 Gigerenzers ökologische Rationalität
+
+**Gegenpol zu Kahnemann:** Gerd Gigerenzer argumentiert, dass Heuristiken nicht dumm sind – in der richtigen Umgebung sind sie oft genauso gut oder besser als komplexe Analysen.
+
+**Adaptive Toolbox:** Menschen wählen aus einer "Werkzeugkiste" von Heuristiken die passende für die jeweilige Situation.
+
+**Ökologische Rationalität:** Eine Heuristik ist rational, wenn sie an die Umgebung angepasst ist, in der sie eingesetzt wird.
+
+**Gigerenzers Heuristiken:**
+
+| Heuristik | Beschreibung | Anwendung |
+|---|---|---|
+| **Rekognitionsheuristik** | Wenn man von zwei Optionen nur eine kennt, wähle die bekannte | "Welche Stadt ist größer: New York oder Busan?" → Man kennt NY → es ist größer |
+| **Take-the-best** | Suche das beste Unterscheidungskriterium und entscheide danach; ignoriere alle anderen | Schnelle Entscheidung in Notaufnahme (Blutdruck + Alter → Herzinfarkt?) |
+
+**Drei Prinzipien jeder Heuristik (Gigerenzer):**
+1. **Suchregeln:** In welcher Reihenfolge nach Information suchen?
+2. **Abbruchregeln:** Wann die Suche stoppen?
+3. **Entscheidungsregeln:** Wie die Entscheidung treffen?
+
+---
+
+### 🗣️ 8.7 Sprache und Denken – der Zusammenhang
+
+**Beeinflusst Sprache unser Denken?** Zwei extreme Positionen:
+- **Starke Sapir-Whorf-Hypothese:** Sprache bestimmt Denken (weitgehend widerlegt)
+- **Schwache Version:** Sprache beeinflusst Denken und Wahrnehmung (gut belegt)
+
+Beispiel: In manchen Sprachen gibt es mehr Wörter für Schnee (Inuit-Sprachen) oder für Farbtöne → Sprecher dieser Sprachen nehmen feinere Unterschiede wahr.`,
       },
       {
-        heading: '🗒️ Spickzettel',
-        content: `> Hier ist jeder wichtige Begriff in **einem Satz** erklärt – zum schnellen Wiederholen.
+        heading: 'Spickzettel – Alle Begriffe auf einen Blick',
+        content: `> Jeder wichtige Begriff des Moduls – in **einem Satz** erklärt. Perfekt für die letzte Wiederholung!
 
-|Begriff|Ein-Satz-Erklärung|
+### Grundlagen
+
+| Begriff | Ein-Satz-Erklärung |
 |---|---|
-|**Psychologie**|Wissenschaft vom Erleben und Verhalten|
-|**Allgemeine Psychologie**|Sucht nach allgemeinen Gesetzen des Denkens und Wahrnehmens|
-|**Biopsychologie**|Erklärt Verhalten durch biologische Grundlagen (Gehirn, Hormone)|
-|**Lernen**|Dauerhafte Verhaltensänderung durch Erfahrung|
-|**Klassisches Konditionieren**|Zwei Reize werden verknüpft (Pavlov mit Hund und Glocke)|
-|**UCS / UCR / CS / CR**|Unkonditioniert = automatisch; konditioniert = gelernt; Stimulus = Reiz; Response = Reaktion|
-|**Operantes Konditionieren**|Verhalten wird durch Konsequenzen (Verstärkung/Bestrafung) geformt|
-|**Positive Verstärkung**|Angenehmes Stimulus wird hinzugefügt → Verhalten nimmt zu|
-|**Löschung**|Gelernte Reaktion verschwindet, wenn Verstärker dauerhaft ausbleibt|
-|**Shaping**|Komplexes Verhalten wird schrittweise durch Verstärkung aufgebaut|
-|**Intermittierende Verstärkung**|Nur manchmal Verstärkung → macht Verhalten sehr löschungsresistent|
-|**Lernen durch Beobachtung**|Neues Verhalten durch Nachahmung eines Modells (Bandura)|
-|**Sensorisches Gedächtnis**|Ultrakurze Zwischenspeicherung von Sinneseindrücken (<1 Sek.)|
-|**Kurzzeitgedächtnis**|Kapazität: 7±2 Einheiten; Dauer: ca. 30 Sekunden|
-|**Arbeitsgedächtnis**|Erweitert das KZG – Information wird aktiv verarbeitet und manipuliert|
-|**Langzeitgedächtnis**|Dauerhafter Wissensspeicher (deklarativ: episodisch/semantisch; prozedural)|
-|**Episodisches Gedächtnis**|Persönliche Erlebnisse und Autobiografie|
-|**Semantisches Gedächtnis**|Allgemeines Faktenwissen|
-|**Prozedurales Gedächtnis**|Motorische Fertigkeiten (Radfahren, Tippen)|
-|**Enkodierung**|Informationen in den Gedächtnisspeicher aufnehmen|
-|**Abruf (Retrieval)**|Gespeicherte Informationen wiederfinden|
-|**Vergessenskurve (Ebbinghaus)**|Das Vergessen ist am stärksten kurz nach dem Lernen|
-|**Neuron**|Nervenzelle; Grundbaustein des Nervensystems|
-|**Axon**|Ausläufer des Neurons, das Signal weiterleitet|
-|**Synapse**|Verbindungsstelle zwischen zwei Neuronen|
-|**Neurotransmitter**|Chemische Botenstoffe, die den synaptischen Spalt überbrücken|
-|**Aktionspotenzial**|Elektrischer Impuls, der das Neuron "feuern" lässt|
-|**Myelin**|Isolierschicht ums Axon → schnellere Signalleitung|
-|**Dopamin**|Neurotransmitter für Belohnung, Motivation und Sucht|
-|**Serotonin**|Neurotransmitter für Stimmung und Schlaf (Mangel → Depression)|
-|**GABA**|Wichtigster hemmender Neurotransmitter im Gehirn|
-|**Sympathikus**|"Gaspedal" des autonomen Nervensystems → aktiviert bei Stress|
-|**Parasympathikus**|"Bremse" → beruhigt und regeneriert nach dem Stress|
-|**Endokrines System**|Kommuniziert via Hormone durch die Blutbahn (langsam, langanhaltend)|
-|**Hypothalamus**|Schaltzentrale zwischen Nervensystem und Hormonsystem|
-|**Cortisol**|Stresshormon; erhöht Blutzucker, bereitet auf Belastung vor|
-|**Wahrnehmung**|Aktiver Prozess: Sinnesreize werden verarbeitet und mit Wissen verknüpft|
-|**Bottom-up**|Wahrnehmung startet bei den Rohdaten der Sinne|
-|**Top-down**|Erwartungen und Vorwissen beeinflussen, was wir wahrnehmen|
-|**Stäbchen**|Fotorezeptoren für Helligkeit/Dunkel; viele, grob|
-|**Zapfen**|Fotorezeptoren für Farbe und Details; in der Fovea konzentriert|
-|**Aufmerksamkeit**|Selektion relevanter Informationen aus der Reizflut|
-|**Selektive Aufmerksamkeit**|Fokus auf einen Reiz, andere werden ignoriert|
-|**Cocktailparty-Effekt**|Eigener Name wird auch in Lärm wahrgenommen|
-|**Inattentional Blindness**|Wir übersehen Dinge, auf die wir nicht achten (Gorilla-Experiment)|
-|**Bewusstsein**|Subjektives Erleben der eigenen mentalen Zustände und Umwelt|
-|**Selbstkontrolle**|Fähigkeit, Impulse zu unterdrücken und Langzeitziele zu verfolgen|
-|**Kognitive Kontrolle**|Mentale Ausrichtung des Verhaltens an Zielen; Sitz: Frontallappen|
-|**Ego Depletion**|Selbstkontrolle erschöpft sich wie ein Muskel bei Übernutzung|
-|**Sprache**|Regelgeleitetes Symbolsystem zur Kommunikation|
-|**Phonem**|Kleinste lautliche Einheit einer Sprache|
-|**Morphem**|Kleinste bedeutungstragende Einheit|
-|**McGurk-Effekt**|Visuelle Mundbewegungen beeinflussen, was wir akustisch wahrnehmen|
-|**Heuristik**|Mentale Daumenregel; schnell, aber fehleranfällig|
-|**Verfügbarkeitsheuristik**|Leicht Erinnerliches erscheint wahrscheinlicher|
-|**Repräsentativitätsheuristik**|Ähnlichkeit zu einem Prototyp bestimmt das Urteil|
-|**Ankerheuristik**|Der erste genannte Wert beeinflusst alle folgenden Urteile|
-|**Bestätigungsfehler**|Wir suchen unbewusst Infos, die unsere Meinung bestätigen|
-|**Problemlösen**|Überbrückung von Ist-Zustand zu Soll-Zustand gegen Widerstände|
-|**Hebb'sche Regel**|"What fires together, wires together" – gleichzeitige Aktivität stärkt Verbindungen|
-|**Plastizität**|Fähigkeit des Gehirns, sich durch Erfahrung zu verändern|
+| **Psychologie** | Wissenschaft vom Erleben und Verhalten von Menschen |
+| **Verhalten** | Alles, was ein Mensch tut und von außen beobachtbar ist |
+| **Erleben** | Innere subjektive Erfahrungen wie Emotionen, Wahrnehmungen, Gedanken |
+| **Biopsychologie** | Teildisziplin, die Verhalten durch biologische Grundlagen (Gehirn, Hormone, Nervensystem) erklärt |
+| **Allgemeine Psychologie** | Sucht nach allgemeingültigen Gesetzen des Denkens, Wahrnehmens und Erinnerns |
+| **Biopsychosozialer Ansatz** | Verhalten entsteht aus dem Zusammenspiel biologischer, psychologischer und sozialer Faktoren |
+| **Neuroplastizität** | Die Fähigkeit des Gehirns, sich durch Erfahrungen strukturell zu verändern |
 
-### 🚀 Last-Minute-Tipps für die Klausur
+### Lernen
 
-1. **Lerne die Definitionen wörtlich** – gerade für Lernen, Gedächtnis, Aufmerksamkeit
-2. **Kenne die Modelle** – Mehrspeichermodell, Arbeitsgedächtnismodell, 3 Lernarten
-3. **Übe die Tabellen** – Neurotransmitter, Heuristiken, Gedächtnistypen
-4. **Denke in Beispielen** – Die Klausur fragt oft nach Anwendungen
-5. **Verbinde Themen** – z.B. Lernen + Neurotransmitter (Dopamin bei Belohnung)`,
+| Begriff | Ein-Satz-Erklärung |
+|---|---|
+| **Lernen** | Relativ überdauernde Verhaltensveränderung durch Erfahrung (nicht durch Reifung oder Krankheit) |
+| **Klassisches Konditionieren** | Ein neutraler Reiz wird mit einem bedeutsamen verknüpft, bis er allein eine Reaktion auslöst (Pavlov) |
+| **UCS** | Unkonditionierter Stimulus: Reiz, der automatisch ohne Lernen eine Reaktion auslöst |
+| **CS** | Konditionierter Stimulus: Zuvor neutraler, nun durch Lernen bedeutsamer Reiz |
+| **UCR / CR** | Unkonditionierte / Konditionierte Reaktion: automatische vs. gelernte Antwort auf einen Reiz |
+| **Generalisierung** | Gelernte Reaktion tritt auch bei ähnlichen Reizen auf, je ähnlicher, desto stärker |
+| **Löschung** | Gelernte Reaktion nimmt ab und verschwindet, wenn der Verstärker/UCS dauerhaft ausbleibt |
+| **Spontanerholung** | Gelöschte konditionierte Reaktion taucht nach einer Pause spontan wieder auf |
+| **Operantes Konditionieren** | Verhalten wird durch seine Konsequenzen geformt: angenehme Folgen → mehr Verhalten (Skinner) |
+| **Positive Verstärkung** | Angenehmer Stimulus wird nach Verhalten hinzugefügt → Verhalten nimmt zu |
+| **Negative Verstärkung** | Unangenehmer Stimulus wird nach Verhalten entfernt → Verhalten nimmt zu |
+| **Positive Bestrafung** | Unangenehmer Stimulus wird nach Verhalten hinzugefügt → Verhalten nimmt ab |
+| **Negative Bestrafung** | Angenehmer Stimulus wird nach Verhalten weggenommen → Verhalten nimmt ab |
+| **Shaping** | Schrittweiser Aufbau komplexen Verhaltens durch Verstärkung von Annäherungen ans Ziel |
+| **Kontinuierliche Verstärkung** | Jede Reaktion wird belohnt → schnelles Lernen, aber schnelle Löschung |
+| **Intermittierende Verstärkung** | Nur manche Reaktionen werden belohnt → langsames Lernen, aber sehr löschungsresistent |
+| **Variabel-Quoten-Plan** | Zufällige Anzahl von Reaktionen wird belohnt → höchste Löschungsresistenz (Spielautomaten!) |
+| **Lernen durch Beobachtung** | Neues Verhalten entsteht durch Imitation eines Modells, ohne eigene Konsequenzen (Bandura) |
+| **Stellvertretende Verstärkung** | Man lernt durch Beobachten, wie andere für Verhalten belohnt/bestraft werden |
+| **Spiegelneurone** | Nervenzellen, die sowohl beim eigenen Handeln als auch beim Beobachten anderer aktiv sind |
+
+### Gedächtnis
+
+| Begriff | Ein-Satz-Erklärung |
+|---|---|
+| **Enkodierung** | Informationen in eine speicherbare Form umwandeln und aufnehmen |
+| **Speicherung** | Informationen festhalten (Millisekunden bis Jahrzehnte) |
+| **Abruf** | Gespeicherte Informationen wieder zugänglich machen |
+| **Vergessenskurve (Ebbinghaus)** | 70 % des Gelernten geht in den ersten 10 Stunden verloren; danach flacht Vergessen ab |
+| **Gesamtzeithypothese** | Mehr Wiederholungen = bessere Gedächtnisleistung (linearer Zusammenhang) |
+| **Testing Effect** | Aktives Abfragen ist effektiver für das Behalten als erneutes Lesen |
+| **Spacing Effect** | Verteiltes Lernen über mehrere Tage ist effektiver als Lernen auf einmal |
+| **Sensorisches Gedächtnis** | Ultrakurzer Speicher für Sinneseindrücke aller Modalitäten (< 1 Sekunde) |
+| **Ikonisches Gedächtnis** | Sensorisches Gedächtnis für visuelle Eindrücke |
+| **Echoisches Gedächtnis** | Sensorisches Gedächtnis für auditive Eindrücke (ca. 3–4 Sek.) |
+| **Kurzzeitgedächtnis** | Speicher für ca. 7 ± 2 Einheiten, ca. 15–30 Sekunden ohne Wiederholung |
+| **Chunking** | Zusammenfassen mehrerer Einheiten zu einem bedeutsamen Chunk erhöht effektive Kapazität |
+| **Rehearsal** | Inneres Wiederholen verlängert die Verweildauer im KZG |
+| **Arbeitsgedächtnis** | Erweitertes KZG; verarbeitet Information aktiv in 4 Komponenten (Baddeley) |
+| **Zentrale Exekutive** | "Chef" des Arbeitsgedächtnisses; koordiniert alle anderen Komponenten |
+| **Phonologische Schleife** | Komponente des AG für sprachliches Material (innere Stimme) |
+| **Langzeitgedächtnis** | Dauerhafter Speicher mit nahezu unbegrenzter Kapazität |
+| **Deklaratives Gedächtnis** | Bewusst abrufbares Wissen: episodisch (Erlebnisse) und semantisch (Fakten) |
+| **Episodisches Gedächtnis** | Persönliche Erlebnisse mit zeitlichem und räumlichem Kontext |
+| **Semantisches Gedächtnis** | Allgemeines Faktenwissen ohne persönlichen Kontext |
+| **Prozedurales Gedächtnis** | Motorische Fertigkeiten und Gewohnheiten; läuft unbewusst ab |
+| **Verarbeitungstiefe** | Tiefere (semantische) Verarbeitung führt zu besserem Behalten (Craik & Tulving) |
+| **Proaktive Interferenz** | Altes Wissen stört das Erinnern neuer Inhalte |
+| **Retroaktive Interferenz** | Neues Wissen stört das Erinnern älterer Inhalte |
+| **Hebb'sche Lernregel** | "What fires together, wires together" – gleichzeitig aktive Neuronen verstärken ihre Verbindung |
+
+### Gehirn & Nervenzelle
+
+| Begriff | Ein-Satz-Erklärung |
+|---|---|
+| **Neuron** | Nervenzelle; spezialisierte Zelle, die Informationen empfängt, verarbeitet und weiterleitet |
+| **Dendrit** | Eingangskanal des Neurons; empfängt Signale von anderen Neuronen |
+| **Axon** | Ausgangskanal; leitet das elektrische Signal (Aktionspotenzial) weiter |
+| **Myelinscheide** | Isolierschicht um das Axon, die die Signalleitung beschleunigt |
+| **Aktionspotenzial** | Elektrischer Impuls, der entlang des Axons feuert; nach Alles-oder-Nichts-Prinzip |
+| **Alles-oder-Nichts-Prinzip** | Ein Neuron feuert entweder vollständig oder gar nicht; keine graduellen Signale |
+| **Synapse** | Verbindungsstelle zwischen zwei Neuronen; Ort der chemischen Signalübertragung |
+| **Synaptischer Spalt** | Kleiner Spalt zwischen zwei Neuronen, der durch Neurotransmitter überbrückt wird |
+| **Neurotransmitter** | Chemische Botenstoffe, die den synaptischen Spalt überqueren und Signale übertragen |
+| **Reuptake** | Wiederaufnahme ausgeschütteter Neurotransmitter durch das präsynaptische Neuron |
+| **Glutamat** | Häufigster erregender Neurotransmitter; zentral für Lernen und Gedächtnis |
+| **GABA** | Wichtigster hemmender Neurotransmitter; reguliert Erregung im Gehirn |
+| **Dopamin** | Neurotransmitter für Belohnung, Motivation und Sucht |
+| **Serotonin** | Neurotransmitter für Stimmung, Schlaf und Hunger; Mangel ist mit Depression assoziiert |
+| **Hippocampus** | Hirnareal entscheidend für Gedächtniskonsolidierung und räumliche Navigation |
+| **Amygdala** | Hirnareal für Emotionsverarbeitung, besonders Angst und Wut |
+| **Präfrontaler Kortex** | "Chef" des Gehirns: Planung, Entscheidung, Kontrolle, höhere kognitive Funktionen |
+| **Thalamus** | "Türsteher des Bewusstseins": filtert Sinnesimpulse auf dem Weg zur Großhirnrinde |
+| **Neuroplastizität** | Das Gehirn verändert seine Struktur durch Erfahrungen auch im Erwachsenenalter |
+
+### Nervensystem & Hormone
+
+| Begriff | Ein-Satz-Erklärung |
+|---|---|
+| **ZNS** | Zentrales Nervensystem: Gehirn + Rückenmark = Schaltzentrale des Körpers |
+| **PNS** | Peripheres Nervensystem: alle Nerven außerhalb von ZNS; verbindet Körper mit ZNS |
+| **Sympathikus** | Teil des autonomen NS: aktiviert den Körper bei Stress (Kampf-oder-Flucht) |
+| **Parasympathikus** | Teil des autonomen NS: beruhigt und regeneriert den Körper (Rest-and-Digest) |
+| **Autonomes NS** | Steuert unwillkürlich Organe und Körperfunktionen |
+| **Endokrines System** | Kommuniziert via Hormone durch die Blutbahn; langsam aber langanhaltend |
+| **Hormon** | Chemischer Botenstoff, der über die Blutbahn zu Zielorganen im ganzen Körper transportiert wird |
+| **Hypothalamus** | Steuerzentrale zwischen Nervensystem und Hormonsystem; reguliert Grundbedürfnisse |
+| **Hypophyse** | "Dirigent" des Hormonsystems; steuert auf Befehl des Hypothalamus andere Drüsen |
+| **Cortisol** | Stresshormon der Nebennierenrinde; mobilisiert Energie bei chronischem Stress |
+| **Adrenalin** | Sofortreaktion bei Stress; wird vom Nebennierenmark ausgeschüttet |
+
+### Wahrnehmung
+
+| Begriff | Ein-Satz-Erklärung |
+|---|---|
+| **Wahrnehmung** | Aktiver, konstruktiver Prozess: Sinnesreize werden verarbeitet, interpretiert und mit Vorwissen verknüpft |
+| **Bottom-up** | Verarbeitung startet bei den Rohdaten der Sinne (von Daten zur Bedeutung) |
+| **Top-down** | Erwartungen und Vorwissen beeinflussen, was wahrgenommen wird (von Bedeutung zu Daten) |
+| **Stäbchen** | Fotorezeptoren für Helligkeit und Bewegung; viele, in der Peripherie der Netzhaut |
+| **Zapfen** | Fotorezeptoren für Farbe und Details; in der Fovea (Sehgrube) konzentriert |
+| **Pop-Out-Effekt** | Auffälliger Einzelreiz wird sofort ohne Aufwand aus Umgebung herausgefiltert (präattentiv) |
+| **Gestaltgesetze** | Prinzipien, nach denen das Gehirn Elemente zu bedeutsamen Ganzen zusammenfasst |
+
+### Aufmerksamkeit, Bewusstsein & Kontrolle
+
+| Begriff | Ein-Satz-Erklärung |
+|---|---|
+| **Aufmerksamkeit** | Fähigkeit, relevante Reize auszuwählen und irrelevante zu ignorieren |
+| **Selektive Aufmerksamkeit** | Fokus auf einen Reiz bei gleichzeitiger Unterdrückung anderer |
+| **Cocktailparty-Effekt** | Eigener Name wird auch in Lärm und anderen Gesprächen herausgehört |
+| **Inattentional Blindness** | Auffällige Reize werden übersehen, wenn man fokussiert auf etwas anderes ist |
+| **Change Blindness** | Veränderungen im Sichtfeld werden nicht bemerkt, wenn Aufmerksamkeit fehlt |
+| **Endogene Aufmerksamkeit** | Willkürliche, von innen (Zielen) gesteuerte Ausrichtung der Aufmerksamkeit |
+| **Exogene Aufmerksamkeit** | Unwillkürliche, von außen (plötzlicher Reiz) ausgelöste Ausrichtung |
+| **Bewusstsein** | Subjektives Erleben der eigenen mentalen Zustände und der Umwelt |
+| **Phänomenales Bewusstsein** | Die subjektive Erlebnisqualität ("Wie es sich anfühlt") |
+| **Selbstkontrolle** | Fähigkeit, Impulse zu hemmen und zielgerichtetes Verhalten aufrechtzuerhalten |
+| **Belohnungsaufschub** | Sofortige Belohnung zugunsten einer wertvolleren zukünftigen aufschieben (Marshmallow-Experiment) |
+| **Kognitive Kontrolle** | Mentale Ausrichtung von Denken und Verhalten an Zielen; Sitz: Präfrontaler Kortex |
+| **Ego Depletion** | Selbstkontrolle erschöpft sich bei starker Beanspruchung wie ein Muskel |
+
+### Sprache & Denken
+
+| Begriff | Ein-Satz-Erklärung |
+|---|---|
+| **Sprache** | Regelgeleitetes, symbolisches Kommunikationssystem; artspezifisch für Menschen |
+| **Phonem** | Kleinste bedeutungsunterscheidende Lauteinheit einer Sprache |
+| **Morphem** | Kleinste bedeutungstragende Einheit (z.B. Vor-, Nachsilben, Wortstämme) |
+| **Syntax** | Regeln für die grammatikalisch korrekte Satzstruktur |
+| **Semantik** | Lehre von der Bedeutung sprachlicher Zeichen |
+| **Pragmatik** | Sprachgebrauch im sozialen Kontext; was ist mit einer Äußerung gemeint? |
+| **McGurk-Effekt** | Mundbewegungen beeinflussen, was wir akustisch wahrnehmen → Sprache ist multimodal |
+| **Mentales Lexikon** | Netzwerk im Gedächtnis, in dem Wörter und ihre Bedeutungen gespeichert sind |
+| **Broca-Areal** | Sprachareal im Frontallappen; zuständig für Sprachproduktion |
+| **Wernicke-Areal** | Sprachareal im Temporallappen; zuständig für Sprachverständnis |
+| **Denken** | Interne mentale Repräsentation und Verarbeitung von Informationen |
+| **Problemlösen** | Überbrückung von Ist- zu Soll-Zustand gegen Widerstände durch bewusste Denkprozesse |
+| **Algorithmus** | Systematisches Durchsuchen aller Möglichkeiten → sicher, aber langsam |
+| **Heuristik** | Mentale Daumenregel → schnell, aber fehleranfällig |
+| **Aha-Erlebnis (Einsicht)** | Plötzliches Erkennen der Problemlösung ohne schrittweisen Weg dorthin |
+| **Verfügbarkeitsheuristik** | Leicht Erinnerliches erscheint wahrscheinlicher; beeinflusst Risikoeinschätzungen |
+| **Repräsentativitätsheuristik** | Ähnlichkeit zu einem Prototyp bestimmt die Wahrscheinlichkeitseinschätzung |
+| **Ankerheuristik** | Erster genannter Wert beeinflusst alle nachfolgenden Urteile systematisch |
+| **Konjunktionsfehler** | Wahrscheinlichkeit zweier Ereignisse wird fälschlicherweise höher eingeschätzt als ein Einzelereignis |
+| **Bestätigungsfehler** | Unbewusste Suche nach Informationen, die eigene Meinung bestätigen |
+| **Overconfidence** | Überschätzung der Richtigkeit eigener Urteile und des eigenen Wissens |
+| **Ökologische Rationalität (Gigerenzer)** | Heuristiken sind rational, wenn sie an die Entscheidungsumgebung angepasst sind |
+| **Adaptive Toolbox** | Mentale Werkzeugkiste von Heuristiken, aus der situationsgerecht ausgewählt wird |
+
+---
+
+## 🚀 Klausur-Checkliste
+
+**Was du unbedingt wissen musst:**
+
+- [ ] Definition von Lernen (und was es NICHT ist)
+- [ ] Ablauf und Begriffe der klassischen Konditionierung
+- [ ] Die 3 Aspekte der klassischen Konditionierung (Timing, Generalisierung, Löschung)
+- [ ] Die 4 Konsequenztypen des operanten Konditionierens + Beispiele
+- [ ] Verstärkerpläne und ihre Eigenschaften (besonders Löschungsresistenz)
+- [ ] 4 Bedingungen für Beobachtungslernen
+- [ ] Das Mehrspeichermodell (alle 3 Speicher mit Kapazität und Dauer)
+- [ ] Das Arbeitsgedächtnismodell (4 Komponenten)
+- [ ] Arten des Langzeitgedächtnisses (deklarativ/nicht-deklarativ)
+- [ ] Vergessenskurve und was man dagegen tun kann
+- [ ] Aufbau und Funktion einer Nervenzelle (alle Teile)
+- [ ] Ablauf eines Aktionspotenzials
+- [ ] Ablauf der synaptischen Übertragung
+- [ ] Die 5 wichtigsten Neurotransmitter und ihre Funktion
+- [ ] Die 4 Lappen des Gehirns mit Funktionen
+- [ ] Hippocampus, Amygdala, Hypothalamus, Thalamus, Präfrontaler Kortex
+- [ ] Sympathikus vs. Parasympathikus (Funktionen und Unterschiede)
+- [ ] Nervensystem vs. endokrines System (Tabellen-Vergleich)
+- [ ] Wahrnehmung als aktiver, subjektiver Prozess
+- [ ] Stäbchen vs. Zapfen
+- [ ] Selektive Aufmerksamkeit und ihre Phänomene
+- [ ] Selbstkontrolle (Definition, Marshmallow-Experiment, Ego Depletion)
+- [ ] Die 3 Heuristiken nach Tversky & Kahnemann + jeweils ein Beispiel
+- [ ] Gigerenzers ökologische Rationalität`,
       },
     ],
   },
@@ -1105,447 +1862,1163 @@ Warum? In der Diskussion kommen mehr Argumente für die Mehrheitsposition + man 
     sections: [
       {
         heading: 'Einführung & Geschichte der KI',
-        content: `> 📌 **Hinweis zur Klausur:** 90 Minuten, 100% der Note. Mathematik wird NICHT abgefragt. Wichtig: Begriffe erklären, Vor- und Nachteile nennen, Transfer auf Praxisbeispiele!
+        content: `> 📌 **Hinweis zur Klausur:** 90 Minuten, 100% der Note. **Mathematik wird NICHT abgefragt.** Wichtig: Begriffe erklären, Vor- und Nachteile nennen, Transfer auf Praxisbeispiele! Klausurformat: offene Fragen + Transferaufgaben (~10%).
+
+---
 
 ### 🌍 Was ist KI überhaupt?
 
-**Alltagsbeispiel:** Wenn du Netflix fragst, was du heute anschauen sollst, und Netflix antwortet mit einer Empfehlung – das ist KI in Aktion!
+**Alltagsbeispiel:** Wenn du Netflix fragst, was du heute anschauen sollst, und Netflix antwortet mit einer Empfehlung – das ist KI in Aktion! Oder wenn Siri deinen Satz versteht, obwohl du "Wetter morn" sagst und es "Wetter morgen" meint.
 
-**KI** steht für **Künstliche Intelligenz**. Das Ziel: Maschinen sollen sich so verhalten, als wären sie intelligent. John McCarthy (einer der KI-Erfinder) hat das 1955 so formuliert: Maschinen sollen entwickelt werden, die sich verhalten, als hätten sie Intelligenz.
+**KI** steht für **Künstliche Intelligenz**. Das Ziel: Maschinen sollen sich so verhalten, als wären sie intelligent.
+
+Drei berühmte Definitionen im Vergleich:
+
+| Quelle | Definition |
+|--------|-----------|
+| **John McCarthy (1955)** | Ziel ist es, Maschinen zu entwickeln, die sich verhalten, als verfügten sie über Intelligenz |
+| **Encyclopedia Britannica** | KI ist die Fähigkeit digitaler Computer, Aufgaben zu lösen, die normalerweise die höheren intellektuellen Fähigkeiten von Menschen erfordern |
+| **Lämmel & Cleve (2020)** | KI = Systeme, die menschliche Problemlösungskreativität, Selbstbewusstsein und Emotionen abbilden können |
+
+> ⚠️ Alle Definitionen haben Schwächen – Intelligenz ist extrem schwer zu messen und zu definieren! Selbst IQ-Tests messen nur eine Teilfacette.
+
+---
+
+### 🧩 Was macht ein System "intelligent"?
+
+Ein intelligentes System sollte in der Lage sein zu:
+
+- **Wahrnehmen** – die Umwelt erfassen (Kamera, Mikrofon, Sensoren)
+- **Schlussfolgern** – aus Infos logische Schlüsse ziehen ("Wenn A, dann B")
+- **Lernen** – sich aus Erfahrungen selbst verbessern
+- **Planen** – mehrere Schritte vorausdenken, um ein Ziel zu erreichen (wie ein Schachspieler)
+- **Kommunizieren** – Informationen verstehen und in natürlicher Sprache weitergeben
+- **Kreativ sein** – neue Lösungen für unbekannte Probleme finden
+
+---
 
 ### 🕰️ Geschichte der KI – Die wichtigsten Meilensteine
 
-|Jahr|Ereignis|Warum wichtig?|
-|---|---|---|
-|**1950**|**Turing-Test**|Alan Turing fragt: „Kann eine Maschine wie ein Mensch klingen?" → Startpunkt für KI-Denken|
-|**1956**|**Dartmouth-Konferenz**|KI wird als eigenes Forschungsfeld offiziell gegründet|
-|**1966**|**ELIZA**|Erster Chatbot – zeigte, wie leicht Menschen „Verstehen" in Maschinen hineinlesen|
-|**1970–80er**|**Expertensysteme**|Erste nützliche KI in Firmen: Regeln statt echtes Denken|
-|**1997**|**Deep Blue**|IBM-Computer besiegt Schachweltmeister Kasparov|
-|**2016**|**AlphaGo**|Lernende KI schlägt Go-Weltmeister – riesiger Technologie-Sprung|
-|**2024**|**EU AI Act**|Weltweit erstes umfassendes KI-Gesetz tritt in Kraft|
+| Jahr | Ereignis | Warum wichtig? |
+|------|----------|----------------|
+| **1950** | **Turing-Test** (Alan Turing) | Erste formale Frage: „Kann eine Maschine denken?" – bis heute das bekannteste Gedankenexperiment |
+| **1956** | **Dartmouth-Konferenz** | KI wird als eigenes Forschungsfeld geboren – John McCarthy prägt den Begriff "Artificial Intelligence" |
+| **1966** | **ELIZA** (Joseph Weizenbaum) | Erster Chatbot – zeigte, wie leicht Menschen einem Computerprogramm "Verstehen" unterstellen |
+| **1970–80er** | **Expertensysteme** | Erste nützliche KI in Firmen: regelbasierte Systeme, die Expertenwissen nachahmen |
+| **1980er** | **KI-Winter** | Ernüchterung nach überhöhten Erwartungen – Fördermittel wurden gestrichen |
+| **1997** | **Deep Blue** (IBM) | Schachcomputer besiegt Weltmeister Garry Kasparov – Symbol für Maschinenüberlegenheit in Teilgebieten |
+| **2011** | **Watson** (IBM) | KI gewinnt in der US-Quizshow Jeopardy! gegen menschliche Weltmeister |
+| **2016** | **AlphaGo** (Google DeepMind) | Lernende KI schlägt Go-Weltmeister – Go galt als deutlich komplexer als Schach |
+| **2022** | **ChatGPT** | Generative KI wird massentauglich – KI für jeden zugänglich |
+| **2024** | **EU AI Act** | Weltweit erstes umfassendes KI-Gesetz tritt in Kraft |
 
-> 💡 **Klausur-Tipp:** Dartmouth-Konferenz (1956) = Geburtsstunde der KI als Forschungsfeld. ChatGPT (2022) = KI wird massentauglich.
+> 💡 **Klausur-Tipp:** Die **Dartmouth-Konferenz (1956)** ist die Geburtsstunde der KI als eigenständiges Forschungsfeld. Ohne sie gäbe es keine organisierten KI-Forschungsgruppen. **ChatGPT (2022)** hat den größten Einfluss auf Breitenwirkung und massenhafte Nutzung heute.
 
-### 💪 Schwache KI vs. Starke KI
+---
 
-**Alltagsbeispiel:** Ein Taschenrechner kann super rechnen, aber er kann dir nicht erklären, was Liebe ist. Das ist schwache KI: super in einer Sache, nutzlos in allem anderen.
+### 💪 Schwache KI vs. Starke KI – Detaillierter Vergleich
 
-||**Schwache KI**|**Starke KI**|
-|---|---|---|
-|**Auch genannt**|Narrow AI|AGI (Artificial General Intelligence)|
-|**Kann…**|Eine klar begrenzte Aufgabe sehr gut lösen|Wie ein Mensch vielseitig denken und handeln|
-|**Beispiele**|Siri, Alexa, Google Maps, Schachprogramme, Übersetzungstools|Existiert heute noch NICHT (nur theoretisches Konzept)|
-|**Wissen übertragen?**|❌ Nein|✅ Ja (theoretisch)|
+**Alltagsbeispiel:** Ein Spezialist-Arzt (z.B. Augenarzt) kann Augenprobleme brillant lösen, aber keine Herzoperation durchführen. Das ist **schwache KI**: Spitze in einer Domäne, nutzlos außerhalb. Ein Allgemeinmediziner mit universalem Wissen wäre **starke KI** – existiert in der KI-Welt noch nicht.
 
-> ⚠️ **Wichtig:** Starke KI ist heute noch ein theoretisches Konzept. Auch ChatGPT ist „nur" schwache KI – sie täuscht uns Stärke nur vor!
+| Kriterium | **Schwache KI (Narrow AI)** | **Starke KI (AGI)** |
+|-----------|----------------------------|---------------------|
+| **Offizieller Begriff** | Narrow AI | Artificial General Intelligence (AGI) |
+| **Kann...** | Eine klar begrenzte Aufgabe sehr gut lösen | Wie ein Mensch vielseitig denken, lernen und handeln |
+| **Wissen übertragen?** | ❌ Nein – ein Schachprogramm kann nicht Dame spielen | ✅ Ja – würde Wissen von einem Bereich auf einen neuen übertragen |
+| **Emotionen?** | ❌ Keine echten Emotionen | ✅ Würde Emotionen erkennen und abbilden können |
+| **Beispiele heute** | Siri, Alexa, Google Maps, Schachprogramme, Übersetzungstools, Empfehlungssysteme | Existiert heute noch **NICHT** (nur theoretisches Konzept) |
+| **Besonderheit** | In ihrer Domäne extrem leistungsfähig – oft besser als Menschen | Würde generisch Probleme lösen, ohne dafür trainiert zu sein |
+| **Status 2026** | ✅ Überall vorhanden | ⚠️ Laut Wissenschaft noch nicht erreicht |
 
-### 🔑 Eigenschaften von Intelligenz (laut KI-Forschung)
+> ⚠️ **Wichtig:** Auch ChatGPT ist "nur" schwache KI! Sie täuscht Stärke vor, weil wir zu wenig kritisch hinterfragen. Die Wissenschaft ist sich einig: Starke KI existiert derzeit nicht.
 
-Ein intelligentes KI-System sollte können:
+---
 
-- **Wahrnehmen** – die Umwelt erfassen (Kamera, Mikrofon, Sensoren)
-- **Schlussfolgern** – aus Infos Schlüsse ziehen
-- **Lernen** – sich aus Erfahrungen verbessern
-- **Planen** – Schritte zum Ziel auswählen (wie ein Navi)
-- **Kommunizieren** – Infos verstehen und weitergeben`,
+### 🔮 Superintelligenz – der nächste Schritt
+
+Über der starken KI liegt theoretisch die **Superintelligenz**: Ein System, das in allen Bereichen weit übermenschliche Fähigkeiten besitzt. Derzeit rein spekulativ und Gegenstand wissenschaftlicher und ethischer Debatten.`,
+      },
+      {
+        heading: 'Gartner Hype Cycle',
+        content: `### 📈 Was ist der Gartner Hype Cycle?
+
+**Alltagsbeispiel:** Wenn ein neues iPhone rauskommt, feiern alle erst ("Wow, revolutionär!"), dann werden manche enttäuscht ("Ach, bringt doch nicht so viel..."), und schließlich wird es normaler Alltag ("Ich nutze es täglich ohne groß darüber nachzudenken"). Genau das zeigt der Hype Cycle.
+
+Der **Gartner Hype Cycle** ist ein Werkzeug, das zeigt, in welcher Phase sich eine neue Technologie befindet – von der ersten Begeisterung bis zum echten Alltagseinsatz.
+
+---
+
+### 📊 Die 5 Phasen des Hype Cycles
+
+| Phase | Deutsch | Was passiert? | Stimmung |
+|-------|---------|---------------|---------|
+| **1. Innovation Trigger** | Innovationsauslöser | Technologie taucht auf. Erste Prototypen, viel Presse, aber noch kaum reife Produkte. | "Das könnte riesig werden!" |
+| **2. Peak of Inflated Expectations** | Gipfel der überhöhten Erwartungen | Hype ist maximal. Viele Versprechen, riesige Investitionen, unrealistische Hoffnungen. | "Das wird ALLES verändern!" |
+| **3. Trough of Disillusionment** | Tal der Ernüchterung | Erste Projekte scheitern. Technologie hält Versprechen nicht ein. Investoren verlieren Interesse. | "Das war doch nur Hype…" |
+| **4. Slope of Enlightenment** | Pfad der Erkenntnis | Reale Anwendungsfälle werden klar. Technologie wird besser verstanden und gezielter eingesetzt. | "Jetzt wissen wir, wofür es wirklich gut ist." |
+| **5. Plateau of Productivity** | Plateau der Produktivität | Technologie ist etabliert, stabil und wird breit eingesetzt. Echter, messbarer Nutzen. | "Nutzen wir täglich, ganz selbstverständlich." |
+
+---
+
+### 🤖 KI im Hype Cycle 2025 (laut Gartner)
+
+| Technologie | Phase 2025 | Bedeutung |
+|-------------|-----------|-----------|
+| **AI Agents** | Peak of Inflated Expectations | Höchster Hype – gleichzeitig höchste Enttäuschungsgefahr |
+| **Generative AI** | Trough of Disillusionment | Ernüchterung nach ChatGPT-Hype, Realität sortiert sich |
+| **AI Engineering** | Slope of Enlightenment | Reifer Einsatz mit klaren Methoden |
+| **Computer Vision** | Plateau of Productivity | Etablierte, alltagstaugliche Technologie |
+| **Quantum AI** | Innovation Trigger | Früheste Phase, noch sehr spekulativ |
+
+> 💡 **Klausur-Tipp:** Der Hype Cycle zeigt, dass nicht jede neue KI-Technologie sofort ihren Versprechen gerecht wird. Er hilft Unternehmen, Investitionsentscheidungen zu treffen.
+
+---
+
+### 🔧 Wichtige Technologien aus dem Hype Cycle
+
+**AI Engineering:** KI nicht nur bauen, sondern zuverlässig betreiben. Fokus auf Testen, Überwachen, Versionieren und Governance – weg vom Experimentieren, hin zum produktiven System.
+
+**Synthetic Data (Synthetische Daten):** Künstlich erzeugte Daten, die wie echte Daten aussehen, aber keine echten Personen direkt verraten. Gartner prognostiziert: Bis 2026 nutzen 75% der Unternehmen generative KI zur Erzeugung synthetischer Kundendaten.`,
       },
       {
         heading: 'Infrastruktur für KI: Big Data',
         content: `### 🌊 Was ist Big Data?
 
-**Alltagsbeispiel:** Stell dir vor, du bist ein Fisch im Ozean. Der Ozean = alle Daten, die jeden Tag auf der Welt entstehen. Ein normaler Eimer (= normale Datenbank) reicht nicht aus, um den Ozean zu fassen. Big Data ist das Werkzeug, das mit diesem Ozean umgehen kann.
+**Alltagsbeispiel:** Jeden Tag entstehen auf der Welt mehr Daten als in allen Bibliotheken zusammen jemals Bücher geschrieben wurden. Allein Facebook-Nutzer erzeugen täglich Millionen Beiträge. Das nennt man Big Data – Datenmassen, bei denen normale Datenbanken kapitulieren.
 
-**Big Data** bezeichnet riesige Datenmengen, die so groß, schnell oder vielfältig sind, dass normale Computerprogramme nicht damit umgehen können.
+**Big Data** bezeichnet Datenmengen, die so groß, schnell oder vielfältig sind, dass normale Datenbankprogramme damit nicht umgehen können. Der Begriff entstand Anfang der 2000er-Jahre, als das Internet-Wachstum traditionelle Speicherlösungen überforderte.
 
-### 4 V (und mehr!) von Big Data
+---
 
-|V-Dimension|Deutsch|Was bedeutet das?|Beispiel|
-|---|---|---|---|
-|**Volume**|Menge|Daten im Terabyte- oder Petabyte-Bereich|Facebook: Millionen Posts pro Tag|
-|**Velocity**|Geschwindigkeit|Daten entstehen und müssen in Sekunden verarbeitet werden|GPS-Daten in Echtzeit|
-|**Variety**|Vielfalt|Daten kommen in vielen Formaten: Texte, Bilder, Videos, Sensordaten|Instagram-Posts: Bild + Text + Likes|
-|**Veracity**|Wahrhaftigkeit / Qualität|Daten können unvollständig oder falsch sein|Fake News, fehlerhafte Sensordaten|
-|**Value**|Wert|Aus Daten neue Geschäftsmodelle entwickeln|Spotify verkauft Musikdaten an Labels|
+### 🔢 Die 4V (und mehr!) von Big Data – Ausführliche Erklärung
 
-> 💡 **Klausur-Tipp:** Für KI-Projekte ist **Veracity** besonders kritisch – schlechte Datenqualität = schlechte KI-Entscheidungen (Stichwort: „Garbage in, garbage out").
+#### Volume (Menge) 📦
+Daten im Terabyte- oder Petabyte-Bereich. Zur Einordnung:
+- 1 Terabyte = 1.000 Gigabyte
+- 1 Petabyte = 1.000 Terabyte
+- Facebook produziert täglich Petabytes an Daten
 
-### Strukturierungsgrade von Daten
+#### Velocity (Geschwindigkeit) ⚡
+Daten entstehen extrem schnell und müssen sofort verarbeitet werden.
+- Pro Minute: über 2 Millionen Google-Suchanfragen
+- Pro Minute: 80.000 Dollar Umsatz auf Amazon
+- Pro Minute: 30 Stunden Videomaterial auf YouTube hochgeladen
 
-|Typ|Erklärung|Beispiel|
-|---|---|---|
-|**Strukturiert**|Klare Tabellenform|Kundendatenbank: Name, Adresse, Geburtsdatum|
-|**Semi-strukturiert**|Teils geordnet, teils frei|E-Mail: Header (geordnet) + Nachrichtentext (frei)|
-|**Unstrukturiert**|Kein Schema|Bilder, Videos, Sprachnachrichten|`,
+#### Variety (Vielfalt) 🎭
+Daten kommen in völlig unterschiedlichen Formaten:
+
+| Datentyp | Beschreibung | Beispiele |
+|----------|-------------|---------|
+| **Strukturiert** | Klare Tabellenform, leicht maschinenlesbar | Kundendatenbanken, Excel-Tabellen |
+| **Semi-strukturiert** | Teils geordnet, teils frei | E-Mails (Header geordnet, Text frei), JSON-Dateien |
+| **Unstrukturiert** | Kein festes Schema | Bilder, Videos, Audioaufnahmen, Social-Media-Posts |
+
+#### Veracity (Wahrhaftigkeit) ✅
+Wie zuverlässig und korrekt sind die Daten?
+- Fake News verfälschen das Bild
+- Fehlerhafte Sensordaten liefern falsche Messwerte
+- Unvollständige Datensätze führen zu falschen KI-Entscheidungen
+- **"Garbage in, garbage out"** – schlechte Daten = schlechte KI
+
+#### Value (Wert) 💰
+Der wirtschaftliche Wert der Daten.
+- Daten als eigener Produktionsfaktor
+- Spotify kann aus Musiknutzungsdaten neue Geschäftsmodelle entwickeln
+- Amazon nutzt Kaufdaten für bessere Produktempfehlungen
+
+**Weitere Vs (aus dem Kurs bekannt):**
+- **Virality** – Wie schnell verbreiten sich die Daten?
+- **Viscosity** – Wie stark "kleben" die Daten / lösen sie Aktionen aus?
+- **Visualisation** – Können die Daten verständlich dargestellt werden?
+
+> 💡 **Klausur-Tipp:** Für KI-Projekte ist **Veracity** am kritischsten. KI lernt aus Daten – sind die Daten falsch oder verzerrt, lernt die KI falsche Muster. Merksatz: "Garbage in, garbage out."
+
+---
+
+### ⚠️ Herausforderungen beim Aufbau einer KI-Infrastruktur
+
+Unternehmen scheitern oft aus drei Gründen:
+
+**1. Technologische Schwachstellen:**
+- Datensammlung und -validierung ist immer noch stark manuell geprägt
+- Fokus auf einfache, traditionelle Analyseverfahren statt moderner KI-Methoden
+
+**2. Organisatorische Schwachstellen:**
+- Keine klare KI-Strategie – Verantwortung ist unklar oder dezentral geregelt
+- Datenqualität hat keine unternehmensweite Zuständigkeit
+- Fachkräftemangel: Data Scientists sind rar und teuer
+
+**3. Strategische Schwachstellen:**
+- Daten werden nicht als strategische Ressource wahrgenommen
+- Kein klarer Business Case für KI-Investitionen`,
+      },
+      {
+        heading: 'Big-Data-Architekturen: Lambda & Kappa',
+        content: `### 🏗️ Warum braucht man spezielle Architekturen?
+
+**Alltagsbeispiel:** Eine Bank muss gleichzeitig zwei Dinge tun: abends den Tagesbericht erstellen (langsam, aber vollständig) und sofort einen Betrüger stoppen, der gerade ein Konto leerräumt (schnell, in Echtzeit). Normale Datenbanken können das nicht gleichzeitig gut.
+
+---
+
+### ⚡ Lambda-Architektur – Zwei Wege parallel
+
+Die Lambda-Architektur verarbeitet Daten auf **zwei parallelen Pfaden**:
+
+| Ebene | Name | Was macht sie? | Typ | Beispiel |
+|-------|------|----------------|-----|---------|
+| **Batch-Layer** | Stapelverarbeitung | Verarbeitet alle historischen Daten langsam aber vollständig | "Kalte Daten" | Monatsbericht, Compliance-Reports |
+| **Speed-Layer** | Echtzeit-Verarbeitung | Verarbeitet eingehende Daten sofort – weniger genau, aber blitzschnell | "Heiße Daten" | Betrugserkennung, Live-Dashboard |
+| **Serving-Layer** | Ausgabeschicht | Kombiniert Ergebnisse beider Layer für Abfragen | Kombination | Analysedashboard |
+
+**Vorteil:** Beide Welten werden abgedeckt – historische Vollständigkeit UND Echtzeit.
+**Nachteil:** Zwei parallele Systeme = doppelte Komplexität, doppelter Wartungsaufwand.
+
+---
+
+### 🔄 Kappa-Architektur – Ein Weg für alles
+
+**Alltagsbeispiel:** Statt zwei Kassenschlangen (eine für Schnellkäufer, eine für Vielkäufer) gibt es nur eine universelle Kasse, die beides kann. Einfacher, aber muss leistungsfähiger sein.
+
+Die Kappa-Architektur vereinfacht Lambda: **Nur ein einziger Streaming-Pfad** für alle Daten.
+
+- Alle Daten durchlaufen einen Datenstrom-Verarbeitungspfad (z.B. Apache Kafka)
+- Kein separater Batch-Prozess
+- Alles in Echtzeit (Streaming)
+- Einfacher zu warten – nur eine Verarbeitungslogik
+
+**Wann Kappa wählen?** Wenn Echtzeit das Wichtigste ist: z.B. IoT-Milliardenströme, Betrugserkennung im Bankensektor.
+
+---
+
+### ⚔️ Lambda vs. Kappa – Der direkte Vergleich
+
+| Kriterium | **Lambda** | **Kappa** |
+|-----------|-----------|----------|
+| **Verarbeitungspfade** | 2 (Batch + Speed) | 1 (nur Streaming) |
+| **Latenz** | Hoch für Batch, niedrig für Speed | Immer niedrig (Echtzeit) |
+| **Genauigkeit** | Sehr hoch (Batch verarbeitet alle Daten) | Hoch bei richtiger Implementierung |
+| **Komplexität** | Hoch (zwei Systeme) | Geringer |
+| **Wartungsaufwand** | Hoch (zwei Logiken pflegen) | Geringer (eine Logik) |
+| **Stärke** | Historische Vollständigkeit + Echtzeit | Echtzeit-Performance |
+| **Wann wählen?** | Wenn beide Welten (historisch + live) gebraucht werden | Wenn Echtzeit Priorität hat |
+| **Praxisbeispiel** | Bankberichte + Echtzeit-Betrugswarnung | IoT-Sensordaten Industrie 4.0 |`,
       },
       {
         heading: 'Data Warehouse & Data Lake',
         content: `### 🏢 Data Warehouse – Das aufgeräumte Archiv
 
-**Alltagsbeispiel:** Stell dir eine riesige Bibliothek vor, in der alle Bücher perfekt sortiert und katalogisiert sind. Du weißt genau, wonach du suchst, und findest es sofort. Das ist ein Data Warehouse.
+**Alltagsbeispiel:** Stell dir eine Bibliothek vor, in der alle Bücher perfekt nach Thema, Autor und Jahr sortiert sind. Du weißt genau, wo was steht, und findest alles sofort. Das ist ein Data Warehouse.
 
-Ein **Data Warehouse** ist eine zentrale Datenbank für **strukturierte Daten**, die für Analysen optimiert ist. Daten werden **vor dem Speichern** in ein einheitliches Format gebracht (Schema-on-Write).
+Ein **Data Warehouse** (DWH) ist eine zentrale, themenorientierte Datenbank für **strukturierte Daten**, die für Analysen und Berichte optimiert ist.
 
-**Typische Nutzung:** Umsatzberichte, Finanzanalysen, Controlling-Dashboards.
+**Kernmerkmale:**
+- Nur **strukturierte Daten** (Tabellen)
+- Schema wird **vor dem Laden** festgelegt (Schema-on-Write)
+- Optimiert für komplexe **Abfragen und Analysen**
+- Historische Daten werden **dauerhaft gespeichert**
+- Daten stammen aus verschiedenen Quellsystemen (CRM, ERP, etc.)
 
-### 🏞️ Data Lake – Der unaufgeräumte See
+**Bestandteile eines Data Warehouse:**
 
-**Alltagsbeispiel:** Stell dir einen riesigen See vor, in den alle möglichen Dinge geworfen werden – Fische, Steine, Boote, Müll. Alles ist drin. Wenn du etwas brauchst, filterst du es erst dann heraus. Das ist ein Data Lake.
+| Komponente | Was ist das? | Analogie |
+|------------|-------------|---------|
+| **Staging Area** | Zwischenspeicher für unformatierte Rohdaten | Eingangshalle der Bibliothek |
+| **Data Warehouse** | Zentrale, bereinigte Datenbasis | Hauptkatalog der Bibliothek |
+| **Data Marts** | Teilmengen für bestimmte Abteilungen | Fachbibliotheken |
+| **Dashboards/Reports** | Ausgabe für Endnutzer | Der Bildschirm, den du siehst |
 
-Ein **Data Lake** ist ein riesiger Datenspeicher für **alle Arten von Daten** (strukturiert, unstrukturiert, alles!). Daten werden **beim Lesen** sortiert (Schema-on-Read).
+> 💡 **Data Mart:** Ein Data Mart ist eine kleinere, abteilungsspezifische Datenbank aus dem Data Warehouse. Der Vertrieb bekommt sein Data Mart mit Kundendaten, die Produktion ihr eigenes mit Fertigungskennzahlen – damit niemand mehr sieht als nötig.
 
-**Typische Nutzung:** KI-Training, Forschung, unvorhergesehene Analysen.
+---
 
-### ⚔️ Data Warehouse vs. Data Lake – Der Vergleich
+### 🏞️ Data Lake – Der riesige unstrukturierte Datensee
 
-|Kriterium|**Data Warehouse**|**Data Lake**|
-|---|---|---|
-|**Datentypen**|Nur strukturiert|Alle Typen (auch Bilder, Videos)|
-|**Schema**|Vorher festgelegt (Schema-on-Write)|Beim Lesen (Schema-on-Read)|
-|**Geschwindigkeit**|Langsamer beim Laden|Schnell beim Aufnehmen|
-|**Für wen?**|Controller, Vertrieb|Data Scientists, KI-Entwickler|
-|**Wenn ich weiß, was ich analysieren will**|✅ Ideal|—|
-|**Wenn ich noch nicht weiß, was ich brauche**|—|✅ Ideal|
+**Alltagsbeispiel:** Ein Data Lake ist wie ein riesiger See, in den alle möglichen Dinge geworfen werden – Fische, Steine, Boote, Müll, alles. Wenn du etwas brauchst, filterst und sortierst du es erst beim Herausfischen. Das ist ein Data Lake.
 
-> 💡 **Klausur-Tipp:** Beide Technologien ergänzen sich! Data Lake sammelt alles, Data Warehouse strukturiert das Wichtige.
+Ein **Data Lake** ist ein riesiger, zentraler Datenspeicher für **alle Arten von Daten** – strukturiert, unstrukturiert, alles!
 
-### 📊 OLAP – Daten aus verschiedenen Perspektiven analysieren
+**Kernmerkmale:**
+- **Alle Datentypen** (strukturiert, semi-strukturiert, unstrukturiert)
+- Schema wird **beim Lesen** festgelegt (Schema-on-Read)
+- Unbegrenzte Speicherkapazität
+- Schnelle Aufnahme von Daten ohne Vorverarbeitung
+- Ideal für **KI-Training, Data Science, unvorhergesehene Analysen**
 
-**Alltagsbeispiel:** Du hast ein Lego-Set in einer Schachtel. Du kannst die Schachtel von vorne, von oben, von der Seite anschauen. OLAP macht das mit Daten.
+**Drei Datenarten im Data Lake:**
 
-**OLAP** = Online Analytical Processing. Methode für die Datenanalyse im Data Warehouse. Stellt Daten als **3D-Würfel** dar mit Dimensionen wie Zeit, Region, Produkt.
+| Datenart | Eigenschaften | Beispiel |
+|----------|-------------|---------|
+| **Stammdaten** | Statisch, strukturiert, schützenswert | Kundendaten, Produktdaten |
+| **Transaktionsdaten** | Mit Zeitstempel, oft unverändert nach Erfassung | Bestellungen, Zahlungsvorgänge |
+| **IoT-Daten** | Kurzlebig, semistrukturiert, Echtzeitcharakter | Maschinentemperatur, GPS-Position |
 
-**Wichtige OLAP-Operationen:**
+---
 
-- **Drill-Down** = in die Tiefe gehen (von „Jahreszahlen" zu „Monatszahlen")
-- **Drill-Up/Roll-Up** = zusammenfassen (von „Monatszahlen" zu „Jahreszahlen")
-- **Slice** = eine Scheibe ausschneiden (nur Daten für 2023 anzeigen)
-- **Dice** = mehrere Scheiben (nur Region Ost, Produkt A, 2023)`,
+### ⚔️ Data Warehouse vs. Data Lake – Vollständiger Vergleich
+
+| Kriterium | **Data Warehouse** | **Data Lake** |
+|-----------|-------------------|---------------|
+| **Datentypen** | Nur strukturiert (Tabellen) | Alle Typen (auch Bilder, Videos, Texte) |
+| **Schema** | Schema-on-Write (vorher festgelegt) | Schema-on-Read (beim Lesen festgelegt) |
+| **Datenqualität** | Hoch – Daten sind bereinigt | Variabel – Rohdaten, unbereinigt |
+| **Ladegeschwindigkeit** | Langsamer (Transformation vor dem Laden) | Schnell (alles wird direkt aufgenommen) |
+| **Flexibilität** | Gering – Struktur muss vorher bekannt sein | Sehr hoch – keine Vorab-Struktur nötig |
+| **Für wen?** | Controller, Management, Vertrieb | Data Scientists, KI-Entwickler, Forscher |
+| **Kosten** | Höher (Strukturierungsaufwand) | Geringer für Speicher, höher für Analyse |
+| **Wenn ich weiß, was ich will** | ✅ Ideal | — |
+| **Wenn ich noch nicht weiß, was ich brauche** | — | ✅ Ideal |
+| **Typische Tools** | Oracle, Teradata, SAP BW | Hadoop, Azure Data Lake, Amazon S3 |
+
+> 💡 **Klausur-Tipp:** Beide ergänzen sich! Data Lake = sammelt alles roh. Data Warehouse = strukturiert das Wichtige. Typischer Ablauf: Daten landen im Data Lake → ausgewählte, gereinigte Daten gehen ins Data Warehouse.
+
+---
+
+### 📊 OLAP – Multidimensionale Datenanalyse
+
+**Alltagsbeispiel:** Du hast ein Würfel-Legospielzeug. Du kannst ihn von vorne, oben, von der Seite ansehen – jede Seite zeigt dir eine andere Perspektive. OLAP macht dasselbe mit Geschäftsdaten.
+
+**OLAP** = **O**nline **A**nalytical **P**rocessing. Eine Methode für die multidimensionale Datenanalyse aus dem Data Warehouse.
+
+**Der OLAP-Würfel:** Stellt Daten in 3 Dimensionen dar:
+- **Achse X:** Region (Nord, Süd, Ost, West)
+- **Achse Y:** Produkt (Produkt A, B, C)
+- **Achse Z:** Zeit (Q1, Q2, Q3, Q4)
+
+Jeder Punkt im Würfel = ein Datenwert (z.B. Umsatz von Produkt A in Region Ost in Q2 2023).
+
+**Die wichtigsten OLAP-Operationen:**
+
+| Operation | Was passiert? | Alltagsbeispiel |
+|-----------|--------------|----------------|
+| **Drill-Down** | In die Tiefe gehen – mehr Detail | Von "Jahreszahlen" zu "Monatszahlen" zu "Tageszahlen" |
+| **Roll-Up / Drill-Up** | Zusammenfassen – weniger Detail | Von "Tageszahlen" zu "Monatszahlen" |
+| **Slice** | Eine Scheibe herausschneiden | Nur Daten aus 2023 anzeigen |
+| **Dice** | Mehrere Dimensionen einschränken | Nur Region Ost, Produkt A, 2023 |
+| **Pivot** | Achsen drehen – andere Perspektive | Zeilen und Spalten tauschen |
+
+---
+
+### 🖥️ Self-Service BI
+
+**Self-Service Business Intelligence (BI)** erlaubt es normalen Mitarbeitern (nicht nur IT-Spezialisten), eigene Auswertungen und Dashboards zu erstellen – ohne Programmierkenntnisse.
+
+**Ziele:** Entscheidungsträger unabhängiger machen, IT entlasten, schnellere Erkenntnisse gewinnen.
+
+**Tools:** Power BI (Microsoft), Tableau, Qlik.
+
+**Voraussetzung:** Gute Datenqualität, klare Data Governance, Schulungen für Mitarbeiter.`,
       },
       {
         heading: 'Datenmanagement & Data Engineering',
         content: `### 🔧 ETL-Prozess – Wie Daten ins Data Warehouse kommen
 
-**Alltagsbeispiel:** Stell dir vor, du bist Köchin. Du holst Zutaten aus dem Supermarkt (Extract), schneidest und würzt sie (Transform), und legst das fertige Gericht auf den Tisch (Load). Das ist ETL!
+**Alltagsbeispiel:** Du bist Koch. Du gehst einkaufen (Extract), schneidest und würzt zu Hause (Transform), und servierst dann das fertige Gericht (Load). Fertig! Genau so funktioniert ETL.
 
 **ETL** = **E**xtract → **T**ransform → **L**oad
 
-|Schritt|Was passiert?|
-|---|---|
-|**Extract**|Daten aus verschiedenen Quellen herauslesen (Datenbanken, Websites, CSV-Dateien)|
-|**Transform**|Daten bereinigen und in ein einheitliches Format bringen|
-|**Load**|Fertige Daten ins Data Warehouse laden|
+| Schritt | Was passiert konkret? | Beispiel |
+|---------|----------------------|---------|
+| **Extract (Extrahieren)** | Rohdaten aus verschiedenen Quellen herauslesen | Aus CRM, ERP, Websites, Dateien, APIs |
+| **Transform (Transformieren)** | Daten bereinigen, vereinheitlichen, anreichern | Doppelte Einträge entfernen, Datumsformate vereinheitlichen |
+| **Load (Laden)** | Fertige Daten in das Data Warehouse laden | Strukturierte Tabellen ins DWH schreiben |
 
-> 💡 Warum manchmal nachts Systeme gesperrt sind: In dieser Zeit läuft der ETL-Prozess!
+> 💡 **Warum sind nachts oft Systeme gesperrt?** In dieser Zeit läuft der ETL-Prozess – alle Daten werden von den Betriebssystemen in das Data Warehouse überführt. Während dieser Zeit können Daten verloren gehen, wenn Nutzer das System verändern.
+
+---
 
 ### 🗂️ Datenarten in Unternehmen
 
-|Datenart|Was ist das?|Beispiel|
-|---|---|---|
-|**Stammdaten**|Grundlegende, selten ändernde Infos über Geschäftsobjekte|Kundendaten, Produktdaten|
-|**Transaktionsdaten**|Daten zu Geschäftsvorfällen (Bewegungsdaten)|Bestellungen, Zahlungen|
-|**IoT-Daten**|Echtzeitdaten von Maschinen/Sensoren|Temperatur einer Maschine, GPS-Position|
+| Datenart | Was ist das? | Eigenschaften | Beispiel |
+|----------|-------------|---------------|---------|
+| **Stammdaten** | Grundlegende Infos über Geschäftsobjekte | Statisch, strukturiert, schützenswert, hohe Qualität nötig | Kundennamen, Produktcodes, Lieferantenadressen |
+| **Transaktionsdaten** | Daten zu Geschäftsvorfällen | Mit Zeitstempel, nach Erfassung meist unverändert, voluminös | Bestellungen, Zahlungen, Buchungen |
+| **IoT-Daten** | Sensor- und Maschinendaten | Kurzlebig, semi-strukturiert, unbekannte Qualität, Echtzeitcharakter | Maschinentemperatur, GPS-Koordinaten, Stromverbrauch |
 
-### 🔄 Data Pipeline – Der Weg der Daten
+---
 
-Eine **Data Pipeline** ist wie eine Fließband-Fabrik für Daten:
+### 🔄 Data Pipeline – Der vollständige Datenfluss
+
+Eine **Data Pipeline** ist wie ein Fließband in der Fabrik für Daten – Schritt für Schritt vom Rohstoff zum fertigen Produkt:
 
 \`\`\`
-Rohdaten → Datenerhebung → Datenbereinigung → Daten-Exploration → Modell → Visualisierung → Datenprojekt
+Rohdatenerfassung
+     ↓
+Datenvorbereitung (Formatierung, Zeitstempel)
+     ↓
+Datenbereinigung (Duplikate, Fehler entfernen)
+     ↓
+Daten-Exploration (Muster erkennen, Statistiken)
+     ↓
+Modell-Experimentation (ML-Modelle testen)
+     ↓
+Visualisierung (Erkenntnisse sichtbar machen)
+     ↓
+Ausliefern des Datenprodukts (Dashboards, Reports, APIs)
 \`\`\`
 
-**Wichtige Verarbeitungsarten:**
+**Zwei Verarbeitungsarten:**
 
-- **Batch-Verarbeitung:** Daten werden gesammelt und in großen Mengen verarbeitet (z.B. nachts)
-- **Stream-Verarbeitung:** Daten werden sofort in Echtzeit verarbeitet (z.B. Sensordaten einer Maschine)`,
+| Art | Wann? | Beispiel |
+|-----|-------|---------|
+| **Batch-Verarbeitung** | Daten werden gesammelt und in Paketen verarbeitet (z.B. nachts) | Tagesbericht, monatliche Rechnungen |
+| **Stream-Verarbeitung** | Daten werden sofort in Echtzeit verarbeitet | Maschinenüberwachung, Betrugserkennung |
+
+---
+
+### 📈 Datenvisualisierung
+
+**Alltagsbeispiel:** Ein Diagramm sagt mehr als 1000 Zahlen in einer Tabelle. Die Visualisierung macht Daten für Menschen verständlich.
+
+**Drei Arten der Visualisierung:**
+
+| Art | Ausgangspunkt | Prozess | Ergebnis |
+|-----|--------------|---------|---------|
+| **Explorativ** | Keine Hypothese | Suche nach Trends und Mustern | Neue Erkenntnisse entdecken |
+| **Konformativ** | Bestehende Hypothese | Gezielte Überprüfung | Bestätigung oder Ablehnung |
+| **Präsentation** | Bekannte Fakten | Angemessene Darstellung wählen | Hochwertige Visualisierung für Entscheider |
+
+**Werkzeuge:** Power BI (Microsoft), Tableau, Qlik`,
       },
       {
         heading: 'KI-Agenten & Agentensysteme',
         content: `### 🤖 Was ist ein Agent?
 
-**Alltagsbeispiel:** Ein Hund ist ein Agent! Er nimmt die Welt wahr (Nase, Augen = Sensoren), denkt nach, und handelt (bellen, rennen = Aktoren). Genauso funktionieren KI-Agenten.
+**Alltagsbeispiel:** Ein Hund ist ein perfekter Agent! Er nimmt die Welt wahr (Nase = Sensor, Augen = Sensor), denkt nach (Gehirn = Verarbeitungseinheit) und handelt (bellen, rennen = Aktoren). Genauso funktionieren KI-Agenten – nur mit Software und Hardware.
 
-Ein **Agent** ist ein System, das:
+> **Definition:** Ein Agent ist ein System, das Information verarbeitet – aus einer Eingabe (Wahrnehmung der Umgebung) eine Ausgabe (Aktion) erzeugt.
 
-1. **Wahrnehmungen** aus der Umgebung empfängt (über Sensoren)
-2. **Entscheidungen** trifft
-3. **Aktionen** ausführt (über Aktoren/Aktuatoren)
+**Zwei Grundtypen:**
 
-**Zwei Typen:**
+| Typ | Beschreibung | Beispiel |
+|-----|-------------|---------|
+| **Software-Agent** | Programm, das Benutzereingaben verarbeitet und ein Ergebnis berechnet | Spam-Filter, Suchmaschine |
+| **Hardware-Agent (Roboter)** | Hat zusätzlich physische Sensoren und Aktoren, interagiert mit der physischen Welt | Staubsaugerroboter, Fabrikroboter |
 
-- **Software-Agent:** Ein Programm, das Eingaben verarbeitet und Ausgaben erzeugt
-- **Hardware-Agent (Roboter):** Hat zusätzlich physische Sensoren und Aktoren
+---
 
-### 🎯 Rationaler Agent – Was ist „rational"?
+### 🎯 Rationaler Agent – Was bedeutet "rational"?
 
-Ein **rationaler Agent** tut das Richtige! Das bedeutet: Er wählt für jede Situation die Aktion, die seine **Leistungsbewertung maximiert** – basierend auf seinem Wissen und seinen bisherigen Wahrnehmungen.
+**Alltagsbeispiel:** Ein guter Schachspieler ist rational – er wählt den Zug, der seine Gewinnchancen maximiert, basierend auf dem Spielstand und seinem Wissen. Nicht perfekt, aber so gut wie möglich mit den vorhandenen Informationen.
 
-Was einen rationalen Agenten „rational" macht, hängt ab von:
+**Definition:** Ein rationaler Agent wählt für jede mögliche Wahrnehmungsfolge eine Aktion, von der erwartet werden kann, dass sie seine **Leistungsbewertung maximiert** – unter Berücksichtigung seiner Wahrnehmungsfolge und seines Vorwissens.
 
-1. Seiner **Leistungsbewertung** (Was ist „gut"?)
-2. Seinem **Vorwissen** über die Umgebung
-3. Den **möglichen Aktionen**
-4. Seiner **bisherigen Wahrnehmung**
+**Was bestimmt Rationalität? (4 Faktoren)**
 
-### 📋 PEAS-Beschreibung – Agenten verstehen
+1. Die **Leistungsbewertung** (Was ist "gut"? Was ist "Erfolg"?)
+2. Das **Vorwissen** des Agenten über die Umgebung
+3. Die **möglichen Aktionen** des Agenten
+4. Die **bisherige Wahrnehmungsfolge** (was hat er bisher erlebt?)
 
-**PEAS** = Rahmen, um einen Agenten vollständig zu beschreiben:
+---
 
-|Buchstabe|Steht für|Frage|
-|---|---|---|
-|**P**|Performance (Leistungsbewertung)|Was ist Erfolg?|
-|**E**|Environment (Umgebung)|Wo arbeitet der Agent?|
-|**A**|Actuators (Aktoren)|Wie kann der Agent handeln?|
-|**S**|Sensors (Sensoren)|Was kann der Agent wahrnehmen?|
+### 📋 PEAS-Beschreibung – Agenten vollständig charakterisieren
 
-**Beispiel: Selbstfahrendes Taxi**
+**PEAS** ist das Standardmodell zur Beschreibung eines Agenten:
 
-|PEAS|Inhalt|
-|---|---|
-|P|Sicher ankommen, wenig Sprit, keine Verkehrsverstöße|
-|E|Straßen, andere Autos, Fußgänger, Wetter|
-|A|Lenkung, Gas, Bremse|
-|S|Kameras, GPS, Radar, Lidar|
+| Buchstabe | Steht für | Frage |
+|-----------|-----------|-------|
+| **P** | **P**erformance (Leistungsbewertung) | Was ist Erfolg? Woran messe ich gutes Verhalten? |
+| **E** | **E**nvironment (Umgebung) | In welcher Welt agiert der Agent? |
+| **A** | **A**ctuators (Aktoren) | Welche Aktionen kann der Agent ausführen? |
+| **S** | **S**ensors (Sensoren) | Was kann der Agent wahrnehmen? |
 
-### 🌍 Eigenschaften von Umgebungen
+**Beispiel 1: Selbstfahrendes Taxi**
 
-|Eigenschaft|Erklärung|Beispiel|
-|---|---|---|
-|**Vollständig / Teilweise beobachtbar**|Kann der Agent alles sehen?|Schach (vollständig) vs. Poker (teilweise)|
-|**Deterministisch / Stochastisch**|Ist das Ergebnis einer Aktion vorhersagbar?|Schach (deterministisch) vs. Taxifahren (stochastisch)|
-|**Episodisch / Sequenziell**|Hängen Entscheidungen voneinander ab?|Spam-Filter (episodisch) vs. Schach (sequenziell)|
-|**Statisch / Dynamisch**|Ändert sich die Umgebung während der Agent denkt?|Kreuzworträtsel (statisch) vs. Taxifahren (dynamisch)|
-|**Diskret / Stetig**|Gibt es eine endliche Zahl von Zuständen?|Schach (diskret) vs. Taxifahren (stetig)|`,
+| PEAS | Inhalt |
+|------|--------|
+| **P** | Sicher ans Ziel kommen, wenig Kraftstoff, keine Verkehrsverstöße, Fahrgast zufrieden |
+| **E** | Straßen, andere Fahrzeuge, Fußgänger, Wetter, Baustellen, Ampeln |
+| **A** | Lenkung, Gas, Bremse, Blinker, Hupe |
+| **S** | Kameras, GPS, Radar, Lidar, Ultraschall |
+
+**Beispiel 2: Medizinisches Diagnosesystem**
+
+| PEAS | Inhalt |
+|------|--------|
+| **P** | Korrekte Diagnose, gesunder Patient, verringerte Kosten |
+| **E** | Patient, Krankenhaus, medizinisches Team |
+| **A** | Anzeige von Fragen, Untersuchungsempfehlungen, Diagnosen |
+| **S** | Tastatureingabe (Symptome), Befunde, Antworten des Patienten |
+
+---
+
+### 🏗️ Die 4 Agententypen – Von einfach bis komplex
+
+**Alltagsbeispiel:** Ein einfacher Lichtschalter (Licht an/aus) ist ein Reflex. Eine Klimaanlage mit Thermostat (merkt sich Temperatur) ist modellbasiert. Ein Navi (will zu einem Ziel) ist zielbasiert. Ein Reiseplaner (optimiert Preis + Zeit + Komfort) ist nutzenbasiert.
+
+#### Typ 1: Einfacher Reflexagent 🔦
+- Reagiert **nur auf die aktuelle Wahrnehmung** – kein Gedächtnis
+- Arbeitet mit **Bedingungs-Aktions-Regeln** ("Wenn X, dann Y")
+- **Beispiel:** Staubsaugerroboter: Wenn Position schmutzig → saugen. Wenn sauber → weiterfahren.
+- **Beispiel-Regel:** \`Wenn auto-vor-uns-bremst → bremsen-beginnen\`
+- **Schwäche:** Scheitert in teilweise beobachtbaren Umgebungen
+
+#### Typ 2: Modellbasierter Reflexagent 🗺️
+- Hat einen **internen Zustand** – führt ein "Modell der Welt"
+- Kann auch Dinge berücksichtigen, die er gerade nicht sieht
+- **Wissen umfasst:** Wie entwickelt sich die Welt unabhängig vom Agenten? Wie wirken sich eigene Aktionen aus?
+- **Beispiel:** Autopilot merkt sich die Position anderer Autos, auch wenn sie kurz nicht sichtbar sind
+
+#### Typ 3: Zielbasierter Agent 🎯
+- Hat zusätzlich ein **explizites Ziel**
+- Fragt nicht nur "Was soll ich tun?" sondern "Welche Aktion bringt mich dem Ziel näher?"
+- Kombiniert Weltmodell + Zielinformation
+- **Beispiel:** Navigationssystem – Ziel: Arrive at destination. Wählt Aktionen, die das Ziel erreichen.
+- **Beispiel:** Taxiagent – Ziel: Fahrgast sicher ans Ziel bringen
+
+#### Typ 4: Nutzenbasierter Agent ⚖️
+- Hat nicht nur ein Ziel, sondern bewertet verschiedene Zielzustände nach **Nutzen (Utility)**
+- Optimiert zwischen mehreren, möglicherweise konkurrierenden Kriterien
+- **Beispiel:** Navi mit Präferenzen: schnellste Route + günstigstes Tanken + schönste Landschaft + Zwischenstopp
+- **Unterschied zu zielbasiert:** Zielbasiert = "Ich will ankommen." Nutzenbasiert = "Ich will so ankommen, dass ich dabei glücklich bin."
+
+> 💡 **Klausur-Tipp:** Oft gefragt: Warum reicht ein einfacher Reflexagent für autonomes Fahren nicht aus? → Weil Autofahren eine **dynamische, teilweise beobachtbare, stochastische** Umgebung ist. Ein Reflex-Agent kann z.B. nicht einschätzen, wie schnell sich ein verdecktes Fahrzeug nähert.
+
+---
+
+### 🌍 Eigenschaften von Umgebungen – Ausführlich
+
+| Eigenschaft | Variante 1 | Variante 2 | Erklärung | Beispiele |
+|-------------|-----------|-----------|-----------|---------|
+| **Beobachtbarkeit** | Vollständig beobachtbar | Teilweise beobachtbar | Kann der Agent alles sehen? | Schach (voll) vs. Poker (teil) |
+| **Vorhersagbarkeit** | Deterministisch | Stochastisch | Ist das Ergebnis einer Aktion sicher vorhersagbar? | Schach (det.) vs. Taxifahren (stoch.) |
+| **Zeitabhängigkeit** | Episodisch | Sequenziell | Hängen Entscheidungen voneinander ab? | Spam-Filter (epis.) vs. Schach (seq.) |
+| **Dynamik** | Statisch | Dynamisch | Ändert sich die Welt, während der Agent denkt? | Kreuzworträtsel (stat.) vs. Taxifahren (dyn.) |
+| **Zustandsraum** | Diskret | Stetig | Gibt es endlich viele Zustände? | Schach (diskret) vs. Taxifahren (stetig) |
+| **Bekanntheitsgrad** | Bekannt | Unbekannt | Kennt der Agent die Regeln der Umgebung? | Bekanntes Spiel vs. fremde Welt |`,
       },
       {
         heading: 'Logiken & Wissensbasierte Systeme',
-        content: `### 🔢 Aussagenlogik – Wahr oder Falsch?
+        content: `### 🔢 Aussagenlogik – Die Grundlage logischen Denkens
 
-**Alltagsbeispiel:** „Es regnet UND ich habe keinen Schirm → ich werde nass." Das ist Aussagenlogik! Aussagen werden mit WAHR oder FALSCH bewertet.
+**Alltagsbeispiel:** "Es regnet UND ich habe keinen Schirm → Ich werde nass." Das ist Aussagenlogik! Jede Aussage ist entweder WAHR oder FALSCH.
 
-**Aussagenlogik** verbindet einfache Aussagen mit logischen Operatoren:
+**Aussagenlogik** (auch: Propositionallogik) verbindet einfache Aussagen mit logischen Operatoren und bewertet ihre Wahrheit.
 
-- **UND (∧):** Beide Aussagen müssen wahr sein
-- **ODER (∨):** Mindestens eine Aussage muss wahr sein
-- **NICHT (¬):** Negiert eine Aussage
+**Die wichtigsten logischen Operatoren:**
 
-### 🧩 Prädikatenlogik – Wer tut was mit wem?
+| Operator | Symbol | Bedeutung | Beispiel | Wann wahr? |
+|----------|--------|-----------|---------|-----------|
+| **UND** | ∧ | Konjunktion | "Es regnet ∧ ich bin draußen" | Nur wenn BEIDE wahr |
+| **ODER** | ∨ | Disjunktion | "Es regnet ∨ es schneit" | Wenn MINDESTENS EINE wahr |
+| **NICHT** | ¬ | Negation | "¬ Es regnet" = "Es regnet nicht" | Wenn die Aussage FALSCH ist |
+| **WENN...DANN** | → | Implikation | "Regen → nass" | Falsch nur wenn Bedingung wahr, Folge falsch |
+| **GENAU DANN WENN** | ↔ | Äquivalenz | "A ↔ B" | Wenn beide gleich (beide wahr oder beide falsch) |
 
-**Alltagsbeispiel:** Aussagenlogik sagt „Es regnet" (wahr/falsch). Prädikatenlogik sagt „Max liebt Anna" – und beschreibt die **Beziehung** zwischen Objekten.
+**Inferenzregeln** (Schlussfolgerungsregeln) erlauben es, aus bekannten Aussagen neue herzuleiten. Sie sind das Fundament aller regelbasierten KI-Systeme.
 
-**Prädikatenlogik** geht einen Schritt weiter als Aussagenlogik: Sie betrachtet nicht nur Wahrheitswerte, sondern auch die **Beziehungen zwischen Objekten**.
+---
 
-> 💡 Für die Klausur: Aussagenlogik = Was ist wahr/falsch? Prädikatenlogik = Welche Beziehung haben Objekte zueinander?
+### 🧩 Prädikatenlogik – Beziehungen zwischen Objekten
 
-### 🧠 Wissensbasierte Systeme
+**Alltagsbeispiel:** Aussagenlogik sagt "Es regnet" (wahr/falsch). Prädikatenlogik sagt "Max **liebt** Anna" – und beschreibt die **Beziehung** zwischen konkreten Objekten. Das ist viel mächtiger!
 
-**Alltagsbeispiel:** Ein erfahrener Arzt hat jahrelanges Wissen im Kopf und gibt Diagnosen. Ein Expertensystem macht genau das – es speichert das Wissen von Experten und wendet es automatisch an.
+**Prädikatenlogik** (Prädikatenlogik 1. Stufe, PL1) erweitert die Aussagenlogik um:
+- **Objekte** (z.B. Personen, Dinge)
+- **Prädikate** (Eigenschaften und Beziehungen zwischen Objekten)
+- **Quantoren** (Aussagen über alle oder einige Objekte)
 
-Ein **wissensbasiertes System** besteht aus:
+**Beispiel aus dem Kurs:**
+- Objekte: Richard Löwenherz, König John, eine Krone
+- Prädikat: \`istKönig(Richard)\` → Wahr oder Falsch
+- Prädikat: \`liebt(Richard, Krone)\` → Beschreibt Beziehung
 
-1. **Wissensbasis:** Gespeichertes Wissen (Fakten, Regeln)
-2. **Inferenzmaschine:** Zieht Schlussfolgerungen aus dem Wissen
-3. **Benutzerschnittstelle:** Kommuniziert mit dem Nutzer
+**Wann Aussagenlogik, wann Prädikatenlogik?**
+- **Aussagenlogik:** Was ist wahr oder falsch?
+- **Prädikatenlogik:** Welche Eigenschaften haben Objekte? Welche Beziehungen bestehen?
 
-**Vorteil:** Wissen und Verarbeitung sind getrennt → Wissen lässt sich leicht ändern!
+---
 
-### 🏛️ Expertensysteme
+### 🧠 Wissensbasierte Systeme – Aufbau und Funktion
 
-**Expertensysteme** sind wissensbasierte Systeme, die das Wissen von Experten nachbilden. Anforderungen:
+**Alltagsbeispiel:** Stell dir vor, ein erfahrener Arzt schreibt sein komplettes Fachwissen in ein Buch. Ein Computer liest das Buch und kann dann Diagnosen stellen. Das ist ein wissensbasiertes System!
 
-- Wendet Wissen von Experten zur Problemlösung an
-- Stellt Wissen in lesbarer Form dar
-- Kann Unsicherheiten verarbeiten
-- Begründet und erklärt seine Ergebnisse
-- Wissen kann leicht gewartet und erweitert werden
+**Warum brauchen wir wissensbasierte Systeme?**
+- Bei komplexen Anwendungen muss ein Agent sehr viel Wissen berücksichtigen
+- Klassisches Programmieren stößt schnell an Grenzen (zu umfangreich, schwer wartbar)
+- Wissensbasierte Systeme trennen **Wissen** von der **Verarbeitung**
 
-**Einsatzfelder:** Diagnose (Gerätereparatur), Medizin (Entscheidungsunterstützung), Analysetechnik
+**Aufbau eines wissensbasierten Systems:**
 
-### 🔍 Inferenzverfahren
+\`\`\`
+┌─────────────────────────────────────────┐
+│           WISSENSBASIERTES SYSTEM        │
+│                                         │
+│  ┌──────────────┐   ┌──────────────┐   │
+│  │ Wissensbasis │   │ Inferenz-    │   │
+│  │              │   │ maschine     │   │
+│  │ Fakten       │◄──┤              │   │
+│  │ Regeln       │   │ Schlussfolgert│  │
+│  │ Zusammenhänge│   │ aus Wissen   │   │
+│  └──────────────┘   └──────────────┘   │
+│           ↕                    ↕        │
+│     Wissensingenieur      Benutzer      │
+└─────────────────────────────────────────┘
+\`\`\`
 
-**Alltagsbeispiel:** „Alle Hunde bellen. Bello ist ein Hund. → Bello bellt." Das ist Inferenz – aus bekannten Regeln neue Schlüsse ziehen.
+**Vorteil der Trennung:** Die Wissensbasis kann einfach aktualisiert werden, ohne die gesamte Software neu schreiben zu müssen. Zum Beispiel: Neues Medikament → nur neue Regel in der Wissensbasis eintragen.
 
-**Inferenz** = automatisches Schlussfolgern aus gespeichertem Wissen. Wird überall in KI-Systemen genutzt, wo logisches Denken gefragt ist.`,
+---
+
+### 🏛️ Expertensysteme – KI der ersten Generation
+
+**Alltagsbeispiel:** Ein Arzt hat 20 Jahre Erfahrung in der Diagnose seltener Krankheiten. Ein Expertensystem speichert sein Wissen als Regeln und kann dann selbst Diagnosen vorschlagen – 24/7, ohne Urlaub, ohne Vergessen.
+
+**Definition:** Expertensysteme sind wissensbasierte Systeme, die das Wissen von Experten nachbilden und in einem begrenzten Fachgebiet expertenlevel Entscheidungen treffen.
+
+**Anforderungen an Expertensysteme:**
+
+1. ✅ Wendet das Wissen von Experten zur Problemlösung an
+2. ✅ Stellt Wissen explizit und deklarativ dar
+3. ✅ Unterstützt den Wissenstransfer vom Experten zum System
+4. ✅ Leicht wartbar und erweiterbar
+5. ✅ Darstellung des Wissens in leicht lesbarer Form
+6. ✅ Kann mit unsicherem Wissen umgehen
+7. ✅ Natürliche, anschauliche Benutzerschnittstelle
+8. ✅ **Begründet und erklärt seine Entscheidungen** (Transparenz!)
+9. ✅ Trennt Faktenwissen von Problemlösungsheuristiken
+10. ✅ Wissen ist in verwandten Bereichen wiederverwendbar
+
+**Einsatzgebiete:**
+
+| Bereich | Anwendung |
+|---------|-----------|
+| **Medizin** | Diagnoseunterstützung, Therapieempfehlungen |
+| **Diagnose/Wartung** | Fehlersuche bei Geräten und Maschinen |
+| **Analysetechnik** | Messgeräte interpretieren ihre Daten selbst |
+| **Recht** | Rechtliche Einschätzungen auf Basis von Gesetzen |
+| **Finanzen** | Kreditrisikobewertung, Anlageberatung |
+
+> ⚠️ **Schwäche von Expertensystemen:** Sie können nur das, was sie "gelernt" haben. Unbekannte Situationen überfordern sie. Daher wurden sie zunehmend durch lernende KI-Systeme ergänzt.
+
+---
+
+### 🔍 Inferenzverfahren – Automatisches Schlussfolgern
+
+**Alltagsbeispiel:** "Alle Hunde bellen. Bello ist ein Hund. → Also bellt Bello." Das ist logische Inferenz – aus bekannten Regeln neue Schlüsse ziehen.
+
+**Inferenz** = automatisches Schlussfolgern aus in der Wissensbasis gespeichertem Wissen.
+
+**Wo wird Inferenz genutzt?**
+- Expertensysteme (Diagnosen ableiten)
+- Planungssysteme (Aktionsfolgen berechnen)
+- Beweissysteme (mathematische Beweise automatisieren)
+- Überall, wo logisches Schließen erwartet wird
+
+**Schließen mit Unsicherheit:**
+In der Realität sind viele Aussagen nicht 100% sicher. Moderne Systeme nutzen daher:
+- **Wahrscheinlichkeitsrechnung** (Bayessche Netze)
+- **Fuzzy-Logik** (Abstufungen zwischen wahr und falsch)`,
+      },
+      {
+        heading: 'Suchverfahren in der KI',
+        content: `### 🗺️ Warum braucht KI Suchverfahren?
+
+**Alltagsbeispiel:** Wenn du in einem Labyrinth den Ausgang suchst, probierst du verschiedene Wege aus. KI-Suchverfahren machen genau das – sie durchsuchen systematisch einen "Raum" von Möglichkeiten, um die beste Lösung zu finden.
+
+Suchverfahren werden eingesetzt für: Routenplanung, Spielentscheidungen (Schach), Planung, Problemlösung.
+
+---
+
+### 🔍 Uninformierte Suchverfahren (ohne Heuristik)
+
+Diese Verfahren kennen keine Zusatzinformationen – sie suchen "blind".
+
+#### Breitensuche (BFS – Breadth-First Search)
+- **Prinzip:** Alle Knoten einer Tiefe werden zuerst untersucht, dann die nächste Tiefe
+- **Vorteil:** Findet garantiert die **kürzeste** Lösung
+- **Nachteil:** Benötigt sehr viel **Speicherplatz** (alle Knoten einer Ebene müssen gespeichert werden)
+- **Analogie:** Wie wenn du in einem Baum von links nach rechts alle Äste einer Etage durchsuchst, bevor du tiefer gehst
+
+#### Tiefensuche (DFS – Depth-First Search)
+- **Prinzip:** Geht immer so tief wie möglich, bevor er zurückgeht (Backtracking)
+- **Vorteil:** Benötigt sehr **wenig Speicherplatz**
+- **Nachteil:** Findet nicht immer die kürzeste Lösung; kann in Endlosschleifen geraten
+- **Analogie:** Wie wenn du in einem Labyrinth immer geradeaus läufst, bis du nicht mehr weiterkommst, dann zurückgehst
+
+#### Iterative Deepening
+- **Kombination:** Tiefensuche mit schrittweise erhöhter Tiefenschranke
+- **Vorteil:** Vollständig + wenig Speicherplatz (wie Tiefensuche) + findet kürzeste Lösung (wie Breitensuche)
+- **Praxis:** In der Praxis der einzige universell gut einsetzbare uninformierte Algorithmus
+
+---
+
+### 🎯 Heuristische Suchverfahren (mit Zusatzwissen)
+
+**Alltagsbeispiel:** Wenn du in einer fremden Stadt den Bahnhof suchst, läufst du nicht zufällig – du gehst in die Richtung, in der du Züge hörst oder Schilder siehst. Diese Zusatzinformation ist die Heuristik.
+
+Eine **Heuristik** ist eine Schätzfunktion, die abschätzt, wie weit ein Zustand vom Ziel entfernt ist.
+
+#### A*-Algorithmus (A-Stern)
+- **Prinzip:** Wählt immer den Knoten mit dem niedrigsten Gesamtwert aus: \`f(n) = g(n) + h(n)\`
+  - \`g(n)\` = bisherige Kosten bis zum Knoten
+  - \`h(n)\` = geschätzte Kosten vom Knoten zum Ziel (Heuristik)
+- **Vorteil:** Vollständig und optimal – findet garantiert die beste Lösung
+- **Praxisbeispiel:** Google Maps nutzt A*-ähnliche Algorithmen für Routenplanung
+
+**Vergleich der Suchverfahren:**
+
+| Verfahren | Vollständig? | Optimal? | Speicher | Anwendung |
+|-----------|-------------|---------|---------|----------|
+| **Breitensuche** | ✅ Ja | ✅ Ja (bei gleichen Kosten) | 🔴 Hoch | Kleine Probleme |
+| **Tiefensuche** | ❌ Nein | ❌ Nein | 🟢 Gering | Wenn Lösung tief liegt |
+| **Iterative Deepening** | ✅ Ja | ✅ Ja | 🟢 Gering | Standard uninformiert |
+| **A\*** | ✅ Ja | ✅ Ja | 🟡 Mittel | Routenplanung, Spiele |`,
       },
       {
         heading: 'Maschinelles Lernen',
-        content: `### 🎓 KI → Machine Learning → Deep Learning
+        content: `### 🎓 KI → Machine Learning → Deep Learning – Die Hierarchie
 
-**Alltagsbeispiel:** KI ist der Oberbegriff (wie „Sport"). Machine Learning ist eine Methode (wie „Fußball"). Deep Learning ist eine besonders komplexe Technik (wie „Profifußball").
+**Alltagsbeispiel:** KI ist wie "Sport" (der Oberbegriff). Machine Learning ist wie "Fußball" (eine Methode, Sport zu treiben). Deep Learning ist wie "Profifußball" (eine besonders komplexe Variante des Fußballs).
 
 \`\`\`
-KI (Künstliche Intelligenz)
-  └── Machine Learning (Lernen aus Daten)
-        └── Deep Learning (Lernen mit vielen Schichten)
+📦 KI (Künstliche Intelligenz) – der große Oberbegriff
+   └── 🤖 Machine Learning – Lernen aus Daten
+         └── 🧠 Deep Learning – Lernen mit tiefen neuronalen Netzen
+               └── 📷 CNN – Convolutional Neural Networks für Bilder
 \`\`\`
 
-|Begriff|Was ist das?|Wann eingesetzt?|
-|---|---|---|
-|**KI**|Oberbegriff für alle Methoden, die Maschinen intelligent machen|Immer|
-|**Machine Learning**|Maschinen lernen aus Daten, ohne explizit programmiert zu werden|Wenn viele Daten vorhanden|
-|**Deep Learning**|ML mit tiefen neuronalen Netzen (viele Schichten)|Bilder, Sprache, komplexe Muster|
+| Begriff | Was ist das? | Wann eingesetzt? | Beispiele |
+|---------|-------------|-----------------|---------|
+| **KI** | Alle Methoden, die Maschinen intelligent machen | Immer | Regelbasierte Systeme, Logik, ML |
+| **Machine Learning** | Maschinen lernen aus Daten, ohne explizit programmiert zu werden | Wenn viele Daten vorhanden | Spam-Filter, Empfehlungssysteme |
+| **Deep Learning** | ML mit tiefen neuronalen Netzen (viele Schichten) | Bilder, Sprache, komplexe Muster | Gesichtserkennung, Sprachassistenten |
 
-### 🏫 Drei Arten des maschinellen Lernens
+---
 
-#### 1. Überwachtes Lernen (Supervised Learning)
+### 🏫 Die drei Lernarten im Detail
 
-**Alltagsbeispiel:** Du lernst mit Karteikarten – auf der Vorderseite das Bild eines Hundes, auf der Rückseite steht „Hund". Die KI bekommt ebenfalls Beispiele mit richtigen Antworten.
+#### 1. ✅ Überwachtes Lernen (Supervised Learning)
 
-- Es gibt Trainingsdaten mit **bekannten Antworten** (Labels)
+**Alltagsbeispiel:** Du lernst mit Karteikarten – Vorderseite: Bild eines Hundes, Rückseite: "Hund". Du übst so lange, bis du Hunde sicher erkennst. Die KI lernt genauso – mit Beispielen, bei denen die richtige Antwort schon bekannt ist (= Label).
+
+**Funktionsweise:**
+- Trainingsdaten haben bekannte Eingaben UND bekannte Ausgaben (Labels)
 - Die KI lernt, Eingaben auf Ausgaben abzubilden
-- **Anwendung:** E-Mail-Spam-Erkennung, Bildklassifizierung, Kreditscoring
+- Anschließend kann die KI unbekannte Eingaben klassifizieren
 
-#### 2. Unüberwachtes Lernen (Unsupervised Learning)
+**Einsatz:**
+- E-Mail-Spam-Erkennung (Label: Spam / kein Spam)
+- Bildklassifizierung (Label: Katze / Hund / Auto)
+- Kreditscoring (Label: kreditwürdig / nicht kreditwürdig)
+- Medizinische Diagnosen (Label: krank / gesund)
 
-**Alltagsbeispiel:** Du schüttest eine Tüte Legosteine auf den Boden. Ohne Anleitung fängst du an, sie nach Farbe oder Form zu sortieren. Die KI findet selbst Muster.
+**Typische Algorithmen:** Entscheidungsbäume, Neuronale Netze, Support Vector Machines
 
-- Keine Labels/Antworten in den Trainingsdaten
-- Die KI entdeckt **selbst Muster und Strukturen**
-- **Anwendung:** Kundensegmentierung, Clustering, Anomalieerkennung
+#### 2. 🔍 Unüberwachtes Lernen (Unsupervised Learning)
 
-#### 3. Bestärkendes Lernen (Reinforcement Learning)
+**Alltagsbeispiel:** Du schüttest 1000 Legosteine auf den Boden. Ohne Anleitung fängst du an, sie nach Farbe oder Form zu sortieren. Du erkennst selbst Muster. Genau so lernt unüberwachtes Lernen.
 
-**Alltagsbeispiel:** Ein Kind lernt Fahrradfahren – kein Lehrer erklärt jeden Schritt. Das Kind fällt hin (negatives Feedback) oder fährt weiter (positives Feedback). Die KI lernt durch Versuch und Irrtum.
+**Funktionsweise:**
+- Keine Labels in den Trainingsdaten
+- Die KI sucht selbst nach Mustern, Gruppen, Strukturen
+- Ergebnisse: Cluster, Anomalien, Reduktionen
 
+**Einsatz:**
+- Kundensegmentierung (ohne vordefinierte Gruppen)
+- Anomalieerkennung (was ist ungewöhnlich?)
+- Dimensionsreduktion (Daten vereinfachen)
+- Marktkorb-Analyse (Was kaufen Kunden zusammen?)
+
+**Wichtigste Methode: Clustering**
+- **K-Means:** Teilt Daten in k Gruppen auf – z.B. 3 Kundengruppen basierend auf Kaufverhalten
+- **Hierarchisches Clustering:** Baut eine Baumstruktur von Ähnlichkeiten auf
+
+#### 3. 🎮 Bestärkendes Lernen (Reinforcement Learning)
+
+**Alltagsbeispiel:** Ein Kind lernt Fahrradfahren – kein Lehrer erklärt jeden Schritt. Das Kind fällt hin (Strafe/negatives Feedback) oder fährt weiter (Belohnung/positives Feedback). Durch Versuch und Irrtum wird es besser. Genauso lernt bestärkendes Lernen.
+
+**Funktionsweise:**
 - Kein Lehrer, keine Labels
-- Agent bekommt **Belohnungen oder Bestrafungen** für Aktionen
-- **Anwendung:** Spielende KI (AlphaGo, Schach), Robotersteuerung
+- Ein **Agent** interagiert mit einer **Umgebung**
+- Für jede Aktion bekommt er **Belohnung** (positiv) oder **Bestrafung** (negativ)
+- Ziel: Strategie (Policy) finden, die langfristig die Gesamtbelohnung maximiert
 
-### 🔢 Klassifikationsmodelle & Clustering
+**Schlüsselbegriffe:**
+- **Agent** = das lernende System
+- **Umgebung** = die Welt, in der der Agent agiert
+- **Aktion** = was der Agent tut
+- **Belohnung** = Feedback auf die Aktion
+- **Policy** = die gelernte Strategie (welche Aktion in welcher Situation?)
 
-|Methode|Was macht sie?|Beispiel|
-|---|---|---|
-|**Klassifikation**|Ordnet Daten in bekannte Kategorien ein|E-Mail = Spam oder kein Spam|
-|**Clustering**|Gruppiert ähnliche Daten ohne vorgegebene Kategorien|Kunden in Gruppen einteilen|
-|**Entscheidungsbaum**|Trifft Entscheidungen durch Fragen (wie „Wer bin ich?")|Kreditantrag: Bewilligen oder ablehnen?|
+**Einsatz:**
+- Spiel-KI (AlphaGo, Schach, Videospiele)
+- Robotersteuerung
+- Autonomes Fahren
+- Optimierung von Ressourcenverbrauch
 
-### 🧬 Künstliche Neuronale Netze (KNN)
+---
 
-**Alltagsbeispiel:** Das menschliche Gehirn hat Milliarden von Nervenzellen, die miteinander verbunden sind. Künstliche neuronale Netze machen das nach – mit Computerknoten statt Nervenzellen.
+### 🔢 Klassifikationsmodelle – Überblick
 
-- Bestehen aus **Neuronen** (Knoten) und **Verbindungen** (Gewichte)
-- Lernen durch **Anpassen der Gewichte**
-- **Deep Learning** = viele Schichten (= „tiefes" Netz)
-- **CNN** (Convolutional Neural Network) = besonders gut für Bilder
+| Modell | Wie funktioniert es? | Stärken | Beispielanwendung |
+|--------|---------------------|---------|------------------|
+| **Entscheidungsbaum** | Stellt Entscheidungen als Baum dar (Fragen → Äste → Ergebnis) | Leicht verständlich, erklärbar | Kreditentscheidung |
+| **Random Forest** | Viele Entscheidungsbäume, Mehrheitsentscheid | Robust, wenig Overfitting | Medizinische Diagnose |
+| **Support Vector Machine** | Findet die beste Trennlinie zwischen Klassen | Gut für kleine Datensätze | Textkategorisierung |
+| **Naive Bayes** | Wahrscheinlichkeitsbasiert | Schnell, gut für Text | Spam-Filter |
+| **K-Nearest Neighbor** | Klassifiziert nach den k ähnlichsten Nachbarn | Einfach, intuitiv | Empfehlungssysteme |
+
+---
+
+### 🧬 Künstliche Neuronale Netze (KNN) – Ausführlich
+
+**Alltagsbeispiel:** Das menschliche Gehirn hat 10–100 Milliarden Nervenzellen, die alle miteinander vernetzt sind. Wenn du ein Bild siehst, senden Nervenzellen Signale – und am Ende "erkennst" du was. Künstliche neuronale Netze machen genau das nach – nur digital.
+
+**Aufbau eines neuronalen Netzes:**
+\`\`\`
+Eingabeschicht     Versteckte Schichten      Ausgabeschicht
+   (Input)            (Hidden Layers)           (Output)
+     ●                    ●   ●                    ●
+     ●  ──────────────► ●   ●  ──────────────► ●
+     ●                    ●   ●
+\`\`\`
+
+- **Neuronen (Knoten):** Verarbeiten Informationen
+- **Gewichte:** Stärke der Verbindungen zwischen Neuronen – werden beim Lernen angepasst
+- **Schichten:** Je mehr Schichten, desto komplexer die lernbaren Muster
+
+**Deep Learning = neuronales Netz mit vielen Schichten**
+
+**CNN (Convolutional Neural Network):**
+- Speziell für **Bildverarbeitung** entwickelt
+- Erkennt automatisch Merkmale (Kanten, Formen, Texturen, Objekte)
+- CNNs sind heute besser als Menschen bei bestimmten Bilderkennungsaufgaben!
+- **Anwendung:** Gesichtserkennung, Medizinische Bildanalyse, autonomes Fahren
+
+**Vorteile neuronaler Netze:**
+- Lernen komplexe Muster aus großen Datenmengen
+- Robust gegenüber kleinen Störungen (verteilte Repräsentation)
+
+**Nachteile neuronaler Netze:**
+- "Black Box" – schwer zu verstehen, wie sie entscheiden
+- Brauchen sehr viele Trainingsdaten
+- Rechenintensiv
+
+---
 
 ### 📊 Data Mining Prozessstandards
 
 #### CRISP-DM (Cross Industry Standard Process for Data Mining)
 
-Stellt sicher, dass Data-Mining-Projekte strukturiert ablaufen:
+**Alltagsbeispiel:** Stell dir vor, du baust ein Haus. Du planst erst (was soll es können?), schaust dir das Grundstück an (Daten verstehen), bereitest es vor (Fundament), baust (Modell), prüfst (Abnahme) und ziehst ein (Einsatz). CRISP-DM ist genau das – ein Bauplan für Data-Mining-Projekte.
 
-\`\`\`
-Business Understanding → Data Understanding → Data Preparation → Modeling → Evaluation → Deployment
-\`\`\`
+**Die 6 Phasen:**
+
+| Phase | Deutsch | Was passiert? |
+|-------|---------|---------------|
+| **Business Understanding** | Geschäftsverständnis | Was ist das Ziel? Was soll die KI lösen? |
+| **Data Understanding** | Datenverständnis | Welche Daten gibt es? Wie sehen sie aus? Welche Qualität? |
+| **Data Preparation** | Datenvorbereitung | Bereinigen, Transformieren, Features erstellen |
+| **Modeling** | Modellierung | KI-Modell auswählen und trainieren |
+| **Evaluation** | Bewertung | Ist das Modell gut genug? Löst es das Geschäftsproblem? |
+| **Deployment** | Einsatz | Modell in die Produktion bringen, überwachen |
+
+> 💡 CRISP-DM ist ein **iterativer** Prozess – man kann jederzeit zu früheren Phasen zurückgehen.
 
 #### KDD (Knowledge Discovery in Databases)
+Älterer Standard (1990er Jahre). Ähnliches Prinzip: Aus rohen Daten nützliches Wissen extrahieren. Schritte: Selektion → Vorverarbeitung → Transformation → Data Mining → Interpretation.`,
+      },
+      {
+        heading: 'Anwendungsgebiete: NLP & Computer Vision',
+        content: `### 💬 Natural Language Processing (NLP) – Sprache verstehen
 
-Älterer Standard, ähnliches Prinzip: Aus rohen Daten nützliches Wissen extrahieren.`,
+**Alltagsbeispiel:** Wenn du Siri fragst "Wie wird das Wetter morgen?" und Siri antwortet korrekt – das ist NLP. Die KI versteht menschliche Sprache, nicht nur exakte Befehle.
+
+**NLP** = Natural Language Processing = **Verarbeitung natürlicher Sprache**
+
+**Aufgaben von NLP:**
+
+| Aufgabe | Beschreibung | Beispiel |
+|---------|-------------|---------|
+| **Spracherkennung** | Gesprochene Sprache in Text umwandeln | Sprachassistenten (Siri, Alexa) |
+| **Textklassifikation** | Texte kategorisieren | Spam-Filter, Sentiment-Analyse |
+| **Maschinelle Übersetzung** | Texte zwischen Sprachen übersetzen | Google Translate, DeepL |
+| **Chatbots** | Natürliche Dialoge führen | ChatGPT, Kundenservice-Bots |
+| **Information Extraction** | Fakten aus Texten extrahieren | Nachrichtenanalyse |
+| **Textgenerierung** | Sinnvolle Texte erzeugen | GPT-4, Artikel schreiben |
+
+**Sprachmodelle (LLMs – Large Language Models):**
+- Wurden mit riesigen Textmengen trainiert
+- Können Text verstehen UND erzeugen
+- Beispiele: GPT-4 (OpenAI), Claude (Anthropic), Gemini (Google)
+
+---
+
+### 👁️ Computer Vision – Sehen lernen
+
+**Alltagsbeispiel:** Ein Mensch sieht sofort, ob auf einem Foto eine Katze oder ein Hund ist. Für Computer war das lange unmöglich – Computer Vision löst genau dieses Problem.
+
+**Computer Vision** = KI-Fähigkeit, visuelle Informationen aus Bildern und Videos zu verstehen.
+
+**Aufgaben:**
+
+| Aufgabe | Beschreibung | Anwendung |
+|---------|-------------|----------|
+| **Bildklassifikation** | Welche Klasse zeigt das Bild? | "Das ist eine Katze" |
+| **Objekterkennung** | Wo im Bild sind welche Objekte? | Bounding Boxes um Autos, Personen |
+| **Segmentierung** | Welche Pixel gehören zu welchem Objekt? | Autonomes Fahren (Straße, Fußgänger) |
+| **Gesichtserkennung** | Welche Person ist das? | Face ID, Sicherheitssysteme |
+| **Medizinische Bildanalyse** | Krankheiten auf Röntgenbildern erkennen | Krebserkennung, Diagnoseunterstützung |
+
+**CNNs sind der Schlüssel:**
+- Convolutional Neural Networks erkennen automatisch Merkmale (Kanten → Formen → Objekte)
+- Heute besser als Menschen bei bestimmten Bilderkennungsaufgaben
+- Fehlerrate bei ImageNet-Challenge: 2011 noch 26%, 2017 nur noch 2,3%!`,
+      },
+      {
+        heading: 'KI in Branchen',
+        content: `### 🏭 Industrie 4.0 & Produktion
+
+**Was ist Industrie 4.0?** Die vierte industrielle Revolution – Vernetzung von Maschinen, Sensoren und IT durch das Internet der Dinge (IoT).
+
+| KI-Anwendung | Beschreibung | Nutzen |
+|-------------|-------------|-------|
+| **Predictive Maintenance** | Maschinenausfälle vorhersagen, bevor sie passieren | Weniger Stillstand, weniger Kosten |
+| **Qualitätskontrolle** | Defekte Produkte per Computer Vision erkennen | Höhere Qualität, weniger Ausschuss |
+| **Prozessoptimierung** | Produktionsparameter automatisch optimieren | Effizienter, weniger Ressourcen |
+| **Robotersteuerung** | Kollaborative Roboter (Cobots) neben Menschen | Automatisierung gefährlicher Tätigkeiten |
+
+---
+
+### 🏥 Medizin
+
+| KI-Anwendung | Beschreibung |
+|-------------|-------------|
+| **Diagnoseunterstützung** | KI analysiert Symptome und schlägt Diagnosen vor |
+| **Medizinische Bildanalyse** | Röntgen, MRT, CT automatisch auswerten |
+| **Medikamentenentwicklung** | KI findet neue Wirkstoffe durch Molekülsimulation |
+| **Personalisierte Medizin** | Therapien auf individuelle Patienten zuschneiden |
+
+> ⚠️ **Ethische Herausforderung:** Wer haftet, wenn eine KI eine falsche Diagnose stellt?
+
+---
+
+### 💰 Finanzwirtschaft (Bank 4.0)
+
+| KI-Anwendung | Beschreibung |
+|-------------|-------------|
+| **Betrugserkennung** | Ungewöhnliche Transaktionen in Echtzeit erkennen |
+| **Kreditscoring** | Kreditwürdigkeit automatisch bewerten |
+| **Algo-Trading** | Automatisierter Wertpapierhandel |
+| **Kundenservice-Chatbots** | 24/7-Kundenbetreuung ohne menschliche Mitarbeiter |
+
+---
+
+### 🚗 Automobilindustrie
+
+| KI-Anwendung | Beschreibung |
+|-------------|-------------|
+| **Autonomes Fahren** | Fahrzeuge, die ohne menschlichen Fahrer auskommen |
+| **ADAS** | Advanced Driver Assistance Systems: Spurhalteassistent, Bremsassistent |
+| **Qualitätskontrolle** | Fehler an Karosserieteilen per KI erkennen |
+
+---
+
+### 🛒 Handel & E-Commerce
+
+| KI-Anwendung | Beschreibung |
+|-------------|-------------|
+| **Empfehlungssysteme** | "Das könnte dir auch gefallen" (Amazon, Netflix, Spotify) |
+| **Dynamic Pricing** | Preise in Echtzeit anpassen (Flugtickets, Hotels) |
+| **Customer Journey** | Kundenverhalten über alle Kanäle verfolgen und optimieren |
+| **Chatbots** | Automatisierter Kundenservice |`,
       },
       {
         heading: 'Ethik, Gesellschaft & Recht',
         content: `### ⚖️ Warum braucht KI Regeln?
 
-**Alltagsbeispiel:** Stell dir vor, ein KI-System entscheidet, wer einen Job bekommt. Wenn die KI aus alten Daten gelernt hat, in denen hauptsächlich Männer eingestellt wurden, bevorzugt sie automatisch Männer. Das ist nicht fair – und genau dafür brauchen wir Regeln!
+**Alltagsbeispiel:** Ein Recruiting-KI wurde trainiert mit historischen Bewerberdaten. In diesen Daten wurden über 150 Jahre fast nur Männer eingestellt. Die KI lernte: "Männer = gute Kandidaten". Ergebnis: Frauen wurden systematisch abgelehnt – ohne dass jemand das absichtlich programmiert hatte. Das ist Bias.
 
-### 🇪🇺 Der EU AI Act (seit März 2024)
+KI-Systeme sind nicht neutral! Sie spiegeln die Muster in den Trainingsdaten wider – inklusive aller Vorurteile und Ungerechtigkeiten.
 
-Das erste umfassende KI-Gesetz der Welt! Ziel: **Vertrauenswürdige KI** in Europa.
+---
 
-Der EU AI Act nutzt einen **risikobasierten Ansatz** – je gefährlicher die KI, desto strenger die Regeln:
+### 🧠 Bias (Verzerrung) – Ein zentrales Problem
 
-|Risikostufe|Was fällt darunter?|Konsequenz|
-|---|---|---|
-|🔴 **Unannehmbares Risiko**|Soziale Bewertungssysteme, missbrauchte Gesichtserkennung|**Verboten!**|
-|🟠 **Hohes Risiko**|Kritische Infrastruktur, Bildung, Grenzkontrollen, Kreditvergabe|Strenge Regulierung|
-|🟡 **Begrenztes Risiko**|Emotionserkennung, Marketing-KI|Transparenzpflicht|
-|🟢 **Geringes Risiko**|KI-Videospiele, Spamfilter|Kaum Einschränkungen|
+**Was ist Bias?** Systematische Fehler oder Verzerrungen in KI-Systemen, die bestimmte Gruppen benachteiligen.
 
-### 🤔 Wichtige ethische Themen
+**Ursachen von Bias:**
 
-#### Bias (Verzerrung)
+| Ursache | Beschreibung | Beispiel |
+|---------|-------------|---------|
+| **Daten-Bias** | Trainingsdaten sind unausgewogen | Nur Männer in historischen Bewerberdaten |
+| **Algorithmus-Bias** | Der Algorithmus selbst bevorzugt bestimmte Muster | Stärkere Gewichtung bestimmter Merkmale |
+| **Anwender-Bias** | Menschen interpretieren KI-Ergebnisse selektiv | "Die KI hat Recht, also stimmt es" |
 
-- KI lernt aus historischen Daten → wenn Daten voreingenommen sind, ist KI es auch
-- Beispiel: Bewerbungs-KI lehnte Frauen ab, weil historisch mehr Männer eingestellt wurden
+**Konsequenzen:**
+- Diskriminierung bei Bewerbungen, Krediten, Strafverfolgung
+- Unterschiedliche Behandlung nach Geschlecht, Herkunft, Hautfarbe
+- Verlust von Vertrauen in KI-Systeme
 
-#### Deepfakes & Social Bots
+---
 
-- **Deepfake:** KI-generierte Fake-Videos, die kaum von echten zu unterscheiden sind
-- **Social Bot:** Computergesteuerte Akteure in sozialen Netzwerken, die automatisch posten
-- **Problem:** Wirklichkeitsverzerrung, Manipulation, Desinformation
+### 🎭 Deepfakes & Social Bots – Die neue Bedrohung
 
-#### Vertrauenswürdige KI – Anforderungen
+**Deepfakes:**
+- KI-generierte Videos/Audios, die echte Personen zeigen, die Dinge sagen/tun, die sie nie getan haben
+- Werden immer realistischer und schwerer erkennbar
+- **Gefahr:** Politische Manipulation, Reputationsschäden, Desinformation
+- **Prinzip:** Zwei KI-Netzwerke spielen gegeneinander – eines generiert, eines prüft (Generative Adversarial Networks, GANs)
 
-- **Fairness:** KI darf keine Gruppen benachteiligen
-- **Transparenz:** Es muss klar sein, wie die KI entscheidet
-- **Erklärbarkeit:** KI-Entscheidungen müssen nachvollziehbar sein
-- **Datenschutz:** DSGVO gilt auch für KI-Systeme
+**Social Bots:**
+- Computergesteuerte Akteure in sozialen Netzwerken
+- Posten automatisch Inhalte, streuen Desinformation, verstärken bestimmte Meinungen
+- Grenze zwischen echtem Mensch und Bot wird immer schwerer erkennbar
 
-### 🏭 KI in Branchen (Anwendungsgebiete)
+---
 
-|Branche|KI-Einsatz|
-|---|---|
-|**Industrie 4.0**|Predictive Maintenance (Maschinenausfälle vorhersagen), Qualitätskontrolle|
-|**Medizin**|Diagnoseunterstützung, Bildanalyse (Röntgen), Medikamentenentwicklung|
-|**Logistik**|Routenoptimierung, Lagerautomatisierung|
-|**Finanzwirtschaft**|Betrugserkennung, Kreditscoring, Algo-Trading|
-|**Einzelhandel**|Empfehlungssysteme (Netflix, Amazon), Dynamic Pricing|
-|**IT-Sicherheit**|Anomalieerkennung, Angriffserkennung|
-|**Recruiting**|CV-Screening, Bewerbermatch (aber: Bias-Risiko!)|`,
+### 🇪🇺 EU AI Act – Das erste KI-Gesetz der Welt
+
+**Verabschiedet:** 13. März 2024 von der Europäischen Union
+**Ziel:** Vertrauenswürdige KI in Europa fördern – Grundrechte, Sicherheit und ethische Grundsätze schützen.
+
+**Risikobasierter Ansatz:** Je höher das Risiko, desto strenger die Regeln.
+
+| Risikostufe | Farbe | Beispiele | Konsequenz |
+|-------------|-------|-----------|-----------|
+| **Unannehmbares Risiko** | 🔴 | Soziale Bewertungssysteme (wie in China), manipulative Gesichtserkennung, KI zur Ausnutzung von Schwächen | **Vollständiges Verbot** |
+| **Hohes Risiko** | 🟠 | Kritische Infrastruktur, Bildung, Grenzkontrollen, Kreditvergabe, Strafverfolgung | Strenge Regulierung, Transparenzpflicht, Dokumentation |
+| **Begrenztes Risiko** | 🟡 | Emotionserkennung, Marketing-KI, Chatbots | Transparenzpflicht (Nutzer müssen wissen, dass sie mit KI sprechen) |
+| **Geringes Risiko** | 🟢 | KI-Videospiele, Spamfilter, KI-Empfehlungssysteme | Kaum Einschränkungen |
+
+---
+
+### 🛡️ Vertrauenswürdige KI – Was bedeutet das?
+
+**Vier Säulen vertrauenswürdiger KI:**
+
+| Säule | Beschreibung | Beispiel |
+|-------|-------------|---------|
+| **Fairness** | KI darf keine Gruppen diskriminieren | Bewerbungs-KI darf keine Frauen ablehnen |
+| **Transparenz** | Es muss klar sein, wie die KI entscheidet | Kreditentscheidung muss erklärbar sein |
+| **Erklärbarkeit** | KI-Entscheidungen müssen nachvollziehbar sein | "Du wurdest abgelehnt, weil..." |
+| **Datenschutz** | DSGVO und Datensparsamkeit | Nur notwendige Daten sammeln |
+
+---
+
+### 🔐 DSGVO & Datenschutz
+
+**DSGVO** = Datenschutzgrundverordnung der Europäischen Union (seit 2018)
+
+**Relevanz für KI:**
+- KI-Systeme, die personenbezogene Daten verarbeiten, müssen DSGVO-konform sein
+- Recht auf Erklärung bei automatisierten Entscheidungen (Art. 22)
+- Recht auf Vergessenwerden
+- Datensparsamkeit: Nur notwendige Daten sammeln
+
+---
+
+### 💼 KI und Arbeitsplätze
+
+**Alltagsbeispiel:** Als die Waschmaschine erfunden wurde, verloren Wäscherinnen ihren Job. Aber neue Jobs entstanden: Elektriker, Maschinenwartung, neue Industrien. KI verändert Arbeit – sie ersetzt manche Jobs, schafft aber auch neue.
+
+**Realistische Einschätzung:**
+
+| Aspekt | Beschreibung |
+|--------|-------------|
+| **Automatisierungsgefahr** | Routineaufgaben werden durch KI ersetzt (Dateneingabe, einfache Analysen) |
+| **Neue Jobs** | KI-Trainer, Data Scientists, KI-Ethiker, Prompt Engineers entstehen neu |
+| **Aufwertung** | KI unterstützt Menschen bei komplexen Aufgaben – mehr Zeit für kreative Tätigkeiten |
+| **Umschulung** | Viele Menschen müssen neue Fähigkeiten lernen |`,
       },
       {
-        heading: '🗒️ Spickzettel & Klausur-Tipps',
-        content: `|Begriff|Kurzerklärung in einem Satz|
-|---|---|
-|**KI (Künstliche Intelligenz)**|Oberbegriff für alle Methoden, die Maschinen intelligent machen.|
-|**Schwache KI**|KI, die eine klar begrenzte Aufgabe sehr gut löst (z.B. Siri).|
-|**Starke KI (AGI)**|KI, die wie ein Mensch vielseitig denken kann – existiert heute noch nicht.|
-|**Turing-Test**|Test, ob eine Maschine wie ein Mensch klingt (1950).|
-|**Machine Learning**|Maschinen lernen aus Daten, ohne explizit programmiert zu werden.|
-|**Deep Learning**|Machine Learning mit tiefen neuronalen Netzen (viele Schichten).|
-|**Überwachtes Lernen**|KI lernt mit Trainingsdaten, die bekannte Antworten enthalten.|
-|**Unüberwachtes Lernen**|KI findet selbst Muster in Daten ohne vorgegebene Antworten.|
-|**Bestärkendes Lernen**|KI lernt durch Belohnungen und Bestrafungen (Trial & Error).|
-|**Neuronales Netz**|Computermodell, das dem menschlichen Gehirn nachempfunden ist.|
-|**Big Data**|Riesige Datenmengen, die klassische Systeme überfordern.|
-|**4 Vs von Big Data**|Volume, Velocity, Variety, Veracity (+ Value).|
-|**Data Warehouse**|Zentrales, strukturiertes Datenlager für Analysen (Schema-on-Write).|
-|**Data Lake**|Riesiger Datenspeicher für alle Datentypen (Schema-on-Read).|
-|**ETL**|Extract-Transform-Load: Daten aus Quellen holen, aufbereiten, speichern.|
-|**OLAP**|Methode zur multidimensionalen Datenanalyse (der „OLAP-Würfel").|
-|**Data Pipeline**|Automatisierter Datenfluss von der Quelle bis zur Analyse.|
-|**Stammdaten**|Grundlegende, selten ändernde Unternehmensdaten (z.B. Kundendaten).|
-|**Agent**|System, das Eingaben wahrnimmt, entscheidet und handelt.|
-|**Rationaler Agent**|Agent, der die Leistungsbewertung maximiert.|
-|**PEAS**|Rahmen zur Beschreibung eines Agenten: Performance, Environment, Actuators, Sensors.|
-|**Aussagenlogik**|Logik, die Aussagen als wahr oder falsch bewertet.|
-|**Prädikatenlogik**|Erweiterung der Aussagenlogik um Beziehungen zwischen Objekten.|
-|**Inferenz**|Automatisches Schlussfolgern aus gespeichertem Wissen.|
-|**Expertensystem**|Wissensbasiertes System, das Expertenwissen automatisch anwendet.|
-|**Wissensbasis**|Gespeicherte Fakten und Regeln in einem wissensbasierten System.|
-|**CRISP-DM**|Standardprozess für Data-Mining-Projekte (6 Phasen).|
-|**Klassifikation**|Daten einer bekannten Kategorie zuordnen (z.B. Spam/kein Spam).|
-|**Clustering**|Daten ohne vorgegebene Kategorien in Gruppen einteilen.|
-|**EU AI Act**|Weltweit erstes umfassendes KI-Gesetz (März 2024, risikobasierter Ansatz).|
-|**Bias**|Verzerrung in KI-Systemen durch einseitige Trainingsdaten.|
-|**Deepfake**|KI-generiertes Fake-Video/-Audio, das kaum erkennbar ist.|
-|**Vertrauenswürdige KI**|KI, die fair, transparent, erklärbar und datenschutzkonform ist.|
-|**DSGVO**|Datenschutzgrundverordnung der EU, gilt auch für KI-Systeme.|
+        heading: 'Spickzettel: Alle Begriffe auf einen Blick',
+        content: `| Begriff | Kurzerklärung in einem Satz |
+|---------|---------------------------|
+| **KI (Künstliche Intelligenz)** | Oberbegriff für alle Methoden, die Maschinen intelligent machen. |
+| **Schwache KI (Narrow AI)** | KI, die eine klar begrenzte Aufgabe sehr gut löst – z.B. Siri kann Sprachanfragen beantworten, aber kein Auto fahren. |
+| **Starke KI (AGI)** | Theoretisches Konzept: KI, die wie ein Mensch vielseitig denken, lernen und fühlen kann – existiert heute noch nicht. |
+| **Turing-Test** | Alan Turings Test von 1950: Eine Maschine gilt als intelligent, wenn ein Mensch nicht mehr erkennt, ob er mit einem Menschen oder einer Maschine kommuniziert. |
+| **Dartmouth-Konferenz** | Gründungsmoment der KI als Forschungsfeld (1956) – hier wurde der Begriff "Artificial Intelligence" offiziell geprägt. |
+| **Machine Learning** | Teilgebiet der KI: Maschinen lernen aus Daten, ohne für jede Situation explizit programmiert zu werden. |
+| **Deep Learning** | Teilgebiet des ML: Lernen mit tiefen neuronalen Netzen – besonders stark bei Bildern und Sprache. |
+| **Überwachtes Lernen** | Lernart: KI lernt mit Trainingsdaten, bei denen Input und richtiger Output (Label) bekannt sind. |
+| **Unüberwachtes Lernen** | Lernart: KI findet selbst Muster und Gruppen in Daten – ohne vorgegebene Antworten. |
+| **Bestärkendes Lernen** | Lernart: KI lernt durch Belohnungen und Bestrafungen (Trial & Error) – wie beim Spiele spielen. |
+| **Neuronales Netz** | Computermodell aus vernetzten Knoten (Neuronen), das vom menschlichen Gehirn inspiriert ist. |
+| **CNN** | Convolutional Neural Network – tief gestaffeltes Netz, das besonders gut Bilder verarbeiten kann. |
+| **Big Data** | Riesige Datenmengen, die so groß, schnell oder vielfältig sind, dass normale Datenbanken überfordert sind. |
+| **4 Vs von Big Data** | Volume (Menge), Velocity (Geschwindigkeit), Variety (Vielfalt), Veracity (Wahrhaftigkeit) – die vier Kerndimensionen. |
+| **Value (5. V)** | Der wirtschaftliche Wert der Daten – Daten als Produktionsfaktor für neue Geschäftsmodelle. |
+| **Data Warehouse** | Zentrales, strukturiertes Datenlager für Analysen – Schema wird vor dem Laden festgelegt (Schema-on-Write). |
+| **Data Lake** | Riesiger Speicher für alle Datentypen – Schema wird erst beim Lesen festgelegt (Schema-on-Read). |
+| **Data Mart** | Abteilungsspezifische Teilmenge des Data Warehouse – z.B. nur Vertriebsdaten für den Vertrieb. |
+| **ETL** | Extract-Transform-Load: Daten aus Quellen holen, bereinigen und vereinheitlichen, dann ins Data Warehouse laden. |
+| **OLAP** | Online Analytical Processing – Methode zur multidimensionalen Datenanalyse, visualisiert als OLAP-Würfel. |
+| **OLAP-Würfel** | 3D-Datenmodell mit Dimensionen wie Zeit, Region, Produkt – ermöglicht flexible Abfragen aus verschiedenen Perspektiven. |
+| **Data Pipeline** | Automatisierter Datenfluss von der Rohdatenquelle bis zur fertig aufbereiteten Analyse oder zum Modell. |
+| **Batch-Verarbeitung** | Daten werden gesammelt und in Paketen verarbeitet – z.B. Nacht-ETL-Prozess. |
+| **Stream-Verarbeitung** | Daten werden sofort in Echtzeit verarbeitet – z.B. Betrugserkennung im Bankensektor. |
+| **Lambda-Architektur** | Big-Data-Architektur mit zwei parallelen Pfaden: Batch-Layer (historisch) + Speed-Layer (Echtzeit). |
+| **Kappa-Architektur** | Vereinfachte Big-Data-Architektur mit nur einem Streaming-Pfad – weniger komplex als Lambda. |
+| **Stammdaten** | Grundlegende, selten ändernde Unternehmensdaten wie Kundendaten oder Produktstammdaten. |
+| **Transaktionsdaten** | Bewegungsdaten zu Geschäftsvorfällen mit Zeitstempel – z.B. Bestellungen. |
+| **IoT-Daten** | Echtzeitdaten von vernetzten Geräten und Sensoren – z.B. Maschinentemperatur. |
+| **Agent** | System, das Eingaben aus der Umgebung wahrnimmt, verarbeitet und Aktionen ausführt. |
+| **Rationaler Agent** | Agent, der für jede Situation die Aktion wählt, die seine Leistungsbewertung am besten maximiert. |
+| **PEAS** | Beschreibungsrahmen für Agenten: Performance, Environment, Actuators, Sensors. |
+| **Einfacher Reflexagent** | Agent, der nur auf die aktuelle Wahrnehmung reagiert – kein Gedächtnis, nur Wenn-Dann-Regeln. |
+| **Modellbasierter Agent** | Agent mit internem Zustand, der auch nicht beobachtbare Teile der Welt modelliert. |
+| **Zielbasierter Agent** | Agent mit explizitem Ziel – wählt Aktionen, die ihn dem Ziel näherbringen. |
+| **Nutzenbasierter Agent** | Agent, der mehrere Ziele und Präferenzen gegeneinander abwägt (Nutzenfunktion). |
+| **Aussagenlogik** | Logik, die Aussagen als wahr oder falsch bewertet und mit UND/ODER/NICHT verknüpft. |
+| **Prädikatenlogik** | Erweiterung der Aussagenlogik um Objekte, Prädikate und Beziehungen zwischen Objekten. |
+| **Inferenz** | Automatisches Schlussfolgern aus gespeichertem Wissen – z.B. aus Regeln neue Fakten ableiten. |
+| **Wissensbasis** | Gespeicherte Fakten und Regeln in einem wissensbasierten System. |
+| **Expertensystem** | Wissensbasiertes System, das Expertenwissen nachbildet und in einem Fachgebiet Entscheidungen trifft. |
+| **Breitensuche** | Suchalgorithmus: Alle Knoten einer Ebene werden vor der nächsten erkundet – findet kürzeste Lösung. |
+| **Tiefensuche** | Suchalgorithmus: Geht zuerst in die Tiefe – wenig Speicherbedarf, aber nicht immer optimal. |
+| **A*-Algorithmus** | Heuristischer Suchalgorithmus: kombiniert bisherige Kosten + Schätzung der Restkosten. |
+| **Heuristik** | Schätzfunktion, die abschätzt, wie weit ein Zustand vom Ziel entfernt ist – beschleunigt die Suche. |
+| **CRISP-DM** | 6-Phasen-Prozessstandard für Data-Mining-Projekte: Business Understanding bis Deployment. |
+| **KDD** | Knowledge Discovery in Databases – älterer Standard zum Wissensgewinn aus Daten. |
+| **Klassifikation** | ML-Aufgabe: Daten einer bekannten Kategorie zuordnen (z.B. Spam / kein Spam). |
+| **Clustering** | ML-Aufgabe: Daten ohne vorgegebene Kategorien in ähnliche Gruppen einteilen. |
+| **Entscheidungsbaum** | ML-Modell, das Entscheidungen als Baum aus Wenn-Dann-Fragen visualisiert. |
+| **Gartner Hype Cycle** | Werkzeug zur Einschätzung des Reifegrads einer Technologie in 5 Phasen vom ersten Hype bis zum Alltagseinsatz. |
+| **NLP** | Natural Language Processing – KI-Fähigkeit, menschliche Sprache zu verstehen und zu erzeugen. |
+| **Computer Vision** | KI-Fähigkeit, visuelle Informationen aus Bildern und Videos zu verstehen. |
+| **EU AI Act** | Weltweit erstes umfassendes KI-Gesetz (März 2024) mit risikobasiertem Ansatz in 4 Stufen. |
+| **Bias** | Systematische Verzerrung in KI-Systemen durch einseitige Trainingsdaten – führt zu Diskriminierung. |
+| **Deepfake** | KI-generiertes Fake-Video oder -Audio, das kaum von echtem Material zu unterscheiden ist. |
+| **Social Bot** | Automatisierter Akteur in sozialen Netzwerken, der Inhalte postet und Meinungen beeinflusst. |
+| **Vertrauenswürdige KI** | KI, die fair, transparent, erklärbar und datenschutzkonform ist – Ziel des EU AI Acts. |
+| **DSGVO** | Datenschutzgrundverordnung der EU (seit 2018) – gilt auch für KI-Systeme, die Personendaten verarbeiten. |
+| **Synthetic Data** | Künstlich erzeugte Daten, die wie echte Daten aussehen – schützt Privatsphäre beim KI-Training. |
+| **AI Engineering** | Disziplin, KI-Systeme nicht nur zu bauen, sondern zuverlässig, wartbar und skalierbar zu betreiben. |
+| **Predictive Maintenance** | KI-gestützte Vorhersage von Maschinenausfällen bevor sie eintreten – spart Kosten und Stillstand. |
+| **Self-Service BI** | Werkzeuge, die es Nicht-IT-Mitarbeitern erlauben, eigene Analysen und Dashboards zu erstellen. |`,
+      },
+      {
+        heading: 'Die wichtigsten Klausur-Themen',
+        content: `### 🔑 Top 10 – Was laut Dozentin auf jeden Fall kommt:
 
-### 🎯 Die wichtigsten Klausur-Themen (laut Dozentin)
+1. ✅ **Schwache KI vs. Starke KI** – Definition, Unterschiede, konkrete Beispiele, warum starke KI noch nicht existiert
+2. ✅ **Geschichte der KI** – Wichtige Meilensteine und ihre Bedeutung (Dartmouth 1956, Turing 1950, Deep Blue 1997, ChatGPT 2022)
+3. ✅ **Big Data: Die 4 Vs** – alle erklären + Beispiele + warum Veracity für KI besonders kritisch ist
+4. ✅ **Data Warehouse vs. Data Lake** – Unterschiede, Schema-on-Write vs. -Read, wann welches?
+5. ✅ **PEAS-Modell** – auf konkrete Agenten anwenden können (z.B. Drohne, Chatbot, Smart Home)
+6. ✅ **Lernarten** – überwacht, unüberwacht, bestärkend erklären + je ein Beispiel
+7. ✅ **ETL-Prozess** – alle drei Schritte benennen und erklären
+8. ✅ **EU AI Act** – alle 4 Risikostufen kennen + je ein Beispiel
+9. ✅ **Vertrauenswürdige KI** – Fairness, Transparenz, Erklärbarkeit, Datenschutz + Bias-Problem
+10. ✅ **Expertensysteme** – Aufbau (Wissensbasis + Inferenzmaschine) und Anforderungen
 
-1. ✅ **Schwache KI vs. Starke KI** – Definition, Unterschiede, Beispiele
-2. ✅ **Geschichte der KI** – Wichtige Meilensteine und ihre Bedeutung
-3. ✅ **Big Data: Die 4 Vs** – erklären und Beispiele nennen können
-4. ✅ **Data Warehouse vs. Data Lake** – Unterschiede, wann welches?
-5. ✅ **PEAS-Modell** – auf konkrete Agenten anwenden können
-6. ✅ **Lernarten** – überwacht, unüberwacht, bestärkend erklären
-7. ✅ **ETL-Prozess** – Schritte benennen und erklären
-8. ✅ **EU AI Act** – Risikostufen kennen und erklären
-9. ✅ **Vertrauenswürdige KI** – Fairness, Transparenz, Bias
-10. ✅ **Expertensysteme** – Aufbau und Anforderungen
+### 💡 Bonus-Themen (oft in Transferaufgaben):
+- Gartner Hype Cycle – 5 Phasen erklären + Technologie einordnen
+- OLAP & OLAP-Würfel – Operationen (Drill-Down, Slice, etc.)
+- Agententypen (Reflex / Modell / Ziel / Nutzen) – Zuordnung von Beispielen
+- Lambda vs. Kappa Architektur – wann welche?
+- CRISP-DM – 6 Phasen in richtiger Reihenfolge
+- Data Pipeline – Schritte beschreiben
 
-> ⚠️ **Mathematik wird in der Klausur NICHT abgefragt!** Fokus auf Begriffe, Konzepte, Vor- und Nachteile sowie Transfer auf Praxisbeispiele.`,
+### 📝 Klausurtipps:
+> ⚠️ **Mathematik wird NICHT abgefragt!**
+> ✍️ **Immer:** Begriff definieren → Beispiel nennen → Vor-/Nachteile diskutieren
+> 🔄 **Transferaufgaben:** Konzepte auf eigenes Berufsumfeld oder bekannte Szenarien anwenden
+> 📊 **Vergleiche:** "Was ist der Unterschied zwischen X und Y?" – immer eine Tabelle helfen
+> 💬 **Vollständige Sätze:** Keine Bullet-only Antworten – Erklärungen ausformulieren`,
       },
     ],
   },
