@@ -1158,6 +1158,319 @@ Der erste genannte Wert (Anker) beeinflusst alle folgenden Urteile, selbst wenn 
 Beispiel: In manchen Sprachen gibt es mehr Wörter für Schnee (Inuit-Sprachen) oder für Farbtöne → Sprecher dieser Sprachen nehmen feinere Unterschiede wahr.`,
       },
       {
+        heading: '📝 Klausur: Transferaufgabe & Prüfungshinweise',
+        content: `> Inhalte direkt aus den Vorlesungsgesprächen und dem Repetitorium (Prof. Dr. Jessica Sänger, VL09/10).
+
+### So läuft die Klausur ab
+
+| Aspekt | Detail |
+|---|---|
+| **Dauer** | 90 Minuten |
+| **Format** | Multiple-Choice-Fragen + 1 Transferaufgabe (offene Frage) |
+| **Transferaufgabe** | 10 % des Klausurumfangs → ca. 9 Minuten Zeit |
+| **Vorbereitung** | Transferaufgabe kann vollständig vorbereitet werden! |
+| **Hilfsmittel** | Closed Book – kein Spickzettel erlaubt |
+| **Tipp** | Transferaufgabe zuerst schreiben, solange Vorbereitung noch frisch ist |
+
+### Die Transferaufgabe – Thema Gedächtnis
+
+> **„Stellen Sie sich vor, Sie sind beauftragt, ein Gedächtnistraining zu entwickeln, das sowohl theoretische Grundlagen als auch praktische Anwendungen umfasst. Konzipieren Sie einen Workshop, der den Teilnehmer:innen hilft, ihre Gedächtnisleistung zu verbessern. Berücksichtigen Sie dabei die wichtigsten Erkenntnisse aus der Gedächtnisforschung."**
+
+**Was gehört in eine gute Antwort?**
+
+1. **Theoretische Grundlagen** (Mehrspeichermodell, Arbeitsgedächtnis, Langzeitgedächtnis)
+2. **Vergessen und seine Ursachen** (Ebbinghaus, Vergessenskurve, Interferenz)
+3. **Enkodierstrategien** (Verarbeitungstiefe, Elaboration, Chunking)
+4. **Abrufpraktiken** (Testing Effect, freier Abruf, Wiederholung)
+5. **Konkrete Workshop-Maßnahmen** (Lernplan, Spacing, Selbstabfragen, Mindmaps)
+
+**Muster-Antwortstruktur:**
+
+\`\`\`
+1. Kurze theoretische Einführung: Was ist Gedächtnis? (Mehrspeichermodell)
+2. Vergessenskurve erklären: Warum wir vergessen und wann
+3. Workshop-Einheit 1: Tiefe Verarbeitung trainieren (Elaboration)
+4. Workshop-Einheit 2: Spacing und Verteiltes Lernen
+5. Workshop-Einheit 3: Selbsttests und freier Abruf
+6. Neuronale Basis: Hippocampus, Plastizität (Taxifahrer-Studie)
+7. Praktische Hausaufgabe für Teilnehmer:innen
+\`\`\`
+
+> 💡 **Tipp von Prof. Sänger:** „Wer offene Fragen ausführlich beantworten kann, schafft MC-Fragen locker. Das Anspruchsniveau ist höher, weil man freier abrufen muss."
+
+### Prüfungsrelevante Themen (laut Vorlesungen)
+
+**Welche Forschende müssen bekannt sein?**
+Pavlov, Skinner, Bandura, Ebbinghaus, Atkinson & Shiffrin, Baddeley, Mischel. Bei kleineren Studien ist es gut zu wissen, aber danach wird nicht gezielt gefragt.
+
+**Alle prüfungsrelevanten Themengebiete:**
+- Einführung & Überblick Psychologie
+- Lernen (Klassisch, Operant, Beobachtungslernen)
+- Gedächtnis (Mehrspeichermodell, Arbeitsgedächtnis, Vergessen, Enkodierprozesse)
+- Gehirn & Nervenzelle (Aufbau, Aktionspotenzial, Synapse, Neurotransmitter)
+- Nervensystem & Endokrines System
+- Wahrnehmung (visuell, auditiv, Lärm)
+- Aufmerksamkeit, Bewusstsein & Kontrolle (alle 3 Phänomene, Selbstkontrolle, kognitive Kontrolle)
+- Sprache (Bausteine, Modell, McGurk-Effekt, Versprecher, Sprachproduktion)
+
+### Klausur-Countdown: Das Wichtigste zum Schluss
+
+1. **Transferaufgabe nochmals komplett durchschreiben** – ohne Unterlagen, als Zeitübung (~9 Min)
+2. **Hirnareale-Tabelle auswendig** – welches Areal, welche Funktion?
+3. **Neurotransmitter** – Dopamin, Serotonin, GABA, Glutamat, Acetylcholin je eine Funktion
+4. **Die 3 Lernarten** – je ein konkretes Beispiel
+5. **Verstärkerpläne** – welcher erzeugt höchste Löschungsresistenz? (→ Variabel-Quote!)
+6. **Vergessenskurve** – wann geht am meisten verloren? (→ erste 10 Stunden)
+7. **Sympathikus vs. Parasympathikus** – je 3 Wirkungen
+8. **Change Blindness vs. Inattentional Blindness** – Unterschied in 2 Sätzen
+9. **4 Versprecher-Typen** – je ein Beispiel
+10. **Mehrspeichermodell** – alle 3 Speicher mit Kapazität, Dauer, Beispiel
+
+### Hirnareale und ihre Themen (Repetitorium-Übersicht)
+
+| Thema | Wichtige Hirnareale |
+|---|---|
+| **Sehen** | Hirnstamm, Thalamus, Okzipitallappen, Parietallappen |
+| **Hören** | Hirnstamm, Thalamus, Temporallappen |
+| **Andere Sinne** | Parietallappen, Temporallappen, Riechhirn |
+| **Aufmerksamkeit** | Formation reticularis, Thalamus, Gyrus cinguli, PFC |
+| **Bewusstsein & Kontrolle** | Präfrontaler Kortex (PFC) |
+| **Sprache** | Wernicke-Areal (Verstehen), Broca-Areal (Produktion), motorischer Kortex |
+| **Denken** | Präfrontaler Kortex, Temporallappen |
+| **Lernen & Gedächtnis** | Hippocampus, Kleinhirn, Amygdala, PFC, Temporallappen |`,
+      },
+      {
+        heading: '🔍 Vertiefung: Aufmerksamkeit, Bewusstsein & Kontrolle (VL 09)',
+        content: `> Vertiefte Inhalte aus Vorlesung 9 – ergänzt die Basiszusammenfassung ohne sie zu ersetzen.
+
+### Bewusstsein – Vertiefung aus der Vorlesung
+
+**Was ist Bewusstsein genau?** Gesamtheit der unmittelbaren Erfahrung: was über Sinnessysteme reinkommt + Wahrnehmung der eigenen Person + eigene Kognitionen, Vorstellungen und Gefühle.
+
+**Thalamus als "Türsteher":** Nicht alles, was wir verarbeiten, wird uns bewusst! Der Thalamus filtert, welche Reize bis ins Bewusstsein vordringen. Wenn du deinen Aufmerksamkeit gezielt auf den Ventilator richtest, lässt der Thalamus das Geräusch durch – vorher hast du es nicht bemerkt.
+
+**Verbindung Bewusstsein ↔ Automatisierung:**
+- Automatisierte Handlungen (prozedurales Gedächtnis) laufen **ohne bewusste Kontrolle** → kognitive Entlastung
+- Neue, ungewohnte Situationen erfordern sofort **bewusste Aufmerksamkeit**
+- Nur das, worauf Aufmerksamkeit gerichtet ist, gelangt ins Bewusstsein
+
+> **Praxis-Beispiel (Prof. Sänger):** Die Bedienung im Biergarten schaut in deine Richtung, sieht dich aber nicht – sie ist mit den Gedanken woanders. Das zeigt: Aufmerksamkeit ≠ Blickrichtung.
+
+---
+
+### Change Blindness – Vertiefung
+
+**Door Study (Daniel Simons, Feldexperiment):**
+Ein Versuchsleiter spricht einen Passanten an und fragt nach dem Weg. Während des Gesprächs tragen zwei Personen eine Tür zwischen den beiden durch – hinter der Tür versteckt sich eine andere Person, die danach weiterredet. Viele Passanten bemerken den Austausch der Person nicht!
+
+**Maske:** Ein kurz eingeblendetes Bild zwischen zwei Szenen unterbricht die Verarbeitung und verstärkt Change Blindness. Ohne Maske (direkter Übergang) wird die Veränderung viel schneller entdeckt.
+
+**Experten-Vorteil:** Wer mit einer Umgebung vertraut ist, entdeckt Veränderungen viel schneller.
+- Football-Profis erkennen Veränderungen in Football-Szenen extrem schnell, Laien viel langsamer
+- Bei Verkehrsszenen: kein Unterschied zwischen Experten und Laien (beide vertraut damit)
+- Zaubertricks und Taschendiebe nutzen Change Blindness gezielt: Ablenkung → unbemerkte Veränderung
+
+**Change Blindness vs. Inattentional Blindness – der genaue Unterschied:**
+
+| | Change Blindness | Inattentional Blindness |
+|---|---|---|
+| **Was passiert** | Veränderung wird nicht bemerkt | Offensichtliches Objekt wird nicht wahrgenommen |
+| **Aufmerksamkeit** | Wird exogen abgelenkt | Ist endogen stark fokussiert |
+| **Weiß man, dass was kommt?** | Ja (man sucht eine Veränderung) | Nein (kommt überraschend) |
+| **Mechanismus** | Exogene Ablenkung | Endogener Fokus filtert alles andere weg |
+
+---
+
+### Inattentional Blindness – Vertiefung
+
+**Gorilla-Experiment (Simons & Chabris, 1999) – Erklärung:**
+Die endogene Aufmerksamkeit richtet sich auf alles Weiße (die Spieler in weißen Shirts) → alles Schwarze/Dunkle wird aktiv herausgefiltert. Der Gorilla ist schwarz → unsichtbar für ~50 % der Probanden.
+
+**Head-Up-Display-Studie (Fan et al.):**
+Piloten im Simulator waren so auf ihr Head-Up-Display fokussiert, dass 2 von 9 nicht bemerkten, dass eine Boeing auf die Landebahn gestellt worden war. → Inattentional Blindness kann sich auch auf die Tiefe des Raums erstrecken.
+
+**Fazit für die Praxis:** Head-Up-Displays sind sinnvoll (Blick bleibt auf Straße), aber die Menge angezeigter Information muss begrenzt bleiben. Neuere Modelle, die Display und Umgebungsbild verschmelzen, sind besser.
+
+---
+
+### Pop-Out-Effekt & Visuelle Suche
+
+**Pop-Out-Effekt (präattentive Verarbeitung):**
+Ein Reiz, der sich durch ein einfaches Merkmal (Farbe, Form, Orientierung) von der Umgebung abhebt, wird sofort und ohne kognitiven Aufwand herausgefiltert. Suchzeit ist **unabhängig** von der Anzahl der Distraktoren → **Parallele Suche**.
+
+**Attentive Verarbeitung (serielle Suche):**
+Wenn sich ein Reiz nur durch eine Merkmalskombination unterscheidet, muss Element für Element gesucht werden. Suchzeit **steigt** mit der Anzahl der Distraktoren.
+
+| Suchart | Auslöser | Suchzeit | Prozess |
+|---|---|---|---|
+| **Pop-Out / parallel** | Einfaches Einzelmerkmal (Farbe ODER Form) | Konstant, unabhängig von Distraktoranzahl | Präattentiv, automatisch |
+| **Serielle Suche** | Merkmalskombination (Farbe UND Form) | Steigt mit Distraktoranzahl | Attentiv, kontrolliert |
+
+**Wo ist Waldo?** Waldo hat ein salienteres Merkmal (rot-weiß, Mütze, Brille) – trotzdem schwer zu finden, weil die Distraktoren ähnliche Merkmale haben → serielle Suche nötig.
+
+---
+
+### Multitasking – was geht, was nicht?
+
+| Kombination | Möglich? | Warum? |
+|---|---|---|
+| Auto fahren + Radio hören | ✅ Ja | Verschiedene Hirnbereiche (motorisch + auditiv) |
+| Joggen + Musik hören | ✅ Ja | Verschiedene Ressourcen |
+| Auto fahren + tiefes Gespräch (neue Stadt) | ❌ Schwer | Gleiche kognitive Ressourcen belastet |
+| Einparken (schwierig) + Podcast | ❌ Schwer | Beide brauchen Aufmerksamkeit |
+| Film gucken + Handy scrollen | ❌ Schwer | Gleiche Verarbeitungssysteme |
+
+**Grundregel:** Aufgaben, die auf **gleiche Hirnressourcen** zurückgreifen, stören sich. Aufgaben mit **verschiedenen Ressourcen** lassen sich kombinieren.
+
+---
+
+### Selbstkontrolle – Vertiefung
+
+**Marshmallow-Experiment – Strategien der Kinder:**
+- Nicht anschauen / wegschauen
+- Nur riechen, lecken, berühren – das Bedürfnis abbauen, ohne es zu erfüllen
+- An etwas anderes denken
+- Das zukünftige Ziel (2 Marshmallows) vorstellen
+
+**Kann man Selbstkontrolle lernen?** Ja!
+> „Das ist der gelernte, geübte Teil – der Umwelteinfluss ist ganz stark. Man kann das üben. Ganz kleine Kinder können das gar nicht, weil die keine Vorstellung von Zeit haben. Aber das ist Übungssache – auch im Erwachsenenalter." (Prof. Sänger, VL09)
+
+**Konkretes Ziel = höhere Erfolgschance:**
+- ❌ Schlecht: „Ich möchte mehr Sport machen."
+- ✅ Gut: „Ich gehe jeden Dienstag um 18 Uhr nach der Arbeit ins Gym. Die Tasche packe ich schon am Vorabend."
+
+**Neuronale Automatisierung:** Je häufiger eine Handlung ausgeführt wird, desto weniger Hirnaktivierung ist nötig. Das Gehirn löst dieselbe Aufgabe mit weniger Aufwand: **„What fires together, wires together"** – die Verbindungen werden schneller und ressourcensparender.`,
+      },
+      {
+        heading: '💬 Vertiefung: Sprache (VL 10)',
+        content: `> Vertiefte Inhalte aus Vorlesung 10 – ergänzt die Basiszusammenfassung ohne sie zu ersetzen.
+
+### Sprache – Warum sie so mächtig ist
+
+**Sprache dient dazu:**
+- Mit anderen zu kommunizieren
+- Fremdes und eigenes Verhalten zu beeinflussen
+- Aufmerksamkeit zu lenken
+- Realitäten zu schaffen (Bücher, die andere Welten erschaffen!)
+
+> „Ihr könnt Menschen zum Lachen bringen, wütend oder traurig machen. Ihr könnt sogar Kriege auslösen – alleine mit den Worten, die ihr wählt. Das mächtigste Werkzeug, das ihr habt." (Prof. Sänger, VL10)
+
+**Sprache ist dynamisch:** Sie verändert sich mit der Gesellschaft. Pragmatische Sicht: Solange die andere Person versteht, was gemeint ist, ist die Kommunikation erfolgreich – ob grammatikalisch perfekt oder nicht.
+
+---
+
+### Bausteine der Sprache – Vertiefung
+
+**Phoneme** = kleinste bedeutungsunterscheidende Lauteinheiten
+Beispiel: „krass" enthält 4 Phoneme: /k/, /r/, /a/, /s/ (scharfes S)
+
+**Morpheme** = kleinste bedeutungstragende Einheiten
+Beispiel: „Doppelhaushälfte" → 3 Morpheme (Doppel + Haus + Hälfte)
+
+**Propositionen** = kleine Wissenseinheiten, die Konzepte miteinander verbinden
+- „Bäume haben Blätter" = 1 Proposition
+- „Julius trinkt Tee, der grün ist und aus Japan kommt" = 3 Propositionen
+
+**Betonung verändert Bedeutung (Phonologie):**
+- **über**setzen (jemanden über einen Fluss bringen) vs. über**setzen** (Text übersetzen)
+- **um**fahren (Hindernis umfahren) vs. um**fahren** (jemanden anfahren)
+
+---
+
+### Wie wir Sprache verstehen – Vertiefung
+
+**Segmentierungsproblem (Vertiefung):**
+Gesprochene Sprache hat keine Pausen zwischen Wörtern – anders als Schrift. Das Gehirn segmentiert anhand von Amplituden (Lautstärke): Wo Silben beginnen und enden, verrät die Schallwelle.
+
+**Disambiguierung (Mehrdeutigkeiten auflösen):**
+- „Bank" = Sitzgelegenheit oder Geldinstitut? → Kontext entscheidet
+- „Ein Weltinstitut steht nicht so oft am Ufer." → sofort klar: Geldinstitut gemeint
+
+---
+
+### Sprachproduktion – 3-Ebenen-Modell (top-down)
+
+Sprache wird top-down produziert:
+
+\`\`\`
+GEDANKENEBENE (oben)
+  „Was will ich sagen?" → Konzeptualisierung
+        ↓
+LEXIKALISCHE EBENE (Mitte)
+  Wörter aus dem mentalen Lexikon auswählen
+  → Arbeitsgedächtnis aktivieren
+        ↓
+ARTIKULATIONSEBENE (unten)
+  Motorische Umsetzung → Broca-Areal
+  Laute bilden: Vokale leicht, Konsonanten schwer
+\`\`\`
+
+**Lautentwicklung bei Babys (aus der Vorlesung):**
+- Vokale (A, E, I, O, U) = einfachste Laute, nur Luftstrom formen → erste Laute von Babys
+- Lippenkonsonanten (B, M, P) = nächste Stufe → Babys brabbeln „ba-ba-ba, ma-ma-ma"
+- Zungenkonsonanten (L, N, R) = schwierigste → Kinder brauchen lange, üben sogar im Schlaf!
+
+---
+
+### Die 4 Versprecher-Typen (vertieft mit Beispielen)
+
+Versprecher folgen Regeln – sie sind kein Zufall, sondern Fenster ins Sprachproduktionssystem.
+
+| Fehlertyp | Was passiert | Beispiel |
+|---|---|---|
+| **1. Vertauschung** | Laute, Silben oder Wörter tauschen ihre Position | „Stolzok" statt Zollstock; „Kasse Kaffee" → Anlaute getauscht |
+| **2. Antizipation** | Man ist in Gedanken schon beim nächsten Laut/Wort | „Tesse Tee" statt „Tasse Tee" (schon beim E aus „Tee") |
+| **3. Substitution** | Ein klanglich ähnliches falsches Wort wird eingesetzt | „Urwald" statt „Urlaub"; klanglich ähnliche Phoneme |
+| **4. Kontamination** | Zwei semantisch ähnliche Wörter verschmelzen | „beistimmen" = beipflichten + zustimmen |
+
+**Warum sind Versprecher wissenschaftlich wertvoll?**
+Jeder Fehler verrät, wie das Sprachproduktionssystem funktioniert: Welche Elemente zusammen aktiviert werden, wie das mentale Lexikon strukturiert ist, in welcher Reihenfolge Sprachplanung abläuft.
+
+---
+
+### Sprache und Denken – Vertiefung aus der Vorlesung
+
+**Sprachentwicklung kommt vor Sprachproduktion:** Kleine Kinder verstehen Sprache lange bevor sie selbst sprechen können.
+
+**Reicher Wortschatz → mehr Möglichkeiten:**
+- Mehr Wortschatz → bessere Konfliktlösung mit Worten (nicht mit Fäusten)
+- Kinder mit großem Wortschatz schneiden auch in Mathematik besser ab – nicht weil sie mehr Mathe können, sondern weil sie Textaufgaben besser verstehen
+
+**Gendergerechte Sprache (Studienlage aus der VL):**
+Das generische Maskulinum führt dazu, dass sich Menschen beim Lesen tatsächlich nur Männer vorstellen, obwohl alle gemeint sind. Es gibt keine Studie, die nachweist, dass gendergerechte Sprache Lesbarkeit oder Geschwindigkeit beeinträchtigt. APA und DGPs empfehlen genderfaire Sprache.`,
+      },
+      {
+        heading: '🗒️ Ergänzungs-Spickzettel (VL 09/10 & Repetitorium)',
+        content: `> Zusätzliche Begriffe aus den Vorlesungsgesprächen – ergänzt den Haupt-Spickzettel.
+
+| Begriff | Ein-Satz-Erklärung |
+|---|---|
+| **Schneller Wiedererwerb** | Nach Löschung wird das ursprüngliche Konditionierungsniveau durch CS+UCS viel schneller wiedererreicht als beim ersten Lernen |
+| **Maske (Change Blindness)** | Kurz eingeblendetes Bild zwischen zwei Szenen; unterbricht Verarbeitung und verschärft Change Blindness |
+| **Door Study (Simons)** | Feldexperiment: Gesprächspartner wird durch eine getragene Tür unbemerkt ausgetauscht – Change Blindness im Alltag |
+| **Exogene Aufmerksamkeit** | Von außen ausgelöste, unwillkürliche Orientierungsreaktion (z.B. plötzliches Geräusch) |
+| **Endogene Aufmerksamkeit** | Von innen (Zielen) gesteuerte, willkürliche Aufmerksamkeitsausrichtung |
+| **Pop-Out-Effekt** | Auffälliger Einzelreiz wird sofort ohne Aufwand herausgefiltert; parallele Suche unabhängig von Distraktoranzahl |
+| **Serielle Suche** | Reiz unterscheidet sich durch Merkmalskombination → Element für Element gesucht; Suchzeit steigt mit Distraktoranzahl |
+| **Thalamus als Türsteher** | Filtert Sinnesimpulse; nur was die Aufmerksamkeit freigibt, gelangt ins Bewusstsein |
+| **Automatisierung** | Wiederholte Handlung erfordert immer weniger Hirnaktivierung → kognitive Entlastung |
+| **Multitasking-Regel** | Aufgaben, die gleiche Hirnressourcen nutzen, stören sich; Aufgaben mit verschiedenen Ressourcen können kombiniert werden |
+| **Belohnungsaufschub** | Sofortige Belohnung zugunsten einer größeren zukünftigen aufschieben; Prädiktor für Lebenserfolg (Mischel) |
+| **Konkretes Ziel** | Je konkreter (wann, wo, wie), desto leichter ist das Ziel einzuhalten |
+| **Head-Up-Display-Studie** | Piloten im Simulator übersahen Boeing auf Landebahn – Inattentional Blindness durch Fokus auf Display (Fan et al.) |
+| **Proposition** | Kleine Wissenseinheit, die Konzepte miteinander verbindet; Grundbaustein des Textverstehens |
+| **Phonologie** | Lautlehre: wie Laute gebildet werden, Betonung und Sprachmelodie |
+| **Morphologie** | Wie Wörter durch Biegung (Konjugation, Deklination) geformt werden |
+| **Segmentierungsproblem** | Gesprochene Sprache hat keine Pausen zwischen Wörtern; das Gehirn muss anhand von Amplitude und Kontext selbst trennen |
+| **Mentales Lexikon** | Netzwerk im Langzeitgedächtnis, in dem alle bekannten Wörter mit Bedeutungen gespeichert sind |
+| **Vertauschung (Versprecher)** | Laute, Silben oder Wörter tauschen ihre Position ("Stolzok" statt Zollstock) |
+| **Antizipation (Versprecher)** | Man ist in Gedanken schon beim nächsten Laut → dieser wird vorweggenommen ("Tesse Tee") |
+| **Substitution (Versprecher)** | Ein klanglich oder semantisch ähnliches falsches Wort wird eingesetzt ("Urwald" statt "Urlaub") |
+| **Kontamination (Versprecher)** | Zwei ähnliche Wörter verschmelzen zu einem neuen ("beistimmen" = beipflichten + zustimmen) |
+| **Gendergerechte Sprache** | Generisches Maskulinum führt laut Studien dazu, sich nur Männer vorzustellen; APA/DGPs empfehlen genderfaire Sprache |
+| **Transferaufgabe** | Offene Klausurfrage (10 %), vollständig vorbereitbar; Thema: Gedächtnistraining-Workshop konzipieren |`,
+      },
+      {
         heading: 'Spickzettel – Alle Begriffe auf einen Blick',
         content: `> Jeder wichtige Begriff des Moduls – in **einem Satz** erklärt. Perfekt für die letzte Wiederholung!
 
