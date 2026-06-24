@@ -226,6 +226,56 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'Was ist die Amygdala und welche Emotionen verarbeitet sie besonders?',
     answer: 'Die Amygdala (Mandelkern) ist Teil des limbischen Systems und zentral für die Emotionsverarbeitung – besonders Wut und Angst. Bei Gefahr leitet der Thalamus Signale direkt an die Amygdala (Low Road) für schnelle Reaktion.',
   },
+  {
+    id: 'bp-43', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Change Blindness vs. Inattentional Blindness – Unterschied?',
+    answer: 'Change Blindness: Eine Veränderung wird nicht bemerkt, weil die Aufmerksamkeit exogen abgelenkt wird (z.B. Maske, Door Study).\nInattentional Blindness: Ein neues Objekt wird nicht wahrgenommen, weil die Aufmerksamkeit endogen so stark fokussiert ist, dass alles andere ausgefiltert wird (z.B. Gorilla-Experiment).',
+  },
+  {
+    id: 'bp-44', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Pop-Out-Effekt vs. serielle Suche',
+    answer: 'Pop-Out (präattentiv): Reiz hebt sich durch EIN Merkmal ab → parallele Suche, Suchzeit konstant unabhängig von Distraktoranzahl.\nSerielle Suche (attentiv): Reiz unterscheidet sich durch Merkmalskombination → Element für Element, Suchzeit steigt linear mit Distraktoranzahl.',
+  },
+  {
+    id: 'bp-45', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Thalamus als "Türsteher" des Bewusstseins',
+    answer: 'Der Thalamus filtert die einströmenden Sinnesreize und entscheidet, welche ins Bewusstsein vordringen dürfen. Nur Reize, auf die Aufmerksamkeit gerichtet wird, passieren den Filter. Automatisierte Handlungen laufen am Bewusstsein vorbei und sparen kognitive Ressourcen.',
+  },
+  {
+    id: 'bp-46', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Multitasking: Wann funktioniert es, wann nicht?',
+    answer: 'Funktioniert: Aufgaben nutzen verschiedene Ressourcen (z.B. Joggen + Musik: motorisch + auditiv).\nFunktioniert nicht: Aufgaben greifen auf dieselben Ressourcen zurück (z.B. Film + Text lesen = beide visuell/sprachlich; Auto fahren + tiefes Gespräch = beide kognitiv).\nGrundregel: Gleiche Ressourcen → Interferenz.',
+  },
+  {
+    id: 'bp-47', moduleId: 'biopsych', category: 'Aufmerksamkeit & Kontrolle',
+    question: 'Marshmallow-Experiment: Strategien und Langzeitergebnisse',
+    answer: 'Strategien erfolgreicher Kinder: wegschauen, an etwas anderes denken, nur riechen/berühren (Bedürfnis abbauen ohne zu erfüllen), zukünftiges Ziel vorstellen.\nLangzeitergebnisse: höhere Noten, bessere soziale Kompetenz, mehr Selbstbewusstsein, gesündere Lebensführung. Selbstkontrolle kann durch Übung gestärkt werden.',
+  },
+  {
+    id: 'bp-48', moduleId: 'biopsych', category: 'Sprache & Denken',
+    question: 'Die 4 Versprecher-Typen',
+    answer: '1. Vertauschung: Laute/Wörter tauschen Position ("Stolzok" statt Zollstock)\n2. Antizipation: Man ist gedanklich schon beim nächsten Laut ("Tesse Tee" statt "Tasse Tee")\n3. Substitution: Klanglich ähnliches falsches Wort ("Urwald" statt "Urlaub")\n4. Kontamination: Zwei Wörter verschmelzen ("beistimmen" = beipflichten + zustimmen)',
+  },
+  {
+    id: 'bp-49', moduleId: 'biopsych', category: 'Sprache & Denken',
+    question: 'Sprachproduktion: Das 3-Ebenen-Modell (top-down)',
+    answer: 'Top-down-Prozess:\n1. Gedankenebene: Was will ich sagen? (Konzeptualisierung)\n2. Lexikalische Ebene: Wörter aus dem mentalen Lexikon auswählen\n3. Artikulationsebene: Motorische Umsetzung (Broca-Areal)\nBabys lernen Laute von einfach zu schwer: Vokale → Lippenkonsonanten (B, M, P) → Zungenkonsonanten (L, N, R)',
+  },
+  {
+    id: 'bp-50', moduleId: 'biopsych', category: 'Sprache & Denken',
+    question: 'Was ist eine Proposition?',
+    answer: 'Eine Proposition ist die kleinste Wissenseinheit, die zwei Konzepte miteinander verbindet. Beispiel: "Bäume haben Blätter" = 1 Proposition. "Julius trinkt Tee, der grün ist und aus Japan kommt" = 3 Propositionen. Propositionen sind die Grundbausteine des Textverstehens und der Textrepräsentation im Gedächtnis.',
+  },
+  {
+    id: 'bp-51', moduleId: 'biopsych', category: 'Sprache & Denken',
+    question: 'Sapir-Whorf-Hypothese: starke vs. schwache Version',
+    answer: 'Starke Version: Sprache bestimmt Denken vollständig – man kann nur denken, was die Sprache erlaubt (weitgehend widerlegt).\nSchwache Version: Sprache beeinflusst Denken und Wahrnehmung (gut belegt). Beispiel: Generisches Maskulinum führt dazu, dass sich Lesende nur Männer vorstellen. Mehr Wörter für Schnee (Inuit) → feinere Wahrnehmungsunterschiede.',
+  },
+  {
+    id: 'bp-52', moduleId: 'biopsych', category: 'Klausur & Transfer',
+    question: 'Transferaufgabe Biopsychologie-Klausur: Thema und Aufbau',
+    answer: 'Thema: Gedächtnistraining-Workshop konzipieren (10 % der Klausur, ~9 Min).\nAufbau der Muster-Antwort:\n1. Theoretische Grundlagen (Mehrspeichermodell, Arbeitsgedächtnis)\n2. Vergessenskurve und ihre Ursachen (Ebbinghaus, Interferenz)\n3. Enkodierstrategien (Elaboration, Chunking, Verarbeitungstiefe)\n4. Abrufpraktiken (Testing Effect, freier Abruf, Spacing)\n5. Konkrete Workshop-Maßnahmen (Lernplan, Selbstabfragen, Mindmaps)',
+  },
 
   // ── Sozialpsychologie (SS 2026 · Prof. Dr. Dindas) ────────────────────────
   // Einführung
