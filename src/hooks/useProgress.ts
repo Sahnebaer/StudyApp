@@ -46,6 +46,12 @@ function loadFromStorage(): Record<ModuleId, Progress> {
         quizCorrectIds: new Set(parsed.pm?.quizCorrectIds ?? []),
         quizAttempted: new Set(parsed.pm?.quizAttempted ?? []),
       },
+      diffpsych: {
+        ...initialProgress('diffpsych'),
+        flashcardsLearned: new Set(parsed.diffpsych?.flashcardsLearned ?? []),
+        quizCorrectIds: new Set(parsed.diffpsych?.quizCorrectIds ?? []),
+        quizAttempted: new Set(parsed.diffpsych?.quizAttempted ?? []),
+      },
     };
   } catch {
     return {
@@ -53,6 +59,7 @@ function loadFromStorage(): Record<ModuleId, Progress> {
       socialpsych: initialProgress('socialpsych'),
       ai: initialProgress('ai'),
       pm: initialProgress('pm'),
+      diffpsych: initialProgress('diffpsych'),
     };
   }
 }
@@ -79,11 +86,16 @@ function saveToStorage(progress: Record<ModuleId, Progress>) {
       quizCorrectIds: [...progress.pm.quizCorrectIds],
       quizAttempted: [...progress.pm.quizAttempted],
     },
+    diffpsych: {
+      flashcardsLearned: [...progress.diffpsych.flashcardsLearned],
+      quizCorrectIds: [...progress.diffpsych.quizCorrectIds],
+      quizAttempted: [...progress.diffpsych.quizAttempted],
+    },
   };
   localStorage.setItem(STORAGE_KEY, JSON.stringify(serializable));
 }
 
-const MODULE_IDS: ModuleId[] = ['biopsych', 'socialpsych', 'ai', 'pm'];
+const MODULE_IDS: ModuleId[] = ['biopsych', 'socialpsych', 'ai', 'pm', 'diffpsych'];
 
 export function useProgress() {
   const [progress, setProgress] = useState<Record<ModuleId, Progress>>(loadFromStorage);

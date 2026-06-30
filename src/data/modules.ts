@@ -29,4 +29,11 @@ export const MODULES: Module[] = [
     color: 'from-orange-500 to-amber-600',
     icon: '📋',
   },
+  {
+    id: 'diffpsych',
+    title: 'Differentielle Psychologie',
+    description: 'Individuelle Unterschiede, Persönlichkeit, Intelligenz und Persönlichkeitstheorien',
+    color: 'from-rose-500 to-pink-600',
+    icon: '🧩',
+  },
 ];

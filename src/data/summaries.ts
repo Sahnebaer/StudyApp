@@ -3726,4 +3726,482 @@ Prinzipien für erfolgreiches Change Management (Dont's → Do's):
       },
     ],
   },
+  {
+    moduleId: 'diffpsych',
+    title: 'Differentielle Psychologie & Persönlichkeitspsychologie (SS 2026 · FOM)',
+    sections: [
+      {
+        heading: 'Teil 1: Einführung in die Differentielle Psychologie',
+        content: `### Was ist Differentielle Psychologie?
+
+Die Differentielle Psychologie richtet sich auf die **Unterschiedlichkeit (Differenz)** des Erlebens und Verhaltens zwischen Menschen. Diese individuellen Unterschiede machen die **Persönlichkeit** eines Menschen aus. Die Besonderheit einer Person zeigt sich in der spezifischen Kombination von Merkmalen.
+
+**Zentrale Forschungsfragen** (Rauthmann, 2015):
+- Wie entwickeln sich Unterschiede aus genetischen Anlagen und sozialen Einflüssen?
+- Wie hängen Merkmale untereinander zusammen und wie lassen sie sich ordnen?
+- Wie verändern sich Merkmale unter verschiedenen Lebensbedingungen?
+
+**Abgrenzung zu anderen Bereichen:**
+
+| Bereich | Fokus |
+|---|---|
+| Differentielle Psychologie | Interindividuelle Differenzen zwischen Individuen/Gruppen |
+| Klinische Psychologie | Pathologische Besonderheiten |
+| Allgemeine Psychologie | Gesetzmäßigkeiten des **durchschnittlichen** Individuums |
+| Persönlichkeitspsychologie | Intrapersonale Einheit/Kohäsion einer Person |
+
+> Differentielle und Persönlichkeitspsychologie werden heute als **eine Disziplin (DPP)** betrachtet.
+
+---
+
+### William Stern – Vier Disziplinen (1911)
+
+William Stern prägte den Begriff „Differentielle Psychologie". Er unterschied nach zwei Dimensionen:
+
+| | **Nomothetisch** (variablenorientiert) | **Idiographisch** (personenorientiert) |
+|---|---|---|
+| **Ein Merkmal/eine Person** | **Variationsforschung**: ein Merkmal an mehreren Personen | **Psychographie**: eine Person bzgl. mehrerer Merkmale |
+| **Mehrere Merkmale/Personen** | **Korrelationsforschung**: Zusammenhänge von Merkmalen | **Komparationsforschung**: Vergleich von Personengruppen |
+
+---
+
+### Historische Wurzeln
+
+- **Um 1100 v. Chr.** (China): Leistungsprüfungen für Staatsdienst (Musizieren, Bogenschießen, Reiten, Schreiben, Rechnen)
+- **1816**: Friedrich Wilhelm Bessel – erste systematische Messung individueller Differenzen (Reaktionszeiten)
+- **Sir Francis Galton**: Begründer der Intelligenzforschung, entwickelte das **Galton-Brett**
+
+**Wegbereiter der psychologischen Testung:**
+
+| Person | Beitrag |
+|---|---|
+| **Wilhelm Wundt** (1832–1920) | 1879 Gründung des ersten Instituts für experimentelle Psychologie (Leipzig) |
+| **James McKeen Cattell** (1860–1944) | Prägte 1890 den Begriff „mental tests" |
+| **Alfred Binet** (1857–1911) | Entwickelte den ersten Intelligenztest für Schüler |
+
+---
+
+### Zentrale Definitionen
+
+**Persönlichkeit** (Asendorpf, 2007): die nichtpathologische Individualität eines Menschen in körperlicher Erscheinung, Verhalten und Erleben – im Vergleich zu einer Referenzpopulation.
+
+**Temperament**: angeborenes, biologisches, umweltstabiles Persönlichkeitsmerkmal (Kretschmer, 1977).
+
+**Charakter**: erworbene, von der Umwelt beeinflusste Verhaltens-, Denk- und Gefühlsmuster. Temperament und Charakter beeinflussen sich **gegenseitig**.
+
+**Disposition** (Asendorpf, 2019): Merkmal mit **mittelfristiger zeitlicher Stabilität** (überdauert mindestens Wochen/Monate). Nicht direkt beobachtbar, nur aus Verhaltensregelmäßigkeiten erschließbar.
+
+**State vs. Trait vs. Disposition:**
+- **State**: aktueller, nicht stabiler Zustand (z. B. Angst, Aufmerksamkeit)
+- **Trait**: überdauernde Eigenschaft, die Verhalten über Situationen hinweg beeinflusst (z. B. Ängstlichkeit, Extraversion)
+- **Verhalten**: fluktuiert von Sekunde zu Sekunde, direkt beobachtbar`,
+      },
+      {
+        heading: 'Teil 2: Messung von Persönlichkeit',
+        content: `### Psychologischer Test
+
+Ein **standardisiertes diagnostisches Verfahren** zur Messung von Fähigkeiten und Persönlichkeitsmerkmalen, das Rückschlüsse auf individuelle Eigenschaftsausprägungen sowie auf Verhalten/Erleben in spezifischen Situationen ermöglicht.
+
+---
+
+### Normalverteilung & Normskalen
+
+**Normierung**: Erstellen eines Bezugssystems zum Einordnen von Testergebnissen im Vergleich zu anderen Personen. Die **Normalverteilung** lässt sich mit dem **Galton-Brett** veranschaulichen.
+
+| Normskala | Mittelwert M | Standardabweichung s |
+|---|---|---|
+| z-Werte | 0 | 1 |
+| Z-Werte (Standardwerte) | 100 | 10 |
+| T-Werte | 50 | 10 |
+| IQ | 100 | 15 |
+| Stanine | 5 | 2 (bzw. 1,96) |
+
+---
+
+### Gütekriterien
+
+**Hauptgütekriterien:**
+1. **Objektivität** – Testergebnisse unabhängig von Testsituation/Testleiter
+2. **Reliabilität** – der Test misst möglichst messfehlerfrei (z. B. Retest-Reliabilität, Cronbachs Alpha)
+3. **Validität** – der Test misst, was er messen soll (z. B. Kriteriumsvalidität)
+
+**Nebengütekriterien** (ohne diese leiden auch die Hauptgütekriterien!):
+
+| Kriterium | Bedeutung |
+|---|---|
+| **Zumutbarkeit** | Testperson darf nicht übermäßig belastet werden |
+| **Fairness** | Keine systematische Benachteiligung von Gruppen |
+| **Akzeptanz** | Ableitbar aus Abbruchrate |
+| **Ökonomie** | Möglichst wenig Ressourcenaufwand |
+| **Sensitivität** | Ausreichende Differenzierung (mind. 3 Skalenstufen) |
+| **Unverfälschbarkeit** | Testperson kann Werte nicht steuern (Risiko: soziale Erwünschtheit) |
+
+---
+
+### Big Five (Fünf-Faktoren-Modell, FFM)
+
+**Historische Entwicklung:** Allport & Odbert (~18.000 Eigenschaftswörter) → Cattell (35 Cluster, 16 Faktoren) → Fiske (5 Faktoren) → Norman/Goldberg ("Big Five") → Costa & McCrae (NEO-PI-R)
+
+**Die fünf Dimensionen:**
+- **Extraversion**: Enthusiasmus, Geselligkeit, Führungsimpuls
+- **Neurotizismus**: Empfindsamkeit, Reizbarkeit, Besorgnis
+- **Gewissenhaftigkeit**: Perfektionismus, Organisation, innerer Antrieb
+- **Verträglichkeit**: Altruismus, Vertrauen, Takt
+- **Offenheit für Erfahrungen**: Einfallsreichtum, Veränderungsbereitschaft
+
+**NEO-PI-R**: 5 Globalskalen × 6 Facetten = **30 Subskalen**, **240 Items**, 5-stufige Skala. Kurzversion: **NEO-FFI** (60 Items).
+
+**Big Five & Führungserfolg** (Metaanalyse Judge et al., 2002):
+
+| Faktor | Korrelation |
+|---|---|
+| Extraversion | **.31** |
+| Gewissenhaftigkeit | **.28** |
+| Offenheit | .24 |
+| Neurotizismus | −.24 |
+| Verträglichkeit | .08 |
+
+---
+
+### HEXACO-Modell
+
+Ashton & Lee (2001/2007) fanden in lexikalischen Studien über diverse Kulturen **sechs** statt fünf Faktoren:
+
+**H**onesty-Humility · **E**motionality · e**X**traversion · **A**greeableness · **C**onscientiousness · **O**penness
+
+**Unterschied Big Five vs. HEXACO:** Ehrlichkeit/Bescheidenheit ist im HEXACO ein eigener Faktor (statt Teil der Verträglichkeit). „Neurotizismus" heißt „Emotionalität".`,
+      },
+      {
+        heading: 'Teil 3a: Intelligenz',
+        content: `### Definition
+
+Intelligenz ist eine sehr allgemeine geistige Kapazität – Fähigkeit zum schlussfolgernden Denken, Planen, Problemlösen, abstrakten Denken, Lernen aus Erfahrung (Konsens von 52 Intelligenzforschern). Es ist **kein** reines Bücherwissen. Bis heute gibt es **keine** einheitlich anerkannte Definition.
+
+---
+
+### Geschichte der Intelligenzforschung
+
+| Jahr | Person | Beitrag |
+|---|---|---|
+| 1884 | Galton | Erste Tests von Sinneswahrnehmung/Gedächtnis |
+| 1904 | Spearman | Zwei-Faktoren-Theorie: Generalfaktor **g** + spezifische **s**-Faktoren |
+| 1905 | Binet & Simon | Erster Intelligenztest im heutigen Sinne |
+| 1912 | Stern | IQ = Intelligenzalter / Lebensalter × 100 |
+| 1939 | Wechsler | Abweichungsquotient (heutige IQ-Berechnung) |
+| 1939 | Thurstone | 7 Primary Mental Abilities |
+| 1966 | Cattell | Fluide und kristalline Intelligenz |
+| 1983 | Gardner | Multiple Intelligenzen |
+| 1993 | Carroll | Bestätigt Spearmans Modell empirisch (Three Stratum Theory) |
+
+---
+
+### IQ-Berechnung
+
+**Heutiger Abweichungsquotient (Wechsler):**
+
+**IQ = 100 + 15 × z**
+
+- Mittelwert 100, Standardabweichung 15 für **alle** Altersstufen
+- ca. 68,2 % liegen zwischen IQ 85–115
+- Ab IQ 130 = **Hochbegabung** (ca. 2 %)
+- Unter IQ 70 = (Lern-)Behinderung (ca. 2 %)
+
+---
+
+### Fluide vs. kristalline Intelligenz (Cattell)
+
+| | Kristalline Intelligenz | Fluide Intelligenz |
+|---|---|---|
+| Inhalt | Wortschatz, Allgemeinwissen, Erfahrung | Wahrnehmungsschnelligkeit, Reaktionszeit, induktives Denken |
+| Charakter | Wissens-/kulturabhängig | Basisfähigkeit, neue Probleme lösen |
+| Altersverlauf | Bleibt bis ins hohe Alter intakt | Nimmt mit dem Alter ab |
+
+---
+
+### Flynn-Effekt
+
+Zunahme der durchschnittlichen Testleistung zwischen 1950 und 2000 durch verbesserte Lebensbedingungen. Tests müssen regelmäßig neu normiert werden.
+
+**Negativer Flynn-Effekt**: Seit ca. 1975 Rückgang in 7 Ländern. Diskutierte Erklärungen: Dysgenik, endokrine Disruptoren. Die Befundlage ist uneinheitlich.
+
+---
+
+### Genetische & Umwelteinflüsse
+
+- Erblichkeit: **50–75 % der Varianz in der Population** – NICHT 50 % der individuellen Intelligenz!
+- Umwelteinflüsse können Auswirkungen im Bereich von **±20 IQ-Punkten** haben
+- Zwillingsstudien: höhere Korrelation bei eineiigen vs. zweieiigen Zwillingen → genetischer Einfluss
+
+> **Wichtig**: Erblichkeit erklärt nur, **warum Menschen sich unterscheiden** – nie, wie viel Prozent der Intelligenz einer einzelnen Person vererbt ist.`,
+      },
+      {
+        heading: 'Teil 3b: Soziale Kompetenz, Kreativität, Motive & Selbstkonzept',
+        content: `### Soziale Kompetenz (Kanning, 2009)
+
+„Gesamtheit des Wissens, der Fähigkeiten und Fertigkeiten einer Person, welche die Qualität eigenen Sozialverhaltens fördert."
+
+Zwei Fähigkeiten, die **beide** vorhanden sein müssen:
+- **Durchsetzungsfähigkeit** – eigene Interessen wahren
+- **Beziehungsfähigkeit** – positive Beziehungen pflegen
+
+> „Es allen recht machen wollen" ist **kein** Zeichen sozialer Kompetenz.
+
+---
+
+### Emotionale Intelligenz (Salovey & Mayer, 1990)
+
+Fähigkeit, Emotionen wahrzunehmen, auszudrücken, zu verstehen und zu beherrschen.
+
+**4 Komponenten:**
+1. Emotionen wahrnehmen
+2. Emotionen verstehen/analysieren
+3. Emotionen regulieren
+4. Emotionen nutzen (für kreatives Denken)
+
+> Daniel Golemans Behauptung (1995), 80 % des Erfolgsunterschieds gehe auf EI zurück, ist **wissenschaftlich nie belegt**.
+
+Messung: **MSCEIT** – 141 Items, 4 Facetten, normiert an 3.653 Personen.
+
+---
+
+### Kreativität
+
+**Definition**: Fähigkeit, neuartige und nützliche Ideen hervorzubringen.
+
+**Fünf Komponenten der Kreativität:**
+1. **Expertenwissen** – fundierte Wissensgrundlage
+2. **Fantasievolles Denken** – Muster neu erkennen
+3. **Wagemutige Persönlichkeit** – risikofreudig, durchhaltefähig
+4. **Intrinsische Motivation** – Motivation aus eigenem Interesse
+5. **Kreative Umgebung** – Förderung durch Mentoren/Kollegen
+
+Kreativität erfordert **divergentes Denken** (viele Lösungen), Intelligenz eher **konvergentes Denken** (eine Lösung). Ab IQ ~120 bricht die Korrelation zur Kreativität ab.
+
+---
+
+### Motive – Die „Big 3" (David McClelland, 1987)
+
+| Motiv | Beschreibung | Affektiver Kern |
+|---|---|---|
+| **Leistungsmotiv** | Wunsch nach lösbaren Herausforderungen | Neugier, Stolz |
+| **Bindungs-/Anschlussmotiv** | Wunsch nach Zugehörigkeit | Liebe |
+| **Machtmotiv** | Wunsch nach Einfluss/Kontrolle | Selbstbehauptung, Stärke |
+
+**Implizite vs. explizite Motive:**
+- **Implizit**: unbewusst, gemessen z. B. mit dem **Thematischen Apperzeptionstest (TAT)**
+- **Explizit**: direkt per Fragebogen (z. B. Personality Research Form)
+
+---
+
+### Selbstkonzept & Selbstwertgefühl
+
+**Selbstkonzept**: Wissen über die eigene Person (Eigenschaften, Fähigkeiten, Ziele); entsteht durch Erfahrungen und Vergleiche mit anderen. Handlungsleitende Wissensstruktur.
+
+**Selbstwertgefühl**: affektive Wertschätzung der eigenen Person; korreliert **hoch negativ** mit Neurotizismus.
+
+**Sechs Informationsverarbeitungsprozesse:**
+1. Selbstwahrnehmung/Selbstbild
+2. Selbsterinnerung
+3. Soziales Spiegeln
+4. **Soziales Vergleichen** → **Big-Fish-Little-Pond-Effekt**: besser „Großer unter Kleinen" als umgekehrt
+5. Selbstüberschätzung
+6. Selbstdarstellung
+
+---
+
+### Narzissmus & Dunkle Triade
+
+**ICD-10-Kriterien** (mind. 5 von 9): Größengefühl, Erfolgsphantasien, Einzigartigkeitsüberzeugung, Bewunderungsbedürfnis, Anspruchshaltung, Ausnutzung anderer, Empathiemangel, Neid, Arroganz.
+
+> In **ICD-11** taucht die narzisstische Persönlichkeitsstörung als eigenständige Kategorie **nicht mehr** auf!
+
+**Dunkle Triade:**
+- **Narzissmus** (Selbstüber-/Fremdunterschätzung)
+- **Machiavellismus** (manipulative Beeinflussung)
+- **(Subklinische) Psychopathie** (Impulsivität, geringe Empathie)
+
+---
+
+### Glück und Lebenszufriedenheit
+
+**Drei Begriffe (Mayring):**
+- **Freude**: kurzfristig, Reaktion auf angenehme Situation
+- **Glück**: intensivstes, länger anhaltendes Wohlbefinden
+- **Zufriedenheit**: stabiles, kognitiv geprägtes Gefühl
+
+**Flow (Csikszentmihalyi)**: herausfordernde Aufgabe, Konzentration, klare Ziele, unmittelbares Feedback, Zeitgefühl setzt aus.
+
+**Salutogenese & Kohärenzgefühl (Antonovsky)**: Gesundheit als Kontinuum. **SOC** = Vertrauen in die Vorhersagbarkeit der Umwelt – drei Komponenten: **Verstehbarkeit, Handhabbarkeit, Sinnhaftigkeit**.`,
+      },
+      {
+        heading: 'Teil 4: Persönlichkeitsentwicklung & Einflüsse',
+        content: `### Stabilität von Persönlichkeitseigenschaften
+
+**Normative Stabilität**: Ausmaß der Stabilität, quantifiziert durch Korrelation r zwischen zwei Messzeitpunkten (r = 1 = perfekte Stabilität).
+
+**Stabilitäts-Rangfolge:**
+> **IQ** (am stabilsten) > Big Five/Persönlichkeitseigenschaften > allgemeines Selbstwertgefühl/Lebenszufriedenheit (am wenigsten stabil)
+
+**Wichtige Erkenntnis**: Persönlichkeitsveränderungen finden auch noch im **jungen Erwachsenenalter** statt – widerspricht McCrae & Costas (2000) Annahme hoher Stabilität ab 30 Jahren.
+
+**Durchschnittliche Big-Five-Veränderung im Erwachsenenalter** (Roberts et al., 2006):
+- **Neurotizismus nimmt ab**
+- **Gewissenhaftigkeit und Verträglichkeit nehmen zu**
+
+---
+
+### Genetik (Heritabilität)
+
+**Heritabilität**: Schätzwert des Anteils genetisch bedingter Varianz an der **Gesamtvarianz eines Merkmals in einer Population** – nie eine Aussage über eine einzelne Person!
+
+> Beispiel: Erblichkeit von 88 % beim BMI bedeutet, dass 88 % der **Unterschiede** in der Bevölkerung genetisch bedingt sind – nicht, dass eine Person nur zu 12 % selbst verantwortlich ist.
+
+**Genetischer Verwandtschaftsgrad (r):**
+
+| Verwandtschaftsgrad | r |
+|---|---|
+| Eineiige Zwillinge | 100 % |
+| Zweieiige Zwillinge / Geschwister / Eltern-Kind | 50 % |
+| Halbgeschwister / Großeltern-Enkel | 25 % |
+| Cousins/Cousinen | 12,5 % |
+| Partner / Adoptivverwandte | 0 % |
+
+Erblichkeit der Intelligenz: **50–75 % der Varianz** – erklärt nur, **warum sich Menschen unterscheiden**, nicht wie viel Prozent der Intelligenz einer Person vererbt ist.
+
+---
+
+### Umwelt
+
+- **Geteilte Umwelteinflüsse**: wirken auf alle Kinder einer Familie gleich (Einkommen, Familienklima)
+- **Nicht-geteilte Umwelteinflüsse**: für jedes Kind einzigartig (elterliche Bevorzugung, Geschwistereinfluss)
+
+**Wichtige Befunde:**
+- **IQ-Unterschiede** beruhen stärker auf **geteilten** Umwelteinflüssen
+- Bei **Extraversion** sind **nicht geteilte** Umwelteinflüsse bedeutsamer
+- Insgesamt sind nicht geteilte Einflüsse für fast alle Eigenschaften bedeutsamer – **Ausnahme: IQ**
+
+---
+
+### Geschlechtsunterschiede
+
+**Vier Ebenen:** genetisches, hormonelles, neuronales (= biologisches) Geschlecht und **psychologisches Geschlecht** (innere Geschlechtsidentität).
+
+Geschlechtsunterschiede sind primär **genetisch** bestimmt, werden sekundär durch Hormone und kulturelle Stereotype überformt.
+
+> **Geschlechtsneutrale Erziehung führt NICHT automatisch dazu**, dass z. B. Mädchen lieber mit Autos statt Puppen spielen.
+
+---
+
+### Kultur
+
+**Kultur** (Asendorpf, 2015): „Menschgemachte Umwelt einer Population" (Sprache, Normen, Werte, soziale/politische Struktur).
+
+Ob eine Handlung „intelligent" ist, lässt sich oft nur im kulturellen Kontext beurteilen.`,
+      },
+      {
+        heading: 'Teil 5: Persönlichkeitstheorien & Schnellübersicht',
+        content: `### Sechs Hauptrichtungen der Persönlichkeitstheorien
+
+---
+
+#### 5.1 Psychoanalytische Theorien (Sigmund Freud)
+
+**Warum wichtig?** Ca. **45 % aller Psychotherapien** (Stand 2020) sind psychoanalytisch begründet; Grundbegriffe gehören zur Allgemeinbildung.
+
+**Strukturmodell der Psyche:**
+- **Es**: psychische Grundenergie, **Lustprinzip**
+- **Ich**: Kern des Individuums, **Realitätsprinzip**
+- **Über-Ich**: moralische Instanz, internalisierte Normen
+
+**Eisberg-Modell**: Bewusstsein → Vorbewusstsein → Unbewusstsein
+
+**Wichtigste Abwehrmechanismen:**
+| Mechanismus | Beschreibung |
+|---|---|
+| **Verdrängung** | Angsterregende Inhalte aus dem Bewusstsein verdrängen |
+| **Verleugnung** | Offensichtliche Realität nicht anerkennen |
+| **Projektion** | Eigene Impulse anderen zuschreiben |
+| **Sublimierung** | Triebwünsche in gesellschaftlich akzeptierte Handlungen umwandeln |
+| **Regression** | Rückzug auf eine frühere Entwicklungsphase |
+
+**Kritik:** Unüberprüfbare Annahmen, nur retrospektive Erklärungen, vernachlässigt soziale Einflüsse.
+
+---
+
+#### 5.2 Behavioristische und Lerntheorien
+
+Mensch als „Black Box" (J. B. Watson) – Psychologie soll sich auf beobachtbares Verhalten beschränken.
+
+**Drei Lernformen:**
+1. **Klassische Konditionierung** (Pawlow) – neutraler Reiz wird mit unbedingtem Reiz verknüpft
+2. **Operante Konditionierung** (Skinner) – Lernen durch Belohnung/Bestrafung
+3. **Beobachtungslernen/Modelllernen** (Bandura) – Lernen durch Nachahmung
+
+---
+
+#### 5.3 Eigenschaftstheorien
+
+Ziel: Menschen anhand möglichst weniger Eigenschaften beschreiben; setzt situations- und zeitstabiles Verhalten voraus.
+
+**Kovariationswürfel (Cattell, 1946)**: Ergänzte Sterns 2D-Schema um eine zeitliche Dimension → Persönlichkeit als zeitstabiles Profil messbar.
+
+---
+
+#### 5.4 Kognitive Theorien
+
+**Begriffe:** Kognition = geistige Aktivitäten; Emotion = physiologische Erregung + Ausdrucksverhalten; Motivation = Handlungsvorbereitung zur Bedürfnisbefriedigung.
+
+**Selbsterfüllende Prophezeiungen**: Vorhersagen, die Interaktionen so verändern, dass sie eintreten.
+
+---
+
+#### 5.5 Humanistische Theorien (Rogers, Maslow)
+
+Menschenbild: Das Individuum strebt von sich aus nach **Selbstverwirklichung**.
+
+**Maslows Bedürfnishierarchie:** Physiologische Bedürfnisse → Sicherheit → Zugehörigkeit → Achtung → Selbstverwirklichung.
+
+---
+
+#### 5.6 Biopsychologische Theorien
+
+Biologische Dispositionen vermitteln über Lernprozesse die Persönlichkeitsentwicklung. **Robert Cloninger**: Temperament weitgehend angeboren, **Charakter** entwickelt sich durch soziale Lernprozesse.
+
+---
+
+### Wichtige Personen – Schnellübersicht
+
+| Person | Beitrag |
+|---|---|
+| Wilhelm Wundt | Begründer der Psychologie als Wissenschaft (1879) |
+| Alfred Binet | Erster Intelligenztest (mit Simon, 1905) |
+| William Stern | Begriff „Differentielle Psychologie", Vier Disziplinen, IQ-Formel |
+| David Wechsler | Abweichungsquotient, WAIS/HAWIE |
+| Charles Spearman | g-Faktor, Zwei-Faktoren-Theorie |
+| Raymond B. Cattell | 16-Faktoren-Modell, fluide/kristalline Intelligenz, Kovariationswürfel |
+| Howard Gardner | Multiple Intelligenzen |
+| Costa & McCrae | NEO-PI-R, Big Five |
+| Ashton & Lee | HEXACO-Modell |
+| Sigmund Freud | Psychoanalyse, Strukturmodell, Abwehrmechanismen |
+| Albert Bandura | Beobachtungslernen |
+| Abraham Maslow | Bedürfnishierarchie |
+| Robert Cloninger | Temperament (angeboren) vs. Charakter (gelernt) |
+| Daniel Goleman | Popularisierung Emotionale Intelligenz |
+| David McClelland | „Big 3" der Motive |
+| Mihaly Csikszentmihalyi | Flow-Konzept |
+| Aaron Antonovsky | Salutogenese, Kohärenzgefühl (SOC) |
+
+---
+
+### Glossar
+
+- **Operationalisierung**: Festlegung, wie ein theoretisches Konstrukt konkret gemessen wird
+- **Faktorenanalyse**: Verfahren zur Reduktion vieler Variablen auf wenige Faktoren (Basis der Big-Five-Forschung)
+- **Lexikalischer Ansatz**: Annahme, dass wichtige Persönlichkeitsunterschiede sich in Eigenschaftswörtern der Alltagssprache niedergeschlagen haben
+- **Triangulation**: Kombination mehrerer Methoden/Datenquellen zur Erhöhung der Validität
+- **Konvergentes vs. divergentes Denken**: konvergent = eine richtige Lösung; divergent = möglichst viele Lösungen
+- **Kohorteneffekt**: Unterschiede durch unterschiedliche Geburtsjahrgänge statt echter Alterseffekte`,
+      },
+    ],
+  },
 ];

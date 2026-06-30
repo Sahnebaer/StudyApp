@@ -25,9 +25,9 @@ function load(): PodcastProgress {
       position: p[id]?.position ?? 0,
       completed: p[id]?.completed ?? [],
     });
-    return { biopsych: fromMod('biopsych'), socialpsych: fromMod('socialpsych'), ai: fromMod('ai'), pm: fromMod('pm') };
+    return { biopsych: fromMod('biopsych'), socialpsych: fromMod('socialpsych'), ai: fromMod('ai'), pm: fromMod('pm'), diffpsych: fromMod('diffpsych') };
   } catch {
-    return { biopsych: blank(), socialpsych: blank(), ai: blank(), pm: blank() };
+    return { biopsych: blank(), socialpsych: blank(), ai: blank(), pm: blank(), diffpsych: blank() };
   }
 }
 

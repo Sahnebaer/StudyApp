@@ -1,4 +1,4 @@
-export type ModuleId = 'biopsych' | 'socialpsych' | 'ai' | 'pm';
+export type ModuleId = 'biopsych' | 'socialpsych' | 'ai' | 'pm' | 'diffpsych';
 
 export interface Module {
   id: ModuleId;

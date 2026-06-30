@@ -902,4 +902,105 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'Kotters 8 Schritte des Change Managements',
     answer: '1. Dringlichkeit schaffen\n2. Mächtige Führungskoalition bilden\n3. Vision entwickeln (in 5 Min. erklärbar!)\n4. Vision kommunizieren\n5. Andere ermächtigen (Hindernisse beseitigen)\n6. Kurzfristige Erfolge planen & belohnen\n7. Verbesserungen konsolidieren\n8. Neue Ansätze in der Kultur verankern',
   },
+  // Differentielle Psychologie
+  {
+    id: 'dp-1', moduleId: 'diffpsych', category: 'Grundbegriffe',
+    question: 'State vs. Trait vs. Disposition – Unterschied?',
+    answer: 'State: aktueller, nicht stabiler Zustand (z. B. Angst gerade jetzt)\nTrait: überdauernde Eigenschaft über Situationen hinweg (z. B. Ängstlichkeit)\nDisposition: Merkmal mit mittelfristiger Stabilität (Wochen/Monate); nicht direkt beobachtbar, nur aus Verhaltensregelmäßigkeiten erschließbar',
+  },
+  {
+    id: 'dp-2', moduleId: 'diffpsych', category: 'Grundbegriffe',
+    question: 'William Sterns vier Disziplinen der Differentiellen Psychologie',
+    answer: 'Nomothetisch (variablenorientiert):\n• Variationsforschung: ein Merkmal an mehreren Personen\n• Korrelationsforschung: zwei+ Merkmale an mehreren Personen\n\nIdiographisch (personenorientiert):\n• Psychographie: eine Person bzgl. mehrerer Merkmale\n• Komparationsforschung: zwei+ Personengruppen bzgl. mehrerer Merkmale',
+  },
+  {
+    id: 'dp-3', moduleId: 'diffpsych', category: 'Grundbegriffe',
+    question: 'Persönlichkeit, Temperament, Charakter – Definitionen',
+    answer: 'Persönlichkeit (Asendorpf): nichtpathologische Individualität in Erscheinung, Verhalten und Erleben im Vergleich zur Referenzpopulation\n\nTemperament (Kretschmer): angeboren, biologisch, umweltstabil\n\nCharakter: erworben, durch Umwelt beeinflusst\n→ Temperament und Charakter beeinflussen sich gegenseitig',
+  },
+  {
+    id: 'dp-4', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Drei Hauptgütekriterien eines psychologischen Tests',
+    answer: '1. Objektivität – unabhängig von Testsituation/Testleiter\n2. Reliabilität – misst möglichst messfehlerfrei (z. B. Cronbachs Alpha)\n3. Validität – misst, was es messen soll (z. B. Kriteriumsvalidität)\n\nMerke: Ohne Objektivität keine Reliabilität, ohne Reliabilität keine Validität!',
+  },
+  {
+    id: 'dp-5', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Big Five – die fünf Dimensionen (OCEAN)',
+    answer: 'O – Offenheit für Erfahrungen (Einfallsreichtum, Veränderungsbereitschaft)\nC – Conscientiousness/Gewissenhaftigkeit (Perfektionismus, Organisation)\nE – Extraversion (Geselligkeit, Enthusiasmus)\nA – Agreeableness/Verträglichkeit (Altruismus, Takt)\nN – Neurotizismus (Empfindsamkeit, Besorgnis)\n\nNEO-PI-R: 240 Items, 30 Subskalen. Kurzversion: NEO-FFI (60 Items)',
+  },
+  {
+    id: 'dp-6', moduleId: 'diffpsych', category: 'Messung',
+    question: 'HEXACO vs. Big Five – was ist neu?',
+    answer: 'HEXACO hat 6 statt 5 Faktoren (Ashton & Lee):\nH – Honesty-Humility (Ehrlichkeit/Bescheidenheit) → NEU, war bei Big Five Teil der Verträglichkeit\nE – Emotionality (statt Neurotizismus, inkl. Gutherzigkeit)\nX – Extraversion\nA – Agreeableness vs. Anger\nC – Conscientiousness\nO – Openness\n\nFokus: Neugier statt Intelligenz bei Offenheit',
+  },
+  {
+    id: 'dp-7', moduleId: 'diffpsych', category: 'Intelligenz',
+    question: 'Spearmans g-Faktor und Cattells fluide/kristalline Intelligenz',
+    answer: 'Spearman: g-Faktor (Generalfaktor) + spezifische s-Faktoren\n→ g beeinflusst alle kognitiven Bereiche\n\nCattell:\n• Fluide Intelligenz: Reaktionszeit, induktives Denken, neue Probleme lösen → nimmt im Alter ab\n• Kristalline Intelligenz: Wortschatz, Allgemeinwissen → bleibt bis ins hohe Alter intakt',
+  },
+  {
+    id: 'dp-8', moduleId: 'diffpsych', category: 'Intelligenz',
+    question: 'IQ-Berechnung: Stern (alt) vs. Wechsler (heute)',
+    answer: 'Stern (1912): IQ = Intelligenzalter / Lebensalter × 100\n→ Problem: Zuwachs flacht ab ~13 Jahren ab\n\nWechsler (1939): IQ = 100 + 15 × z\n→ Mittelwert 100, SD 15 für alle Altersstufen\n→ 68 % liegen zwischen 85–115\n→ IQ ≥ 130 = Hochbegabung (~2 %); IQ < 70 = Behinderung (~2 %)',
+  },
+  {
+    id: 'dp-9', moduleId: 'diffpsych', category: 'Intelligenz',
+    question: 'Heritabilität – was bedeutet sie und was NICHT?',
+    answer: 'Heritabilität = Anteil genetisch bedingter Varianz an der Gesamtvarianz eines Merkmals in einer Population\n\nBei Intelligenz: 50–75 % der Varianz\n\nBedeutet NICHT:\n• Dass 50–75 % der Intelligenz einer Person genetisch sind\n• Dass Gene 50–75 % „verantwortlich" sind\n\nBedeutet NUR: Erklärt, warum Menschen sich unterscheiden – nie wie viel einer einzelnen Person vererbt ist',
+  },
+  {
+    id: 'dp-10', moduleId: 'diffpsych', category: 'Intelligenz',
+    question: 'Flynn-Effekt – positiv und negativ',
+    answer: 'Positiver Flynn-Effekt: Zunahme der durchschnittlichen IQ-Testleistung zwischen 1950–2000 durch verbesserte Lebensbedingungen → Tests müssen regelmäßig neu normiert werden\n\nNegativer Flynn-Effekt: Rückgang seit ca. 1975 in einigen Ländern\nDiskutierte Erklärungen: Dysgenik (gesunkene Reaktionszeit), endokrine Disruptoren\n→ Befundlage uneinheitlich',
+  },
+  {
+    id: 'dp-11', moduleId: 'diffpsych', category: 'Soziale Kompetenz & EI',
+    question: 'Emotionale Intelligenz – 4 Komponenten (Salovey & Mayer)',
+    answer: '1. Emotionen wahrnehmen und ausdrücken\n2. Emotionen verstehen und analysieren\n3. Emotionen regulieren\n4. Emotionen nutzen (für kreatives Denken)\n\nMessung: MSCEIT (141 Items, 4 Facetten)\n\nKritik: Golemans „80 %-Behauptung" ist wissenschaftlich nie belegt',
+  },
+  {
+    id: 'dp-12', moduleId: 'diffpsych', category: 'Kreativität & Motive',
+    question: 'Fünf Komponenten der Kreativität',
+    answer: '1. Expertenwissen – fundierte Wissensgrundlage\n2. Fantasievolles Denken – Muster neu erkennen\n3. Wagemutige Persönlichkeit – risikofreudig, durchhaltefähig\n4. Intrinsische Motivation – Interesse aus eigenem Antrieb\n5. Kreative Umgebung – Förderung durch Mentoren/Kollegen\n\nAb IQ ~120 bricht die Korrelation zur Kreativität ab\nKreativität = divergentes Denken; Intelligenz = konvergentes Denken',
+  },
+  {
+    id: 'dp-13', moduleId: 'diffpsych', category: 'Kreativität & Motive',
+    question: 'McClellands „Big 3" der Motive',
+    answer: 'Leistungsmotiv: Wunsch nach lösbaren Herausforderungen → affektiver Kern: Neugier, Stolz\nBindungs-/Anschlussmotiv: Wunsch nach Zugehörigkeit/Geborgenheit → affektiver Kern: Liebe\nMachtmotiv: Wunsch nach Einfluss/Kontrolle → affektiver Kern: Selbstbehauptung, Stärke\n\nImplizit (unbewusst): TAT (Thematischer Apperzeptionstest)\nExplizit (bewusst): Fragebogen, z. B. Personality Research Form (PRF)',
+  },
+  {
+    id: 'dp-14', moduleId: 'diffpsych', category: 'Selbst & Persönlichkeit',
+    question: 'Selbstkonzept vs. Selbstwertgefühl + Big-Fish-Little-Pond-Effekt',
+    answer: 'Selbstkonzept: Wissen über eigene Person (Eigenschaften, Fähigkeiten, Ziele) – handlungsleitende Wissensstruktur, zentrales Stressresistenz-Ressource\n\nSelbstwertgefühl: affektive Wertschätzung der eigenen Person; korreliert hoch negativ mit Neurotizismus\n\nBig-Fish-Little-Pond-Effekt (soziales Vergleichen):\nBesser als „Großer unter Kleinen" aufgestellt sein als als „Kleiner unter Großen" → Schulwechsel-Beispiel: Selbstwertabfall bei Gymnasiast:innen',
+  },
+  {
+    id: 'dp-15', moduleId: 'diffpsych', category: 'Selbst & Persönlichkeit',
+    question: 'Dunkle Triade und ICD-Narzissmus',
+    answer: 'Dunkle Triade:\n1. Narzissmus – Selbstüber-/Fremdunterschätzung\n2. Machiavellismus – manipulative Beeinflussung zum eigenen Vorteil\n3. (Subklinische) Psychopathie – Impulsivität, geringe Empathie\n\nICD-10: 5 von 9 Kriterien für narzisstische PS (Größengefühl, Empathiemangel etc.)\nICD-11: Narzisstische PS als eigenständige Kategorie entfernt!',
+  },
+  {
+    id: 'dp-16', moduleId: 'diffpsych', category: 'Selbst & Persönlichkeit',
+    question: 'Salutogenese & Kohärenzgefühl (Antonovsky)',
+    answer: 'Salutogenese: Gesundheit als Kontinuum (fließender Übergang Gesundheit–Krankheit)\n\nKohärenzgefühl (Sense of Coherence, SOC) = andauerndes Vertrauen in die Vorhersagbarkeit der Umwelt\n\nDrei Komponenten:\n1. Verstehbarkeit – Ereignisse sind erklärbar\n2. Handhabbarkeit – Ressourcen sind vorhanden\n3. Sinnhaftigkeit – Herausforderungen sind es wert\n\nHohes SOC → höhere Stressresistenz, geringeres Depressionsrisiko',
+  },
+  {
+    id: 'dp-17', moduleId: 'diffpsych', category: 'Persönlichkeitstheorien',
+    question: 'Freuds Strukturmodell der Psyche (Es, Ich, Über-Ich)',
+    answer: 'Es: psychische Grundenergie, Lustprinzip (sofortige Bedürfnisbefriedigung)\nIch: Kern des Individuums, Realitätsprinzip (vermittelt zwischen Es und Realität)\nÜber-Ich: moralische Instanz, internalisierte Normen/Gewissen\n\nEisberg-Modell:\n• Bewusstsein (sichtbar)\n• Vorbewusstsein (zugänglich, aber nicht im Fokus)\n• Unbewusstsein (kaum zugänglich, größter Teil)\n\nKritik: Empirisch kaum überprüfbar, nur retrospektiv',
+  },
+  {
+    id: 'dp-18', moduleId: 'diffpsych', category: 'Persönlichkeitstheorien',
+    question: 'Drei Lernformen des Behaviorismus',
+    answer: '1. Klassische Konditionierung (Pawlow): neutraler Reiz (Glocke) + unbedingter Reiz (Futter) → konditionierte Reaktion\n\n2. Operante Konditionierung (Skinner): Lernen durch Belohnung/Bestrafung spontanen Verhaltens\n\n3. Beobachtungslernen/Modelllernen (Bandura): Lernen durch Nachahmung im sozialen Kontext\n\nHeutige Sicht: Lernende beeinflussen ihren Lernerfolg aktiv mit',
+  },
+  {
+    id: 'dp-19', moduleId: 'diffpsych', category: 'Persönlichkeitsentwicklung',
+    question: 'Stabilität der Persönlichkeit – Rangfolge und Big-Five-Veränderungen',
+    answer: 'Stabilitätsrangfolge: IQ (stabilstes) > Big Five > Selbstwertgefühl (wenigsten stabil)\n\nIQ stabilisiert sich bis zum 8. Lebensjahr; Korrelation IQ mit 6 und 40 Jahren: r = 0,6–0,8\n\nDurchschnittliche Big-Five-Veränderungen im Erwachsenenalter (Roberts et al., 2006):\n→ Neurotizismus nimmt ab\n→ Gewissenhaftigkeit und Verträglichkeit nehmen zu\n\nWichtig: Persönlichkeitsveränderungen finden auch noch im jungen Erwachsenenalter statt',
+  },
+  {
+    id: 'dp-20', moduleId: 'diffpsych', category: 'Persönlichkeitsentwicklung',
+    question: 'Geteilte vs. nicht-geteilte Umwelteinflüsse',
+    answer: 'Geteilte Umwelteinflüsse: wirken auf alle Kinder einer Familie gleich\n→ Einkommen, Familienklima, elterliche Werthaltungen\n→ Wichtiger für IQ-Unterschiede\n\nNicht-geteilte Umwelteinflüsse: einzigartig für jedes Kind\n→ Elterliche Bevorzugung, Geschwistereinfluss, Peers\n→ Wichtiger für fast alle anderen Eigenschaften (z. B. Extraversion)\n\nGesamt: Nicht-geteilte Einflüsse dominieren – Ausnahme: IQ',
+  },
 ];
