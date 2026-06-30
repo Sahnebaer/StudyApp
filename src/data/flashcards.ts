@@ -1003,4 +1003,154 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'Geteilte vs. nicht-geteilte Umwelteinflüsse',
     answer: 'Geteilte Umwelteinflüsse: wirken auf alle Kinder einer Familie gleich\n→ Einkommen, Familienklima, elterliche Werthaltungen\n→ Wichtiger für IQ-Unterschiede\n\nNicht-geteilte Umwelteinflüsse: einzigartig für jedes Kind\n→ Elterliche Bevorzugung, Geschwistereinfluss, Peers\n→ Wichtiger für fast alle anderen Eigenschaften (z. B. Extraversion)\n\nGesamt: Nicht-geteilte Einflüsse dominieren – Ausnahme: IQ',
   },
+  {
+    id: 'dp-21', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Normskalen im Überblick (z, Z, T, IQ, Stanine)',
+    answer: 'z-Werte: M = 0, SD = 1\nZ-Werte (Standardwerte): M = 100, SD = 10\nT-Werte: M = 50, SD = 10\nIQ-Werte: M = 100, SD = 15\nStanine: M = 5, SD ≈ 2\n\nAlle basieren auf der Normalverteilung – sie verschieben und skalieren nur den Rohwert, damit er mit einer Normierungsstichprobe verglichen werden kann.',
+  },
+  {
+    id: 'dp-22', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Projektive Verfahren – Rorschach-Test',
+    answer: 'Projektive Verfahren: unbewusste Persönlichkeitsanteile sichtbar machen\n\nFormdeuteversuch von Rorschach (1921): Testpersonen werden Tintenkleckse vorgelegt → „Was könnte das sein?" → Deutung soll unbewusste Inhalte enthüllen\n\nVorteil: enthüllt Unbewusstes\nNachteil: mäßige Reliabilität, großer Interpretationsspielraum\n\nAndere projektive Verfahren: TAT (Thematischer Apperzeptionstest)',
+  },
+  {
+    id: 'dp-23', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Reliabilität – Arten der Messung',
+    answer: 'Reliabilität = der Test misst möglichst messfehlerfrei\n\nArten:\n• Retest-Reliabilität: gleiche Testpersonen zu zwei Zeitpunkten, Korrelation der Ergebnisse\n• Interne Konsistenz (Cronbachs Alpha): Homogenität der Items\n• Paralleltest-Reliabilität: zwei verschiedene Versionen desselben Tests\n• Split-Half-Reliabilität: Test in zwei Hälften teilen, Korrelation vergleichen\n\nOhne Reliabilität keine Validität!',
+  },
+  {
+    id: 'dp-24', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Validitätsarten im Überblick',
+    answer: 'Validität = der Test misst, was er messen soll\n\n• Inhaltsvalidität: Items repräsentieren das Konstrukt angemessen\n• Kriteriumsvalidität: Korrelation mit einem Außenkriterium (z. B. Belastungstest korreliert mit stressbedingten Erkrankungen)\n• Konstruktvalidität: Korreliert das Testergebnis mit verwandten Konstrukten wie erwartet?\n\nKriteriumsvalidität ist besonders prüfungsrelevant!',
+  },
+  {
+    id: 'dp-25', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Lexikalischer Ansatz & Faktorenanalyse (Basis der Big Five)',
+    answer: 'Lexikalischer Ansatz: Wichtige Persönlichkeitsunterschiede schlagen sich in der Alltagssprache nieder → Eigenschaftswörter systematisch sammeln und analysieren\n\nEntwicklung der Big Five:\nAllport & Odbert: ~18.000 Eigenschaftswörter\n→ Cattell: 4.500 Wörter, 35 Cluster, 16 Primärfaktoren\n→ Fiske: 5 Faktoren\n→ Norman/Goldberg: Big Five\n\nFaktorenanalyse: statistisches Verfahren, das viele Variablen auf wenige Faktoren reduziert',
+  },
+  {
+    id: 'dp-26', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Big-Five-Facetten am Beispiel Extraversion',
+    answer: 'NEO-PI-R: 5 Dimensionen × 6 Facetten = 30 Subskalen, 240 Items\n\nFacetten der Extraversion:\n1. Herzlichkeit\n2. Geselligkeit\n3. Durchsetzungsfähigkeit\n4. Aktivität\n5. Erlebnishunger\n6. Frohsinn\n\nExtravertierte: energisch, enthusiastisch, dominant, gesellig\nIntravertierte: schüchtern, zurückhaltend, ruhig\n\nZusatz: NEO-FFI = 60-Item-Kurzversion; NEO-FFI-30 = 30 Items',
+  },
+  {
+    id: 'dp-27', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Big Five – Korrelationen mit Lebensergebnissen',
+    answer: 'Neurotizismus: + Angst, Depression, Konflikt / − Wohlbefinden, Coping, Erfolg\nExtraversion: + Wohlbefinden, Status, Führung / − Depression\nOffenheit: + Inspiration, Erfolg / − Substanzmissbrauch, Autoritarismus\nVerträglichkeit: + Religiosität, Freundschaft / − Herzkrankheit, Kriminalität, Scheidung\nGewissenhaftigkeit: + Gesundheit, Langlebigkeit, Leistung / − Risikoverhalten, Kriminalität\n\n(Ozer & Benet-Martínez, 2006; Roberts et al., 2007)',
+  },
+  {
+    id: 'dp-28', moduleId: 'diffpsych', category: 'Intelligenz',
+    question: 'Hochbegabung – Merkmale und Kriterium',
+    answer: 'Kriterium: IQ ≥ 130 → ca. 2 % der Bevölkerung\n\nTypische Merkmale (aber kein automatischer Beweis!):\n• Früheres Laufen und Sprechen\n• Frühere Pubertät\n• Niedrigere Rate psychischer Auffälligkeiten\n• Bessere Schulleistungen\n• Emotional ausgeglichener\n• Häufig Mehrfachbegabungen\n\nWichtig: Einzelne früh auftretende Merkmale sind KEIN automatischer Hochbegabungsbeweis!',
+  },
+  {
+    id: 'dp-29', moduleId: 'diffpsych', category: 'Intelligenz',
+    question: 'Kulturfreie vs. kulturabhängige Intelligenztests',
+    answer: 'Kulturabhängige Tests (Sprache, Zahlen, Wissen):\nWAIS-IV (Nachfolger HAWIE), IST-2000-R, PSB-R 6-13, LPS-2, BIS-4\n\nKulturfreie/-faire Tests (visuelle Kombinationsaufgaben):\nCFT-20-R, Standard Progressive Matrices, BOMAT, APM\n\nDrei Positionen:\n• Universalismus: wissensunabhängige Parameter kulturübergreifend vergleichbar\n• Kontextualisierung: relevanter Bezugsrahmen vorgeben\n• Radikaler Relativismus: nur kulturspezifische Tests sinnvoll',
+  },
+  {
+    id: 'dp-30', moduleId: 'diffpsych', category: 'Intelligenz',
+    question: 'Thurstones 7 Primary Mental Abilities (1939)',
+    answer: 'Louis Thurstone identifizierte 7 unabhängige Grundfähigkeiten:\n1. Verbale Fähigkeiten (V)\n2. Wortflüssigkeit (W)\n3. Numerische Fähigkeiten (N)\n4. Räumliches Denken (S)\n5. Gedächtnis (M)\n6. Wahrnehmungsschnelligkeit (P)\n7. Schlussfolgerungsfähigkeit (R)\n\nGegensatz zu Spearman: Thurstone lehnte den g-Faktor ab – Intelligenz ist keine einheitliche Fähigkeit. Carroll (1993) bestätigte später Spearmans g-Faktor empirisch.',
+  },
+  {
+    id: 'dp-31', moduleId: 'diffpsych', category: 'Kreativität & Motive',
+    question: 'Thematischer Apperzeptionstest (TAT) – Aufbau und Zweck',
+    answer: 'TAT: projektives Verfahren zur Messung impliziter Motive (v. a. Leistungs-, Bindungs-, Machtmotiv)\n\nDurchführung: Testpersonen erzählen Geschichten zu mehrdeutigen Bildern\n→ Inhalte der Geschichten sollen unbewusste Motive enthüllen\n\nVorteile: enthüllt Unbewusstes, kaum verfälschbar\nNachteile: mäßige Reliabilität, große Interpretationsspielräume, zeitaufwändig\n\nAlternative für explizite Motive: Fragebogen wie Personality Research Form (PRF, Jackson 1984)',
+  },
+  {
+    id: 'dp-32', moduleId: 'diffpsych', category: 'Kognitive Theorien',
+    question: 'Selbsterfüllende Prophezeiung',
+    answer: 'Definition: Vorhersage über zukünftiges Verhalten, die Interaktionen so verändert, dass die Vorhersage eintritt\n\nBeispiele:\n• „Auf der Party werde ich viel Spaß haben" → Verhalten entsprechend angepasst → tatsächlich Spaß\n• „Der guckt mich sowieso nie an" → Rückzug → kein Blickkontakt\n• Lehrererwartung beeinflusst Schülerleistung (Rosenthal-Effekt)\n\nMechanismus: Erwartung verändert das eigene und fremdes Verhalten',
+  },
+  {
+    id: 'dp-33', moduleId: 'diffpsych', category: 'Selbst & Persönlichkeit',
+    question: 'Flow – Merkmale nach Csikszentmihalyi/Seligman',
+    answer: 'Flow = intensiv positiver Erlebenszustand bei vollständiger Aufgabenvertiefung\n\nMerkmale (Seligman, 2002):\n• Herausfordernde, kompetenzerfordernde Aufgabe\n• Hohe Konzentration\n• Klare Ziele\n• Unmittelbares Feedback\n• Mühelose Involviertheit\n• Gefühl der Kontrolle\n• Verschwinden des Selbstgefühls\n• Zeitgefühl setzt aus\n\nBedingung: Balance zwischen Herausforderung und eigenen Fähigkeiten',
+  },
+  {
+    id: 'dp-34', moduleId: 'diffpsych', category: 'Persönlichkeitstheorien',
+    question: 'Freuds psychosexuelle Entwicklungsphasen',
+    answer: 'Freud: Persönlichkeitsentwicklung verläuft in Phasen; Störungen in einer Phase prägen die spätere Persönlichkeit\n\n1. Orale Phase (0–1 Jahr): Befriedigung durch Mund\n2. Anale Phase (1–3 Jahre): Kontrolle über Ausscheidung\n3. Phallische Phase (3–6 Jahre): Ödipus-/Elektrakomplex, Entdeckung Geschlechtsunterschiede\n4. Latenzphase (6–12 Jahre): Triebwünsche schlummern\n5. Genitale Phase (ab Pubertät): reife Sexualität\n\nKritik: Empirisch nicht falsifizierbar',
+  },
+  {
+    id: 'dp-35', moduleId: 'diffpsych', category: 'Persönlichkeitstheorien',
+    question: 'Maslows Bedürfnishierarchie',
+    answer: 'Abraham Maslow (humanistische Theorie): Menschen streben von sich aus nach Selbstverwirklichung\n\nHierarchie (von unten nach oben):\n1. Physiologische Bedürfnisse (Schlaf, Nahrung, Wasser)\n2. Sicherheitsbedürfnisse (Schutz, Stabilität)\n3. Zugehörigkeit und Liebe (Beziehungen, Gemeinschaft)\n4. Achtung/Wertschätzung (Anerkennung, Status)\n5. Selbstverwirklichung (Entfaltung des vollen Potenzials)\n\nErst wenn untere Ebenen befriedigt, wird die nächste relevant',
+  },
+  {
+    id: 'dp-36', moduleId: 'diffpsych', category: 'Persönlichkeitsentwicklung',
+    question: 'Sequenz-Studien – warum besser als Querschnitt oder Längsschnitt allein?',
+    answer: 'Problem Querschnittstudie: verschiedene Kohorten vermischen echte Alterseffekte mit historischen Unterschieden (Kohorteneffekt)\n\nProblem Längsschnittstudie: Testeffekte, Ausfall von Probanden\n\nSequenz-Studie (Kohortensequenzplan) = Kombination:\n→ Mehrere Kohorten werden jeweils längsschnittlich begleitet\n→ Ermöglicht Vergleich Gleichaltriger aus verschiedenen Kohorten\n→ Trennung von Kohorten-, Alters- und Testeffekten möglich',
+  },
+  {
+    id: 'dp-37', moduleId: 'diffpsych', category: 'Kreativität & Motive',
+    question: 'Einstellungen – implizit vs. explizit, Messmethoden',
+    answer: 'Einstellung (Asendorpf, 2015): individualtypische Bewertung von Wahrnehmungsobjekten (positiv/negativ)\n\nExplizite Einstellungen: bewusst, per Fragebogen messbar; anfällig für soziale Erwünschtheit\n\nImplizite Einstellungen: unwillkürlich, automatisch\nMessung:\n• Affektives Priming: schnelle Reaktionszeiten auf emotional kongruente Reize\n• Impliziter Assoziationstest (IAT): misst automatische Assoziationen über Reaktionszeiten\n\nImplizite Einstellungen sagen Verhalten oft besser voraus als explizite',
+  },
+  {
+    id: 'dp-38', moduleId: 'diffpsych', category: 'Selbst & Persönlichkeit',
+    question: 'Sechs Informationsverarbeitungsprozesse für das Selbstwertgefühl',
+    answer: '1. Selbstwahrnehmung/Selbstbild: erwartungsgesteuert, stabilisiert durch selbstkonsistenzerhöhende Verzerrung\n2. Selbsterinnerung: stärkt Identitätsgefühl\n3. Soziales Spiegeln: wir sehen uns, wie wir glauben, dass andere uns sehen\n   → Menschen schätzen die DURCHSCHNITTLICHE Fremdmeinung gut ein, nicht individuelle Unterschiede\n4. Soziales Vergleichen: relativ zur Bezugsgruppe → Big-Fish-Little-Pond-Effekt\n5. Selbstüberschätzung: mäßige Form dient der Selbstwerterhaltung\n6. Selbstdarstellung: Steuerung des Eindrucks nach außen',
+  },
+  {
+    id: 'dp-39', moduleId: 'diffpsych', category: 'Persönlichkeitstheorien',
+    question: 'Freuds Abwehrmechanismen – 5 wichtigste',
+    answer: '1. Verdrängung: Grundlage ALLER anderen Mechanismen; angsterregende Inhalte werden aus dem Bewusstsein verdrängt\n2. Verleugnung: offensichtliche Realität wird nicht anerkannt (z. B. Raucher verleugnet Krebsrisiko)\n3. Projektion: eigene bedrohliche Impulse werden anderen zugeschrieben\n4. Sublimierung: nicht erfüllte Triebwünsche → gesellschaftlich akzeptierte Handlungen (Kunst, Sport)\n5. Regression: Rückzug auf frühere Entwicklungsphase (z. B. Daumenlutschen vor erstem Schultag)',
+  },
+  {
+    id: 'dp-40', moduleId: 'diffpsych', category: 'Persönlichkeitstheorien',
+    question: 'Biopsychologische Theorien – Cloninger: Temperament vs. Charakter',
+    answer: 'Biopsychologische Theorien: direkte Zusammenhänge zwischen biologisch verankerten Merkmalen und Persönlichkeitseigenschaften (z. B. neuronale Ansprechbarkeit → Extraversion)\n\nRobert Cloninger:\n• Temperament: weitgehend angeboren, biologisch verankert, frühzeitig beobachtbar\n• Charakter: entwickelt sich durch soziale Lernprozesse, durch Umwelt formbar\n→ Beide beeinflussen sich gegenseitig\n\nMenschenbild: Persönlichkeit hat biologische Basis, ist aber nicht vollständig angeboren',
+  },
+  {
+    id: 'dp-41', moduleId: 'diffpsych', category: 'Kreativität & Motive',
+    question: 'Kreativität messen: Consensual Assessment Technique (CAT)',
+    answer: 'CAT (Amabile): Expertengremien bewerten kreative Produkte unabhängig voneinander\n→ Zeigt empirisch hohe Übereinstimmung zwischen unabhängigen Juroren\n\nBewertungsdimensionen:\n• Neuartigkeit\n• Nützlichkeit\n• Originalität\n• Umsetzbarkeit\n+ Fluency (Gesamtzahl der Ideen)\n\nBeispielaufgabe: Möglichst viele Verwendungsmöglichkeiten für einen Teelöffel sammeln, bewertet von mind. 2 unabhängigen Ratern\n\nAmabile (1983): Sorgenfreie Umgebung ohne Bewertungsdruck fördert Kreativität',
+  },
+  {
+    id: 'dp-42', moduleId: 'diffpsych', category: 'Intelligenz',
+    question: 'HAWIE/WAIS – Beispielitems und Wechslers Intelligenz-Definition',
+    answer: 'Wechsler: Intelligenz = „zweckvoll handeln, vernünftig denken, sich mit der Umgebung wirkungsvoll auseinandersetzen"\n\nHAWIE/WAIS-Untertests:\n• Allgemeines Wissen: „Was ist der Koran?"\n• Wortschatztest: Bedeutung von „Parlament" erklären\n• Rechnerisches Denken: Preisberechnung\n• Gemeinsamkeiten finden: „Was haben Auge und Ohr gemeinsam?"\n\nKulturabhängig! Die Frage nach dem Koran wurde aus neueren Versionen gestrichen, da das Wissen heute zu verbreitet ist.',
+  },
+  {
+    id: 'dp-43', moduleId: 'diffpsych', category: 'Grundbegriffe',
+    question: 'Historische Wegbereiter: Wundt, Cattell, Münsterberg, Binet',
+    answer: 'Wilhelm Wundt (1832–1920): 1879 Gründung des ersten Instituts für experimentelle Psychologie (Leipzig)\n\nJames McKeen Cattell (1860–1944): Wundt-Schüler; Reaktionszeitmessungen; prägte 1890 den Begriff „mental tests"\n\nHugo Münsterberg (1863–1916): ergänzte (1891) „mental tests" um verbale Assoziationen, Rechnen, Lesen, Gedächtnistests\n\nAlfred Binet (1857–1911): kritisierte zu enge sensorische Tests; entwickelte ersten Intelligenztest für Schulkinder (mit Simon, 1905)',
+  },
+  {
+    id: 'dp-44', moduleId: 'diffpsych', category: 'Grundbegriffe',
+    question: 'Sir Francis Galton – Beiträge zur Differentiellen Psychologie',
+    answer: 'Francis Galton (Cousin von Charles Darwin):\n• Begründer der Intelligenzforschung\n• Entwickelte das Galton-Brett zur Visualisierung der Normalverteilung (Kugeln fallen durch ein Stiftraster und verteilen sich glockenförmig)\n• Erste Tests von Sinneswahrnehmung und Gedächtnis (1884)\n• Systematische Erfassung individueller Unterschiede\n• Beeinflusste stark die spätere Test- und Differentialpsychologie',
+  },
+  {
+    id: 'dp-45', moduleId: 'diffpsych', category: 'Persönlichkeitsentwicklung',
+    question: 'Vier Ebenen des Geschlechts',
+    answer: '1. Genetisches Geschlecht: Chromosomenkombination (XX / XY)\n2. Hormonelles Geschlecht: Hormonprofil (Testosteron, Östrogen)\n3. Neuronales Geschlecht: Gehirnstruktur und -funktion\n→ Diese drei zusammen = biologisches Geschlecht (sex)\n\n4. Psychologisches Geschlecht: innere Geschlechtsidentität (gender)\n\nGeschlechtsstereotype (gender role) = kulturell verankert\n→ Stereotype sind selten völlig falsch, aber oft übertrieben\n→ Kinder: rigides Stereotyp in Vorschulzeit, flexibler in Grundschulzeit',
+  },
+  {
+    id: 'dp-46', moduleId: 'diffpsych', category: 'Persönlichkeitsentwicklung',
+    question: 'IQ-Stabilität im Lebensverlauf',
+    answer: 'IQ ist die stabilste Persönlichkeitseigenschaft:\n• Stabilisiert sich bis zum 8. Lebensjahr\n• Korrelation IQ mit 6 Jahren und 40 Jahren: r = 0,6–0,8\n\nWarum stabilisiert sich IQ früher als andere Eigenschaften?\n→ Starke genetische Basis; kristalline Intelligenz wächst weiter, Entwicklungsschere schließt sich früh\n\nVgl. Big Five: Stabilisieren sich langsamer, Veränderungen noch im jungen Erwachsenenalter möglich\nVgl. Selbstwertgefühl: am wenigsten stabil, stark situationsabhängig',
+  },
+  {
+    id: 'dp-47', moduleId: 'diffpsych', category: 'Kreativität & Motive',
+    question: 'Impliziter Assoziationstest (IAT)',
+    answer: 'IAT (Impliziter Assoziationstest): misst automatische, unbewusste Einstellungen über Reaktionszeiten\n\nPrinzip: Wenn zwei Konzepte eng assoziiert sind, werden sie schneller zusammen kategorisiert\nBeispiel: „Blume + Gut" vs. „Insekt + Gut" – Reaktionszeiten zeigen implizite Bewertung\n\nVorteil: Soziale Erwünschtheit kaum möglich (automatisch)\nNachteil: Reliabilität und Validität umstritten\n\nAuch: Affektives Priming als Alternative – positiver Priming-Reiz erleichtert positive Zielreiz-Reaktion',
+  },
+  {
+    id: 'dp-48', moduleId: 'diffpsych', category: 'Intelligenz',
+    question: 'Emotionale Intelligenz – Kritik und praktische Einordnung',
+    answer: 'Salovey & Mayer (1990): wissenschaftliche Grundlage (4 Komponenten)\nGoleman (1995): Popularisierung – Behauptung, EI erkläre 80 % des Erfolgsunterschieds\n→ NICHT belegt!\n\nKritik Gardner (1999): Intelligenzbegriff wird zu weit gefasst/verwässert\n\nLängsschnittstudie Izard et al. (2001): gutes Emotionserkennen mit 5 Jahren sagte höhere soziale Kompetenz in der 3. Klasse vorher\n\nPraktisch: Hirnschädigungen können EI reduzieren, während allgemeine Intelligenz intakt bleibt (Damasio, 1994) → EI ist teilweise unabhängig von IQ',
+  },
+  {
+    id: 'dp-49', moduleId: 'diffpsych', category: 'Messung',
+    question: 'Satisficing-Verhalten und Testlänge',
+    answer: 'Satisficing-Verhalten: Testpersonen hören nach ~20 Min. bei langen Fragebögen auf, wirklich nachzudenken → blockweises Ankreuzen ohne echte Überlegung\n\nFolgen:\n• Beeinträchtigt Reliabilität\n→ Beeinträchtigt automatisch auch Validität\n\nBedeutet: Testlänge ist ein Gütekriterium!\n→ Ökonomie (Nebengütekriterium): möglichst wenig Ressourcenaufwand\n→ Zumutbarkeit: Testperson nicht übermäßig belasten\n\nPraxisbeispiel: 60-minütiger Fragebogen → Ermüdung → Messfehler',
+  },
+  {
+    id: 'dp-50', moduleId: 'diffpsych', category: 'Grundbegriffe',
+    question: 'Abgrenzung: Differentielle vs. Allgemeine vs. Klinische Psychologie',
+    answer: 'Differentielle Psychologie: interindividuelle Unterschiede zwischen Menschen → Was unterscheidet Personen voneinander?\n\nAllgemeine Psychologie: Gesetzmäßigkeiten des DURCHSCHNITTLICHEN Individuums → Was gilt für alle Menschen gleich?\n\nKlinische Psychologie: pathologische Besonderheiten (z. B. Depression, Angststörungen)\n\nPersonal-/Persönlichkeitspsychologie: intrapersonale Einheit einer Person\n→ Heute zusammen mit Differentieller Psychologie als eine Disziplin (DPP) betrachtet\n\nDifferentielle + Allgemeine Psychologie ergänzen sich: eine erklärt Unterschiede, die andere Gemeinsamkeiten',
+  },
 ];
