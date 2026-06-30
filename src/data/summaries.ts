@@ -3335,4 +3335,395 @@ KI-Systeme sind nicht neutral! Sie spiegeln die Muster in den Trainingsdaten wid
       },
     ],
   },
+  {
+    moduleId: 'pm',
+    title: 'Projektmanagement (FOM · Prof. Dr. Patrick Lückmann)',
+    sections: [
+      {
+        heading: 'Projektmanagement Basics',
+        content: `> 📌 **Klausur:** 90 Min, ca. 90 % Multiple Choice (4 Antworten, 1 richtig). Wichtig: Begriffe definieren, Beispiele nennen, Vor-/Nachteile diskutieren.
+
+### Definitionen
+
+- **Projekt**: hat definierten Anfang & Ende, liefert ein einzigartiges/neues Ergebnis, keine sich wiederholenden Tätigkeiten, hohe Unsicherheit, generiert Produkte/Dienstleistungen/Fähigkeiten.
+- **Projektmanagement**: Anwendung von Wissen, Fähigkeiten, Werkzeugen und Techniken, um Projektanforderungen zu erfüllen (PMI/PMBoK).
+- **Magisches Dreieck/Vieleck**: Scope (Inhalt/Umfang), Zeit, Kosten/Budget, Qualität (Output), Qualität der Ressourcen (Input), Risiko.
+
+### Die 5 Prozessgruppen (PMI-Standard)
+
+| Nr. | Prozessgruppe | Kürzel |
+|---|---|---|
+| 1 | Initiierung | I |
+| 2 | Planung | P |
+| 3 | Execution / Ausführung | E |
+| 4 | Monitoring & Controlling | M&C |
+| 5 | Closing / Abschluss | C |
+
+> ⚠️ **Wichtig: Prozessgruppen ≠ Projektphasen!** Sie sind nicht sequenziell, sondern interagieren und überschneiden sich in unterschiedlicher Intensität entlang des Projektlebenszyklus. Jede Projektphase kann wie ein Unterprojekt mit eigenen 5 Prozessgruppen behandelt werden.
+
+**Kosten für Änderungen steigen** im Projektverlauf, während Stakeholder-Einfluss, Risiko und Unsicherheit **abnehmen** → frühzeitige Sorgfalt zahlt sich aus!
+
+### Die 9 Wissensgebiete (Knowledge Areas)
+
+1. Projektintegration
+2. Scope-Management
+3. Zeitmanagement
+4. Kostenmanagement
+5. Qualitätsmanagement
+6. Risikomanagement
+7. Stakeholder-Management
+8. Personalmanagement
+9. Kommunikationsmanagement
+
+→ Jedes Wissensgebiet hat Prozesse in (fast) jeder Prozessgruppe (Matrix Wissensgebiete × Prozessgruppen, PMBoK).
+
+### Projekte, Programme, Portfolios
+
+- **Programm**: Gruppe verbundener Projekte/Unterprogramme, koordiniert geführt (z. B. NASA „Apollo"-Programm).
+- **Portfolio**: Projekte, Programme, Sub-Portfolios zur Erreichung strategischer Ziele.
+- **Top-Down**: Projekte implementieren Strategie. **Bottom-Up**: Projekte informieren Strategie.
+
+### Projektorganisationsformen
+
+| Form | PM-Autorität | Ressourcenverfügbarkeit | PM-Rolle |
+|---|---|---|---|
+| **Funktional** | gering/keine | gering/keine | Teilzeit |
+| **Schwache Matrix** | begrenzt | begrenzt | Teilzeit |
+| **Ausgewogene Matrix** | gering–mittel | mittel | Vollzeit |
+| **Starke Matrix** | mittel–hoch | mittel–hoch | Vollzeit |
+| **Projektbasiert** | hoch–fast vollständig | hoch–fast vollständig | Vollzeit |
+
+**Wichtige Begriffe:**
+- **Project Charter (Projektauftrag)**: legitimiert formell das Projekt, verleiht dem PM Autorität über Ressourcen. Enthält: Projekttitel, PM & Weisungsbefugnis, Business Case, Stakeholder, **S.M.A.R.T.-Ziele**, Deliverables.
+- **PSP (WBS)**: deliverable-orientierte hierarchische Dekomposition der Arbeit; definiert den Scope.
+- **PMO**: organisationale Einheit für zentralisiertes/koordiniertes Projektmanagement.
+- **Scope Creep**: unkontrollierte schleichende Scope-Ausweitung.`,
+      },
+      {
+        heading: 'Wissensgebiete im Detail',
+        content: `### 2.1 Projektintegration
+
+5 Prozessschritte: Projektauftrag entwickeln (I) → PM-Plan entwickeln (P) → Projektarbeit führen (E) → Change Control durchführen (M&C) → Projekt/Phase schließen (C).
+
+**Change Control** (4 Schritte): 1. Auswirkung bewerten → 2. Alternativen entwickeln → 3. Änderung bewilligen → 4. Kunden überzeugen.
+
+**Projekt abschließen**: Arbeit gemäß Anforderungen bestätigen, Übergabe + Feedback, finaler Leistungsbericht, Archivierung & **Lessons Learned**.
+
+---
+
+### 2.2 Scope-Management
+
+**Kreativitätstechniken zur Anforderungserhebung**: Brainstorming, Nominal Group Technique, Methode 6-3-5, Delphi-Methode, Mind Mapping, QFD-Workshops (Voice of Customer).
+
+**Entscheidungsfindung**: Einstimmigkeit, Mehrheit (>50 %), Pluralität (größte Gruppe), „Diktatur".
+
+**PSP/WBS**: hierarchische Dekomposition (Ebene 1 = Projekt, untere Ebene = Arbeitspakete).
+- Strukturierungskriterien: nach Objekten, nach Aktivitäten, nach Projektphasen – meist Mix.
+- Entwicklung: Bottom-Up (viel Erfahrung) oder Top-Down (wenig Erfahrung).
+
+---
+
+### 2.3 Zeitmanagement
+
+**Schätzprobleme:**
+- **Parkinson's Gesetz**: Arbeit füllt die verfügbare Zeit aus.
+- **Studentenkrankheit**: Puffer werden gleich zu Beginn verbraucht.
+- **Persönliche Puffer**: jeder baut intuitiv Sicherheitspuffer ein.
+
+**PERT-Formel (Drei-Punkt-Schätzung):**
+> PERT-Wert = (P + 4W + O) / 6
+> (P = pessimistisch, W = wahrscheinlich, O = optimistisch)
+
+**Netzplantechnik / Kritischer Pfad:**
+- **FAZ** = Früheste Anfangszeit, **FEZ** = Früheste Endzeit (Forward Pass: höhere Zahl übernehmen)
+- **SAZ** = Späteste Anfangszeit, **SEZ** = Späteste Endzeit (Backward Pass: tiefere Zahl übernehmen)
+- **Puffer = SAZ – FAZ**
+- **Kritischer Pfad** = Aktivitätenfolge mit Puffer = 0; Verspätung hier → Verspätung des gesamten Projekts!
+
+**Kompressionstechniken:**
+- **Crashing**: Ressourcen hinzufügen → schneller, aber teurer
+- **Fast Tracking**: Aktivitäten parallelisieren → schneller, aber riskanter
+
+**Gantt-Diagramm**: Zeitplanung als Balkendiagramm, abgeleitet aus PSP + Netzplan.
+
+---
+
+### 2.4 Kostenmanagement & Earned-Value-Methode (EVM)
+
+| Kürzel | Name | Bedeutung |
+|---|---|---|
+| **PV** | Planned Value | Planwert für den Zeitraum |
+| **EV** | Earned Value | durch Projektfortschritt gerechtfertigte Kosten |
+| **AC** | Actual Cost | tatsächliche Kosten |
+| **BAC** | Budget at Completion | ursprünglich geplantes Gesamtbudget |
+
+**Abweichungen:**
+- **CV (Cost Variance) = EV – AC** (negativ = Budgetüberschreitung)
+- **SV (Schedule Variance) = EV – PV** (negativ = Verzug)
+
+**Indizes:**
+- **CPI = EV / AC** → Wert pro investiertem Euro (CPI < 1 = ungünstig)
+- **SPI = EV / PV** → Fortschrittsgeschwindigkeit relativ zum Plan
+
+**Prognosen (EAC – Estimate at Completion):**
+- Systematischer Schätzfehler: EAC = BAC / CPI
+- Einmaleffekt: EAC = AC + (BAC – EV)
+- Kombiniert: EAC = AC + (BAC – EV) / (CPI × SPI)
+- **ETC = EAC – AC** | **VAC = BAC – EAC** | **TCPI = (BAC – EV) / (BAC – AC)**
+
+---
+
+### 2.5 Qualitätsmanagement
+
+**Ursachenanalyse-Werkzeuge:**
+- **5-Mal-Warum-Technik**: iteratives Fragen nach der Ursache bis zur Grundursache.
+- **Ishikawa-/Fishbone-Diagramm**: strukturierte Ursache-Wirkungs-Analyse.
+
+**Statistische Werkzeuge:**
+- **Pareto-Diagramm**: absteigend sortiert + kumulierte % → **80/20-Regel** (20 % der Ursachen = 80 % der Probleme).
+- **Histogramm**: Häufigkeitsverteilung von Problemkategorien.
+- **Verlaufsdiagramm (Run Chart)**: Muster/Trends über Zeit.
+- **Streuungsdiagramm (Scatterplot)**: Korrelation zwischen zwei Variablen.
+
+---
+
+### 2.6 Risikomanagement
+
+**Risikoidentifikation**: Suche nach kritischem Pfad/Engpässen; Six Thinking Hats, Advocatus Diaboli, SWOT, Ishikawa. Ergebnis: **Risikoregister**.
+
+**Qualitative Risikoanalyse**: Eintrittswahrscheinlichkeit × Auswirkung → Risikomatrix.
+
+**EMV (Expected Monetary Value):**
+> EMV = Σ (Wahrscheinlichkeit × Auszahlung)
+> → Entscheidungsbaum: Option mit höchstem EMV (Gewinne) / niedrigstem EMV (Kosten) wählen.
+
+**Risikobewältigungsstrategien:**
+
+| Negative Risiken | Positive Risiken (Chancen) |
+|---|---|
+| A. Vermeiden | E. Ausnutzen |
+| B. Transfer | F. Teilung |
+| C. Milderung | G. Verbesserung |
+| D. Akzeptanz | H. Akzeptanz |
+
+---
+
+### 2.7 Stakeholder-Management
+
+**Analysemodelle:**
+- **Macht-Interesse-Raster**: hohe Macht + hohes Interesse = „eingehend managen"; hohe Macht + niedriges Interesse = „zufrieden halten"; niedrige Macht + hohes Interesse = „informiert halten"; niedrige Macht + niedriges Interesse = „beobachten".
+- **Salienz-Modell**: Dimensionen Macht + Legitimität + Dringlichkeit bestimmen Stakeholder-Typ.
+- **Einstellungsmatrix**: Ahnungslos → Resistent → Neutral → Unterstützend; Ist (A) vs. Ziel (G).
+
+---
+
+### 2.8 Personalmanagement
+
+**RACI-Matrix:**
+- **R** = Responsible (ausführend verantwortlich)
+- **A** = Accountable (rechenschaftlich verantwortlich)
+- **C** = Consulted (beratend)
+- **I** = Informed (informiert)
+
+**Tuckman-Teamphasen**: Forming → Storming → Norming → Performing → Adjourning.
+
+**Machtquellen des PM**: Formal (Position), Belohnung, Strafe, Fachlich (Expertise), Charismatisch.
+
+**Konfliktlösungstechniken**: Konfrontation, Glättung, Kompromiss, Zusammenarbeit, Rückzug, Gewalt/Macht.
+
+---
+
+### 2.9 Kommunikationsmanagement
+
+**Kommunikationskanal-Formel:**
+> Kanäle = N(N–1) / 2  (N = Anzahl Teilnehmer) – wächst überproportional!
+
+**Kommunikationsmethoden:**
+- **Interaktiv**: multidirektional, am effektivsten (Meetings, Calls).
+- **Push**: Verteilung an Empfänger, kein Verständnis garantiert (E-Mails, Berichte).
+- **Pull**: große Informationsmenge, Empfänger bewertet selbst (Intranet, Wikis).
+
+**Vier-Ohren-Modell (Schulz von Thun)**: Sachebene, Selbstkundgabe, Beziehungsebene, Appell.
+
+**Strukturierte Kommunikationstechniken:**
+- **CRE**: Claim – Reason – Evidence.
+- **MECE**: Mutually Exclusive, Collectively Exhaustive – Aussagen überschneiden sich nicht und decken das Ganze ab.
+- **SCQA**: Situation – Complication – Question – Answer.`,
+      },
+      {
+        heading: 'Agiles Projektmanagement – SCRUM',
+        content: `### Warum Agile?
+
+Klassisches (Wasserfall-)PM funktioniert gut bei klaren, stabilen Anforderungen. Bei **hoher Komplexität** versagt detaillierte Vorausplanung: „Kein Plan überlebt die erste Feindberührung" (H. von Moltke). Scrum bietet iteratives, adaptives Vorgehen für komplexe Projekte.
+
+### Sprints
+
+- Zeitlich begrenzte Einheit (**2–4 Wochen**), die ein lieferbares **Produkt-Inkrement** erstellt.
+- Mehrere Sprints liefern sukzessive Teilergebnisse statt erst am Ende ein Gesamtergebnis.
+
+### Scrum-Rollen
+
+| Rolle | Aufgabe |
+|---|---|
+| **Product Owner** | Pflegt und priorisiert das Product Backlog |
+| **Scrum-Master** | Moderiert, sorgt für Einhaltung der Scrum-Praktiken |
+| **Entwicklungsteam** | Setzt die Arbeit um |
+
+### Scrum-Artefakte
+
+- **Product Backlog**: gepflegt vom Product Owner; priorisiert nach Wert/Kosten/Risiko; laufend ergänzt.
+- **Sprint Backlog**: entsteht in der Sprint-Planung; enthält das in 2–4 Wochen Machbare; in Aufgaben mit Stundenschätzung heruntergebrochen.
+- **Lieferbares Inkrement**: „erledigtes" (Definition of Done) Ergebnis des Sprints – funktionsfähig & demonstrierbar.
+
+### Scrum-Aktivitäten (Sprint-Zyklus)
+
+Product Backlog → Sprint-Planung → Sprint Backlog → Sprint-Ausführung (+ Daily Scrum) → Inkrement → Sprint-Review → Sprint-Retrospektive → zurück zu Product Backlog.
+
+### Wann Agile einsetzen?
+
+**Schwaber & Beedle (2001)** – nach Komplexität:
+- **Simple/Complicated** (Standardprozesse): traditionelles PM oder KANBAN
+- **Complex** (Software, Technologie): **Agile/Scrum**
+- **Chaotic** (Start-ups, Wissenschaft): zunächst Komplexität reduzieren, dann agile Methoden
+
+**Wysocki (2019)** – nach Ziel × Lösung:
+
+| Ziel / Lösung | Klar | Unklar |
+|---|---|---|
+| **Klar** | Q1: Traditionelles PM (linear) | Q2: Agiles PM (iterativ) |
+| **Unklar** | Q4: „Emertxe" PM | Q3: „Extreme" PM |`,
+      },
+      {
+        heading: 'Interkulturelles Projektmanagement',
+        content: `### Problemstellung
+
+Internationale Projekte bedeuten interkulturelle Zusammenarbeit. Zwei methodische Probleme: **eigene kulturelle Prägung** (fehlende Objektivität) und **schematische Wahrnehmung** (Stereotypen).
+
+### Hofstedes 6 Kulturdimensionen (2010)
+
+| Dimension | Auswirkung auf Projekte |
+|---|---|
+| **1. Machtdistanz** | Flache Hierarchien: PM bindet Team ein. Steile Hierarchien: Team erwartet klare Führung „von oben" |
+| **2. Risikovermeidung** | Risikoscheu: intensives Planen. Risikofreudig: Planung gilt als Zeitverschwendung |
+| **3. Kollektivismus vs. Individualismus** | Kollektiv: Konsensentscheidung, Gruppenanreize, langsam aber schnelle Umsetzung. Individual: Boss entscheidet, individuelle Anreize |
+| **4. Maskulinität vs. Femininität** | Wettbewerb/Leistung vs. Fürsorge/Kooperation |
+| **5. Langfrist- vs. Kurzfrist-Orientierung** | Strategische Planung vs. kurzfristige Ergebnisse |
+| **6. Indulgence vs. Restraint** | Genuss/Offenheit vs. strenge gesellschaftliche Normen |
+
+**Zeit-Dimension (Hall):**
+- **Sequentielle Kulturen** (z. B. Schweiz): Deadlines & Pünktlichkeit wichtig.
+- **Synchrone Kulturen** (z. B. Costa Rica): Beziehungsfokus, Zeitpläne nur Orientierung.
+
+### Cultural Intelligence (CQ) – Ang & Van Dyne (2008)
+
+| Dimension | Inhalt |
+|---|---|
+| **CQ Drive** (Motivational) | Motivation & Selbstvertrauen für interkulturelle Aufgaben |
+| **CQ Knowledge** (Cognitive) | Wissen über Normen & Praktiken anderer Kulturen |
+| **CQ Strategy** (Metacognitive) | Bewusste Planung & Reflexion in interkulturellen Situationen |
+| **CQ Action** (Behavioral) | Fähigkeit, angemessenes verbales/nonverbales Verhalten zu zeigen |
+
+### ICC-Modell (Deardorff, 2006)
+
+Knowledge & Comprehension (kulturelles Selbstbewusstsein) + Skills (Zuhören, Beobachten) + Attitudes (Respekt, Offenheit, Neugier) → interner Outcome (Empathie, Perspektivwechsel) → externer Outcome (effektive interkulturelle Kommunikation).`,
+      },
+      {
+        heading: 'Change Management',
+        content: `### Change Management-Carta (Doppler & Lauterburg, 2008)
+
+Prinzipien für erfolgreiches Change Management (Dont's → Do's):
+
+| ❌ Fehler | ✅ Richtig |
+|---|---|
+| Unklare, diffuse Ziele | Transparente Projektziele, plausible Begründungen |
+| Schlampig zusammengestelltes Team | Handverlesene Auswahl der Schlüsselleute |
+| Pfannenfertige Konzepte aufdrängen | Beteiligung Betroffener bei Lösungserarbeitung |
+| Kaltstart | Sorgfältige Vorbereitung & Kick-off-Phase |
+| Versteckter Widerstand | Konstruktiver Umgang mit Widerstand |
+| Konflikte vermeiden | Konflikte offenlegen und bearbeiten |
+| Einweg-Kommunikation | Offene, lebendige, interaktive Kommunikation |
+
+**Wichtig**: Information ≠ Kommunikation; Top-Down allein reicht nicht!
+
+### Instrumente des Change Management
+
+**Organisationsdiagnose** – Untersuchungsfelder: Strategische Positionierung, Strukturen, Verhalten, Führungs-/Unternehmenskultur.
+
+**Datenerhebungsmethoden:**
+
+| Methode | Teilnehmer | Vorteil | Nachteil |
+|---|---|---|---|
+| Einzelinterview | 1 | Höchste Offenheit, Tiefgang | Hoher Zeitaufwand |
+| Gruppeninterview | 5–7 | Teamkultur, größere Reichweite | Gruppendynamik überlagert |
+| Hearing | Viele | Schneller Überblick | Wenig Tiefgang |
+| Diagnose-Workshop | 20–25 | Strukturierte Verdichtung | Hoher Organisationsaufwand |
+| Schriftliche Befragung | Groß | Standardisiert, auswertbar | Wenig Dialog |
+
+**Feedback-Struktur (Ich-Botschaften):**
+„Ich habe gesehen…" → „Das wirkt auf mich…" → „Ich wünsche mir…"
+
+### Kotters 8-Schritte-Plan & typische Fehler
+
+| Schritt | Worum geht's | Typischer Fehler |
+|---|---|---|
+| **1. Dringlichkeit schaffen** | Status-quo-Gefahr vermitteln | Komfortzone unterschätzt |
+| **2. Führungskoalition bilden** | Mächtiges Team außerhalb der Hierarchie | Unzureichende Erfahrung |
+| **3. Vision entwickeln** | Orientierung & Strategie | Vision zu vage (muss in 5 Min. erklärbar sein!) |
+| **4. Vision kommunizieren** | Jeden Kanal nutzen, Vorbildverhalten | Unterkommunikation, widersprüchliches Verhalten |
+| **5. Andere ermächtigen** | Hindernisse beseitigen | Gegner des Wandels nicht rechtzeitig entfernt |
+| **6. Kurzfristige Erfolge** | Sichtbare Verbesserungen planen & belohnen | Keine Verbesserung in 12–24 Monaten |
+| **7. Verbesserungen konsolidieren** | Glaubwürdigkeit für weiteren Wandel nutzen | Zu früh den Sieg erklärt |
+| **8. Neue Ansätze verankern** | Verbindung Erfolg ↔ neues Verhalten | Fehlende neue gemeinsame Werte/Normen |`,
+      },
+      {
+        heading: '📐 Formeln & Cheat Sheet',
+        content: `### Zeitmanagement
+
+| Formel | Bedeutung |
+|---|---|
+| **(P + 4W + O) / 6** | PERT-Schätzung (P=pessimistisch, W=wahrscheinlich, O=optimistisch) |
+| **Puffer = SAZ – FAZ** | Pufferzeit; kritischer Pfad = Puffer 0 |
+
+### Earned-Value-Methode (EVM)
+
+| Formel | Bedeutung |
+|---|---|
+| **CV = EV – AC** | Kostenabweichung (negativ = Überschreitung) |
+| **SV = EV – PV** | Terminabweichung (negativ = Verzug) |
+| **CPI = EV / AC** | Kosteneffizienz (< 1 = ungünstig) |
+| **SPI = EV / PV** | Termineffizienz |
+| **EAC = BAC / CPI** | Prognose Gesamtkosten bei systematischem Fehler |
+| **EAC = AC + (BAC – EV)** | Prognose bei Einmaleffekt |
+| **EAC = AC + (BAC – EV) / (CPI × SPI)** | Prognose kombiniert |
+| **ETC = EAC – AC** | Noch zu erwartende Kosten |
+| **VAC = BAC – EAC** | Budgetabweichung am Ende |
+| **TCPI = (BAC – EV) / (BAC – AC)** | Nötige Effizienz für Restprojekt |
+
+### Kommunikation & Risiko
+
+| Formel | Bedeutung |
+|---|---|
+| **Kanäle = N(N–1) / 2** | Anzahl Kommunikationskanäle bei N Personen |
+| **EMV = Σ (Wahrscheinlichkeit × Auszahlung)** | Erwartungswert bei Unsicherheit |
+
+### Klausur-Selbstüberprüfung
+
+- Erklären Sie die 5 Prozessgruppen und warum sie keine Projektphasen sind.
+- Was gehört in einen Projektauftrag (Project Charter)?
+- Nennen Sie 5 Kreativitätstechniken der Anforderungserhebung.
+- Wie wird ein PSP strukturiert? Top-Down vs. Bottom-Up – wann was?
+- Berechnen Sie PERT-Werte und den kritischen Pfad in einem Netzplan.
+- Erklären Sie PV, EV, AC, CV, SV, CPI, SPI, BAC, EAC, ETC, VAC, TCPI.
+- Welche Werkzeuge der Qualitätskontrolle kennen Sie (Ishikawa, Pareto, Scatterplot)?
+- Nennen Sie die Risikobewältigungsstrategien für negative und positive Risiken.
+- Erklären Sie Macht-Interesse-Raster und Salienz-Modell.
+- Was ist eine RACI-Matrix?
+- Was sind die Scrum-Rollen, -Aktivitäten und -Artefakte?
+- Wann sollte Agile genutzt werden (Schwaber & Beedle vs. Wysocki)?
+- Nennen Sie Hofstedes Kulturdimensionen und deren Auswirkung auf Projekte.
+- Was sind die 4 Dimensionen der Cultural Intelligence (CQ)?
+- Nennen Sie Kotters 8 Schritte und typische Fehler.`,
+      },
+    ],
+  },
 ];

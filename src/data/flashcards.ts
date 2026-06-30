@@ -815,4 +815,91 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'Was ist Computer Vision?',
     answer: 'Computer Vision befähigt Maschinen, Bilder und Videos zu verstehen. Aufgaben: Objekterkennung, Bildklassifikation, Segmentierung, Gesichtserkennung. Technische Grundlage: Convolutional Neural Networks (CNNs).',
   },
+
+  // ── Projektmanagement (FOM · Prof. Dr. Patrick Lückmann) ─────────────────
+  {
+    id: 'pm-1', moduleId: 'pm', category: 'PM Basics',
+    question: 'Die 5 Prozessgruppen des PMI-Standards',
+    answer: '1. Initiierung (I)\n2. Planung (P)\n3. Execution / Ausführung (E)\n4. Monitoring & Controlling (M&C)\n5. Closing / Abschluss (C)\n\nWichtig: KEINE sequenziellen Phasen! Sie überschneiden sich und interagieren während des gesamten Projekts.',
+  },
+  {
+    id: 'pm-2', moduleId: 'pm', category: 'PM Basics',
+    question: 'Magisches Dreieck/Vieleck – die Projektrestriktionen',
+    answer: 'Scope (Inhalt/Umfang), Zeit, Kosten/Budget, Qualität (Output), Qualität der Ressourcen (Input), Risiko.\nKosten für Änderungen steigen im Projektverlauf; Stakeholder-Einfluss, Risiko und Unsicherheit nehmen ab → frühzeitige Sorgfalt zahlt sich aus!',
+  },
+  {
+    id: 'pm-3', moduleId: 'pm', category: 'PM Basics',
+    question: 'PSP / WBS – Was ist das und wofür wird es genutzt?',
+    answer: 'PSP = Projektstrukturplan / WBS = Work Breakdown Structure.\nDeliverable-orientierte hierarchische Dekomposition der Arbeit (Ebene 1 = Projekt → ... → untere Ebene = Arbeitspakete).\nGrundlage für: Aktivitätenliste, Netzplan, Ressourcen-, Zeit-, Kosten-, Qualitäts- und Risikoplanung sowie Controlling.',
+  },
+  {
+    id: 'pm-4', moduleId: 'pm', category: 'Zeitmanagement',
+    question: 'PERT-Formel & Schätzprobleme',
+    answer: 'PERT-Wert = (P + 4W + O) / 6\n(P=pessimistisch, W=wahrscheinlich, O=optimistisch)\n\nSchätzprobleme, die PERT reduziert:\n• Parkinson's Gesetz: Arbeit füllt verfügbare Zeit aus\n• Studentenkrankheit: Puffer gleich zu Beginn verbraucht\n• Persönliche Puffer: jeder baut intuitiv Sicherheit ein',
+  },
+  {
+    id: 'pm-5', moduleId: 'pm', category: 'Zeitmanagement',
+    question: 'Kritischer Pfad – Definition und Berechnung',
+    answer: 'Kritischer Pfad = Aktivitätenfolge mit Puffer = 0.\n• Forward Pass: FAZ/FEZ berechnen (höhere Zahl übernehmen)\n• Backward Pass: SAZ/SEZ berechnen (tiefere Zahl übernehmen)\n• Puffer = SAZ – FAZ\nVerspätung auf dem kritischen Pfad → Verspätung des gesamten Projekts!\nKompressionstechniken: Crashing (mehr Ressourcen) / Fast Tracking (parallelisieren)',
+  },
+  {
+    id: 'pm-6', moduleId: 'pm', category: 'EVM',
+    question: 'Earned-Value-Methode – Grundbegriffe',
+    answer: 'PV (Planned Value) = Planwert\nEV (Earned Value) = gerechtfertigte Kosten lt. Fortschritt\nAC (Actual Cost) = tatsächliche Kosten\nBAC (Budget at Completion) = Gesamtbudget\n\nAbweichungen: CV = EV – AC | SV = EV – PV\nIndizes: CPI = EV/AC | SPI = EV/PV\n(< 1 = ungünstig, > 1 = günstig)',
+  },
+  {
+    id: 'pm-7', moduleId: 'pm', category: 'EVM',
+    question: 'EAC-Prognosen (Estimate at Completion)',
+    answer: 'Systematischer Schätzfehler: EAC = BAC / CPI\nEinmaleffekt: EAC = AC + (BAC – EV)\nKombiniert: EAC = AC + (BAC – EV) / (CPI × SPI)\n\nETC = EAC – AC (noch zu erwartende Kosten)\nVAC = BAC – EAC (Budgetabweichung am Ende)\nTCPI = (BAC – EV) / (BAC – AC) (nötige Effizienz)',
+  },
+  {
+    id: 'pm-8', moduleId: 'pm', category: 'Qualität & Risiko',
+    question: 'Qualitätswerkzeuge im Überblick',
+    answer: '• 5-Mal-Warum: iteratives Fragen bis zur Grundursache\n• Ishikawa/Fishbone: Ursache-Wirkungs-Analyse nach Kategorien\n• Pareto-Diagramm: 80/20-Regel – 20% der Ursachen = 80% der Probleme\n• Histogramm: Häufigkeitsverteilung\n• Run Chart: Trends über Zeit\n• Scatterplot: Korrelation zweier Variablen',
+  },
+  {
+    id: 'pm-9', moduleId: 'pm', category: 'Qualität & Risiko',
+    question: 'Risikobewältigungsstrategien (negativ & positiv)',
+    answer: 'Negative Risiken (Bedrohungen):\nA. Vermeiden – Bedrohung eliminieren\nB. Transfer – Verantwortung abgeben\nC. Milderung – Wahrscheinlichkeit/Auswirkung senken\nD. Akzeptanz\n\nPositive Risiken (Chancen):\nE. Ausnutzen – Eintritt sicherstellen\nF. Teilung – an fähigste Partei\nG. Verbesserung – Wahrscheinlichkeit/Nutzen erhöhen\nH. Akzeptanz',
+  },
+  {
+    id: 'pm-10', moduleId: 'pm', category: 'Stakeholder & Personal',
+    question: 'RACI-Matrix – die vier Rollen',
+    answer: 'R = Responsible: führt die Aufgabe aus (verantwortlich)\nA = Accountable: trägt letztliche Rechenschaftspflicht (nur 1 pro Aufgabe!)\nC = Consulted: wird beratend hinzugezogen\nI = Informed: wird über Ergebnis informiert\n\nJede Aktivität × jedes Teammitglied bekommt einen Buchstaben.',
+  },
+  {
+    id: 'pm-11', moduleId: 'pm', category: 'Stakeholder & Personal',
+    question: 'Macht-Interesse-Raster (Stakeholder-Management)',
+    answer: 'Hohe Macht + hohes Interesse → Eingehend managen\nHohe Macht + niedriges Interesse → Zufrieden halten\nNiedrige Macht + hohes Interesse → Informiert halten\nNiedrige Macht + niedriges Interesse → Beobachten\n\nZiel: Unterstützung maximieren, negative Wirkung reduzieren.',
+  },
+  {
+    id: 'pm-12', moduleId: 'pm', category: 'Stakeholder & Personal',
+    question: 'Tuckman-Teamphasen',
+    answer: '1. Forming – Team konstituiert sich, Mitglieder lernen sich kennen\n2. Storming – Uneinigkeiten, Konflikte, Zusammenarbeit lernen\n3. Norming – gute Arbeitsbeziehungen entstehen, Rollen klären sich\n4. Performing – Team eingespielt und effizient\n5. Adjourning – Team wird aufgelöst',
+  },
+  {
+    id: 'pm-13', moduleId: 'pm', category: 'Agiles PM',
+    question: 'Scrum: Rollen, Artefakte, Aktivitäten',
+    answer: 'Rollen: Product Owner (priorisiert Backlog), Scrum-Master (moderiert), Entwicklungsteam (umsetzend)\n\nArtefakte: Product Backlog, Sprint Backlog, Lieferbares Inkrement\n\nAktivitäten: Sprint-Planung → Daily Scrum → Sprint-Ausführung → Sprint-Review → Sprint-Retrospektive',
+  },
+  {
+    id: 'pm-14', moduleId: 'pm', category: 'Agiles PM',
+    question: 'Wysocki-Modell: Wann welches PM-Modell?',
+    answer: 'Q1 (Ziel klar + Lösung klar): Traditionelles PM (linear-inkrementell)\nQ2 (Ziel klar + Lösung unklar): Agiles PM (iterativ-adaptiv) → SCRUM\nQ3 (Ziel unklar + Lösung unklar): Extreme PM\nQ4 (Lösung klar + Ziel gesucht): Emertxe PM\n\nSchwaber & Beedle: Complex = Agile/Scrum; Complicated = traditionell/KANBAN.',
+  },
+  {
+    id: 'pm-15', moduleId: 'pm', category: 'Interkulturelles PM',
+    question: 'Hofstedes 6 Kulturdimensionen',
+    answer: '1. Machtdistanz (Power Distance)\n2. Risikovermeidung (Uncertainty Avoidance)\n3. Kollektivismus vs. Individualismus\n4. Maskulinität vs. Femininität\n5. Langfristige vs. kurzfristige Orientierung\n6. Indulgence vs. Restraint\n\nProjektbeispiel: Machtdistanz → flache Hierarchien: PM bezieht Team ein; steile Hierarchien: Team erwartet klare Anweisungen.',
+  },
+  {
+    id: 'pm-16', moduleId: 'pm', category: 'Interkulturelles PM',
+    question: 'Cultural Intelligence (CQ) – 4 Dimensionen',
+    answer: 'CQ Drive (Motivational): Motivation & Selbstvertrauen für interkulturelle Aufgaben\nCQ Knowledge (Cognitive): Wissen über Normen anderer Kulturen\nCQ Strategy (Metacognitive): Bewusste Planung & Reflexion\nCQ Action (Behavioral): Angemessenes verbales/nonverbales Verhalten zeigen',
+  },
+  {
+    id: 'pm-17', moduleId: 'pm', category: 'Change Management',
+    question: 'Kotters 8 Schritte des Change Managements',
+    answer: '1. Dringlichkeit schaffen\n2. Mächtige Führungskoalition bilden\n3. Vision entwickeln (in 5 Min. erklärbar!)\n4. Vision kommunizieren\n5. Andere ermächtigen (Hindernisse beseitigen)\n6. Kurzfristige Erfolge planen & belohnen\n7. Verbesserungen konsolidieren\n8. Neue Ansätze in der Kultur verankern',
+  },
 ];

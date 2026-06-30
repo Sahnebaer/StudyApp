@@ -36,6 +36,7 @@ export const PODCASTS: Record<ModuleId, PodcastTrack[]> = {
     { file: '07. Maschinelles Lernen.mp3' },
     { file: '08. Ethik, Gesellschaft & Recht.mp3' },
   ],
+  pm: [],
 };
 
 export function audioUrl(moduleId: ModuleId, file: string): string {

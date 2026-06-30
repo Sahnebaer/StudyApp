@@ -22,4 +22,11 @@ export const MODULES: Module[] = [
     color: 'from-blue-500 to-cyan-600',
     icon: '🤖',
   },
+  {
+    id: 'pm',
+    title: 'Projektmanagement',
+    description: 'Methoden, Prozesse und Werkzeuge im Projektmanagement',
+    color: 'from-orange-500 to-amber-600',
+    icon: '📋',
+  },
 ];
