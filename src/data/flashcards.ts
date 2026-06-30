@@ -835,7 +835,7 @@ export const FLASHCARDS: Flashcard[] = [
   {
     id: 'pm-4', moduleId: 'pm', category: 'Zeitmanagement',
     question: 'PERT-Formel & Schätzprobleme',
-    answer: 'PERT-Wert = (P + 4W + O) / 6\n(P=pessimistisch, W=wahrscheinlich, O=optimistisch)\n\nSchätzprobleme, die PERT reduziert:\n• Parkinson's Gesetz: Arbeit füllt verfügbare Zeit aus\n• Studentenkrankheit: Puffer gleich zu Beginn verbraucht\n• Persönliche Puffer: jeder baut intuitiv Sicherheit ein',
+    answer: 'PERT-Wert = (P + 4W + O) / 6\n(P=pessimistisch, W=wahrscheinlich, O=optimistisch)\n\nSchätzprobleme, die PERT reduziert:\n- Parkinson\'s Gesetz: Arbeit füllt verfügbare Zeit aus\n- Studentenkrankheit: Puffer gleich zu Beginn verbraucht\n- Persönliche Puffer: jeder baut intuitiv Sicherheit ein',
   },
   {
     id: 'pm-5', moduleId: 'pm', category: 'Zeitmanagement',
