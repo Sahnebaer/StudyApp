@@ -2114,6 +2114,251 @@ Warum? In der Diskussion kommen mehr Argumente für die Mehrheitsposition + man 
 **Minimales Gruppenparadigma (Tajfel, 1971):** Selbst bei sinnloser Einteilung (Münzwurf) beginnen Menschen sofort, die Eigengruppe zu bevorzugen.`,
       },
       {
+        heading: '📣 Vertiefung: Persuasion & Einstellungsänderung (LV 8)',
+        content: `### Theorie des geplanten Verhaltens (Ajzen)
+
+Einstellung allein sagt Verhalten **nicht immer** vorher. Drei Faktoren zusammen erzeugen eine **Verhaltensabsicht**, die dann ins Verhalten mündet:
+
+| Faktor | Bedeutung | Beispiel |
+|---|---|---|
+| **Einstellung zum Verhalten** | Wie bewerte ich dieses Verhalten? | „Sport ist gut für mich" |
+| **Subjektive Norm** | Was denken mir wichtige Personen? | „Meine Freunde spornen mich an" |
+| **Wahrgenommene Verhaltenskontrolle** | Traue ich mir zu, es zu tun? | „Ich habe Zeit und Kraft" |
+
+**Praxisbeispiel:** Jemand will aufhören zu rauchen – die Einstellung ist positiv, aber das Umfeld raucht weiter (Norm) und das Vertrauen in die eigene Stärke fehlt (Kontrollüberzeugung) → kein Verhalten.
+
+---
+
+### Verarbeitungsprozess bei Persuasion
+
+Entscheidend sind nicht nur Argumente, sondern unsere **kognitiven Reaktionen** – die Gedanken, die wir uns selbst dabei machen. Selbst produzierte Gedanken bewirken die eigentliche Einstellungsänderung.
+
+**Zwei Wege der Einstellungs-Verhaltens-Verbindung:**
+- Persuasion → Einstellungsänderung → Verhaltensänderung
+- Anreizinduzierte Verhaltensänderung → Einstellungsänderung (z. B. via kognitive Dissonanz)
+
+---
+
+### Yale-Ansatz: Kommunikator, Botschaft, Rezipient – Details
+
+**Botschaftsgestaltung:**
+- **Furchtappelle:** Wirken – aber **nur**, wenn gleichzeitig konkrete Handlungsmöglichkeiten gezeigt werden. Zu extreme Angstbotschaften führen zu **Reaktanz**: „Jetzt erst recht!"
+- **Gain vs. Loss Framing:** Positive Konsequenzen betonen (*„Mit Bewegung lebst du länger"*) oder negative (*„Ohne Bewegung stirbst du früher"*). Loss Framing wirkt oft stärker (Prospect Theory, Kahneman & Tversky).
+- **Einseitig vs. zweiseitig:** Zweiseitige Botschaften (die auch Gegenargumente nennen) wirken glaubwürdiger.
+- **Soziale Normen als Botschaft:** „98 % der Deutschen rauchen nicht" – was andere tun, beeinflusst uns.
+
+**Rezipient:**
+- **Involvement:** Je wichtiger das Thema, desto tiefer die Verarbeitung → zentraler Weg im ELM.
+- **Ablenkung:** Verhindert tiefes Nachdenken → peripherer Weg.
+- **Alter:** Jüngere Menschen sind formbarer in Einstellungen.
+
+---
+
+### Subliminale Persuasion
+
+Ein bekanntes Kinoexperiment: Unter Filmbilder wurden kurze Unterschwellreize (Popcorn, Cola) eingeblendet – zu kurz, um sie bewusst wahrzunehmen.
+
+**Ergebnis:** Cola-Verkäufe stiegen um **18 %**, Popcorn-Verkäufe um **57 %**.
+
+→ Unbewusste Reize beeinflussen uns stärker als wir denken.
+
+---
+
+### Effort Justification (Anstrengungsrechtfertigung)
+
+Wenn wir uns sehr angestrengt haben, um ein Ziel zu erreichen, **werten wir dieses Ziel nachträglich auf** – um die Anstrengung zu rechtfertigen.
+
+**Beispiele:** Studienabschluss, schwierige Beziehungen, Aufnahmerituale in Clubs. Menschen lieben Dinge mehr, für die sie hart arbeiten mussten.
+
+Verbindung zu kognitiver Dissonanz: Die Anstrengung erzeugt Dissonanz, die durch Aufwertung des Ziels aufgelöst wird.
+
+---
+
+### Sleeper-Effekt (Kelman & Hovland) – Details
+
+Direkt nach einer Botschaft aus **unglaubwürdiger Quelle**: kaum Einstellungsänderung.
+
+Wochen später: Die unglaubwürdige Quelle ist vergessen – die Botschaft bleibt. Jetzt kann auch die Quelle mit schlechtem Ruf noch wirken!
+
+**Praktische Bedeutung:** Auch Boulevard-Presse oder zweifelhafte Quellen können langfristig Einstellungen prägen – man vergisst einfach, woher die Info kam.`,
+      },
+      {
+        heading: '🥋 Vertiefung: Beeinflussungsstrategien im Detail (LV 9)',
+        content: `### Judo-Strategien – Psychologische Energie nutzen
+
+Dindas nennt die klassischen Beeinflussungstechniken **„Judo-Strategien"**: Wie beim Judo nutzt man nicht rohe Kraft, sondern die **Energie des Gegenübers**. Man nutzt psychologische Mechanismen (Heuristiken, Normen, Verpflichtungsgefühle), um Menschen zu einer Handlung zu bewegen – ohne offensichtlichen Zwang.
+
+---
+
+### Door-in-the-Face-Technik – Im Detail
+
+**Ablauf:**
+1. Extreme Bitte stellen (wird sicher abgelehnt)
+2. Nach der Ablehnung: die eigentliche, maßvollere Zielbitte
+
+**Warum wirkt es?**
+- **Reziprozität:** Der Bittende hat nachgegeben → ich bin jetzt dran
+- **Kontrastwirkung:** Die zweite Bitte wirkt winzig neben der ersten
+
+**Klassische Studie (Cialdini):**
+- Direkte Frage: einmal 2 Stunden mit Jugendlichen in den Zoo → geringe Zustimmung
+- Erst: 2 Jahre lang wöchentlich 2 Stunden (abgelehnt), dann: einmal 1 Stunde Zoo → viel höhere Zustimmung!
+
+**Praxis Deutsches Rotes Kreuz:** Erst fragen: „Würden Sie ein Leben lang regelmäßig Blut spenden?" → Ablehnung → „Würden Sie einmal für uns Blut spenden?" → deutlich höhere Zustimmung.
+
+---
+
+### Foot-in-the-Door-Technik – Im Detail
+
+**Ablauf (genau umgekehrt):**
+1. Kleine, leicht erfüllbare Bitte (kaum jemand sagt Nein)
+2. Danach größere Zielbitte
+
+**Warum wirkt es?**
+- **Commitment:** Ich habe schon ja gesagt – ich bin jetzt jemand, der so etwas tut
+- **Konsistenz:** Ich will konsistent bleiben mit meinem bisherigen Verhalten
+
+**Alltagsbeispiele:**
+- Probefahrt beim Autoverkäufer → Commitment → Kauf
+- „Nur mal schnell anschauen" beim Shopping → Kauf
+
+---
+
+### Low-Ball-Prinzip – Im Detail
+
+**Ablauf:**
+1. Sehr gutes Angebot machen → Person stimmt zu
+2. Nachdem die Einwilligung da ist, verschlechtern sich die Bedingungen
+3. Person bleibt trotzdem dabei
+
+**Warum wirkt es?**
+- **Commitment:** Ich habe innerlich schon ja gesagt
+- **Sunk-Cost-Effekt:** Ich habe Zeit/Energie investiert
+- **Konsistenz:** Zurückrudern wäre jetzt inkonsistent
+
+**Studie (Cialdini, Autoverkäufer):** Käufer mit günstigem Preis gelockt → kurz vor Kauf Preis erhöht (Ausstattung entfällt) → trotzdem schließen die meisten den Kauf ab.
+
+**Kombination:** Low-Ball + Foot-in-the-Door zusammen erzielen noch höhere Compliance (Hornig).
+
+---
+
+### Cialdinis Prinzipien – Ergänzende Details
+
+**Reziprozität:** Tief verwurzelt in fast allen Kulturen – hält Gesellschaften zusammen. Auch **negative Reziprozität**: Schlechte Behandlung → Vergeltung.
+
+**Social Proof – Besonders wirksam bei:**
+- Ähnlichen anderen (gleiche Altersgruppe, Lebenslage)
+- Unklaren Situationen
+- Eigener Unsicherheit
+- Lacher in Sitcoms: obwohl wir sie nervig finden, lachen wir mehr
+
+**Knappheit – Verbindung zu Reaktanz:** Wenn etwas verboten oder nicht mehr verfügbar ist, wollen wir es noch mehr (**Psychological Reactance**, Brehm). „Nur noch 2 auf Lager!" aktiviert Verlustangst (Loss Aversion).
+
+**Sympathie – Faktoren:**
+- Attraktivität (Halo-Effekt)
+- Ähnlichkeit: „Der ist wie ich" → Vertrauen
+- Schmeichelei: wirkt auch wenn wir wissen, dass sie strategisch ist
+- **Mere-Exposure-Effekt:** Wer uns oft begegnet, wird sympathischer`,
+      },
+      {
+        heading: '🧪 Vertiefung: Experimente & Gruppen (LV 10–11)',
+        content: `### Milgram-Experiment – 4 Erklärungsfaktoren
+
+**Das wohl bekannteste Experiment der Psychologie (Milgram, 1963/1974)**
+
+**Aufbau:** VP („Lehrer") soll bei falschen Antworten Elektroschocks geben (15–450 V). Versuchsleiter in weißem Kittel drängt zum Weitermachen. Schauspieler schreit, fleht – ist aber unverletzt.
+
+**Ergebnis: ~65 % gaben Schocks bis zum Maximum (450 V).**
+
+| Erklärungsfaktor | Beschreibung |
+|---|---|
+| **Sozialisation zur Autorität** | Von Kindheit an gelernt: Autoritäten gehorchen |
+| **Schrittweise Eskalation** | Kleine erste Schritte, dann immer mehr – man ist schon „dabei" |
+| **Verantwortungsdiffusion** | „Der Wissenschaftler ist verantwortlich, nicht ich" |
+| **Dehumanisierung** | Der andere wird zur abstrakten Versuchsperson |
+
+**Kritik:** Täuschung der VP, psychische Belastung. Heute so nicht mehr durchführbar. Virtuelle Replikationen bestätigen die Grundaussage.
+
+---
+
+### Stanford Prison Experiment (Zimbardo, 1971)
+
+Studenten per Zufall eingeteilt in „Wärter" und „Gefangene". Nach 6 statt 14 Tagen abgebrochen.
+
+**Was passierte?** „Wärter" übernahmen ihre Rolle so vollständig, dass sie grausame Behandlung einsetzten. Die **Situation** produzierte extremes Verhalten – nicht die Persönlichkeit.
+
+**Kernaussage:** Gute Menschen können in bestimmten Strukturen schlechte Dinge tun.
+
+**Kritik:** Zimbardo agierte selbst als Gefängnisleiter statt neutral. Neuere Analysen: er leitete die „Wärter" aktiv zu harter Behandlung an.
+
+---
+
+### Bystander-Apathy-Effekt (Latané & Darley)
+
+**Phänomen:** Je mehr Menschen anwesend sind, wenn jemand Hilfe braucht, desto geringer die Wahrscheinlichkeit, dass geholfen wird.
+
+**Hintergrund:** Kitty Genovese, 1964 in New York ermordet. Angeblich 38 Zeugen ohne einzugreifen – motivierte die Forschungsfrage.
+
+| Mechanismus | Erklärung |
+|---|---|
+| **Diffusion of Responsibility** | „Der andere wird schon helfen" – Verantwortung verteilt sich |
+| **Pluralistic Ignorance** | Alle schauen, ob andere reagieren – keiner tut etwas |
+| **Evaluation Apprehension** | Angst, sich zu blamieren, wenn man falsch eingreift |
+
+**Wie helfen trotzdem?** Direkt eine konkrete Person ansprechen: *„Sie im roten Pullover – rufen Sie bitte den Notruf!"* → Diffusion of Responsibility wird aufgebrochen.
+
+---
+
+### Gruppenmerkmale – Vier zentrale Dimensionen
+
+Gruppen (max. ~20 Personen, Wir-Gefühl, gemeinsame Normen, Abgrenzung nach außen) haben vier zentrale Merkmale:
+
+| Merkmal | Bedeutung |
+|---|---|
+| **Normen** | Ungeschriebene Regeln, die Verhalten steuern; Verletzung → Sanktion |
+| **Status** | Hierarchie innerhalb der Gruppe – nicht alle sind gleich |
+| **Rollen** | Jedes Mitglied hat eine Rolle (Leader, Kritiker, Harmoniestifter…) |
+| **Kohäsion** | Zusammenhalt – hoch = gute Motivation, Risiko: Groupthink |
+
+**Warum bilden Menschen Gruppen?** Materieller Nutzen (gemeinsam jagen/bauen), Informationsgewinnung, emotionale Unterstützung, Identität (→ Social Identity Theory), Status.
+
+---
+
+### Deindividuation
+
+**Definition:** In anonymen Gruppen verlieren Menschen das Gefühl individueller Verantwortung → enthemmtes, auch aggressives Verhalten.
+
+**Faktoren, die Deindividuation fördern:**
+- Anonymität (Maske, Dunkelheit)
+- Große Gruppe
+- Einheitliche Kleidung (Uniform)
+- Erregung und Lärm
+
+**Beispiele:** Randalierende Hooligans in der Masse, anonyme Internet-Trolle.
+
+**Verbindung:** Stanford Prison Experiment – Uniformen (Wärter) und Häftlingskleidung förderten Deindividuation auf beiden Seiten.
+
+---
+
+### Prosoziales Verhalten & Studie Guter Samariter
+
+**Prosoziales Verhalten:** Freiwilliges Handeln zum Nutzen anderer ohne direkten Eigennutzen.
+
+**Wann hilft man?**
+
+| Faktor | Wirkung |
+|---|---|
+| Allein vs. Gruppe | Allein → höhere Hilfsbereitschaft (kein Bystander-Effekt) |
+| Identifizierbare Person | „Bitte helfen Sie mir!" → mehr Hilfe als abstrakte Notlage |
+| Kosten der Hilfe | Je geringer, desto wahrscheinlicher |
+| Gute Stimmung | Erhöht Hilfsbereitschaft |
+| Zeitdruck | Unter Zeitdruck hilft man seltener |
+
+**Studie Guter Samariter (Darley & Batson, 1973):** Theologiestudenten sollten über den barmherzigen Samariter predigen. Auf dem Weg begegneten sie einem Hilfsbedürftigen. Ergebnis: Wer unter Zeitdruck war, half viel seltener – unabhängig vom Thema des Vortrags!
+
+**Fazit:** **Situation (Zeitdruck) schlägt Persönlichkeit.** Das ist der fundamentale Attributionsfehler live: Wir würden sagen, die Nicht-Helfer seien schlechte Menschen – aber es war die Situation.`,
+      },
+      {
         heading: '🗒️ Spickzettel & Anwendungsfelder',
         content: `### Anwendungsfelder
 

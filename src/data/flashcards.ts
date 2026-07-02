@@ -475,6 +475,92 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'Intra- vs. Intergruppe',
     answer: 'Intragruppe: Prozesse innerhalb einer Gruppe (Normen, Konformität, Leistung).\nIntergruppe: Prozesse zwischen Gruppen (Diskriminierung, Konflikte, Vorurteile).',
   },
+  // LV 8–11 Erweiterung
+  {
+    id: 'sp-39', moduleId: 'socialpsych', category: 'Persuasion & Einstellung',
+    question: 'Theorie des geplanten Verhaltens (Ajzen) – 3 Faktoren',
+    answer: 'Einstellung allein sagt Verhalten nicht immer vorher. Drei Faktoren erzeugen gemeinsam eine Verhaltensabsicht:\n\n1. Einstellung zum Verhalten: Wie bewerte ich es? („Sport ist gut für mich")\n2. Subjektive Norm: Was denken mir wichtige Personen? („Meine Freunde spornen mich an")\n3. Wahrgenommene Verhaltenskontrolle: Traue ich mir zu, es zu tun?\n\nBeispiel: Jemand will aufhören zu rauchen – Einstellung ist positiv, aber Umfeld raucht (Norm) und Vertrauen in eigene Stärke fehlt (Kontrolle) → kein Verhalten.',
+  },
+  {
+    id: 'sp-40', moduleId: 'socialpsych', category: 'Persuasion & Einstellung',
+    question: 'Furchtappelle – wann wirken sie, wann nicht?',
+    answer: 'Furchtappelle (angsterzeugende Botschaften) wirken – ABER nur, wenn gleichzeitig konkrete Handlungsmöglichkeiten gezeigt werden!\n\nFunktioniert: „Rauchen verursacht Krebs – rufen Sie jetzt die Raucherhotline an"\nFunktioniert NICHT: reines Angstszenario ohne Ausweg → Reaktanz: „Jetzt erst recht!"\n\nZu extreme Angstbotschaften lösen Bumerangeffekt aus – Gegenteil des gewünschten Verhaltens.',
+  },
+  {
+    id: 'sp-41', moduleId: 'socialpsych', category: 'Persuasion & Einstellung',
+    question: 'Gain vs. Loss Framing – Unterschied und Wirkung',
+    answer: 'Gain Frame: Positive Konsequenzen betonen\n→ „Mit regelmäßiger Bewegung lebst du länger"\n\nLoss Frame: Negative Konsequenzen betonen\n→ „Ohne Bewegung stirbst du früher"\n\nLoss Framing wirkt oft stärker (Prospect Theory, Kahneman & Tversky):\nVerluste schmerzen stärker als gleichwertige Gewinne freuen (Loss Aversion).\n\nKontextabhängig: Bei Präventionsverhalten (Schutzmaßnahmen) oft Loss Framing wirkungsvoller.',
+  },
+  {
+    id: 'sp-42', moduleId: 'socialpsych', category: 'Persuasion & Einstellung',
+    question: 'Subliminale Persuasion – Kinoexperiment (Popcorn & Cola)',
+    answer: 'Experiment: In einem Kino wurden unter Filmbilder kurze Unterschwellreize (Popcorn, Cola) eingeblendet – zu kurz um sie bewusst wahrzunehmen.\n\nErgebnis:\n• Cola-Verkäufe stiegen um 18 %\n• Popcorn-Verkäufe stiegen um 57 %\n\nFazit: Unbewusste Reize beeinflussen Kaufverhalten stärker als wir denken.\nAnwendung: Gerüche im Supermarkt, Hintergrundmusik, Farben in der Werbung.',
+  },
+  {
+    id: 'sp-43', moduleId: 'socialpsych', category: 'Persuasion & Einstellung',
+    question: 'Effort Justification (Anstrengungsrechtfertigung)',
+    answer: 'Wenn wir uns stark angestrengt haben, werten wir das Ziel nachträglich auf – um die Anstrengung zu rechtfertigen.\n\nMechanismus: Kognitive Dissonanz\n→ „Ich habe so viel investiert" + „Das Ziel war es nicht wert" = Dissonanz\n→ Lösung: Das Ziel als wertvoller bewerten\n\nBeispiele:\n• Menschen lieben Dinge mehr, für die sie hart arbeiten mussten\n• Aufnahmerituale in Clubs/Verbindungen\n• Schwierige Studiengänge werden als wertvoller erlebt',
+  },
+  {
+    id: 'sp-44', moduleId: 'socialpsych', category: 'Beeinflussungsstrategien',
+    question: 'Door-in-the-Face – Ablauf, Mechanismus, Studie',
+    answer: 'Ablauf:\n1. Extreme Bitte stellen (wird sicher abgelehnt)\n2. Danach: die eigentliche, maßvolle Zielbitte\n\nMechanismus:\n• Reziprozität: Der Bittende hat nachgegeben → ich bin dran\n• Kontrastwirkung: Zielbitte wirkt winzig neben der ersten\n\nKlassische Studie (Cialdini):\nDirekt nach Zoo-Besuch fragen → niedrige Zustimmung\nErst: 2 Jahre wöchentlich 2h (abgelehnt) → dann: einmal 1h → deutlich höhere Zustimmung!\n\nPraxis DRK: Erst „ein Leben lang spenden?" → Ablehnung → „einmal spenden?"',
+  },
+  {
+    id: 'sp-45', moduleId: 'socialpsych', category: 'Beeinflussungsstrategien',
+    question: 'Foot-in-the-Door – Ablauf, Mechanismus, Beispiele',
+    answer: 'Ablauf (umgekehrt wie DITF):\n1. Kleine, leicht erfüllbare Bitte (kaum Nein möglich)\n2. Danach größere Zielbitte\n\nMechanismus:\n• Commitment: Ich habe ja gesagt → ich bin jemand, der das tut\n• Konsistenz: Ich will konsistent mit meinem Verhalten bleiben\n\nAlltagsbeispiele:\n• Probefahrt beim Autohändler → Commitment → Kauf\n• „Nur mal anschauen" beim Shopping → Kauf\n• Petition unterschreiben → später Spende leisten',
+  },
+  {
+    id: 'sp-46', moduleId: 'socialpsych', category: 'Beeinflussungsstrategien',
+    question: 'Low-Ball-Prinzip – Ablauf und Warum es funktioniert',
+    answer: 'Ablauf:\n1. Sehr gutes Angebot machen → Person stimmt zu\n2. Nachdem Einwilligung da, verschlechtern sich die Bedingungen\n3. Person bleibt trotzdem dabei\n\nWarum wirkt es?\n• Commitment: Ich habe innerlich schon ja gesagt\n• Sunk-Cost-Effekt: Ich habe Zeit/Energie investiert\n• Konsistenz: Zurückrudern wäre inkonsistent\n\nStudie (Cialdini): Käufer mit günstigem Preis gelockt → Preis danach erhöht → trotzdem Kauf\n\nKombination: Low-Ball + Foot-in-the-Door = noch höhere Compliance (Hornig)',
+  },
+  {
+    id: 'sp-47', moduleId: 'socialpsych', category: 'Beeinflussungsstrategien',
+    question: 'Judo-Strategien (Dindas) – was versteht man darunter?',
+    answer: 'Judo-Strategien = Beeinflussungstechniken, die nicht rohe Kraft nutzen, sondern die psychologische Energie des Gegenübers.\n\nWie beim Judo: Man nutzt die Impuls- und Verpflichtungsmechanismen (Reziprozität, Commitment, soziale Normen) des anderen, um ihn zur gewünschten Handlung zu bringen – ohne offensichtlichen Zwang.\n\nKlassische Judo-Strategien:\n• Door-in-the-Face (nutzt Reziprozität)\n• Foot-in-the-Door (nutzt Commitment & Konsistenz)\n• Low-Ball (nutzt Commitment & Sunk Cost)',
+  },
+  {
+    id: 'sp-48', moduleId: 'socialpsych', category: 'Sozialer Einfluss',
+    question: 'Milgrams 4 Erklärungsfaktoren für Gehorsam',
+    answer: 'Studie (1963): ~65 % der VP gaben auf Befehl Schocks bis 450 V\n\n4 Erklärungsfaktoren (Milgram):\n1. Sozialisation zur Autorität: Von Kindheit an gelernt, Autoritäten zu gehorchen\n2. Schrittweise Eskalation: Kleine erste Schritte → man ist schon dabei, Ausstieg schwer\n3. Verantwortungsdiffusion: „Der Wissenschaftler ist verantwortlich, nicht ich"\n4. Dehumanisierung: Der andere wird zur abstrakten Versuchsperson\n\nKritik: Täuschung, psychische Belastung, heute ethisch nicht mehr möglich',
+  },
+  {
+    id: 'sp-49', moduleId: 'socialpsych', category: 'Sozialer Einfluss',
+    question: 'Stanford Prison Experiment (Zimbardo, 1971)',
+    answer: 'Aufbau: Studenten per Zufall in „Wärter" und „Gefangene" eingeteilt\nAbbruch nach 6 statt 14 Tagen\n\nWas passierte: Wärter übernahmen ihre Rolle so vollständig, dass sie erniedrigende Behandlung einsetzten. Situation produzierte extremes Verhalten – nicht die Persönlichkeit der Teilnehmer.\n\nKernaussage: Gute Menschen können in bestimmten Strukturen schlechte Dinge tun.\n\nKritik: Zimbardo agierte selbst als Gefängnisleiter statt neutral → leitete Wärter aktiv zu harter Behandlung an → Replikationsfähigkeit eingeschränkt\n\nVerbindung Milgram: Autorität + Rolle + Eskalation + Dehumanisierung',
+  },
+  {
+    id: 'sp-50', moduleId: 'socialpsych', category: 'Sozialer Einfluss',
+    question: 'Bystander-Apathy-Effekt – 3 Mechanismen (Latané & Darley)',
+    answer: 'Phänomen: Je mehr Menschen anwesend sind, desto geringer die Hilfswahrscheinlichkeit.\n\nHintergrund: Kitty Genovese (1964, New York) – motivierte die Forschung.\n\n3 Mechanismen:\n1. Diffusion of Responsibility: „Der andere wird schon helfen" – Verantwortung verteilt sich auf alle\n2. Pluralistic Ignorance: Alle schauen ob andere reagieren – weil alle warten, passiert nichts\n3. Evaluation Apprehension: Angst, sich zu blamieren wenn man falsch eingreift\n\nLösung: Direkt eine konkrete Person ansprechen:\n„Sie im roten Pullover – rufen Sie bitte den Notruf!"',
+  },
+  {
+    id: 'sp-51', moduleId: 'socialpsych', category: 'Gruppen',
+    question: 'Deindividuation – Definition, Faktoren, Beispiele',
+    answer: 'Definition: In anonymen Gruppen verlieren Menschen das Gefühl individueller Verantwortung → enthemmtes, aggressives Verhalten\n\nFördernde Faktoren:\n• Anonymität (Maske, Dunkelheit)\n• Große Gruppe\n• Einheitliche Kleidung (Uniform)\n• Erregung und Lärm\n\nBeispiele:\n• Randalierende Hooligans in der Masse\n• Anonyme Internet-Trolle\n• Halloween-Kostüme erhöhten aggressives Verhalten in Studien\n\nVerbindung: Stanford Prison Experiment – Uniformen förderten Deindividuation auf beiden Seiten',
+  },
+  {
+    id: 'sp-52', moduleId: 'socialpsych', category: 'Gruppen',
+    question: 'Prosoziales Verhalten & Studie Guter Samariter',
+    answer: 'Prosoziales Verhalten: Freiwilliges Handeln zum Nutzen anderer ohne direkten Eigennutzen\n\nWann hilft man? (Faktoren):\n• Allein > Gruppe (kein Bystander-Effekt)\n• Identifizierbare Person > abstrakte Notlage\n• Geringe Kosten der Hilfe\n• Gute Stimmung\n• Kein Zeitdruck\n\nStudie Guter Samariter (Darley & Batson, 1973):\nTheologiestudenten auf dem Weg zur Predigt über den barmherzigen Samariter begegneten einem Hilfsbedürftigen.\n→ Wer unter Zeitdruck war, half viel seltener – unabhängig vom Thema!\n\nFazit: Situation (Zeitdruck) schlägt Persönlichkeit',
+  },
+  {
+    id: 'sp-53', moduleId: 'socialpsych', category: 'Gruppen',
+    question: 'Vier zentrale Gruppenmerkmale (Normen, Status, Rollen, Kohäsion)',
+    answer: 'Gruppen (max. ~20 Personen, Wir-Gefühl, gemeinsame Ziele, Abgrenzung nach außen) haben 4 Merkmale:\n\n1. Normen: Ungeschriebene Regeln, steuern Verhalten; Verletzung → Sanktion\n2. Status: Hierarchie in der Gruppe – nicht alle Mitglieder sind gleich\n3. Rollen: Jedes Mitglied hat eine Rolle (Leader, Kritiker, Harmoniestifter…), oft informell\n4. Kohäsion (Zusammenhalt): Hoch = gute Motivation, aber Risiko: Groupthink\n\nWarum bilden Menschen Gruppen?\n→ Materieller Nutzen, Informationsgewinnung, emotionale Unterstützung, Identität (Social Identity Theory), Status',
+  },
+  {
+    id: 'sp-54', moduleId: 'socialpsych', category: 'Gruppen',
+    question: 'Groupthink – 6 Symptome nach Janis',
+    answer: 'Groupthink (Janis, 1972): In stark kohäsiven Gruppen unterdrücken Mitglieder Zweifel → schlechte Entscheidungen\n\nBedingungen: Hohe Kohäsion, starker Führungsstil, Isolation, hoher Entscheidungsdruck\n\n6 Symptome:\n1. Illusion der Unverwundbarkeit: „Wir können nicht scheitern"\n2. Kollektive Rationalisierung: Warnsignale werden weggeredet\n3. Selbstzensur: Niemand traut sich Kritik\n4. Direkter Druck auf Andersdenkende: „Bist du gegen das Team?"\n5. Illusion der Einstimmigkeit: Schweigen = Zustimmung\n6. Mindguards: Mitglieder schützen Gruppe vor störenden Infos\n\nLösung: Advocatus Diaboli, externe Experten, anonymes Abstimmen',
+  },
+  {
+    id: 'sp-55', moduleId: 'socialpsych', category: 'Sozialer Einfluss',
+    question: 'Pluralistic Ignorance vs. Diffusion of Responsibility',
+    answer: 'Beide erklären den Bystander-Effekt, sind aber unterschiedlich:\n\nPluralistische Ignoranz:\n→ Jeder schaut, ob andere reagieren\n→ Da alle passiv sind, schließt jeder: „Es ist wohl nicht so ernst"\n→ Niemand handelt, obwohl alle innerlich besorgt sind\n\nDiffusion of Responsibility:\n→ „Der andere wird schon helfen"\n→ Verantwortung verteilt sich auf alle Anwesenden\n→ Subjektiver Anteil sinkt mit steigender Personenzahl\n\nBeide zusammen erklären, warum größere Gruppen paradoxerweise weniger helfen.',
+  },
 
   // ── Grundlagen KI & Agentensysteme (SS 2026 · FOM · Olga Koch) ──────────────
 
