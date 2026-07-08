@@ -1239,4 +1239,130 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'Abgrenzung: Differentielle vs. Allgemeine vs. Klinische Psychologie',
     answer: 'Differentielle Psychologie: interindividuelle Unterschiede zwischen Menschen → Was unterscheidet Personen voneinander?\n\nAllgemeine Psychologie: Gesetzmäßigkeiten des DURCHSCHNITTLICHEN Individuums → Was gilt für alle Menschen gleich?\n\nKlinische Psychologie: pathologische Besonderheiten (z. B. Depression, Angststörungen)\n\nPersonal-/Persönlichkeitspsychologie: intrapersonale Einheit einer Person\n→ Heute zusammen mit Differentieller Psychologie als eine Disziplin (DPP) betrachtet\n\nDifferentielle + Allgemeine Psychologie ergänzen sich: eine erklärt Unterschiede, die andere Gemeinsamkeiten',
   },
+  // Management Basics
+  {
+    id: 'mgmt-1', moduleId: 'mgmt', category: 'Grundlagen',
+    question: 'Die vier Phasen des Unternehmenslebenszyklus',
+    answer: 'Gründung → Wachstum → Reife → Sättigung\n\nMarkante Punkte:\n• Break-Even-Punkt: Kosten = Erlöse (kein Gewinn, kein Verlust)\n• Gewinnmaximum: liegt vor dem Umsatzmaximum\n• Umsatzmaximum: höchste Absatzmenge\n\nJede Phase hat typische Managementthemen:\n• Gründung → Business-Plan\n• Wachstum → PE/VC\n• Reife → Risikomanagement\n• Sättigung → Insolvenz/Turnaround',
+  },
+  {
+    id: 'mgmt-2', moduleId: 'mgmt', category: 'Grundlagen',
+    question: 'Break-Even-Punkt: Definition und Berechnung',
+    answer: 'Break-Even-Punkt = Gewinnschwelle: Erlöse = Kosten (weder Gewinn noch Verlust)\n\nFormeln:\n• Umsatz = Menge × Preis\n• Gesamtkosten = Fixkosten + (Menge × variable Stückkosten)\n• Break-Even-Menge = Fixkosten / (Preis − variable Stückkosten)\n\nBedeutung: Zeigt, wie viel mindestens verkauft werden muss, um kostendeckend zu arbeiten',
+  },
+  {
+    id: 'mgmt-3', moduleId: 'mgmt', category: 'Grundlagen',
+    question: 'Fix- vs. variable Kosten',
+    answer: 'Fixkosten:\n• Unabhängig vom Auslastungsgrad\n• Beispiele: Miete, Gehälter, Abschreibungen\n• Bleiben konstant, auch wenn weniger produziert wird\n\nVariable Kosten:\n• Abhängig vom Auslastungsgrad\n• Beispiele: Materialkosten, Energiekosten\n• Steigen mit der Produktionsmenge\n\nGesamtkosten = Fixkosten + (Menge × variable Stückkosten)\n\nFixkostendegression: Fixkosten je Stück sinken bei höherer Auslastung',
+  },
+  {
+    id: 'mgmt-4', moduleId: 'mgmt', category: 'Gründungsphase',
+    question: 'Die drei Gruppen von Kreativitätstechniken',
+    answer: '1. Assoziativ/Intuitiv-kreativ:\n→ Brainstorming (klassisch, anonym, didaktisch)\n→ Brainwriting: Methode 635, Kartenumlauftechnik\n\n2. Systematisch-analytisch:\n→ Morphologischer Kasten, Attribute Listing\n→ Funktionsanalyse, Progressive Abstraktion\n\n3. Konfrontationsorientiert (tiefgreifende Innovationen):\n→ Synektik, BBB-Methode, Reizwort-Analyse\n→ TILMAG-Methode, Force-Fit-Spiel\n\nMerkhilfe: A-S-K (Assoziativ, Systematisch, Konfrontativ)',
+  },
+  {
+    id: 'mgmt-5', moduleId: 'mgmt', category: 'Gründungsphase',
+    question: 'Scoring-Verfahren zur Ideenbewertung',
+    answer: 'Ablauf:\n1. Erfolgskriterien festlegen\n2. Kriterien gewichten: Summe der Gewichte = 1,0\n3. Bewertung auf Skala 1–10 (1–4 schlecht, 4,1–7 befriedigend, 7,1–10 gut)\n4. Kriterienwert = Gewicht × Bewertung\n5. Gesamtpunktzahl = Summe aller Kriterienwerte\n\nBeispielgewichte: Kundennutzen 0,35 | Technologie 0,20 | USP 0,15\n\nKritik:\n• Kriterien oft nicht unabhängig\n• Skalenbewertung problematisch\n• Experten selten wirklich risikoneutral\n→ Ergänzung durch qualitative Analyse empfohlen',
+  },
+  {
+    id: 'mgmt-6', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Die 9 Elemente des Business-Plans',
+    answer: '1. Management Summary (max. 2 Seiten)\n2. Unternehmen (Profil, Rechtsform, Ziele)\n3. Produkte/Herstellung (USP, Deckungsbeitrag)\n4. Markt & Wettbewerb (Porter-Strategien)\n5. Marketing & Vertrieb (4 Ps)\n6. Management & Organisation (Organigramm)\n7. Finanz-/Dreijahresplanung (Liquidität, GuV, Bilanz)\n8. Chancen & Risiken (Szenarioanalyse)\n9. Finanzbedarf\n\nZielgruppen: Gründer selbst (Analyse) + potenzielle Investoren (Beteiligungsangebot)',
+  },
+  {
+    id: 'mgmt-7', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Porters generische Wettbewerbsstrategien',
+    answer: '1. Kostenführerschaft:\n→ Preisgünstigster Wettbewerber\n→ Durch Lernkurveneffekte, Fixkostendegression, Standardisierung\n\n2. Differenzierung:\n→ Produkt hebt sich ab (Qualität, Service, Marke)\n→ Monopolistischer Preisbereich; Preiselastizität sinkt\n\n3. Fokussierung/Nischenstrategie:\n→ Eng abgegrenztes Kundensegment\n→ Beispiele: Ferrari, Patek Philippe, Spezialausrüstung\n\nAbhängig von: Marktvolumen (breit vs. eng) + Wettbewerbsvorteil (Kosten vs. Differenzierung)',
+  },
+  {
+    id: 'mgmt-8', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Der Marketing-Mix: Die 4 Ps',
+    answer: 'Product (Produktpolitik):\n→ Eigenschaften, Marke, USP, Schutzrechte/Patente, Service\n\nPrice (Preispolitik) – 4 Orientierungen:\n→ Wettbewerbsorientierung: relativ zum Markt\n→ Nachfrageorientierung: Zahlungsbereitschaft\n→ Nutzenoptimierung: bei Innovationen\n→ Kostenorientierung: Kosten + Aufschlag\n\nPlace (Distribution):\n→ Direkt: eigene Organisation, Internet\n→ Indirekt: Handel, Handelsvertreter\n\nPromotion (Kommunikation):\n→ Werbung, Verkaufsförderung, PR',
+  },
+  {
+    id: 'mgmt-9', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Deckungsbeitragsrechnung und Preisuntergrenzen',
+    answer: 'Deckungsbeitrag 1 = Umsatzerlöse − variable Kosten\nBetriebsergebnis = DB1 − Fixkosten\n\nPreisuntergrenzen:\n• Langfristig: Betriebsergebnis = 0 (alle Kosten gedeckt)\n• Kurzfristig: DB1 = 0 (nur variable Kosten gedeckt)\n  → Relevant bei freien Kapazitäten (z. B. Sitzplätze im Flugzeug)\n\nUSP (Unique Selling Proposition):\n= herausragende Produkteigenschaft mit Wettbewerbsvorteil\n(z. B. Preis, Design, technologischer Vorsprung)',
+  },
+  {
+    id: 'mgmt-10', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Rechtsformen im Überblick: Von GbR bis AG',
+    answer: 'Zunehmende Komplexität:\nEinzelunternehmen → GbR → OHG → KG → GmbH → AG\n\nKernunterschiede:\n• Haftung: Personengesellschaften = unbeschränkt (mit Privatvermögen)\n            Kapitalgesellschaften = begrenzt auf Gesellschaftsvermögen\n• Mindestkapital: GmbH 25.000 € / AG 50.000 €\n• Gründungsform: GmbH/AG = notariell beurkundet\n\nMoMiG (seit 2008):\n• GmbH-Gründung ab 1 € = UG (haftungsbeschränkt)\n• 25 % des Gewinns ansparen bis 25.000 € erreicht',
+  },
+  {
+    id: 'mgmt-11', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Liquiditätskennzahlen (Grad 1–3)',
+    answer: 'Liquidität 1. Grades = Liquide Mittel / kfr. Fremdkapital × 100\n\nLiquidität 2. Grades = (Liquide Mittel + kfr. Forderungen) / kfr. FK × 100\n→ Zielwert: ca. 100 %\n\nLiquidität 3. Grades = (Liquide Mittel + kfr. Forderungen + Vorräte) / kfr. FK × 100\n→ Zielwert: ca. 200 %\n\nMerke:\n• Zu wenig Liquidität → Insolvenzrisiko\n• Zu viel Liquidität → beeinträchtigt Rentabilität\n\nGoldene Bilanzregel: Anlagevermögen langfristig, Umlaufvermögen kurzfristig finanzieren',
+  },
+  {
+    id: 'mgmt-12', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Cashflow: Berechnung und Bedeutung',
+    answer: 'Cashflow = Maß für Innenfinanzierungskraft und Ertragskraft\n→ Je höher, desto besser die Liquiditätslage\n\nIndirekte Berechnung:\nJahresüberschuss\n+ Aufwendungen ohne Auszahlung (z. B. Abschreibungen)\n− Erträge ohne Einzahlung (z. B. Zuschreibungen)\n= Cashflow\n\nVereinfacht: Jahresüberschuss ± Abschreibungen ± Veränderung Rückstellungen\n\nRückstellungen (§ 249 HGB): Schulden mit ungewissem Eintrittszeitpunkt/-höhe\nRücklagen: Teil des EK für Selbstfinanzierung (§ 58 AktG)',
+  },
+  {
+    id: 'mgmt-13', moduleId: 'mgmt', category: 'Finanzierung',
+    question: 'Eigenkapital vs. Fremdkapital: Hauptunterschiede',
+    answer: 'Eigenkapital:\n• Beteiligungsverhältnis\n• Eigentümer haftet (ggf. privat)\n• Gewinn-/Verlustbeteiligung\n• Mitbestimmungsrechte vorhanden\n• Zeitlich unbegrenzt\n• Zinsen steuerlich NICHT absetzbar\n\nFremdkapital:\n• Schuldverhältnis\n• Gläubiger haftet NICHT\n• Fester Zinsanspruch\n• Keine Mitbestimmung\n• Zeitlich begrenzt\n• Zinsen steuerlich absetzbar\n\nInnen- vs. Außenfinanzierung:\n• Innen: Selbstfinanzierung, Kapitalfreisetzung, Rückstellungen\n• Außen: Beteiligungsfinanzierung, Kreditfinanzierung',
+  },
+  {
+    id: 'mgmt-14', moduleId: 'mgmt', category: 'Finanzierung',
+    question: 'Factoring: Ablauf und drei Funktionen',
+    answer: 'Ablauf:\n1. Unternehmen liefert → Forderung entsteht\n2. Forderung wird an Factoring-Institut verkauft\n3. Sofortige Liquidität (abzgl. Sicherheitsabschlag 5–20 %)\n4. Institut zieht Forderung beim Schuldner ein\n\nDrei Funktionen:\n1. Delkrederefunktion: Ausfallrisiko übernimmt das Institut\n2. Dienstleistungsfunktion: Debitorenmanagement\n3. Finanzierungsfunktion: sofortige Liquidität\n\nMerkmale:\n• Umsatzkongruente Finanzierung\n• Institut prüft Bonität der Schuldner vorab\n• Oft nur Forderungen bis bestimmter Betragsgrenze',
+  },
+  {
+    id: 'mgmt-15', moduleId: 'mgmt', category: 'Finanzierung',
+    question: 'Kontokorrentkredit, Avalkredit und Leasing',
+    answer: 'Kontokorrentkredit:\n• Kurzfristiger Kredit über laufendes Geschäftskonto\n• Flexible Nutzung bis zur Kreditlinie\n• Sichert Zahlungsfähigkeit; ermöglicht Skonto-Nutzung\n\nAvalkredit:\n• Bank stellt Kreditwürdigkeit (Bürgschaft/Garantie) zur Verfügung\n• KEIN Bargeld = Kreditleihe\n• Bank haftet nur bei Ausfall des Avalnehmer\n• Für Bank: Eventualverbindlichkeit\n\nLeasing (§ 535 BGB):\n• Rechtlich ein Mietvertrag\n• Direkt (Hersteller, z. B. BMW) oder indirekt (Leasinggesellschaft)\n• Sonderform: Sale-and-lease-back\n• Ziel: Erschließung von Kunden ohne Kaufkraft',
+  },
+  {
+    id: 'mgmt-16', moduleId: 'mgmt', category: 'VWL',
+    question: 'Maslow-Bedürfnispyramide',
+    answer: 'Fünf Ebenen (aufeinander aufbauend):\n1. Grundbedürfnisse: Essen, Schlafen, Wärme\n2. Sicherheitsbedürfnisse: Schutz, Stabilität\n3. Soziale Bedürfnisse: Zugehörigkeit, Liebe\n4. Wertschätzungsbedürfnisse: Status, Anerkennung\n5. Entwicklungsbedürfnisse: Selbstverwirklichung\n\nRegel: Untere Ebene muss erfüllt sein, bevor höhere entsteht\n\nPrimärbedürfnisse = Grundbedürfnisse (angeboren)\nSekundärbedürfnisse = Kultur-/Luxusbedürfnisse (erworben)',
+  },
+  {
+    id: 'mgmt-17', moduleId: 'mgmt', category: 'VWL',
+    question: 'Preiselastizität und Kreuzpreiselastizität',
+    answer: 'Preiselastizität der Nachfrage:\n= % Mengenänderung / % Preisänderung (Betrag)\n\n• |ε| > 1: elastisch (Mengenwirkung überwiegt)\n• |ε| < 1: unelastisch (z. B. Grundnahrungsmittel)\n• |ε| = 1: einheitselastisch\n\nKreuzpreiselastizität (Gut i auf Preis von Gut j):\n• ε < 0: komplementäre Güter (z. B. Auto & Benzin)\n• ε > 0: substitutive Güter (z. B. Butter & Margarine)\n• ε = 0: unverbundene Güter\n\nÖkonomisches Prinzip:\n• Maximalprinzip: fixer Einsatz → max. Output\n• Minimalprinzip: fixes Ziel → min. Einsatz',
+  },
+  {
+    id: 'mgmt-18', moduleId: 'mgmt', category: 'VWL',
+    question: 'Marktgleichgewicht und Opportunitätskosten',
+    answer: 'Marktgleichgewicht:\n• Angebot = Nachfrage → Gleichgewichtspreis und -menge\n• Preis fungiert als Knappheitsindikator\n• Preisänderung → Bewegung ENTLANG der Kurve\n• Lage-Parameter-Änderung → VERSCHIEBUNG der Kurve\n\nAngebotsüberhang: Preis > GGW → Druck nach unten\nNachfrageüberhang: Preis < GGW → Druck nach oben\n\nOpportunitätskosten:\n= entgangener Nutzen der besten nicht gewählten Alternative\n"There is no such thing as a free lunch" (Milton Friedman)\n\nVollkommener Markt: homogenes Gut, vollständige Transparenz, keine Präferenzen',
+  },
+  {
+    id: 'mgmt-19', moduleId: 'mgmt', category: 'Wachstum',
+    question: 'Private Equity vs. Venture Capital vs. Hedgefonds',
+    answer: 'Private Equity (PE):\n• Zeitlich begrenzte EK-Beteiligung an NICHT börsennotierten Unternehmen\n• Für Wachstum oder spezielle Finanzierungsanlässe\n\nVenture Capital (VC):\n• Sonderform von PE\n• Für sehr junge, wachstumsstarke Unternehmen (z. B. Hightech)\n• Oft verbunden mit aktiver unternehmerischer Betreuung\n• Schwerpunkt: Früh-/Gründungsphase\n\nHedgefonds:\n• Sehr freie Anlagestrategie, kaum reguliert\n• Vor der Finanzkrise: stark gewachsen wegen hoher Renditechancen\n\nPE/VC-Ablauf: Idee → Business-Plan → Auswahl → LoI → Due Diligence → Abschluss → Betreuung → Exit',
+  },
+  {
+    id: 'mgmt-20', moduleId: 'mgmt', category: 'Wachstum',
+    question: 'Exit-Strategien für PE/VC-Investoren',
+    answer: '1. IPO (Börsengang) = "Königsweg":\n→ Erstmaliger Börsengang; Anteile an der Börse verkaufen\n→ Motive: Wachstumsfinanzierung, Bekanntheit, Exit für Gründer\n\n2. Trade Sale:\n→ Verkauf an industriellen/strategischen Käufer\n\n3. Buy Back:\n→ MBO (Management Buy Out): bestehendes Management kauft\n→ MBI (Management Buy In): externes Management übernimmt\n\n4. Secondary Sale:\n→ Verkauf an anderen Finanzinvestor (z. B. anderen PE-Fonds)\n\nSchlimmster Fall: Abschreibung (Totalverlust)\nTypische Haltedauer: 3–10 Jahre',
+  },
+  {
+    id: 'mgmt-21', moduleId: 'mgmt', category: 'Wachstum',
+    question: 'Mezzanine-Kapital: Die vier Formen',
+    answer: 'Mezzanine = Mischform zwischen Eigen- und Fremdkapital\n\n1. Stille Beteiligung (§§ 230 ff. HGB):\n→ Reine Innengesellschaft; außen nicht sichtbar\n→ Gewinn- und meist Verlustbeteiligung\n\n2. Genussrechtskapital:\n→ Schuldrechtlich, begrenzte Laufzeit\n→ Gewinnbeteiligung mit Verlustbeteiligung\n\n3. Wandel-/Optionsanleihe:\n→ Feste Verzinsung + Wandlungsrecht in Aktien\n→ Bei Wandelanleihe: Anleihe und Wandlungsrecht untrennbar\n\n4. Nachrangdarlehen:\n→ Im Insolvenzfall hinter erstrangigem FK\n→ Ohne gesonderte Sicherheiten\n\nTendenz: Stille Beteiligung/Genussrechte → EK-nah\nWandelanleihen/Nachrangdarlehen → FK-nah',
+  },
+  {
+    id: 'mgmt-22', moduleId: 'mgmt', category: 'Risikomanagement',
+    question: 'Der 6-stufige Risikomanagementprozess',
+    answer: '1. Risikoidentifikation:\n→ Beobachtungsbereich, Strategie- und Leistungsrisiken\n\n2. Risikobewertung:\n→ Schadenshöhe × Eintrittswahrscheinlichkeit → Risikoportfolio\n\n3. Risikoaggregation:\n→ Verteilung und Korrelation; Gesamtrisikoposition\n\n4. Risikobewältigung:\n→ Präventive und reaktive Maßnahmen\n\n5. Risikoüberwachung:\n→ Verantwortlichkeiten, Indikatoren, Limits\n\n6. Externes Berichtswesen:\n→ Berichterstattung an Stakeholder\n\nSystematisches Risiko: Marktrisiko, durch Diversifikation NICHT reduzierbar\nUnsystematisches Risiko: firmenspezifisch, sinkt mit Diversifikation',
+  },
+  {
+    id: 'mgmt-23', moduleId: 'mgmt', category: 'Risikomanagement',
+    question: 'Vier risikopolitische Gegenmaßnahmen',
+    answer: 'Ziel: Steigerung des Unternehmenswertes\n\n1. Risiken VERMEIDEN:\n→ Ausstieg aus riskanten Geschäftsfeldern\n→ Verzicht auf bestimmte Technologien\n\n2. Risiken VERMINDERN:\n→ Variable statt fixe Kosten\n→ Organisatorische Regelungen, Redundanz\n\n3. Risiken ÜBERWÄLZEN:\n→ Versicherungen optimieren\n→ Risikotransfer über Kapitalmärkte (z. B. Wetterderivate)\n\n4. Risiken SELBST TRAGEN:\n→ Eigenkapitalbedarf ermitteln\n→ Eigenkapitalallokation und Kapitalkosten optimieren',
+  },
+  {
+    id: 'mgmt-24', moduleId: 'mgmt', category: 'Insolvenz',
+    question: 'Insolvenzgründe und Antragspflicht (InsO)',
+    answer: 'Drei Insolvenzgründe:\n\n1. Drohende Zahlungsunfähigkeit (§ 18 InsO):\n→ Nur Antragsrecht, KEINE Pflicht\n\n2. Zahlungsunfähigkeit (§ 17 InsO):\n→ ANTRAGSPFLICHT: Frist 3 Wochen\n\n3. Überschuldung (§ 19 InsO):\n→ ANTRAGSPFLICHT: Frist 6 Wochen\n\nAntragspflicht gilt für: GmbH, AG und haftungsbeschränkte Personengesellschaften\n\nStrafbarkeit (§ 15a Abs. 4 InsO): Nicht, nicht richtig oder nicht rechtzeitig gestellter Antrag ist strafbar!\n\nReform 2020: Privatinsolvenz auf 3 Jahre verkürzt (rückwirkend ab 01.10.2020)',
+  },
+  {
+    id: 'mgmt-25', moduleId: 'mgmt', category: 'Insolvenz',
+    question: 'Turnaround-Management: Krisenarten und Prozess',
+    answer: 'Krisenarten (zunehmender Handlungsdruck):\nStrategische Krise → Ergebniskrise → Liquiditätskrise → Insolvenz\n\nWichtig: Ursachen liegen zeitlich VOR den sichtbaren Symptomen!\n\nTurnaround in 2 Phasen:\n\nPhase 1 – Konzeptphase (2–6 Wochen):\n• Bestandsaufnahme (Ist-Situation, Markt, Wettbewerb)\n• Grobkonzept (operativ, strategisch, finanziell)\n• Sofortmaßnahmen: Kostensenkung, Liquiditätssicherung\n\nPhase 2 – Umsetzungsphase (6–24 Monate):\n• Detailkonzept und Maßnahmenpläne\n• Controlling durch Lenkungsausschüsse/Task-Forces\n\nSanierung = kurzfristige Sofortmaßnahmen\nRestrukturierung = kontinuierliche Neuausrichtung',
+  },
 ];

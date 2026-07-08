@@ -36,4 +36,11 @@ export const MODULES: Module[] = [
     color: 'from-rose-500 to-pink-600',
     icon: '🧩',
   },
+  {
+    id: 'mgmt',
+    title: 'Management Basics',
+    description: 'Unternehmenslebenszyklus, Business-Plan, Finanzierung und Risikomanagement',
+    color: 'from-indigo-500 to-slate-600',
+    icon: '📊',
+  },
 ];

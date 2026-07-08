@@ -38,6 +38,7 @@ export const PODCASTS: Record<ModuleId, PodcastTrack[]> = {
   ],
   pm: [],
   diffpsych: [],
+  mgmt: [],
 };
 
 export function audioUrl(moduleId: ModuleId, file: string): string {

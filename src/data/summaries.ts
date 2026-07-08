@@ -4449,4 +4449,252 @@ Biologische Dispositionen vermitteln über Lernprozesse die Persönlichkeitsentw
       },
     ],
   },
+  {
+    moduleId: 'mgmt',
+    title: 'Management Basics',
+    sections: [
+      {
+        heading: '📊 Überblick: Unternehmenslebenszyklus',
+        content: `## Der Unternehmenslebenszyklus
+
+Der rote Faden des Moduls ist der **idealtypische Unternehmenslebenszyklus** mit vier Phasen:
+
+**Gründung → Wachstum → Reife → Sättigung**
+
+Markante Punkte auf der Umsatz-/Gewinnkurve:
+- **Break-Even-Punkt**: Kosten = Erlöse, weder Gewinn noch Verlust
+- **Umsatzmaximum**: höchster Absatz
+- **Gewinnmaximum**: liegt meist vor dem Umsatzmaximum
+
+**Kette des Unternehmertums:**
+Geschäftsidee → Geschäftsmöglichkeit → Geschäftsmodell → Erfolg
+
+**Entrepreneurship** = der Prozess, der aus einer Geschäftsmöglichkeit ein marktfähiges Produkt macht. Verbindet Wissenschaft (hoher Innovationsgrad) mit Wirtschaft (etablierter Markt).
+
+**Grundbegriffe der Erfolgsrechnung:**
+- **Umsatz** = Menge × Preis
+- **Gewinn** = Erlöse − Kosten
+- **Fixkosten**: unabhängig vom Auslastungsgrad (z. B. Miete)
+- **Variable Kosten**: abhängig vom Auslastungsgrad (z. B. Material)
+- **Gesamtkosten** = Fixkosten + (Menge × variable Stückkosten)`,
+      },
+      {
+        heading: '🚀 Gründungsphase: Geschäftsidee & Prüfmethoden',
+        content: `## Gründungsphase
+
+### Kreativitätstechniken (3 Gruppen)
+
+| Gruppe | Methoden |
+|---|---|
+| **Assoziativ/Intuitiv** | Brainstorming (klassisch, anonym, didaktisch), Brainwriting (Methode 635, Kartenumlauf) |
+| **Systematisch-Analytisch** | Morphologischer Kasten, Attribute Listing, Funktionsanalyse, Progressive Abstraktion |
+| **Konfrontationsorientiert** | Synektik, BBB-Methode, Reizwort-Analyse, TILMAG-Methode |
+
+### Ideenprüfung: Scoring-Verfahren
+- Erfolgskriterien werden **gewichtet** (Summe = 1,0) und auf **1–10** bewertet
+- Kriterienwert = Gewichtung × Bewertung; Summe = Gesamtpunktzahl
+- Beispielgewichte: Kundennutzen (0,35), Technologie (0,20), USP (0,15), Zahlungsbereitschaft (0,15)
+- **Kritik**: Kriterien oft nicht unabhängig, Skalenbewertung problematisch, Experten nicht risikoneutral
+
+### Wirtschaftlichkeitsanalyse
+Best-Case / Middle-Case / Worst-Case: Einnahmen vs. Kosten in drei Szenarien gegenüberstellen
+
+### Gründungsteam
+- **Innerer Kreis**: Gründer von Beginn an, partizipieren am Unternehmen
+- **Äußerer Kreis**: kommen später hinzu
+- Kompetenzebenen: fachlich, methodisch, sozial, personal`,
+      },
+      {
+        heading: '📋 Business-Plan: Die 9 Elemente',
+        content: `## Die 9 Elemente des Business-Plans
+
+Der Business-Plan richtet sich an Gründer selbst (Analyse) und Investoren (Beteiligungsangebot).
+
+**1. Management Summary** (max. 2 Seiten): Geschäftsidee, Branche, Finanzierungsphase, Kapitalbedarf
+
+**2. Unternehmen**: Profil, Besitzverhältnisse, Ziele
+- Rechtsformen (zunehmende Komplexität): Einzelunternehmen → GbR → OHG → KG → GmbH → AG
+- **MoMiG** (seit 2008): GmbH-Gründung ab 1 € Stammeinlage möglich (= UG haftungsbeschränkt)
+
+**3. Produkte/Herstellung**: Kundennutzen, USP, Deckungsbeitragsrechnung
+- **USP** = herausragende Produkteigenschaft mit Wettbewerbsvorteil
+- **Deckungsbeitrag** = Umsatz − variable Kosten; DB − Fixkosten = Betriebsergebnis
+
+**4. Markt & Wettbewerb** – Porters Grundstrategien:
+- **Kostenführerschaft**: preisgünstigster Anbieter durch Kostensenkung
+- **Differenzierung**: einzigartiges Produkt/Service → monopolistischer Preisbereich
+- **Fokussierung/Nischenstrategie**: eng abgegrenztes Kundensegment
+
+**5. Marketing & Vertrieb** – Die 4 Ps:
+- **Product**: Eigenschaften, Marke, Schutzrechte
+- **Price**: Wettbewerbs-, Nachfrage-, Nutzen- oder Kostenorientierung
+- **Place**: direkt (eigen, Internet) oder indirekt (Handel, Vertreter)
+- **Promotion**: Werbung, Verkaufsförderung, PR
+
+**6. Management & Organisation**: Organigramm; Linien-, Sparten-, Matrix-, Projektorganisation
+
+**7. Finanz-/Dreijahresplanung**:
+- Liquiditätsplanung, GuV (Gewinn- und Verlustrechnung), Bilanz
+- Liquiditätskennzahlen: Grad 1 = liquide Mittel / kfr. FK; Grad 2 ≈ 100 %; Grad 3 ≈ 200 %
+- Cashflow = Jahresüberschuss ± Abschreibungen ± Veränderung Rückstellungen
+- Rentabilitätskennzahlen: EK-Rentabilität, GK-Rentabilität, Umsatzrentabilität
+
+**8. Chancen & Risiken**: Szenarioanalyse (Best/Middle/Worst Case, Zeithorizont 3–5 Jahre)
+
+**9. Finanzbedarf**: ergibt sich aus Finanzplanung; Basis für Investorenverhandlungen`,
+      },
+      {
+        heading: '💰 Finanzierung: Eigen- & Fremdkapital',
+        content: `## Finanzierungsarten
+
+### Eigenkapital vs. Fremdkapital
+
+| Kriterium | Eigenkapital | Fremdkapital |
+|---|---|---|
+| Rechtsverhältnis | Beteiligungsverhältnis | Schuldverhältnis |
+| Haftung | Eigentümer haftet (ggf. privat) | Gläubiger haftet nicht |
+| Entgelt | Gewinn-/Verlustbeteiligung | fester Zinsanspruch |
+| Mitbestimmung | grundsätzlich ja | grundsätzlich nein |
+| Verfügbarkeit | zeitlich unbegrenzt | zeitlich begrenzt |
+| Steuern | Zinsen nicht absetzbar | Zinsen steuerlich absetzbar |
+
+### Finanzierungsquellen
+
+**Innenfinanzierung**: Selbstfinanzierung (aus Gewinnen), Kapitalfreisetzung, Rückstellungen
+
+**Außenfinanzierung**: Beteiligungsfinanzierung, Kreditfinanzierung
+
+### Wichtige Finanzierungsinstrumente
+
+**Kontokorrentkredit**: kurzfristiger Kredit über laufendes Geschäftskonto; flexibel, sichert Zahlungsfähigkeit
+
+**Avalkredit**: Bank stellt Kreditwürdigkeit (Bürgschaft), kein Bargeld → Eventualverbindlichkeit
+
+**Factoring**: Verkauf von Forderungen an Factoring-Institut → sofortige Liquidität (abzgl. 5–20 % Sicherheitsabschlag)
+- Funktionen: Delkredere (Ausfallrisiko), Dienstleistung, Finanzierung
+
+**Leasing**: Mietvertrag (§ 535 BGB); direkt (Hersteller) oder indirekt (Leasinggesellschaft)
+- Sonderform: Sale-and-lease-back
+
+**Lieferantenkredit**: Zahlung nach Lieferung; echte Kosten = entgangenes Skonto (oft teuer!)
+
+**Goldene Bilanzregel**: Fristenkongruenz – Anlagevermögen langfristig finanzieren; Umlaufvermögen kurzfristig`,
+      },
+      {
+        heading: '📈 VWL-Grundlagen: Angebot, Nachfrage & Markt',
+        content: `## Volkswirtschaftliche Grundlagen
+
+### Bedürfnisse & Güter
+- **Maslow-Pyramide**: Grundbedürfnisse → Sicherheit → Soziales → Wertschätzung → Selbstverwirklichung
+- Güter: frei (nicht knapp) vs. knapp; Produktionsgüter vs. Konsumgüter; Gebrauchs- vs. Verbrauchsgüter
+
+### Ökonomisches Prinzip
+- **Maximalprinzip**: fixer Einsatz → maximaler Output
+- **Minimalprinzip**: fixes Ziel → minimaler Einsatz
+- **Opportunitätskosten**: Nutzen der besten nicht gewählten Alternative ("kein Free Lunch" – Milton Friedman)
+
+### Preiselastizität
+- **Preiselastizität der Nachfrage** = % Mengenänderung / % Preisänderung
+  - > 1: elastisch | < 1: unelastisch | = 1: einheitselastisch
+- **Kreuzpreiselastizität**: Reaktion von Gut i auf Preisänderung von Gut j
+  - ε < 0: komplementär | ε > 0: substitutiv | ε = 0: unverbunden
+
+### Marktgleichgewicht
+- Entsteht durch Zusammenspiel von Angebot und Nachfrage → Gleichgewichtspreis und -menge
+- Preisänderung: Bewegung *entlang* der Kurve
+- Lage-Parameter-Änderung (Einkommen, Erwartungen): *Verschiebung* der Kurve
+- Nachfrageüberhang (Preis zu niedrig) / Angebotsüberhang (Preis zu hoch) → Rückkehr zum GGW
+
+### Vollkommener Markt (Referenzmodell)
+- Homogenes Gut, vollkommene Transparenz, keine Marktzugangsbeschränkungen, keine Präferenzen`,
+      },
+      {
+        heading: '💼 Wachstumsphase: PE, VC & Exit-Strategien',
+        content: `## Wachstumsfinanzierung
+
+### Kapitalformen
+- **Private Equity (PE)**: zeitlich begrenzte EK-Beteiligung an nicht börsennotierten Unternehmen (Wachstum oder spezielle Anlässe)
+- **Venture Capital (VC)**: Sonderform von PE für sehr junge, wachstumsstarke Unternehmen; oft mit aktiver Betreuung
+- **Hedgefonds**: freie Anlagestrategie, kaum reguliert; vor der Finanzkrise sehr schnell wachsend
+
+### Investitionsphasen
+Seed → Start-up → First Stage (Produktionsbeginn) → Second–Fourth Stage (Skalierung) → Pre-IPO → IPO
+
+### Exit-Möglichkeiten für Investoren
+
+| Exit-Art | Beschreibung |
+|---|---|
+| **IPO** (Börsengang) | "Königsweg" – Verkauf beim/nach Börsengang |
+| **Trade Sale** | Verkauf an industriellen Käufer |
+| **Buy Back** | Rückkauf durch das Unternehmen (MBO/MBI) |
+| **Secondary Sale** | Verkauf an anderen Finanzinvestor |
+| Abschreibung | Totalverlust im Worst Case |
+
+Typische Haltedauer: **3–10 Jahre**
+
+### Mezzanine-Kapital (Mischform EK/FK)
+- **Stille Beteiligung**: Innengesellschaft, Gewinn-/Verlustbeteiligung
+- **Genussrechtskapital**: schuldrechtlich, begrenzte Laufzeit, Gewinnbeteiligung
+- **Wandelanleihe**: feste Verzinsung + Wandlungsrecht in Aktien (untrennbar)
+- **Nachrangdarlehen**: rangiert hinter erstrangigem FK im Insolvenzfall
+
+Tendenz: Stille Beteiligung/Genussrechte → EK-nah; Wandelanleihen/Nachrangdarlehen → FK-nah`,
+      },
+      {
+        heading: '⚠️ Reife- & Sättigungsphase: Risiko, Insolvenz & Turnaround',
+        content: `## Risikomanagement (Reifephase)
+
+### Risikoarten
+- **Systematisches Risiko**: Marktrisiko, durch Diversifikation NICHT reduzierbar
+- **Unsystematisches Risiko**: firmenspezifisch, sinkt mit zunehmender Diversifikation
+
+### 6-stufiger Risikomanagementprozess
+
+1. **Risikoidentifikation**: Beobachtungsbereich, Strategie- und Leistungsrisiken
+2. **Risikobewertung**: Schadenshöhe × Eintrittswahrscheinlichkeit → Risikoportfolio
+3. **Risikoaggregation**: Verteilung und Korrelation, Gesamtrisikoposition
+4. **Risikobewältigung**: präventive und reaktive Maßnahmen
+5. **Risikoüberwachung**: Verantwortlichkeiten, Indikatoren, Limits
+6. **Externes Berichtswesen**: Berichterstattung an Stakeholder
+
+### 4 Gegenmaßnahmen
+1. **Vermeiden**: Ausstieg aus riskanten Feldern
+2. **Vermindern**: variable statt fixe Kosten, Redundanz
+3. **Überwälzen**: Versicherungen, Risikotransfer über Kapitalmarkt
+4. **Selbst tragen**: Eigenkapitalpuffer, Kapitalkosten berechnen
+
+---
+
+## Insolvenzrecht (Sättigungsphase)
+
+### Insolvenzgründe (InsO)
+- Drohende Zahlungsunfähigkeit (§ 18) → nur Antragsrecht
+- Zahlungsunfähigkeit (§ 17) → Antragspflicht (3-Wochen-Frist)
+- Überschuldung (§ 19) → Antragspflicht (6-Wochen-Frist)
+
+### 7-stufiger Insolvenzablauf
+1. Antrag (Gläubiger oder Schuldner)
+2. Prüfung durch Insolvenzgericht
+3. Eröffnungsbeschluss + Insolvenzverwalter
+4. Sichtung, Verwaltung, Verwertung der Masse
+5. Feststellung der Gläubigerforderungen
+6. Erlösverteilung
+7. Aufhebung + ggf. Restschuldbefreiung
+
+**Reform 2020**: Privatinsolvenz auf 3 Jahre verkürzt (rückwirkend ab 01.10.2020), Mindestrückzahlungsquote entfällt
+
+---
+
+## Turnaround-Management
+
+### Krisenarten (zunehmender Handlungsdruck)
+**Strategische Krise** → **Ergebniskrise** → **Liquiditätskrise** → **Insolvenz**
+
+### 2-stufiger Turnaround-Prozess
+**Phase 1 – Konzept (2–6 Wochen)**: Bestandsaufnahme + Grobkonzept (operativ, strategisch, finanziell) + Sofortmaßnahmen (Kostensenkung, Liquiditätssicherung)
+
+**Phase 2 – Umsetzung (6–24 Monate)**: Detailkonzept + Maßnahmencontrolling durch Lenkungsausschüsse`,
+      },
+    ],
+  },
 ];
