@@ -1365,4 +1365,129 @@ export const FLASHCARDS: Flashcard[] = [
     question: 'Turnaround-Management: Krisenarten und Prozess',
     answer: 'Krisenarten (zunehmender Handlungsdruck):\nStrategische Krise → Ergebniskrise → Liquiditätskrise → Insolvenz\n\nWichtig: Ursachen liegen zeitlich VOR den sichtbaren Symptomen!\n\nTurnaround in 2 Phasen:\n\nPhase 1 – Konzeptphase (2–6 Wochen):\n• Bestandsaufnahme (Ist-Situation, Markt, Wettbewerb)\n• Grobkonzept (operativ, strategisch, finanziell)\n• Sofortmaßnahmen: Kostensenkung, Liquiditätssicherung\n\nPhase 2 – Umsetzungsphase (6–24 Monate):\n• Detailkonzept und Maßnahmenpläne\n• Controlling durch Lenkungsausschüsse/Task-Forces\n\nSanierung = kurzfristige Sofortmaßnahmen\nRestrukturierung = kontinuierliche Neuausrichtung',
   },
+  {
+    id: 'mgmt-26', moduleId: 'mgmt', category: 'Gründungsphase',
+    question: 'Experteninterviews als Methode der Ideenfindung – 3 Phasen',
+    answer: '1. Vorbereitungsphase:\n→ Anbahnung des Interviews\n→ Fachliche Vorbereitung\n→ Erarbeitung eines Interviewleitfadens\n\n2. Durchführungsphase:\n→ Eröffnung (Ziele/Nutzen erklären)\n→ Informationsgewinnung im Dialog\n→ Abschluss mit Zusammenfassung und offenen Punkten\n\n3. Nachbereitungsphase:\n→ Auswertung und Bewertung der Informationen\n→ Dokumentation\n→ Formaler Abschluss\n\nPraxisbeispiel: Gebrüder Samwer führten 1998 rund 100 Experteninterviews mit Internet-Startup-Gründern → Ergebnis: eBay als Vorbild → Gründung Alando.de (1999), verkauft für 43 Mio. USD',
+  },
+  {
+    id: 'mgmt-27', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Die vier Rentabilitätskennzahlen',
+    answer: '1. Eigenkapitalrentabilität:\n= Jahresergebnis / (Eigenkapital + stille Reserven) × 100\n→ Zeigt "Rendite" des Eigenkapitals der Anteilseigner\n\n2. Gesamtkapitalrentabilität:\n= (Jahresergebnis + Zinsaufwand) / (Gesamtkapital + stille Reserven) × 100\n→ Effizienz des gesamten verfügbaren Kapitals\n→ Fremdkapitalzinsen werden wieder addiert (sie fließen dem FK-Geber zu)\n\n3. Betriebsrentabilität:\n= Betriebserfolg / betriebsnotwendiges Vermögen × 100\n→ Vermögen = immat. AV + Sachanlagen + Vorräte − Lieferverbindlichkeiten\n\n4. Umsatzrentabilität:\nVariante 1 = Betriebserfolg / Umsatzerlöse × 100\nVariante 2 = Jahresergebnis / Umsatzerlöse × 100\n→ Kein Bewertungsproblem durch stille Reserven',
+  },
+  {
+    id: 'mgmt-28', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Aufbau und Funktionen der Bilanz',
+    answer: 'Aufbau (Stichtagsbetrachtung):\n• Aktivseite: Vermögen (Anlagevermögen + Umlaufvermögen)\n• Passivseite: Kapital (Eigenkapital + Fremdkapital)\n→ Bilanzsumme Aktiva = Bilanzsumme Passiva\n\nWortherkunft: lateinisch "bilanx" = zwei Waagschalen\n\nFünf Funktionen der Bilanz:\n1. Informationsfunktion: Grundlage für Kontrolle, Planung, Bilanzanalyse\n2. Rechenschaftsfunktion: gegenüber Eigentümern, Gläubigern, Behörden\n3. Dokumentationsfunktion: Nachweis von Wertbewegungen\n4. Sicherungsfunktion: Nachweis der Kapitalerhaltung gegenüber Gläubigern\n5. Ermittlungsfunktion: Grundlage für Besteuerung, Fusionen, Insolvenzen\n\nZusammenhang: GuV-Posten "Jahresüberschuss/-fehlbetrag" verbindet Bilanz und GuV',
+  },
+  {
+    id: 'mgmt-29', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'GuV: Gesamtkosten- vs. Umsatzkostenverfahren',
+    answer: 'Gewinn- und Verlustrechnung (GuV):\n• Zeitraumbetrachtung (Gegensatz zur Bilanz als Stichtagsbetrachtung)\n• Gegenüberstellung von Aufwendungen und Erträgen eines Zeitraums\n• Zusammen mit Bilanz = Jahresabschluss (§ 242 Abs. 3 HGB)\n\nZwei zulässige Verfahren:\n\n1. Gesamtkostenverfahren (§ 275 Abs. 2 HGB):\n→ Alle Kosten nach Kostenarten gegliedert\n→ Stellt Gesamtproduktion dem Gesamtaufwand gegenüber\n\n2. Umsatzkostenverfahren (§ 275 Abs. 3 HGB):\n→ Kosten nach Kostenstellen/Funktionsbereichen\n→ Stellt nur dem Umsatz zurechenbare Kosten gegenüber\n\nBedeutung für Investoren: Zeigt zu erwartende Ergebnisse\nKorrespondiert mit dem Eigenkapitalkonto der Bilanz',
+  },
+  {
+    id: 'mgmt-30', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Rückstellungen vs. Rücklagen',
+    answer: 'Rückstellungen (§ 249 HGB):\n• Schulden gegenüber Dritten\n• Eintritt, Fälligkeit oder Höhe am Abschlussstichtag UNSICHER\n• Beispiele: Pensionsrückstellungen, Prozessrückstellungen, Gewährleistungen\n• Auflösung nur, wenn Bildungsgrund entfallen ist\n• Zählen zum FREMDKAPITAL der Passivseite\n\nRücklagen (§ 58 AktG):\n• Teil des EIGENKAPITALS von Kapitalgesellschaften\n• Dienen der Selbstfinanzierung\n• Verwendung: Verlustdeckung oder künftige Investitionen\n• Entstehen durch einbehaltene Gewinne\n\nMerkhilfe:\nRückSTELLUNGEN → unSICHEREr Aufwand → Fremdkapital\nRückLAGEN → EIGENkapital → Selbstfinanzierung',
+  },
+  {
+    id: 'mgmt-31', moduleId: 'mgmt', category: 'Finanzierung',
+    question: 'Der Kreditfinanzierungsprozess (5 Schritte)',
+    answer: '1. Kreditantrag:\n→ Schriftlicher Antrag des Unternehmens\n\n2. Kreditwürdigkeitsprüfung:\n→ Beurteilung des Kreditrisikos durch das Institut\n→ Analyse von Bonität, Sicherheiten, Geschäftsplan\n\n3. Kreditzusage:\n→ Schriftliche Bestätigung der Bank\n\n4. Kreditauszahlung:\n→ Überweisung des Kreditbetrags\n\n5. Kreditkontrolle:\n→ Laufende Überwachung durch das Institut\n→ Prüfung der Rückzahlungen, Zinszahlungen\n\nZusammensetzung des Kreditzinssatzes:\nInflationsprämie + Laufzeitrisikoprämie + Standardrisikokosten + Eigenkapitalkosten + Liquiditätsrisikoprämie + Bearbeitungskosten + Gewinnmarge der Bank',
+  },
+  {
+    id: 'mgmt-32', moduleId: 'mgmt', category: 'Finanzierung',
+    question: 'Lieferanten- vs. Kundenkredit',
+    answer: 'Lieferantenkredit (häufigste Form):\n• Ware wird geliefert, Zahlung später (Kauf auf Ziel)\n• Zahlungsziel in Deutschland/EU: ca. 30 Tage\n• Skonto: schnellere Zahlung (10–14 Tage) wird belohnt\n• Echte Kosten = entgangenes Skonto (oft sehr teuer!)\n• Beispiel: 2 % Skonto bei Zahlung in 10 statt 30 Tagen = sehr hohe Jahresverzinsung\n\nKundenkredit (seltenere Form):\n• Zahlung VOR Lieferung (Anzahlung, Vorkasse, Teilzahlung)\n• Üblich bei: Anlagenbau, Flugzeugbau, Schiffbau\n• Auch bei: schlechter Bonität des Kunden\n\nBarverkauf = Zahlung bei Lieferung (kein Kredit)\n\nWichtig: Der Lieferantenkredit ist günstiger als er scheint, ABER entgangenes Skonto macht ihn oft teurer als Bankkredit!',
+  },
+  {
+    id: 'mgmt-33', moduleId: 'mgmt', category: 'Finanzierung',
+    question: 'Finanzwirtschaftliches Entscheidungsdreieck',
+    answer: 'Drei (teils gegenläufige) Ziele bei jeder Finanzierungsentscheidung:\n\n1. Rentabilität:\n→ Möglichst hohe Rendite auf das eingesetzte Kapital\n\n2. Liquidität:\n→ Zahlungsfähigkeit zu jedem Zeitpunkt sichern\n\n3. Sicherheit (+ Unabhängigkeit):\n→ Schutz vor Kapitalverlust und Abhängigkeit von Gläubigern\n\nSpannungsfeld:\n• Hohe Rentabilität oft mit hohem Risiko verbunden\n• Hohe Liquidität beeinträchtigt Rentabilität\n• Sicherheit kann Rendite reduzieren\n\nZiel des Finanzmanagements: optimale Balance finden\n\nZiele der Kapitalgeber:\n• EK-Geber: Wertsteigerung + Kontrolle\n• FK-Geber: Verzinsung + Rückzahlung',
+  },
+  {
+    id: 'mgmt-34', moduleId: 'mgmt', category: 'Finanzierung',
+    question: 'Kreditfinanzierung: Die 6 Dimensionen',
+    answer: '1. Fristigkeit:\n→ kurzfristig (bis 1 Jahr) / mittelfristig (1–4 Jahre) / langfristig (über 4 Jahre)\n\n2. Quelle:\n→ Kreditinstitute, Lieferanten, Kunden, Unternehmen, Privatpersonen, Staat\n\n3. Verwendung:\n→ Investitionskredit (Anlagevermögen)\n→ Betriebsmittelkredit (Umlaufvermögen)\n→ Zwischenfinanzierungskredit (Überbrückung)\n\n4. Form:\n→ Geldkredite / Sachkredite / Kreditleihen (z. B. Bürgschaft)\n\n5. Entgelt:\n→ fester oder variabler Zinssatz\n\n6. Rückzahlung/Tilgung:\n→ in einem Betrag oder in mehreren Beträgen\n→ mit fest vereinbarten oder kündigungsabhängigen Terminen\n→ immer zum Nominalwert; FK-Geber nicht am Erfolg beteiligt',
+  },
+  {
+    id: 'mgmt-35', moduleId: 'mgmt', category: 'VWL',
+    question: 'Vollkommener Markt: Voraussetzungen',
+    answer: 'Ein vollkommener Markt (theoretisches Referenzmodell) setzt voraus:\n\n1. Keine Marktzugangs- oder -ausgangsbeschränkungen\n2. Homogenes Gut (alle Angebote sind identisch)\n3. Vollkommene Markttransparenz (alle kennen alle Preise)\n4. Unendlich schnelle Reaktion der Marktteilnehmer\n5. Keine persönlichen, räumlichen oder zeitlichen Präferenzen\n\nBedeutung: In der Realität existiert kein vollkommener Markt\n→ Unvollkommenheiten schaffen Möglichkeiten für Differenzierung und Wettbewerbsvorteile\n\nPreisfunktion: Preis als Knappheitsindikator\n• Hoher Preis signalisiert Knappheit → lockt neue Anbieter an\n• Niedriger Preis signalisiert Überangebot → Anbieter ziehen sich zurück',
+  },
+  {
+    id: 'mgmt-36', moduleId: 'mgmt', category: 'VWL',
+    question: 'Angebot: Einflussfaktoren und Elastizität',
+    answer: 'Angebotsmenge hängt ab von:\n• Preis des Gutes (Hauptfaktor)\n• Lageparameter: Erwartungen der Anbieter, technischer Fortschritt, Faktorpreise\n\nceteris paribus: Preis steigt → angebotene Menge steigt\n\nPreisänderung: Bewegung ENTLANG der Angebotskurve\nLageparameter-Änderung: VERSCHIEBUNG der gesamten Angebotskurve\n→ Beispiel: Technischer Fortschritt → mehr Angebot zu jedem Preis → Kurve verschiebt sich nach rechts/unten\n\nAngebotsüberhang: Preis > Gleichgewicht → Druck nach unten\nNachfrageüberhang: Preis < Gleichgewicht → Druck nach oben\n\nAnwendungsbeispiel: Schließung von Handschuhfabriken → Angebot sinkt → GGW-Preis steigt, GGW-Menge sinkt',
+  },
+  {
+    id: 'mgmt-37', moduleId: 'mgmt', category: 'VWL',
+    question: 'Ökonomisches Prinzip und Trade-offs',
+    answer: 'Grundproblem: Bedürfnisse sind UNBEGRENZT, Güter sind KNAPP\n→ Güterknappheit erfordert planmäßiges Wirtschaften\n\nÖkonomisches Prinzip – zwei Ausprägungen:\n\nMaximalprinzip:\n→ Fixer Mitteleinsatz → maximaler Ertrag/Output\nBeispiel: Mit 1.000 € möglichst viel produzieren\n\nMinimalprinzip:\n→ Fixes Ziel → minimaler Mitteleinsatz\nBeispiel: Ein bestimmtes Produkt mit möglichst wenig Kosten herstellen\n\nOpportunitätskosten: Jede Entscheidung bedeutet Verzicht\nTypische Trade-offs:\n• Lebensmittel vs. Kleidung (Konsument)\n• Freizeit vs. Arbeitszeit (Arbeitnehmer)\n• Neues Werk vs. Optimierung altes Werk (Unternehmen)\n• Effizienz vs. Gleichheit (Gesellschaft)',
+  },
+  {
+    id: 'mgmt-38', moduleId: 'mgmt', category: 'Wachstum',
+    question: 'IPO: Motive und Ablauf',
+    answer: 'IPO (Initial Public Offering) = erstmaliger Börsengang\n→ Im engeren Sinn: Umgründung in AG + erstmalige Börsennotierung\n\nMotive für einen IPO:\n• Übernahme- und Wachstumsfinanzierung\n• Eigenkapitalstärkung\n• Exit für bisherige Eigentümer/Investoren\n• Unternehmensnachfolge\n• Mehr Öffentlichkeit und Bekanntheit\n• Mitarbeiterbeteiligungsprogramme\n• Privatisierung staatlicher Unternehmen\n• Spin-off aus einem Konzern\n\nAblauf einer PE/VC-Finanzierung bis zum Exit:\nIdee → Business-Plan → Auswahl Investoren → Kennenlernen → Letter of Intent → Due Diligence → Verhandlung/Abschluss → Betreuung → Exit (z. B. IPO)\n\nTypische Haltedauer: 3–10 Jahre',
+  },
+  {
+    id: 'mgmt-39', moduleId: 'mgmt', category: 'Risikomanagement',
+    question: 'Risikoquellen und Risikoarten im Unternehmen',
+    answer: 'Risikoquellen und zugehörige Risikoarten:\n\n• Allgemeine Marktentwicklung → Marktrisiken:\n  Aktienkurse, DAX, Güterpreise, Marktzinssätze, Wechselkurse\n\n• Rechtslage → Rechtliche Risiken:\n  Gesetzesverstöße, Haftungsrisiken\n\n• Politische Lage → Politische Risiken:\n  Enteignungs- und Transferrisiken (z. B. in Russland)\n\n• Insbesondere bei Banken → Kreditrisiken:\n  Ausfall von Kreditnehmern\n\n• Allgemein → Liquiditätsrisiken:\n  Zahlungsunfähigkeit trotz Gewinnen\n\nRisiko vs. Ungewissheit:\n• Risiko: Eintrittswahrscheinlichkeiten BEKANNT und objektiv\n• Ungewissheit: Wahrscheinlichkeiten UNBEKANNT\n\nZiel: Senkung des Risikos bei gleichzeitiger Erhöhung der erwarteten Zahlungen',
+  },
+  {
+    id: 'mgmt-40', moduleId: 'mgmt', category: 'Insolvenz',
+    question: 'Der 7-stufige Insolvenzablauf',
+    answer: '1. Antrag (§ 13 InsO):\n→ Durch Gläubiger oder Schuldner\n\n2. Prüfung durch Insolvenzgericht:\n→ Eröffnungsgrund vorhanden? (§§ 16 ff.)\n→ Hinreichende Masse zur Kostendeckung? (§ 26)\n→ Ggf. vorläufiger Insolvenzverwalter\n\n3. Eröffnungsbeschluss + Bestellung Insolvenzverwalter (§§ 27 ff.)\n\n4. Sichtung, Verwaltung und Verwertung der Insolvenzmasse\n\n5. Feststellung der Gläubigerforderungen (§§ 174 ff.):\n→ Gläubiger melden ihre Forderungen an\n\n6. Erlösverteilung (§§ 187 ff.):\n→ Anteilige Befriedigung der Gläubiger\n\n7. Aufhebung des Verfahrens (§§ 200 ff.):\n→ Ggf. anschließende Restschuldbefreiung (§§ 286 ff.)\n\nMögliche Lösungswege: Liquidation, Sanierung oder sanierende Übertragung',
+  },
+  {
+    id: 'mgmt-41', moduleId: 'mgmt', category: 'Insolvenz',
+    question: 'Sanierung vs. Restrukturierung',
+    answer: 'Beide Begriffe umfassen Maßnahmen, die das Leistungspotenzial wiederherstellen und existenzerhaltende Rentabilität erreichen sollen.\n\nSanierung:\n• Eher kurzfristige Sofortmaßnahmen\n• Reaktion auf akute, existenzbedrohende Krise\n• Kostensenkung, Liquiditätssicherung, Ergebnisverbesserung\n• Zeitraum: Wochen bis wenige Monate\n\nRestrukturierung:\n• Kontinuierliche Ausrichtung auf neues Unternehmenskonzept\n• Mittel- bis langfristige Neuausrichtung\n• Operativ, strategisch und finanziell\n• Zeitraum: 6–24 Monate\n\nAusgangspunkt beider Ansätze:\n• Akute, existenzbedrohende Unternehmenskrise\n• Fortgeschrittener Ressourcenverzehr\n• Extremer Handlungsdruck bei eingeschränktem Spielraum\n• Unfähigkeit, Krise aus eigener Kraft zu bewältigen',
+  },
+  {
+    id: 'mgmt-42', moduleId: 'mgmt', category: 'Grundlagen',
+    question: 'Entrepreneurship: Wissenschaft und Wirtschaft verbinden',
+    answer: 'Entrepreneurship = Unternehmertum = Prozess von der Geschäftsmöglichkeit bis zum marktfähigen Produkt\n\nZusammenhang Wissenschaft und Wirtschaft:\n• Hoher Innovationsgrad, oft noch kein Markt → Wissenschaft\n• Etablierter Markt, geringer Innovationsgrad → Wirtschaft\n• Entrepreneurship verbindet beide über unternehmerisches Handeln\n\nAblaufschema:\n1. Bestehende Konzepte + neue wissenschaftliche Ideen → Geschäftsidee\n2. Aus Geschäftsidee entsteht Geschäftsmöglichkeit\n3. Entrepreneurship = Prozess zum marktfähigen Produkt\n4. Erfolgreiche Markteinführung\n5. Langfristig: Longseller/Evergreens vs. nachlassendes Interesse\n\nAnschauungsbeispiele: Elon Musk (Tesla/SpaceX), Bill Gates (Microsoft), Jeff Bezos (Amazon)',
+  },
+  {
+    id: 'mgmt-43', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Management Summary und Unternehmensprofil im Business-Plan',
+    answer: 'Element 1 – Management Summary:\n• Komprimierte Verdichtung des GESAMTEN Business-Plans\n• Ermöglicht Dritten schnelle Entscheidung über detaillierte Prüfung\n• Inhalt: Geschäftsidee, Branche, Finanzierungsphase, Kapitalbedarf\n• Maximale Länge: 2 Seiten\n• Auch: "Executive Summary"\n\nElement 2 – Unternehmen (3 Teilbereiche):\n1. Unternehmensprofil:\n   → Gründung, Rechtsform, bestehendes Produktprogramm\n\n2. Besitzverhältnisse:\n   → Firmeninhaber, Beteiligungen, Partner\n\n3. Unternehmensziele:\n   → Ausgangslage, angestrebte Ziele, geplante Strategie\n\nMoMiG ermöglicht GmbH ab 1 € Stammeinlage\nRechtsformen: Einzelunternehmen → GbR → OHG → KG → GmbH → AG',
+  },
+  {
+    id: 'mgmt-44', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Szenarioanalyse im Business-Plan',
+    answer: 'Zweck: Da Planzahlen stets auf Annahmen beruhen, müssen mögliche Abweichungen aufgezeigt werden\n\nSzenarien = plausible, begründbare Zukunftsbilder\n• Basieren auf komplexen, miteinander verknüpften Einflussfaktoren\n• Beschreiben sowohl künftige Situation als auch Entwicklungspfad dorthin\n\nDrei Szenarien der Wirtschaftlichkeitsanalyse:\n• Best Case: optimistische Annahmen\n→ Beispiel: 250.000 € Einnahmen bei 180.000 € Kosten = +70.000 € Gewinn\n• Middle Case: realistische Annahmen\n→ Beispiel: 200.000 € zu 200.000 € = ±0 € (Break-Even)\n• Worst Case: pessimistische Annahmen\n→ Beispiel: 175.000 € zu 220.000 € = −45.000 € Verlust\n\nZeithorizont:\n• Im Business-Plan: 3 Jahre\n• Allgemein: 5–10 Jahre\n\nEingeordnet im Business-Plan: Element 8 "Chancen & Risiken"',
+  },
+  {
+    id: 'mgmt-45', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Organisation im Business-Plan: Organisationsformen',
+    answer: 'Element 6 – Management & Organisation:\n\nManagementteam:\n• Teils wichtiger als das Unternehmenskonzept selbst\n• Wichtig: unterschiedliche, sich ergänzende Qualifikationen\n• Persönlicher Zusammenhalt (Human Resources/Humankapital)\n\nKlassische Organisationsformen:\n\n1. Linienorganisation:\n→ Einlinien-, Mehrlinien- oder Stablinienorganisation\n\n2. Spartenorganisation:\n→ Gliederung nach Produkten/Regionen\n\n3. Matrixorganisation:\n→ Kombination aus Linien- und Spartenorganisation\n→ Mitarbeiter berichten an zwei Vorgesetzte\n\n4. Projektorganisation:\n→ Temporäre Struktur für Projekte\n\nOrganigramm: verschafft schnellen Überblick über interne Strukturen',
+  },
+  {
+    id: 'mgmt-46', moduleId: 'mgmt', category: 'VWL',
+    question: 'Güterknappheit und das Bedürfnis-Gut-Schema',
+    answer: 'Grundproblem der Wirtschaft:\n• Bedürfnisse = Empfindung eines Mangels mit dem Bestreben, ihn zu beseitigen\n• Bedürfnisse sind prinzipiell unbegrenzt\n• Güter zur Befriedigung sind knapp\n→ Ergebnis: Spannungsfeld "Güterknappheit"\n\nBedürfnisarten:\n• Primärbedürfnisse: Grund-/Existenzbedürfnisse (angeboren)\n• Sekundärbedürfnisse: Kultur- und Luxusbedürfnisse (erworben)\n\nGüterarten:\n• Freie Güter: nicht knapp (z. B. Luft)\n• Knappe Güter: relativ oder absolut knapp\n\nNach Verwendungszweck:\n• Produktionsgüter vs. Konsumgüter\n\nNach Nutzungsart:\n• Gebrauchsgüter (mehrfache Nutzung, z. B. Auto)\n• Verbrauchsgüter (einmalige Nutzung, z. B. Lebensmittel)',
+  },
+  {
+    id: 'mgmt-47', moduleId: 'mgmt', category: 'Wachstum',
+    question: 'Due Diligence und Letter of Intent (PE/VC)',
+    answer: 'Letter of Intent (LoI):\n• Unverbindliche Absichtserklärung vor der Due Diligence\n• Signalisiert ernsthaftes Interesse des Investors\n• Klärt Rahmenbedingungen für weiteren Prozess\n\nDue Diligence:\n• "Sorgfaltspflicht" – umfassende Prüfung des Unternehmens vor der Investition\n• Rechtlich, finanziell, steuerlich, technisch und kommerziell\n• Identifizierung von Risiken und Chancen\n• Ergebnis fließt in die Bewertung und Vertragsbedingungen ein\n\nGesamtablauf PE/VC-Finanzierung:\nIdee + Team → Business-Plan → Auswahl Investoren → Kennenlerngespräch → Letter of Intent → Due Diligence → Verhandlung + Vertragsabschluss → laufende Betreuung → Exit\n\nTypische Haltedauer: 3–10 Jahre',
+  },
+  {
+    id: 'mgmt-48', moduleId: 'mgmt', category: 'Gründungsphase',
+    question: 'Gründungswille im Zeitverlauf und Kompetenzebenen',
+    answer: 'Gründungswille im Zeitverlauf:\n• Ca. 20–30 Jahre: Erfahrung, Kompetenz, Selbstbewusstsein wachsen schnell\n• "Periode der Wahlfreiheit": Gründung besonders wahrscheinlich\n• Ca. 35–45 Jahre: finanzielle und andere Verpflichtungen wachsen\n→ Werte verschieben sich zugunsten weiterer Lebensbereiche\n\nVier Kompetenzebenen eines Gründers:\n1. Fachliche Kompetenz: Wissen im Fachgebiet\n2. Methodische Kompetenz: Arbeitstechniken, Problemlösungsfähigkeit\n3. Soziale Kompetenz: Teamfähigkeit, Kommunikation\n4. Personale/persönliche Kompetenz: Selbstreflexion, Belastbarkeit\n\nGründungsteam:\n• Innerer Kreis: Gründer von Anfang an\n• Äußerer Kreis: kommen später hinzu',
+  },
+  {
+    id: 'mgmt-49', moduleId: 'mgmt', category: 'Finanzierung',
+    question: 'Investition vs. Finanzierung: Unterschied',
+    answer: 'Unterschied anhand von Zahlungsreihen:\n\nInvestition:\n• Beginnt mit einer AUSZAHLUNG (Verwendung liquider Mittel)\n• Dann folgen Einzahlungsüberschüsse\n• Beispiel: Kauf einer Maschine für 100.000 € (Auszahlung) → jährliche Erträge\n\nFinanzierung:\n• Beginnt mit einer EINZAHLUNG (Beschaffung liquider Mittel)\n• Dann folgen Auszahlungsüberschüsse (Rückzahlung + Zinsen)\n• Beispiel: Kredit über 100.000 € (Einzahlung) → monatliche Raten\n\nBetriebliche Finanzwirtschaft – drei Funktionen:\n1. Finanzierung: Kapitalbeschaffung\n2. Investition: Kapitalverwendung\n3. Zahlungsverkehr: Kapitalverwaltung (Ein-/Auszahlungen)\n\nMerkhilfe: "Investition fängt mit Auszahlung an, Finanzierung mit Einzahlung"',
+  },
+  {
+    id: 'mgmt-50', moduleId: 'mgmt', category: 'Business-Plan',
+    question: 'Goldene Bilanzregel: Drei Fassungen',
+    answer: 'Goldene Finanzierungsregel ("Goldene Bankregel"):\n→ Fristenkongruenz: Fristigkeit der Mittel muss zur Verwendung passen\n\nDrei Fassungen der Goldenen Bilanzregel:\n\n1. Engste Fassung:\n→ Anlagevermögen ist AUSSCHLIESSLICH mit Eigenkapital zu finanzieren\n\n2. Weitere Fassung:\n→ Anlagevermögen ist LANGFRISTIG zu finanzieren\n→ d. h. mit Eigen- UND langfristigem Fremdkapital\n\n3. Noch weitere Fassung:\n→ ALLES langfristig gebundene Vermögen soll langfristig finanziert sein\n→ Auch Teile des Umlaufvermögens (z. B. eiserner Bestand)\n\nGefahr bei Verletzung:\n• Kurzfristige Mittel für langfristige Investitionen nutzen → Liquiditätsrisiko\n• Wenn kurzfristige Kredite fällig werden, droht Zahlungsunfähigkeit',
+  },
 ];
